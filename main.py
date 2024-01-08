@@ -1,12 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def count_elements(lst):
+        return len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
