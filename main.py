@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
