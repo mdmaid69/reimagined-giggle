@@ -1,5 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def convert_to_hex(n):
+        return hex(n)
