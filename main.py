@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
