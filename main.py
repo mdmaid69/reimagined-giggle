@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_base_name(path):
+        return os.path.basename(path)
