@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
