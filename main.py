@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
