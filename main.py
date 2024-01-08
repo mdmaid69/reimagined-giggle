@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
