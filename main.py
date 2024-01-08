@@ -1,6 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_power(work, time):
+        return work / time
