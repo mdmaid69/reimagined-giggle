@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+x = 10
+y = 20
+print("Sum:", x + y)
