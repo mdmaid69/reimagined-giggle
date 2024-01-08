@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
