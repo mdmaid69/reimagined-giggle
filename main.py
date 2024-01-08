@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
