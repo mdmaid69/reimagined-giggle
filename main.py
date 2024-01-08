@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def convert_to_octal(n):
-        return oct(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
