@@ -1,7 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
