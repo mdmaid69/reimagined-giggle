@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_acceleration(speed, time):
+        return speed / time
