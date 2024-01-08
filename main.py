@@ -1,4 +1,9 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
