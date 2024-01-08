@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
