@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+print(random.randint(0, 100))
+def calculate_acceleration(speed, time):
+        return speed / time
