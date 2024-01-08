@@ -1,8 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import platform
+def get_os_info():
+        return platform.uname()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
