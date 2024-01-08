@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import collections
-def create_counter():
-        return collections.Counter()
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
