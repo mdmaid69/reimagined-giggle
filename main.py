@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
