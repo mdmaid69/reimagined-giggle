@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
