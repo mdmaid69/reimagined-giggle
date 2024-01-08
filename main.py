@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+for i in range(5):
+        print(i)
