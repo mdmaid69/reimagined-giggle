@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import sys
-def print_python_version():
-        print(sys.version)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
