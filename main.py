@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def get_array_item(array, i):
-        return array[i]
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_as_tuple(array):
+        return tuple(array)
