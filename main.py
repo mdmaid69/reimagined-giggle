@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
