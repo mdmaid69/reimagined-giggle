@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
