@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
