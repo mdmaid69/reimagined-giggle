@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
