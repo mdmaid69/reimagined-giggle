@@ -1,6 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
