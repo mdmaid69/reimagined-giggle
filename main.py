@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
