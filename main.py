@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import numpy as np
+print(np.array([1, 2, 3]))
