@@ -1,7 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
