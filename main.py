@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def count_elements(lst):
-        return len(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
