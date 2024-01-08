@@ -1,5 +1,8 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
