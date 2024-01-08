@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
