@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
