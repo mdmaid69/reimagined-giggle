@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def square_number(x):
-        return x**2
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
