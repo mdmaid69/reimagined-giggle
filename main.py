@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def square_number(x):
-        return x**2
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
