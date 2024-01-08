@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_item(array, i):
+        return array[i]
