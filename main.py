@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
