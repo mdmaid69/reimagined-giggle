@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
