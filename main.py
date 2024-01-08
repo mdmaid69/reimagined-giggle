@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
