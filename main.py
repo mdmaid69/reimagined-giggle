@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def is_palindrome(s):
-        return s == s[::-1]
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
