@@ -1,6 +1,11 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
