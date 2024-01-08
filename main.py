@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
