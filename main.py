@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_area(radius):
+        return 3.14 * radius * radius
