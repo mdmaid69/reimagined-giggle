@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
