@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
