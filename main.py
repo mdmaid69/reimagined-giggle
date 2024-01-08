@@ -1,5 +1,11 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
