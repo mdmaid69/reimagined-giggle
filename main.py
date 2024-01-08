@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
