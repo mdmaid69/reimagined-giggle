@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
