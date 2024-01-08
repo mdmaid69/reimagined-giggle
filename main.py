@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import datetime
+def get_today_date():
+        return datetime.date.today()
