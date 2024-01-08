@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+print(math.pi)
