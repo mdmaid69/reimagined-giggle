@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def remove_duplicates(lst):
+        return list(set(lst))
