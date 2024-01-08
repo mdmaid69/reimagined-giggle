@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def split_path(path):
+        return os.path.split(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
