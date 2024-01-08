@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def clear_array(array):
+        array *= 0
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
