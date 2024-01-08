@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
