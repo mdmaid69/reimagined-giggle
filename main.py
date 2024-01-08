@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
