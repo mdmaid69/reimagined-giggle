@@ -1,5 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_circle_area(radius):
+        return math.pi * radius**2
