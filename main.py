@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
