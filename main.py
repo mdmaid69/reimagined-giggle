@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_as_repr(array):
+        return repr(array)
