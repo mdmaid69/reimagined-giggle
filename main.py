@@ -1,6 +1,9 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
