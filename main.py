@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
