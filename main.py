@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
