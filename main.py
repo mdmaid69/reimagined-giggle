@@ -1,6 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
