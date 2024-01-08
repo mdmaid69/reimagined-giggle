@@ -1,5 +1,7 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+i = 0
+while i < 5:
+        print(i)
+        i += 1
