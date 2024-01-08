@@ -1,9 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
