@@ -1,5 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
