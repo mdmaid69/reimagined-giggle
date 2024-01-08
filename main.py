@@ -1,7 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_arc_sine(x):
+        return math.asin(x)
