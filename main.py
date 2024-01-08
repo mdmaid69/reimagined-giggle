@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def remove_directory(path):
+        os.rmdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
