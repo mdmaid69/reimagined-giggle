@@ -1,6 +1,12 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
