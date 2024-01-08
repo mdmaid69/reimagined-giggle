@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def create_stack():
+        return collections.deque()
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_bytearray(array):
+        return bytearray(array)
