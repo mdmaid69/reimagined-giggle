@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
