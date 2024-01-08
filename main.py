@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def reverse_string(s):
+        return s[::-1]
