@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
