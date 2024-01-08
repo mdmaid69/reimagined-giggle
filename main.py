@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
