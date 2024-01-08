@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
