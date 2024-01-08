@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import sys
-  def get_python_version():
-        return sys.version
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
