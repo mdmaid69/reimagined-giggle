@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
