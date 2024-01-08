@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def square_number(x):
+        return x**2
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
