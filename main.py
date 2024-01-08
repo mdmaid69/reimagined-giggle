@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
