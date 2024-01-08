@@ -1,8 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
