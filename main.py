@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import time
-def get_time_since_epoch():
-        return time.time()
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
