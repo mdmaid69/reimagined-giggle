@@ -1,8 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def is_even(n):
+        return n % 2 == 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
