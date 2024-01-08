@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
