@@ -1,7 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
