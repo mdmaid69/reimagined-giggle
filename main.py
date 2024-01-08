@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+print([x**2 for x in range(10)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
