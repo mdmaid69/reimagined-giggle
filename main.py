@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
