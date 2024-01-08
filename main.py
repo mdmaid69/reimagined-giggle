@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
