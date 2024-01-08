@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
