@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
