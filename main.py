@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def subtract_numbers(x, y):
+        return x - y
