@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
