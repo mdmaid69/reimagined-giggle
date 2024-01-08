@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_area_circle(r):
+        return 3.14 * r**2
