@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def convert_to_binary(n):
+        return bin(n)
