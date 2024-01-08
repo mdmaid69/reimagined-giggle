@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import logging
-def log_message(message):
-        logging.info(message)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
