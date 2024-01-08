@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
