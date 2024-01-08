@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
