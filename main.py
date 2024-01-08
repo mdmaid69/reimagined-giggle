@@ -1,5 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
