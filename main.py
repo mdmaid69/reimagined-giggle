@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
+def count_elements(lst):
+        return len(lst)
