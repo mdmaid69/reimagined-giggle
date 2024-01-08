@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
