@@ -1,10 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def convert_array_to_string(array):
+        return array.tostring()
