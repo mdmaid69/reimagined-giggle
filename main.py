@@ -1,5 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
