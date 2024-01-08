@@ -1,5 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
