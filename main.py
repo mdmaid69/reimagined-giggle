@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
