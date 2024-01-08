@@ -1,5 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
