@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_user_list():
-        return collections.UserList()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
