@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def cube_number(x):
+        return x**3
