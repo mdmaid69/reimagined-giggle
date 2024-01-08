@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
