@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
