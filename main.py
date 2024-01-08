@@ -1,5 +1,8 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
