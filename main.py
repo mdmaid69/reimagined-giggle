@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
