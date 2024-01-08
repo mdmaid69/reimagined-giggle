@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
