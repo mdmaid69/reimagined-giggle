@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
