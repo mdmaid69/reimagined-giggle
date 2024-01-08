@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
