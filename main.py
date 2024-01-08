@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
