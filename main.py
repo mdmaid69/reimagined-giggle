@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def clear_array(array):
+        array *= 0
