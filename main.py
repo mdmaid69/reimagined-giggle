@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
