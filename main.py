@@ -1,5 +1,8 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_length(array):
+        return len(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
