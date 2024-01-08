@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def change_working_directory(path):
+        os.chdir(path)
