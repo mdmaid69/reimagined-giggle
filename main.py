@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
