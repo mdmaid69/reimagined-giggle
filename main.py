@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_base_name(path):
+        return os.path.basename(path)
