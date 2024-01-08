@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
