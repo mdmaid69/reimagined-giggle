@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def count_elements(lst):
+        return len(lst)
