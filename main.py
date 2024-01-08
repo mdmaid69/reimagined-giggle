@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
