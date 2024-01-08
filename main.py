@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
