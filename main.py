@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def exit_program():
+        sys.exit()
