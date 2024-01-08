@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
