@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_unique_words(sentence):
+        return set(sentence.split())
