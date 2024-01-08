@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
