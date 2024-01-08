@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def count_characters(sentence):
+        return len(sentence)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
