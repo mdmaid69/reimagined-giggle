@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
