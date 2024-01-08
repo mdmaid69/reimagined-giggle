@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
