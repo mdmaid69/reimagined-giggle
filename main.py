@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import time
-def get_current_time():
-        return time.ctime()
+def append_to_array(array, item):
+        array.append(item)
