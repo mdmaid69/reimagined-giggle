@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import numpy as np
-print(np.array([1, 2, 3]))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
