@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
