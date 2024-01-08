@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_tangent(x):
+        return math.atan(x)
