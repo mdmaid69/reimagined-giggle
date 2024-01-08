@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
