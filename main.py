@@ -1,10 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
