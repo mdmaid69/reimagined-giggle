@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import random
-print(random.randint(0, 100))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_current_directory():
+        return os.getcwd()
