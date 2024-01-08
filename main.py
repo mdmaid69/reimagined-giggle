@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
