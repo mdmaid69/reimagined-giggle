@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
