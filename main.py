@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
