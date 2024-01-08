@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+print("Hello, world!")
