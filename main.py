@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_max(lst):
+        return max(lst)
+def add_numbers(x, y):
+        return x + y
