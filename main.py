@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def remove_duplicates(lst):
+        return list(set(lst))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
