@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
