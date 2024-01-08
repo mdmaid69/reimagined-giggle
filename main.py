@@ -1,6 +1,13 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def iterate_over_array(array):
+        for item in array:
+        print(item)
