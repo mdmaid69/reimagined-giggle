@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+print(sum(range(10)))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
