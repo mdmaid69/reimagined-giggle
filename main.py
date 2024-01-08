@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+print([x**2 for x in range(10)])
+x = 10
+y = 20
+print("Sum:", x + y)
