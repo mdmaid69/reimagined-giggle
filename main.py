@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_work(force, distance):
+        return force * distance
