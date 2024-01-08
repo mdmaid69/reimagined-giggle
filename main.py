@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
