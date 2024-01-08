@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
