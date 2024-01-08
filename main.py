@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
