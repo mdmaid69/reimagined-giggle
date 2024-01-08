@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_item(array, i):
-        return array[i]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
