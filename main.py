@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def exit_program():
+        sys.exit()
