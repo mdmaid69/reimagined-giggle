@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def print_python_version():
+        return sys.version
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
