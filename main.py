@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
