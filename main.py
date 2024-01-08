@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_average(lst):
+        return sum(lst) / len(lst)
