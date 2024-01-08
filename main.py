@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
