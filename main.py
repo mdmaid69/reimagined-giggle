@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def find_max(numbers):
+        return max(numbers)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
