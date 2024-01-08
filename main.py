@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
