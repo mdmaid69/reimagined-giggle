@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
