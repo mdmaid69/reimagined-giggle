@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
