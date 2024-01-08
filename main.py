@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def count_words(sentence):
+        return len(sentence.split())
+def square_number(x):
+        return x**2
