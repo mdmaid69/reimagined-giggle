@@ -1,4 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
