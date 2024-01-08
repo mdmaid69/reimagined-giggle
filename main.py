@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def count_words(sentence):
+        return len(sentence.split())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
