@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
