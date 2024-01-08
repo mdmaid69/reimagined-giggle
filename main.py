@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
