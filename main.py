@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def add_numbers(x, y):
-        return x + y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perpetuity(payment, rate):
+        return payment / rate
