@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def count_elements(lst):
-        return len(lst)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
