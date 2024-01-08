@@ -1,9 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
