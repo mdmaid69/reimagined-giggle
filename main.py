@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
