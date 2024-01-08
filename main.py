@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
