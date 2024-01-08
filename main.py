@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
