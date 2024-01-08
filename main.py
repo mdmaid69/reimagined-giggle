@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
