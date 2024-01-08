@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
