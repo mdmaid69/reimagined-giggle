@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_volume(length, width, height):
+        return length * width * height
