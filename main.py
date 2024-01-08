@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
