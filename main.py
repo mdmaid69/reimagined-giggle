@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
