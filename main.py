@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def add_numbers(a, b):
-        return a + b
+import random
+def roll_die():
+        return random.randint(1, 6)
+print(sum(range(10)))
