@@ -1,6 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def list_files_in_directory(path):
+        return os.listdir(path)
