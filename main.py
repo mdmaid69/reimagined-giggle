@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
