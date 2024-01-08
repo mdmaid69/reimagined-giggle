@@ -1,8 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import sys
+  def get_python_version():
+        return sys.version
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
