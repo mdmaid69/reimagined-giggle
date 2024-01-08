@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
