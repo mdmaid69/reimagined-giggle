@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
