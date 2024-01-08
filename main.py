@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import sys
-print(sys.version)
+import random
+print(random.randint(0, 100))
+def greet(name):
+        print(f"Hello, {name}!")
