@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_itemsize(array):
+        return array.itemsize
