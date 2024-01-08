@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
