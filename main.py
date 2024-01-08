@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
