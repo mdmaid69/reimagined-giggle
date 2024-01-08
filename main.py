@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
