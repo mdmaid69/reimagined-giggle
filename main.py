@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import sys
-print(sys.version)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import time
+print(time.time())
