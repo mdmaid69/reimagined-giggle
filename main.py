@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_length(array):
+        return len(array)
