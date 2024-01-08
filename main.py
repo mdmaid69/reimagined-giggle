@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
