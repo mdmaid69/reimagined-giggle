@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import datetime
+def get_today_date():
+        return datetime.date.today()
