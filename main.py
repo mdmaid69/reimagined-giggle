@@ -1,8 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def multiply_numbers(x, y):
+        return x * y
