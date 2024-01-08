@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
