@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
