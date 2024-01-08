@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-def roll_die():
-        return random.randint(1, 6)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def count_elements(lst):
+        return len(lst)
