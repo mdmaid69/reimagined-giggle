@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
