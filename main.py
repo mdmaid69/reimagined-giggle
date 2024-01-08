@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def convert_to_hex(n):
+        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
