@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
