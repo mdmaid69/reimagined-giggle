@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import sys
-print(sys.version)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
