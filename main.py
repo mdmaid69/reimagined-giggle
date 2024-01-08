@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+print(math.pi)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_memoryview(array):
+        return memoryview(array)
