@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
