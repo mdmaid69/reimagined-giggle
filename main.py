@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import sys
+def print_python_version():
+        return sys.version
