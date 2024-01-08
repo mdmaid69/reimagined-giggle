@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def is_odd(n):
+        return n % 2 != 0
