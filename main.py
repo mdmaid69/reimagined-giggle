@@ -1,5 +1,3 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_even(n):
-        return n % 2 == 0
+for i in range(10): print(i)
+def sort_numbers(numbers):
+        return sorted(numbers)
