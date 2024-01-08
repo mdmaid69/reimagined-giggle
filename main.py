@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
