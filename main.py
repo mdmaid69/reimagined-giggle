@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
