@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def set_array_item(array, i, item):
+        array[i] = item
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
