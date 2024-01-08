@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
