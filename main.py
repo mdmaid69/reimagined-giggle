@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import re
+print(re.match("h.*o", "hello world"))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
