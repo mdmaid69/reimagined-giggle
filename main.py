@@ -1,6 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
