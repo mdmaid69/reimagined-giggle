@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
