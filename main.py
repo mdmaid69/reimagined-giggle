@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
