@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import numpy as np
+print(np.array([1, 2, 3]))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
