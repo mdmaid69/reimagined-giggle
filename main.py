@@ -1,7 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
