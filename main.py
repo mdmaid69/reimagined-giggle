@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
