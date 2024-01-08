@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def count_characters(sentence):
+        return len(sentence)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
