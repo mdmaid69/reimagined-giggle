@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def convert_to_binary(n):
-        return bin(n)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
