@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+import os
+print(os.getcwd())
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
