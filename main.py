@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
