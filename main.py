@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import re
-print(re.match("h.*o", "hello world"))
+import tensorflow as tf
+print(tf.__version__)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
