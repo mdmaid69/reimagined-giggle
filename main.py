@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def remove_duplicates(lst):
+        return list(set(lst))
