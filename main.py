@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+print([x**2 for x in range(10)])
