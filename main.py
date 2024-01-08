@@ -1,7 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
