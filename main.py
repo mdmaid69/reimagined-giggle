@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_set(array):
-        return set(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
