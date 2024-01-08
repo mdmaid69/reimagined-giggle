@@ -1,5 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_octal(n):
-        return oct(n)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
