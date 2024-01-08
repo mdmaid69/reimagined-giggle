@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def convert_to_binary(n):
+        return bin(n)
