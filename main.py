@@ -1,11 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
