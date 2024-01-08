@@ -1,7 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_unique_words(sentence):
+        return set(sentence.split())
