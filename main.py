@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def add_numbers(a, b):
-        return a + b
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_index(array, item):
+        return array.index(item)
