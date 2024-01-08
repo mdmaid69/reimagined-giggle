@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
