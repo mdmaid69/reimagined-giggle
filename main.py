@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def greet(name):
+        print(f"Hello, {name}!")
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
