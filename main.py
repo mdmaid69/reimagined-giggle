@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
