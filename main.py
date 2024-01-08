@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
