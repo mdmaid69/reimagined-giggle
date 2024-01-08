@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
