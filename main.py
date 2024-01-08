@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
