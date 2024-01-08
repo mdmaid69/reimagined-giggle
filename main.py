@@ -1,7 +1,9 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
