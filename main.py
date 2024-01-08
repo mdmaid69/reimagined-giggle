@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
