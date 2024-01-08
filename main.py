@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def greet(name):
-        print(f"Hello, {name}!")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
