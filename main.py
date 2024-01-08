@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
