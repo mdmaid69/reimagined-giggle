@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+name = "Python"
+print("Hello,", name)
