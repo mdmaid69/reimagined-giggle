@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def multiply_numbers(x, y):
+        return x * y
