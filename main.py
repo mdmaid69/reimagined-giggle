@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_acceleration(speed, time):
+        return speed / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
