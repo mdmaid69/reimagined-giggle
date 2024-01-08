@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def split_path(path):
+        return os.path.split(path)
