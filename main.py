@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
