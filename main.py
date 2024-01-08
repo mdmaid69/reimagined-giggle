@@ -1,8 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
