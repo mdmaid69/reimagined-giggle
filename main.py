@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
