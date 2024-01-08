@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
