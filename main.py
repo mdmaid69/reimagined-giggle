@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
