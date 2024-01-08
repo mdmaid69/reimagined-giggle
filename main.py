@@ -1,6 +1,9 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import time
+def get_current_time():
+        return time.ctime()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
