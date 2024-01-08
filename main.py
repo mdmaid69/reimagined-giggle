@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
