@@ -1,5 +1,7 @@
-for i in range(5):
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+i = 0
+while i < 5:
         print(i)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+        i += 1
