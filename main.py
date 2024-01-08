@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
