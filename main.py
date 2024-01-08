@@ -1,10 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def roll_die():
+        return random.randint(1, 6)
