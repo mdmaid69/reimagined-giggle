@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
