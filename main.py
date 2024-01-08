@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import re
-print(re.match("h.*o", "hello world"))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_pressure(force, area):
+        return force / area
