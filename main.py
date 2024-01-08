@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
