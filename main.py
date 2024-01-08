@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
