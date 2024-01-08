@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
