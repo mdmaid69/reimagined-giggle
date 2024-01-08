@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import sys
+  def get_python_version():
+        return sys.version
