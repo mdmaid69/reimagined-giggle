@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
