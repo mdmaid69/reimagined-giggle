@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
