@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
