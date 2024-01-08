@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def convert_to_hex(n):
+        return hex(n)
