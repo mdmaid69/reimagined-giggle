@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def count_characters(sentence):
-        return len(sentence)
+  def sort_list(lst):
+        return sorted(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
