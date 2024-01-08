@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def add_numbers(x, y):
-        return x + y
+def calculate_acceleration(speed, time):
+        return speed / time
+def sort_list(lst):
+        return sorted(lst)
