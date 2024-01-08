@@ -1,6 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import sys
+print(sys.version)
