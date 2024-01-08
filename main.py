@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
