@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import os
-print(os.getcwd())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
