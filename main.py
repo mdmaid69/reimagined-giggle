@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import random
-print(random.randint(0, 100))
+import logging
+def log_message(message):
+        logging.info(message)
+def count_characters(sentence):
+        return len(sentence)
