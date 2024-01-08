@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
