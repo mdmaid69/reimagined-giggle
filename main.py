@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
