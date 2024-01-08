@@ -1,5 +1,3 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import numpy as np
-print(np.array([1, 2, 3]))
+print([x**2 for x in range(10)])
+def find_max(numbers):
+        return max(numbers)
