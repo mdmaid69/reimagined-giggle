@@ -1,6 +1,7 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
