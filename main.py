@@ -1,7 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
