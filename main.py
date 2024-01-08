@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def is_odd(n):
+        return n % 2 != 0
