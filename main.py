@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def count_characters(sentence):
-        return len(sentence)
+def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
