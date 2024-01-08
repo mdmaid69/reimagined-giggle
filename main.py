@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def convert_to_octal(n):
+        return oct(n)
