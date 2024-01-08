@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
