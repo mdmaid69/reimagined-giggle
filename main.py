@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
