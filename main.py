@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
