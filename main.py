@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def find_min(lst):
+        return min(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
