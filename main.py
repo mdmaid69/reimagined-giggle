@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
