@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_list_from_array(array):
+        return array.tolist()
+import datetime
+print(datetime.datetime.now())
