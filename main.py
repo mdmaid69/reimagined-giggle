@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
