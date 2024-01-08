@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def reverse_string(s):
-        return s[::-1]
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
