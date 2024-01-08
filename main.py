@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
