@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
