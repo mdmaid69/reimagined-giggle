@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def get_array_as_str(array):
-        return str(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
