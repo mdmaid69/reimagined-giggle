@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
