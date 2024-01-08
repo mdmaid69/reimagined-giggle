@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
