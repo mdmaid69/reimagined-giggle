@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_pressure(force, area):
+        return force / area
