@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+print([x**2 for x in range(10)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
