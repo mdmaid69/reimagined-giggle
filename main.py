@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-name = "Python"
-print("Hello,", name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
