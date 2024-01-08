@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
