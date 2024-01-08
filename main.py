@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def sort_list(lst):
+        return sorted(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
