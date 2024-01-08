@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_density(mass, volume):
+        return mass / volume
