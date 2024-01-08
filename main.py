@@ -1,4 +1,3 @@
-  def subtract_numbers(x, y):
-        return x - y
-def find_unique_words(sentence):
-        return set(sentence.split())
+print("Hello, world!")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
