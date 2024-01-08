@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
