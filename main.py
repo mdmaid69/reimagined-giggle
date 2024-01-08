@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_min(numbers):
+        return min(numbers)
