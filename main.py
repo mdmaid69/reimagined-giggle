@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
