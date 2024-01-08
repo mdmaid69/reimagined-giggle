@@ -1,7 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
