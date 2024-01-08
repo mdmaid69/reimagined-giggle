@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def is_palindrome(s):
+        return s == s[::-1]
