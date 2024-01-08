@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import random
+print(random.randint(0, 100))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
