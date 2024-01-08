@@ -1,5 +1,4 @@
+for i in range(10): print(i)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
