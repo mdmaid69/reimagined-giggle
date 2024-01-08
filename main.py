@@ -1,5 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_base_name(path):
+        return os.path.basename(path)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
