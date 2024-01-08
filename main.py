@@ -1,4 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
