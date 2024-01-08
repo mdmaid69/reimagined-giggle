@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
