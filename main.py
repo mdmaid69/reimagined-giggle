@@ -1,6 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def split_path(path):
+        return os.path.split(path)
