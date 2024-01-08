@@ -1,8 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
