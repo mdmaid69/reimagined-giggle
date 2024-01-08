@@ -1,7 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
