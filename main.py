@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def square_number(x):
+        return x**2
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
