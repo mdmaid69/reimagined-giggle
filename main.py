@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
