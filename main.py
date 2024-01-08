@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
