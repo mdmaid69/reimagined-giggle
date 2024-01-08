@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def sort_list(lst):
+        return sorted(lst)
