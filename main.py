@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
