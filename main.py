@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def get_array_itemsize(array):
+        return array.itemsize
+def convert_to_binary(n):
+        return bin(n)
