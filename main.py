@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
