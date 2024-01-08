@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
