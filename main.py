@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def remove_from_array(array, item):
+        array.remove(item)
