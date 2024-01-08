@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def find_max(lst):
+        return max(lst)
