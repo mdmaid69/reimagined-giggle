@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
