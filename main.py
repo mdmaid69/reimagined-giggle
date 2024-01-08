@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
