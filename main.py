@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
