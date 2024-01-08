@@ -1,3 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-for i in range(10): print(i)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
