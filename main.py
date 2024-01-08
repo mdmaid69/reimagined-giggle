@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
