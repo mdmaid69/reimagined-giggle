@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def convert_to_hex(n):
+        return hex(n)
