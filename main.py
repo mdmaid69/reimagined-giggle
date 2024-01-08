@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def create_user_list():
+        return collections.UserList()
