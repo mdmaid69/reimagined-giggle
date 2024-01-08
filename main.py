@@ -1,5 +1,9 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
