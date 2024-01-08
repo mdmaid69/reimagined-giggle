@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+print([x**2 for x in range(10)])
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
