@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
