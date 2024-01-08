@@ -1,5 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def count_words(sentence):
+        return len(sentence.split())
