@@ -1,4 +1,11 @@
-import sys
-def print_python_version():
-        return sys.version
-print(sum(range(10)))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
