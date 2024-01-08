@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
