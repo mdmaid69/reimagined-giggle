@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_power(work, time):
-        return work / time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
