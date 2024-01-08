@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import datetime
+def get_current_date():
+        return datetime.date.today()
