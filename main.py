@@ -1,4 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def sort_list(lst):
-        return sorted(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
