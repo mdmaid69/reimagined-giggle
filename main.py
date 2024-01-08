@@ -1,8 +1,8 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
