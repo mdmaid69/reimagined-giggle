@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def is_even(n):
+        return n % 2 == 0
