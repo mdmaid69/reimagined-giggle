@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import tensorflow as tf
-print(tf.__version__)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
