@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
+  def cube_number(x):
+        return x**3
