@@ -1,5 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def clear_array(array):
-        array *= 0
-def find_max(lst):
-        return max(lst)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
