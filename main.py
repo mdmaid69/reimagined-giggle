@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
