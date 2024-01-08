@@ -1,7 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
