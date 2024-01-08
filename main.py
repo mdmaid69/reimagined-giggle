@@ -1,7 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
