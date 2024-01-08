@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
