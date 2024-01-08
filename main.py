@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def count_words(sentence):
+        return len(sentence.split())
