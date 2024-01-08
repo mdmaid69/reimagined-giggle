@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import datetime
-print(datetime.datetime.now())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+for i in range(5):
+        print(i)
