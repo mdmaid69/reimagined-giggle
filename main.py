@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_current_time():
-        return time.time()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
