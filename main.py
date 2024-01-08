@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
