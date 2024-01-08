@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
