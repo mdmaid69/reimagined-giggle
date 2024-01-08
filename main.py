@@ -1,7 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def sort_list(lst):
+        return sorted(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
