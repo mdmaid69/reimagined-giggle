@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-for i in range(5):
-        print(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
