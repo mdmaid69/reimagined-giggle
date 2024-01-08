@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
