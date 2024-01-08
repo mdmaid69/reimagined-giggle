@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
