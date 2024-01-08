@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def divide_numbers(x, y):
+        return x / y
+def find_min(lst):
+        return min(lst)
