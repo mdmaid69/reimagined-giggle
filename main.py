@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
