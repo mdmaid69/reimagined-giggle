@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
