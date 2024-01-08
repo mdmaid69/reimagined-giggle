@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
