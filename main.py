@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
