@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import time
+def get_current_time():
+        return time.time()
