@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def find_min(lst):
-        return min(lst)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
