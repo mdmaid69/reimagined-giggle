@@ -1,7 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
