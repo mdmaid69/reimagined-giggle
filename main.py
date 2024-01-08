@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import time
+def get_time_since_epoch():
+        return time.time()
