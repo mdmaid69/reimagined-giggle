@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
