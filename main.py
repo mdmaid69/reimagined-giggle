@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
