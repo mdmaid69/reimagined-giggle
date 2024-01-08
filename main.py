@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(a, b):
+        return a + b
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
