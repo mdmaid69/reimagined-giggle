@@ -1,8 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
