@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
