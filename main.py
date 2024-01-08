@@ -1,6 +1,6 @@
 import collections
-def create_queue():
-        return collections.deque()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
