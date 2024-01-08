@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
