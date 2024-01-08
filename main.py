@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
