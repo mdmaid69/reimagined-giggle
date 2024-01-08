@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
