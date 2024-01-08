@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import getpass
+def get_username():
+        return getpass.getuser()
