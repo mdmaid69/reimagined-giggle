@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def sort_numbers(numbers):
+        return sorted(numbers)
