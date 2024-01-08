@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
