@@ -1,5 +1,8 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import collections
+def create_stack():
+        return collections.deque()
