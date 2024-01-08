@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
