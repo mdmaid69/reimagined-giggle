@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
