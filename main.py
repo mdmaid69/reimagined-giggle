@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
