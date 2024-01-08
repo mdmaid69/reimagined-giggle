@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
