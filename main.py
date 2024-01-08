@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_work(force, distance):
-        return force * distance
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
