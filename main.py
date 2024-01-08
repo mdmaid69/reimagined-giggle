@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
