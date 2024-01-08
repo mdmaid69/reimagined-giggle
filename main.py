@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
