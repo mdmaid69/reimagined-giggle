@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
