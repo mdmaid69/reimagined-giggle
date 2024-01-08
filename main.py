@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
