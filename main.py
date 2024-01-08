@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
