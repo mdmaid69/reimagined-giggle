@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
