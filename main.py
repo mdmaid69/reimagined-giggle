@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import numpy as np
+print(np.array([1, 2, 3]))
