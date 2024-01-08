@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
