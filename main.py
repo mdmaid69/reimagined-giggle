@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
