@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
