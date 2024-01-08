@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_volume(length, width, height):
+        return length * width * height
