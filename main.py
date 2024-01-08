@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
