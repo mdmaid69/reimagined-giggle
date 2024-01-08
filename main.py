@@ -1,6 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
