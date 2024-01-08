@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def is_even(n):
-        return n % 2 == 0
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_power(work, time):
+        return work / time
