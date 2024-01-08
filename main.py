@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
