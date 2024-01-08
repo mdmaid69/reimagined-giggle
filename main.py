@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
