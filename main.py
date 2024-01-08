@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
