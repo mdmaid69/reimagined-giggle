@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
