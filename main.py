@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
