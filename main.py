@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
