@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+from collections import Counter
+print(Counter("hello world"))
