@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import datetime
+def get_current_date():
+        return datetime.date.today()
