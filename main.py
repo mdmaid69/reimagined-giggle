@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
