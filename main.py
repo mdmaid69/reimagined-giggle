@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
