@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import array
 def get_array_as_int(array):
         return int(array[0])
