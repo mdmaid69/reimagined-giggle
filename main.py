@@ -1,5 +1,3 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import tensorflow as tf
-print(tf.__version__)
+print([x**2 for x in range(10)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
