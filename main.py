@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_sine(x):
+        return math.sin(x)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
