@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def sort_numbers(numbers):
+        return sorted(numbers)
