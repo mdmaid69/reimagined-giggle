@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import getpass
+def get_username():
+        return getpass.getuser()
