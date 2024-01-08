@@ -1,6 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_int(array):
+        return int(array[0])
