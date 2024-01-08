@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+name = "Python"
+print("Hello,", name)
