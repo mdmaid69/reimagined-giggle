@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import sys
+def print_python_version():
+        return sys.version
+  def subtract_numbers(x, y):
+        return x - y
