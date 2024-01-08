@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import platform
+def get_os_info():
+        return platform.uname()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
