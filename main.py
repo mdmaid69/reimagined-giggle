@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import logging
+def log_message(message):
+        logging.info(message)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
