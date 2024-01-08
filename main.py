@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
