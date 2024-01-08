@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sys
+def print_python_version():
+        return sys.version
