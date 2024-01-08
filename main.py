@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def convert_to_json(data):
+        return json.dumps(data)
