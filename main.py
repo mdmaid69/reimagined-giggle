@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_as_bool(array):
+        return bool(array)
