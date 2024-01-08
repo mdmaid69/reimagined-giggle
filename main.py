@@ -1,5 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def calculate_variance(arr):
+        return np.var(arr)
