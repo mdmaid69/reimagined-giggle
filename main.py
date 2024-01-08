@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
