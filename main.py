@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
