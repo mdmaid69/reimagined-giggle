@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
