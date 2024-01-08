@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
