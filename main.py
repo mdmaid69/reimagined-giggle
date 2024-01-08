@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
