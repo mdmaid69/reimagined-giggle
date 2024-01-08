@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
