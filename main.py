@@ -1,7 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
