@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def count_elements(lst):
+        return len(lst)
