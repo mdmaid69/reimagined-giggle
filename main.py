@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
