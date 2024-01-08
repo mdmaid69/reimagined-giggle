@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
