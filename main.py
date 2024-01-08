@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
