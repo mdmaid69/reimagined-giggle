@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import time
+def get_time_since_epoch():
+        return time.time()
