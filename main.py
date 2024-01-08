@@ -1,6 +1,7 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  def sort_list(lst):
+        return sorted(lst)
