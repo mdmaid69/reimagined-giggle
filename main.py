@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
