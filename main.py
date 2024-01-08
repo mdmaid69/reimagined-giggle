@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def count_elements(lst):
-        return len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
