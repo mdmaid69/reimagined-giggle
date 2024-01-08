@@ -1,6 +1,8 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
