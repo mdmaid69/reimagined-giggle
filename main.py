@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
