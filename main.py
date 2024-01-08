@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def add_numbers(x, y):
+        return x + y
