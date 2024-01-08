@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
