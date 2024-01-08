@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
