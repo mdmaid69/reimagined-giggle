@@ -1,4 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-print(sum(range(10)))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
