@@ -1,5 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
