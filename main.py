@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import os
-print(os.getcwd())
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
