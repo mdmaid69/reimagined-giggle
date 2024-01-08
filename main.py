@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def divide_numbers(x, y):
-        return x / y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
