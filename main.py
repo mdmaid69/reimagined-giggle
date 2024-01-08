@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
