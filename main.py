@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
