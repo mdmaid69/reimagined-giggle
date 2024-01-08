@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
