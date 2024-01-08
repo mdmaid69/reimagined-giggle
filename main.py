@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
