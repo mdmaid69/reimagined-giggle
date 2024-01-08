@@ -1,6 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
