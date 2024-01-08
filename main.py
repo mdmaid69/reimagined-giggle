@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
