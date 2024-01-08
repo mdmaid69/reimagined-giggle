@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
