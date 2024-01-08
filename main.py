@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-for i in range(5):
-        print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
