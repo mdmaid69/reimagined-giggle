@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+print([x**2 for x in range(10)])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
