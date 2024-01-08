@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def reverse_array(array):
+        array.reverse()
+import re
+print(re.match("h.*o", "hello world"))
