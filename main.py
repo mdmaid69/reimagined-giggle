@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_float(array):
+        return float(array[0])
