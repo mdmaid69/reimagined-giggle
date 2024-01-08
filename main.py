@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import datetime
+def get_current_date():
+        return datetime.date.today()
