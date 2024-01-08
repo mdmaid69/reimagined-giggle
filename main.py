@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def sort_numbers(numbers):
+        return sorted(numbers)
