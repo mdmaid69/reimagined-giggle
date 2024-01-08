@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
