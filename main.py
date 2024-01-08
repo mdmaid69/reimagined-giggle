@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import platform
+def get_python_version():
+        return platform.python_version()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
