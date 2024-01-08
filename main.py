@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import time
+def get_time_since_epoch():
+        return time.time()
