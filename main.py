@@ -1,5 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
