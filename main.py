@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def convert_to_hex(n):
+        return hex(n)
