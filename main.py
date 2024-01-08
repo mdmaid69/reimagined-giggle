@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_set(array):
-        return set(array)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
