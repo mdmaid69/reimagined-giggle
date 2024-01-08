@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def square_number(x):
+        return x**2
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
