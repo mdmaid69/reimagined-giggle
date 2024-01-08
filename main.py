@@ -1,5 +1,10 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def count_elements(lst):
+        return len(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
