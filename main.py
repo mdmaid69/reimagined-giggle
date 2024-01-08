@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
