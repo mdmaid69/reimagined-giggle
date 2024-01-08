@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+def convert_to_octal(n):
+        return oct(n)
