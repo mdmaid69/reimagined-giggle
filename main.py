@@ -1,5 +1,3 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+for i in range(10): print(i)
