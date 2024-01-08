@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+text = "Hello, world!"
+print("Characters:", len(text))
