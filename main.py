@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
