@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def remove_duplicates(lst):
+        return list(set(lst))
