@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
