@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
