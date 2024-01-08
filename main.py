@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_list(array):
-        return list(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
