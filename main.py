@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
