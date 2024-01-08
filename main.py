@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
