@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
