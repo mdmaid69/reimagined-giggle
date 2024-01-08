@@ -1,6 +1,3 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import time
+print(time.time())
+print([x**2 for x in range(10)])
