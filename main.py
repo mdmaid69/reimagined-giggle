@@ -1,6 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
