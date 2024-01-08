@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
