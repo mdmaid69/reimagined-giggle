@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import numpy as np
+print(np.array([1, 2, 3]))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
