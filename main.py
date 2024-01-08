@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def clear_array(array):
+        array *= 0
