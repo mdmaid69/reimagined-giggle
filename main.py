@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
