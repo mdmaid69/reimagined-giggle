@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def get_array_typecode(array):
+        return array.typecode
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
