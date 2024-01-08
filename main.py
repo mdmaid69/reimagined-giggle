@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_stack():
+        return collections.deque()
