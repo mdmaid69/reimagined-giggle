@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import os
-print(os.getcwd())
+def list_files_in_directory(path):
+        return os.listdir(path)
