@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def cube_number(x):
+        return x**3
