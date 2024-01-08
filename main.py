@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
