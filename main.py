@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
