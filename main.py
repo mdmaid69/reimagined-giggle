@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
