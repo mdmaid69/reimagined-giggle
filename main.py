@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Characters:", len(text))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
