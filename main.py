@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_str(array):
+        return str(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
