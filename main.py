@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_power(work, time):
+        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
