@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import tensorflow as tf
-print(tf.__version__)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
