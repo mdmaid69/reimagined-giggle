@@ -1,6 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def create_ordered_dict():
+        return collections.OrderedDict()
