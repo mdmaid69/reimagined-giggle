@@ -1,6 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
