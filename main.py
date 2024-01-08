@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-for i in range(5):
-        print(i)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
