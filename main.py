@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_speed(distance, time):
+        return distance / time
