@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def is_palindrome(s):
-        return s == s[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
