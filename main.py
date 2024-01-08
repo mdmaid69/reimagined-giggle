@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def cube_number(x):
-        return x**3
+  def delete_file(file_name):
+        os.remove(file_name)
