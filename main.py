@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
