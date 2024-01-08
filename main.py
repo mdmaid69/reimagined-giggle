@@ -1,6 +1,8 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
