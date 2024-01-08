@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
