@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
