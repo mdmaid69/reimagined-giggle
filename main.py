@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
