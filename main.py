@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+for i in range(5):
+        print(i)
