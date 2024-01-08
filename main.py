@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
