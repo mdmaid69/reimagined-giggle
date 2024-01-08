@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
