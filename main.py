@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import re
+print(re.match("h.*o", "hello world"))
+def count_elements(lst):
+        return len(lst)
