@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
