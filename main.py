@@ -1,5 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def insert_into_array(array, i, item):
+        array.insert(i, item)
