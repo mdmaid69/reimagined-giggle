@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
