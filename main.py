@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def cube_number(x):
+        return x**3
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
