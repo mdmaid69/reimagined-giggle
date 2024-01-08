@@ -1,6 +1,9 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
