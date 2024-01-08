@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def subtract_numbers(x, y):
-        return x - y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
