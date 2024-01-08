@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
