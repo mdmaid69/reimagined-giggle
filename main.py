@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
