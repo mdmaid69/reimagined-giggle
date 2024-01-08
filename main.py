@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
