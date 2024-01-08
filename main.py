@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
