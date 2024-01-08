@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def remove_directory(path):
+        os.rmdir(path)
