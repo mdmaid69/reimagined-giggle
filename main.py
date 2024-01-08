@@ -1,8 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def multiply_numbers(x, y):
+        return x * y
