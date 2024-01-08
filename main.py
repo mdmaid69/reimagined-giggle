@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
