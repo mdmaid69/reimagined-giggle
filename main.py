@@ -1,5 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
