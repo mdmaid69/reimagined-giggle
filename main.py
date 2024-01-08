@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
