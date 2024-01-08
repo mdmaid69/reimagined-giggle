@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def reverse_string(s):
-        return s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
