@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def is_palindrome(s):
-        return s == s[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import numpy as np
+print(np.array([1, 2, 3]))
