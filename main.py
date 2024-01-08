@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
