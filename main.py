@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
