@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_priority_queue():
-        return collections.deque()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
