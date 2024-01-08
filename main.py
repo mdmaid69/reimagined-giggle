@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
