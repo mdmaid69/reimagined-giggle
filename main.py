@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
