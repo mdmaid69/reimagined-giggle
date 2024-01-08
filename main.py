@@ -1,5 +1,12 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+x = 10
+y = 20
+print("Sum:", x + y)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
