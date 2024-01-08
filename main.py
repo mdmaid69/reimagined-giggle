@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_priority_queue():
+        return collections.deque()
