@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
