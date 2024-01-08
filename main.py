@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
