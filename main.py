@@ -1,5 +1,6 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def remove_directory(path):
+        os.rmdir(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
