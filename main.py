@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import numpy as np
+print(np.array([1, 2, 3]))
