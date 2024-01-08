@@ -1,7 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def add_numbers(x, y):
+        return x + y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
