@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
