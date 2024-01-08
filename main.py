@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
