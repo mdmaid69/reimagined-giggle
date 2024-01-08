@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def calculate_area_rectangle(l, w):
+        return l * w
