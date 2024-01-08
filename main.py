@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def delete_file(file_name):
+        os.remove(file_name)
