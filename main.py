@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def reverse_array(array):
+        array.reverse()
