@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
