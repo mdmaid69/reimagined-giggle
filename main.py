@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+for i in range(5):
+        print(i)
