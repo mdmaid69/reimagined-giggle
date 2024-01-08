@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
