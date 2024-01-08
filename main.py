@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
