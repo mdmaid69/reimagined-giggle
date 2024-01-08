@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import logging
-def log_message(message):
-        logging.info(message)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
