@@ -1,6 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
