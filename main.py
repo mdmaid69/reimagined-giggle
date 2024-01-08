@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
