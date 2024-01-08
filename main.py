@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def multiply_numbers(x, y):
-        return x * y
+  def is_odd(n):
+        return n % 2 != 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
