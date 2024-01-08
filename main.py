@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_list(array):
-        return list(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_speed(distance, time):
+        return distance / time
