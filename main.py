@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def reverse_array(array):
+        array.reverse()
