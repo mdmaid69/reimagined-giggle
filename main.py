@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_user_list():
+        return collections.UserList()
