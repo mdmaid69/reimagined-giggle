@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
