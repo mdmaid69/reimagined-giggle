@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import time
-print(time.time())
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
