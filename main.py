@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
