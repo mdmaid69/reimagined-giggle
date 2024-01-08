@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
