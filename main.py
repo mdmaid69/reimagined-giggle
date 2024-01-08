@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
