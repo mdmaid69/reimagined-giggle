@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
