@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_current_directory():
+        return os.getcwd()
