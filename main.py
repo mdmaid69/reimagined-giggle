@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_max(numbers):
-        return max(numbers)
+def calculate_work(force, distance):
+        return force * distance
+def divide_numbers(x, y):
+        return x / y
