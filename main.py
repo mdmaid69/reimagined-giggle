@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
