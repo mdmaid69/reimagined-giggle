@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
