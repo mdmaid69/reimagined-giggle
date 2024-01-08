@@ -1,8 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def square_number(x):
+        return x**2
+def convert_to_octal(n):
+        return oct(n)
