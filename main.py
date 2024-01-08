@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_float(array):
+        return float(array[0])
