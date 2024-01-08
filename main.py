@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def multiply_numbers(x, y):
-        return x * y
+  import sys
+  def get_python_version():
+        return sys.version
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
