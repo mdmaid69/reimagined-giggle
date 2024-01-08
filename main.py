@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def add_numbers(a, b):
-        return a + b
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
