@@ -1,6 +1,7 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
