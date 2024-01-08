@@ -1,6 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
