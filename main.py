@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
