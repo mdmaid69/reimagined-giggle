@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_acceleration(speed, time):
+        return speed / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
