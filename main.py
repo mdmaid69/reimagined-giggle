@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
