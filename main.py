@@ -1,6 +1,9 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_length(array):
-        return len(array)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
