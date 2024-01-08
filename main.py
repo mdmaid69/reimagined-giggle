@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def is_even(n):
+        return n % 2 == 0
