@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import os
+print(os.getcwd())
