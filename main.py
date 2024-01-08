@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
