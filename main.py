@@ -1,6 +1,10 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
