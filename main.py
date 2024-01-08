@@ -1,5 +1,8 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
