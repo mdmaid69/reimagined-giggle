@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
