@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def cube_number(x):
-        return x**3
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import datetime
+def get_current_date():
+        return datetime.date.today()
