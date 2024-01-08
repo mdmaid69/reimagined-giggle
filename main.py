@@ -1,7 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
