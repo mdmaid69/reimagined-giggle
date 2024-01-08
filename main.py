@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
