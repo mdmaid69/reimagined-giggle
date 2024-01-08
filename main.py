@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
