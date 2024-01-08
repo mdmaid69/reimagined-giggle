@@ -1,7 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
