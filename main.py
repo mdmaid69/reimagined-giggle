@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_binary(n):
+        return bin(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
