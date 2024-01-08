@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+print(re.match("h.*o", "hello world"))
+def subtract_numbers(x, y):
+        return x - y
