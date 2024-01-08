@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
