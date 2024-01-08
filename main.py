@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
