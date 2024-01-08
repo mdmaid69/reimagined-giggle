@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
