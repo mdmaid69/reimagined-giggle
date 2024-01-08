@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
