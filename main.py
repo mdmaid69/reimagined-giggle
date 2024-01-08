@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
