@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
