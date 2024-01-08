@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
