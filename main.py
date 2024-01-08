@@ -1,3 +1,5 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
 def is_palindrome(s):
         return s == s[::-1]
-for i in range(10): print(i)
