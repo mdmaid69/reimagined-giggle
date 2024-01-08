@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
