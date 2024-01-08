@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def find_min(lst):
+        return min(lst)
+import tensorflow as tf
+print(tf.__version__)
