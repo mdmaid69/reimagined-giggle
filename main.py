@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
