@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
