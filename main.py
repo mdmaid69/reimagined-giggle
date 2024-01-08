@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
