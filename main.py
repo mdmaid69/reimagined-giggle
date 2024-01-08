@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
