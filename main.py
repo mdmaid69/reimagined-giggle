@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 list1 = [1, 2, 3]
 list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+print("Common elements:", set(list1) & set(list2))
