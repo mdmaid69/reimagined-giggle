@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
