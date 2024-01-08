@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import sys
-def print_python_version():
-        return sys.version
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def count_words(sentence):
+        return len(sentence.split())
