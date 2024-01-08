@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
