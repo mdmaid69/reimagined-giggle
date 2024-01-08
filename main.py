@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_speed(distance, time):
-        return distance / time
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
