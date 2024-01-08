@@ -1,6 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_density(mass, volume):
+        return mass / volume
