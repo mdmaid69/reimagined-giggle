@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
