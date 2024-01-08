@@ -1,3 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import functools
 def memoize(func):
         cache = {}
@@ -7,6 +10,3 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
