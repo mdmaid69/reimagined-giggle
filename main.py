@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
