@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
