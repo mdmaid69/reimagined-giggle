@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
