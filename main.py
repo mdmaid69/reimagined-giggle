@@ -1,4 +1,4 @@
-print("Hello, world!")
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def convert_to_binary(n):
+        return bin(n)
