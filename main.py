@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
