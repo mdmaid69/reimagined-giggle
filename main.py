@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_power(work, time):
+        return work / time
