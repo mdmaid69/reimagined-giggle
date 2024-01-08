@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
