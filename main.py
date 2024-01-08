@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
