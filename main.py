@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
