@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
