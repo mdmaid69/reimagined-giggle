@@ -1,5 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_density(mass, volume):
+        return mass / volume
