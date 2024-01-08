@@ -1,6 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import datetime
+def get_current_date():
+        return datetime.date.today()
