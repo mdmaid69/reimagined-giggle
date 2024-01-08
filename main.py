@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
