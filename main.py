@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
