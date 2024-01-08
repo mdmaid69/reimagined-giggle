@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
