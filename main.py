@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def count_elements(lst):
+        return len(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
