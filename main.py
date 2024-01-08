@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
