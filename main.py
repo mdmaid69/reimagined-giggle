@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def count_characters(sentence):
+        return len(sentence)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
