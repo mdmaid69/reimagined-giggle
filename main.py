@@ -1,3 +1,6 @@
-import time
-print(time.time())
-print([x**2 for x in range(10)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
