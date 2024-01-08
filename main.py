@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
