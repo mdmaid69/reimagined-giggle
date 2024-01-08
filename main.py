@@ -1,8 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
