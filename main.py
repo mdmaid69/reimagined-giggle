@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
