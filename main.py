@@ -1,8 +1,4 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_as_str(array):
+        return str(array)
+print([x**2 for x in range(10)])
