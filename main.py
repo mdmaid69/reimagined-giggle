@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def find_min(numbers):
-        return min(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
