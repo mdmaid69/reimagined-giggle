@@ -1,4 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
