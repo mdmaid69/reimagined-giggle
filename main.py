@@ -1,6 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
