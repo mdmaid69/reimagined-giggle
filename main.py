@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def square_number(x):
+        return x**2
+import array
+def get_list_from_array(array):
+        return array.tolist()
