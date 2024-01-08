@@ -1,4 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
