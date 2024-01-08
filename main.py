@@ -1,4 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-print("Hello, world!")
+def convert_to_octal(n):
+        return oct(n)
+import platform
+def get_python_version():
+        return platform.python_version()
