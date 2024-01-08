@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
