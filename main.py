@@ -1,8 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
