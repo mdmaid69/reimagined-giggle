@@ -1,5 +1,3 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+print("Hello, world!")
+def calculate_volume(length, width, height):
+        return length * width * height
