@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
