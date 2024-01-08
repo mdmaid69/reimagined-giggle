@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def count_elements(lst):
+        return len(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
