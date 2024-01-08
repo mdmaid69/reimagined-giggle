@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+import random
+def roll_die():
+        return random.randint(1, 6)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
