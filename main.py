@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
