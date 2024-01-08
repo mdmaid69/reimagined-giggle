@@ -1,8 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
