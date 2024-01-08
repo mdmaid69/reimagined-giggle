@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
