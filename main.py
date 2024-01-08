@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
