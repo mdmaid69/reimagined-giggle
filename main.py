@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def clear_array(array):
+        array *= 0
