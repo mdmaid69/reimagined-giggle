@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
