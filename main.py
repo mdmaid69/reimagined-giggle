@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
