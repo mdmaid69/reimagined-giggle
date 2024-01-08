@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def reverse_list(lst):
+        return lst[::-1]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
