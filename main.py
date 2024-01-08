@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def reverse_list(lst):
-        return lst[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
