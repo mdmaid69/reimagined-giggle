@@ -1,7 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import tensorflow as tf
+print(tf.__version__)
+def calculate_density(mass, volume):
+        return mass / volume
