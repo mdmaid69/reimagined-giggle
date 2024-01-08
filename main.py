@@ -1,5 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
