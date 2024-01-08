@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
