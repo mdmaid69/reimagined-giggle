@@ -1,4 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-for i in range(10): print(i)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
