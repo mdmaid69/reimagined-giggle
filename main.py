@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_float(array):
+        return float(array[0])
