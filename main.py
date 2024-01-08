@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
