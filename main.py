@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_volume(length, width, height):
+        return length * width * height
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
