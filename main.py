@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
