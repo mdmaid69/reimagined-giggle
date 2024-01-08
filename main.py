@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def is_palindrome(s):
+        return s == s[::-1]
