@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
