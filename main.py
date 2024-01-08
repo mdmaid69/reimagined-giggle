@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def reverse_array(array):
+        array.reverse()
