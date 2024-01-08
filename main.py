@@ -1,5 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
