@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def multiply_numbers(x, y):
+        return x * y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
