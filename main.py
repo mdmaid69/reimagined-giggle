@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
