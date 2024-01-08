@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
