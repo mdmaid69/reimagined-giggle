@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
