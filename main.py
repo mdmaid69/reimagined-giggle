@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+from collections import Counter
+print(Counter("hello world"))
