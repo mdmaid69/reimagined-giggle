@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
