@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
