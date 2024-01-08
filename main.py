@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
