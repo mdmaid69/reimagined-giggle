@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
