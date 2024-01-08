@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
