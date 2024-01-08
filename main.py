@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
