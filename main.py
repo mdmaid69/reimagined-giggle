@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def divide_numbers(x, y):
-        return x / y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
