@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
