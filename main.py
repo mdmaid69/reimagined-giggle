@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
