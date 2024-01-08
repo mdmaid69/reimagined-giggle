@@ -1,6 +1,3 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+for i in range(10): print(i)
