@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def reverse_string(s):
+        return s[::-1]
