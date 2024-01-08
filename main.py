@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
