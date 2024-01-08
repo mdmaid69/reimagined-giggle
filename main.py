@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
