@@ -1,8 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
