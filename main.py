@@ -1,8 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
