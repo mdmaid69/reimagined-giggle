@@ -1,4 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-print(sum(range(10)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
