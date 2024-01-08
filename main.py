@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
