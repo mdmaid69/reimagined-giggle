@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Reversed:", text[::-1])
