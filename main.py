@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
