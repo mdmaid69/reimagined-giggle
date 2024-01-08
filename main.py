@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_work(force, distance):
+        return force * distance
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
