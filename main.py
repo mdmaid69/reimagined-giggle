@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
