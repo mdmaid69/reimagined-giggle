@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
