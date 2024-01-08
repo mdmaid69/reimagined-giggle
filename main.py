@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
