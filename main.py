@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def subtract_numbers(x, y):
+        return x - y
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
