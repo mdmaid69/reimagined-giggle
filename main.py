@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
