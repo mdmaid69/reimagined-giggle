@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
