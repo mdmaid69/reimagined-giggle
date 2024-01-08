@@ -1,6 +1,9 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
