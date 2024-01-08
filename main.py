@@ -1,3 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-for i in range(10): print(i)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
