@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
