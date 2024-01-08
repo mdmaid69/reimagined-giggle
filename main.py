@@ -1,6 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
