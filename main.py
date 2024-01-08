@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def get_array_as_tuple(array):
+        return tuple(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
