@@ -1,6 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
