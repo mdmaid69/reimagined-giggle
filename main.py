@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_work(force, distance):
+        return force * distance
