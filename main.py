@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_length(array):
-        return len(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
