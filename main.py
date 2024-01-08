@@ -1,7 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
