@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
