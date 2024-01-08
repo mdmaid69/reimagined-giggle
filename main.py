@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
