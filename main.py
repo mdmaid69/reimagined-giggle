@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
