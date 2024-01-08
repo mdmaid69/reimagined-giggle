@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
