@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
