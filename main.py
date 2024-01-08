@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
