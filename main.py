@@ -1,4 +1,3 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+for i in range(10): print(i)
