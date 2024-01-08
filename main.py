@@ -1,10 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
