@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_min(lst):
-        return min(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def find_max(numbers):
+        return max(numbers)
