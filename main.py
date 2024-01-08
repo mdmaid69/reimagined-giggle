@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def square_number(x):
+        return x**2
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
