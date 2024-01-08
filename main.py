@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-print(time.time())
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
