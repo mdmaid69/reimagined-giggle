@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import logging
+def log_message(message):
+        logging.info(message)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
