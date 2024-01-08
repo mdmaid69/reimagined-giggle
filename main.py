@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_list(array):
+        return list(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
