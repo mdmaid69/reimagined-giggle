@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
