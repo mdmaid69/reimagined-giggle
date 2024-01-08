@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
