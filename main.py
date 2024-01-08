@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import time
-print(time.time())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
