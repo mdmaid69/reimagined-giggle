@@ -1,5 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import tensorflow as tf
+print(tf.__version__)
