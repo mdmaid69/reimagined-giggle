@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
