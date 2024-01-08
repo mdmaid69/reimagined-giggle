@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def multiply_numbers(x, y):
+        return x * y
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
