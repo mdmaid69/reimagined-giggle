@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
