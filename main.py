@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
