@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def divide_numbers(x, y):
-        return x / y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_power(work, time):
+        return work / time
