@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import platform
+def get_os_info():
+        return platform.uname()
