@@ -1,7 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import csv
-with open("some.csv", "w", newline="") as f:
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+        writer.writerows(data)
