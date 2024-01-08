@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def convert_to_binary(n):
+        return bin(n)
