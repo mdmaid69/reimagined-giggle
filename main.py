@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_bool(array):
+        return bool(array)
