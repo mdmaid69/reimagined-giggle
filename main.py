@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def add_numbers(x, y):
+        return x + y
