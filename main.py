@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def reverse_list(lst):
+        return lst[::-1]
