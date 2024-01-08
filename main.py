@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def subtract_numbers(x, y):
-        return x - y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+def get_current_date():
+        return datetime.date.today()
