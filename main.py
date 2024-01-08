@@ -1,5 +1,8 @@
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def read_from_json(json_string):
+        return json.loads(json_string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
