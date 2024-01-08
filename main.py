@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def get_current_time():
-        return time.ctime()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
