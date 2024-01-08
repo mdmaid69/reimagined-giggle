@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
