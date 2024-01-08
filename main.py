@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
