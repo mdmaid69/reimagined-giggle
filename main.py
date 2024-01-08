@@ -1,8 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
