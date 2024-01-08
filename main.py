@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_pressure(force, area):
+        return force / area
