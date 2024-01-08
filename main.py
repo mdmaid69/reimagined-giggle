@@ -1,6 +1,14 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
