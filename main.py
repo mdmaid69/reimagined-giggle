@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
+import re
+def find_pattern(pattern, string):
         return re.findall(pattern, string)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
