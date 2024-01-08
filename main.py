@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
