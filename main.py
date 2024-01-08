@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
