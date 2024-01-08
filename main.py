@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
