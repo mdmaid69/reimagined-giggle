@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
