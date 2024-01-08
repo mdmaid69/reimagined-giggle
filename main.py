@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
