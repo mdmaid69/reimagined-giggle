@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
