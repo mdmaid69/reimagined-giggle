@@ -1,7 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
