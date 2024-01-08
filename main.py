@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
