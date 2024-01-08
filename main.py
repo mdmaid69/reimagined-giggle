@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def subtract_numbers(x, y):
+        return x - y
