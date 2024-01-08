@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def sort_list(lst):
+        return sorted(lst)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
