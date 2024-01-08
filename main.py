@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
