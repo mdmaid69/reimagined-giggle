@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
