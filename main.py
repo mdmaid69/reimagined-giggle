@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
