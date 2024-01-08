@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
