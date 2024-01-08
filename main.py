@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
