@@ -1,6 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import logging
+def log_message(message):
+        logging.info(message)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
