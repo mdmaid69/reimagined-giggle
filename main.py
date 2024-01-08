@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Characters:", len(text))
+  def multiply_numbers(x, y):
+        return x * y
