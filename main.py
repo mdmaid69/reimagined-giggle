@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
