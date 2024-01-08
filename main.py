@@ -1,5 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
