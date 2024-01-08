@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
