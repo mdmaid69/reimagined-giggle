@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def clear_array(array):
+        array *= 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
