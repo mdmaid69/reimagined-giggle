@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
