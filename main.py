@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
