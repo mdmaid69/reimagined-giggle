@@ -1,8 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
