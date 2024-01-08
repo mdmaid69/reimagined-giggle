@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_pressure(force, area):
-        return force / area
+def square_number(x):
+        return x**2
+def convert_to_octal(n):
+        return oct(n)
