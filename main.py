@@ -1,3 +1,6 @@
-print("Hello, world!")
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
