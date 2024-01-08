@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
