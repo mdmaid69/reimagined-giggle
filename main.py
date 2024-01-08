@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
