@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_volume(length, width, height):
+        return length * width * height
