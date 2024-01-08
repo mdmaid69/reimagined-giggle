@@ -1,10 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import unittest
 
-{body}")
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
