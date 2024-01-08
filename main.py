@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
