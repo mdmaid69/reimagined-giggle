@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
