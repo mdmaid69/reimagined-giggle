@@ -1,6 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
