@@ -1,4 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_floor(x):
-        return math.floor(x)
-for i in range(10): print(i)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
