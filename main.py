@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def square_number(x):
-        return x**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def sort_numbers(numbers):
+        return sorted(numbers)
