@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
