@@ -1,5 +1,3 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_item(array, i):
-        return array[i]
+print(sum(range(10)))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
