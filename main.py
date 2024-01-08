@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
