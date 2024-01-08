@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
