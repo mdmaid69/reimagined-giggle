@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
