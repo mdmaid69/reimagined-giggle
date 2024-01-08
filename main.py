@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def subtract_numbers(x, y):
-        return x - y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
