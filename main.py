@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def split_path(path):
-        return os.path.split(path)
-def find_min(lst):
-        return min(lst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
