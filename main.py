@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
