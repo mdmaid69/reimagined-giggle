@@ -1,6 +1,8 @@
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
