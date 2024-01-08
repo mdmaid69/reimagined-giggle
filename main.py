@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
