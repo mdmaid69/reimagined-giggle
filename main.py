@@ -1,5 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area(radius):
+        return 3.14 * radius * radius
