@@ -1,8 +1,8 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
