@@ -1,8 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
