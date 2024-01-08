@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def exit_program():
-        sys.exit()
+import platform
+def get_os_info():
+        return platform.uname()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
