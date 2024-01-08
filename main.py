@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import time
+def get_current_time():
+        return time.time()
