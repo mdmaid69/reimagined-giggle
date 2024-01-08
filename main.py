@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
