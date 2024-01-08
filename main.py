@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
+for i in range(5):
+        print(i)
