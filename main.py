@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_as_int(array):
+        return int(array[0])
+for i in range(10): print(i)
