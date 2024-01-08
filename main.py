@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
