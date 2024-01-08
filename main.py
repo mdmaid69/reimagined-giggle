@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def reverse_array(array):
+        array.reverse()
