@@ -1,4 +1,3 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+print([x**2 for x in range(10)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
