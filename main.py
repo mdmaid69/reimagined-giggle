@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import sys
+def print_python_version():
+        return sys.version
+def add_numbers(a, b):
+        return a + b
