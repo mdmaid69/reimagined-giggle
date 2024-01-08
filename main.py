@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def reverse_list(lst):
+        return lst[::-1]
