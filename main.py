@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def is_even(n):
-        return n % 2 == 0
+import time
+def get_current_time():
+        return time.time()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
