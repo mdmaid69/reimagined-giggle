@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def cube_number(x):
+        return x**3
