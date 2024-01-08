@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import re
-print(re.match("h.*o", "hello world"))
+def is_odd(n):
+        return n % 2 != 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
