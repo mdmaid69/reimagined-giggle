@@ -1,4 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-for i in range(10): print(i)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
