@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
