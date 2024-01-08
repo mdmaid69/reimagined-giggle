@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
