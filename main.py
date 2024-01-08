@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
