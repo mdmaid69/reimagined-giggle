@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
