@@ -1,5 +1,6 @@
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_directory_name(path):
+        return os.path.dirname(path)
