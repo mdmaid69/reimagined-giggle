@@ -1,7 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def is_palindrome(s):
+        return s == s[::-1]
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
