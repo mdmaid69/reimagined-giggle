@@ -1,8 +1,7 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
