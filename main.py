@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-from collections import Counter
-print(Counter("hello world"))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def add_numbers(a, b):
+        return a + b
