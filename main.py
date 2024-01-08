@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
