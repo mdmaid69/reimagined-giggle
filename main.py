@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
