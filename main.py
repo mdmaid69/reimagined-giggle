@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
