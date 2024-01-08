@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_priority_queue():
-        return collections.deque()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
