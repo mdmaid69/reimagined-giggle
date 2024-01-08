@@ -1,6 +1,6 @@
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def get_array_as_bytearray(array):
+        return bytearray(array)
