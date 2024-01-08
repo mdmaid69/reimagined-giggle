@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def count_elements(lst):
+        return len(lst)
