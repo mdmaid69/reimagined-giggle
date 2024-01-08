@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
