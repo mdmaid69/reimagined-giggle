@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
