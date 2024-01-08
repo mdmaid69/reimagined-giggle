@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
