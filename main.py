@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
