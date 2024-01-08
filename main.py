@@ -1,5 +1,8 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
