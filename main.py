@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_min(numbers):
+        return min(numbers)
