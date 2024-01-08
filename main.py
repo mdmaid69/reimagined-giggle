@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
