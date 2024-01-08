@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_array_as_bool(array):
+        return bool(array)
