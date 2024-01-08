@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_work(force, distance):
+        return force * distance
