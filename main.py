@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
