@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
