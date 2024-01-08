@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
