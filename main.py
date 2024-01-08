@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
