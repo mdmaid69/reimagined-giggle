@@ -1,6 +1,5 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+print(json.dumps({"name": "John", "age": 30}))
