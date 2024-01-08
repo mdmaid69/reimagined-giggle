@@ -1,6 +1,7 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
