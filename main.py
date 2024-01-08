@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_speed(distance, time):
+        return distance / time
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
