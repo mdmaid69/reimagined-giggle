@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
