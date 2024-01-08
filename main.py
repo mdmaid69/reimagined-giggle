@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
