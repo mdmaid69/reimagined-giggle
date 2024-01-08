@@ -1,5 +1,8 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
