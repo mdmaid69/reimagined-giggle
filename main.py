@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import tensorflow as tf
+print(tf.__version__)
