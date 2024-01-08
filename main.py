@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def divide_numbers(x, y):
-        return x / y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_typecode(array):
+        return array.typecode
