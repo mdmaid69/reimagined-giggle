@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
