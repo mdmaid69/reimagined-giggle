@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import platform
+def get_python_version():
+        return platform.python_version()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
