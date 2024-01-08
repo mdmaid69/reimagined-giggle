@@ -1,6 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
