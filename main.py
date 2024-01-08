@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
