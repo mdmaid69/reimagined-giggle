@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
