@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
