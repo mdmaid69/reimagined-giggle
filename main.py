@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
