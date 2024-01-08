@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def reverse_list(lst):
-        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
