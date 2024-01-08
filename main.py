@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import sys
+def exit_program():
+        sys.exit()
