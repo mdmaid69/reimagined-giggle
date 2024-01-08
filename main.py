@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
