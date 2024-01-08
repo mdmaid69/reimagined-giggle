@@ -1,6 +1,8 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
