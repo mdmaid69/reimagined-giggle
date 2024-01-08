@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_user_string():
-        return collections.UserString()
+def divide_numbers(x, y):
+        return x / y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
