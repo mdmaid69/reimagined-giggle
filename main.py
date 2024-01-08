@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
