@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
