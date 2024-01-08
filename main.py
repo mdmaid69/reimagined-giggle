@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
