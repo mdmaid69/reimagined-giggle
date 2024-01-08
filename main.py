@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def reverse_string(s):
+        return s[::-1]
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
