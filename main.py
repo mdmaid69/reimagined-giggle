@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
