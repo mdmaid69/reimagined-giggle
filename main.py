@@ -1,5 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_words(sentence):
-        return len(sentence.split())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
