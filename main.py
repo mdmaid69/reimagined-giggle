@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
