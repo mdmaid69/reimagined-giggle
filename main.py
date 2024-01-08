@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_float(array):
+        return float(array[0])
