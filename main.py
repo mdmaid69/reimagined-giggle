@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import logging
+def log_message(message):
+        logging.info(message)
