@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_as_repr(array):
+        return repr(array)
