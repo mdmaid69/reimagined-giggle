@@ -1,5 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
