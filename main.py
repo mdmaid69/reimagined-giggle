@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
