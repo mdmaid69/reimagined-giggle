@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
