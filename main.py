@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
