@@ -1,5 +1,11 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
