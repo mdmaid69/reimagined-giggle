@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
