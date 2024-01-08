@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
