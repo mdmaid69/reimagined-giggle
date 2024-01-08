@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
