@@ -1,4 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-for i in range(10): print(i)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
