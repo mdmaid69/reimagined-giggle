@@ -1,6 +1,7 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
