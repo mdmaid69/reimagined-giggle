@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
