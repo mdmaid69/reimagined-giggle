@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def is_even(n):
+        return n % 2 == 0
