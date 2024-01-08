@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
