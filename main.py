@@ -1,6 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def get_array_as_str(array):
+        return str(array)
