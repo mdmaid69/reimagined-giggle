@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
