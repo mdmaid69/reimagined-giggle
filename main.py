@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
