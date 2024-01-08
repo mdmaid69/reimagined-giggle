@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
