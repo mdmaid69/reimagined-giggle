@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import sys
+def print_python_version():
+        return sys.version
