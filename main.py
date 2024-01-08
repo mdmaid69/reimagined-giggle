@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
