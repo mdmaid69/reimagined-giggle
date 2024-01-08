@@ -1,5 +1,7 @@
-import time
-print(time.time())
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
