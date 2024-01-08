@@ -1,5 +1,4 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_pressure(force, area):
+        return force / area
