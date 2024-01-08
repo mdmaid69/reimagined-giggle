@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
