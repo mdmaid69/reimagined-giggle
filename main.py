@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def find_min(lst):
-        return min(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
