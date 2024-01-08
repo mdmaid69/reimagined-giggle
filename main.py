@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
