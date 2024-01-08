@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
