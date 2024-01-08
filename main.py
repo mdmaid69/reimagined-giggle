@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
