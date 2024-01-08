@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
