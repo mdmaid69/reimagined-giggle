@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
