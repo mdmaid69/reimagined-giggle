@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
