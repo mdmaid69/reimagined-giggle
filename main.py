@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
