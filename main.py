@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
