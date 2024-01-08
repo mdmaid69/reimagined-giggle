@@ -1,5 +1,14 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
