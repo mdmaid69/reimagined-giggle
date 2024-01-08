@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
