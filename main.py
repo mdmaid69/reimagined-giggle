@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
