@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
