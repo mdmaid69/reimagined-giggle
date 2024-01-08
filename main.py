@@ -1,5 +1,4 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 text = "Hello, world!"
-print("Words:", len(text.split()))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+print("Reversed:", text[::-1])
