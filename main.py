@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
