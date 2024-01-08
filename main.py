@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_bytes_from_array(array):
+        return array.tobytes()
