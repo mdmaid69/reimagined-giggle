@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
