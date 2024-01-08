@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_array_to_list(array):
+        return array.tolist()
