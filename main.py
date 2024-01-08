@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
