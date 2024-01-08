@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import collections
+def create_queue():
+        return collections.deque()
