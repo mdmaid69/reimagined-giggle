@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
