@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_square_root(x):
+        return math.sqrt(x)
