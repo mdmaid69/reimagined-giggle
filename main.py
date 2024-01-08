@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
