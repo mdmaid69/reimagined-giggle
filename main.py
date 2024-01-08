@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
