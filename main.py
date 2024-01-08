@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
