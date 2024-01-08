@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
