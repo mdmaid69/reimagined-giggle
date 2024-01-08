@@ -1,6 +1,8 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
