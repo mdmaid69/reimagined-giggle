@@ -1,7 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def add_numbers(a, b):
+        return a + b
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
