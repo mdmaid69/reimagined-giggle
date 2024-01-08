@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
