@@ -1,7 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
