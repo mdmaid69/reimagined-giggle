@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def subtract_numbers(x, y):
-        return x - y
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
