@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def is_even(n):
+        return n % 2 == 0
