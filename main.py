@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
