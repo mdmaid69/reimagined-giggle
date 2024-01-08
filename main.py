@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def add_numbers(x, y):
+        return x + y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
