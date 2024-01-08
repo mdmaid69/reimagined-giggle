@@ -1,8 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
