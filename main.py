@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
