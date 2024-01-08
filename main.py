@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
