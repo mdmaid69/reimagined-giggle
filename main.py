@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_binary(n):
-        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_float(array):
+        return float(array[0])
