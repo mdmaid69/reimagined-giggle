@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
