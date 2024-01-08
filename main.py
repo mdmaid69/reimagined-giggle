@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import platform
+def get_os_info():
+        return platform.uname()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
