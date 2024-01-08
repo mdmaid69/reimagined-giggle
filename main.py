@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def add_numbers(a, b):
+        return a + b
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
