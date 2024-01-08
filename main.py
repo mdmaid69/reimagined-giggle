@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
