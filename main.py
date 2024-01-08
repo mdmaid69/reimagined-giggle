@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
