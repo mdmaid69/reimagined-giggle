@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+print(os.getcwd())
+def divide_numbers(x, y):
+        return x / y
