@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def convert_to_hex(n):
-        return hex(n)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
