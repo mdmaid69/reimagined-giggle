@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
