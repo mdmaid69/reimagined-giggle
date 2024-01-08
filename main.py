@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
