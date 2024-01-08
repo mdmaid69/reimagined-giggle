@@ -1,6 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
