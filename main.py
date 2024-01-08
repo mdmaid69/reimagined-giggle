@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
