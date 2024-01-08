@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import datetime
+def get_current_date():
+        return datetime.date.today()
