@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
