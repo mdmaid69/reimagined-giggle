@@ -1,5 +1,8 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def convert_to_hex(n):
-        return hex(n)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
