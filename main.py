@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Characters:", len(text))
