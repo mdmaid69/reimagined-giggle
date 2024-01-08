@@ -1,7 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import platform
+def get_os_info():
+        return platform.uname()
