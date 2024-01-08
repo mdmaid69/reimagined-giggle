@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
