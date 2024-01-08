@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
