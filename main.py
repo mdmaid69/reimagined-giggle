@@ -1,4 +1,4 @@
-import sys
-print(sys.version)
-  def add_numbers(x, y):
-        return x + y
+def count_elements(lst):
+        return len(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
