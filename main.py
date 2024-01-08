@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
