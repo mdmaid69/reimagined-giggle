@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
