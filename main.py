@@ -1,6 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
