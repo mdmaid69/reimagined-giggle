@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
