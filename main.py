@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
