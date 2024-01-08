@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def set_array_item(array, i, item):
+        array[i] = item
