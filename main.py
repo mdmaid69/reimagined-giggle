@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
