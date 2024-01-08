@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import time
+def get_time_since_epoch():
+        return time.time()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
