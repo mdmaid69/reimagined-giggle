@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import platform
+def get_os_info():
+        return platform.uname()
+def find_max(lst):
+        return max(lst)
