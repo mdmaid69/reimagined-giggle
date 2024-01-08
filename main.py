@@ -1,7 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
