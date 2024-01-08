@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
