@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import sys
-def print_python_version():
-        return sys.version
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
