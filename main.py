@@ -1,6 +1,8 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
