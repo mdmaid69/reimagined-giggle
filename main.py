@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Characters:", len(text))
+import json
+print(json.dumps({"name": "John", "age": 30}))
