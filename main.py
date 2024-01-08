@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def print_python_version():
-        return sys.version
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
