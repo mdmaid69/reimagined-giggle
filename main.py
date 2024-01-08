@@ -1,5 +1,8 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
