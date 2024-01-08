@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
