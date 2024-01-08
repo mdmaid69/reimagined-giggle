@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def find_max(numbers):
-        return max(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
