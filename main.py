@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
