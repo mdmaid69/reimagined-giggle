@@ -1,6 +1,10 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import sys
-def print_python_version():
-        return sys.version
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
