@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import random
+print(random.randint(0, 100))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
