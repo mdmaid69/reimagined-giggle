@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def print_python_version():
+        print(sys.version)
+  def count_elements(lst):
+        return len(lst)
