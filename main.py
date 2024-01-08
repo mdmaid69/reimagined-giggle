@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_area(radius):
+        return 3.14 * radius * radius
