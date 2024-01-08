@@ -1,10 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
