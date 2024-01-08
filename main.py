@@ -1,6 +1,8 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
