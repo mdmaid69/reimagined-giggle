@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
