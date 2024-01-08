@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
