@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
