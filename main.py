@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
