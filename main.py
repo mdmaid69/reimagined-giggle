@@ -1,8 +1,7 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
