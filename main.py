@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_int(array):
+        return int(array[0])
