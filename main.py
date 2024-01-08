@@ -1,7 +1,7 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
