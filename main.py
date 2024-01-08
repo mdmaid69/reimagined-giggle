@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_queue():
+        return collections.deque()
