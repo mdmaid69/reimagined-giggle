@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
