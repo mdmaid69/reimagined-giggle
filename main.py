@@ -1,9 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-print([x**2 for x in range(10)])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
