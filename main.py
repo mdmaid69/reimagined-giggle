@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
