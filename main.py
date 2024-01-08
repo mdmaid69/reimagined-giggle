@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
