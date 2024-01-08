@@ -1,6 +1,3 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+for i in range(5):
+        print(i)
+print(sum(range(10)))
