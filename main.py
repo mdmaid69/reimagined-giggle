@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import datetime
+print(datetime.datetime.now())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
