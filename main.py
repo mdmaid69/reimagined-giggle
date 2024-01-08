@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
