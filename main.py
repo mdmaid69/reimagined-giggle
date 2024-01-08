@@ -1,8 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_gamma_function(x):
+        return math.gamma(x)
