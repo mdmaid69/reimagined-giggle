@@ -1,7 +1,4 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
