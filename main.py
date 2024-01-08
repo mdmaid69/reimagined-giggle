@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
