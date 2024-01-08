@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import collections
+def create_stack():
+        return collections.deque()
+print([x**2 for x in range(10)])
