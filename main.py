@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
