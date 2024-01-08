@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import datetime
-print(datetime.datetime.now())
+def subtract_numbers(x, y):
+        return x - y
+import getpass
+def get_username():
+        return getpass.getuser()
