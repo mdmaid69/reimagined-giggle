@@ -1,10 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
