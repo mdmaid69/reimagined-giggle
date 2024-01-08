@@ -1,12 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def get_array_item_count(array, item):
+        return array.count(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
