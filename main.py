@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
