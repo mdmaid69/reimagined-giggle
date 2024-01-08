@@ -1,6 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
