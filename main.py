@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
