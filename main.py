@@ -1,8 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
