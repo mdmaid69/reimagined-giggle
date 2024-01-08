@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
