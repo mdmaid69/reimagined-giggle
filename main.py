@@ -1,8 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
