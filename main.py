@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
