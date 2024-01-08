@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_speed(distance, time):
+        return distance / time
