@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
