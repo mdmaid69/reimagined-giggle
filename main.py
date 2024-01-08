@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_area_circle(r):
+        return 3.14 * r**2
