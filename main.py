@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
