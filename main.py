@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
