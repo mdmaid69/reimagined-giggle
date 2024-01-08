@@ -1,5 +1,7 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def get_array_index(array, item):
+        return array.index(item)
