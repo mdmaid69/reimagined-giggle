@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_max(lst):
+        return max(lst)
