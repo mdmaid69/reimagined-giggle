@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
