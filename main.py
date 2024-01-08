@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
