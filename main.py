@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
