@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
