@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
