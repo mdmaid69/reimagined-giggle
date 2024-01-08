@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
