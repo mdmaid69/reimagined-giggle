@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
