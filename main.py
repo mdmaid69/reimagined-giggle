@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
