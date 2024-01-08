@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def cube_number(x):
-        return x**3
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import sys
+def exit_program():
+        sys.exit()
