@@ -1,6 +1,4 @@
-def cube_number(x):
-        return x**3
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
