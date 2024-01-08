@@ -1,4 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-print([x**2 for x in range(10)])
+def calculate_power(work, time):
+        return work / time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
