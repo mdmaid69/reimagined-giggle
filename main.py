@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import platform
+def get_os_info():
+        return platform.uname()
