@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
