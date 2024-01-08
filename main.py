@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
