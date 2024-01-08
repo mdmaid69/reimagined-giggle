@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
