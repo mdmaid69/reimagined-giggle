@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
