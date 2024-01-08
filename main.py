@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
