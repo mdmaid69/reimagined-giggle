@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
