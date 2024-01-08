@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import sys
+def print_python_version():
+        print(sys.version)
