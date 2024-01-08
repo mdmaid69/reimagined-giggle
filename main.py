@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
