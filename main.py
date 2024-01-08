@@ -1,5 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
