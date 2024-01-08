@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+print(os.getcwd())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
