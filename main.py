@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
