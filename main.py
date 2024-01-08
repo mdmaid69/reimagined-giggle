@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_power(work, time):
+        return work / time
