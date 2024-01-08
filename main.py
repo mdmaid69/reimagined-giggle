@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import collections
-def create_queue():
-        return collections.deque()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
