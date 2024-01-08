@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
