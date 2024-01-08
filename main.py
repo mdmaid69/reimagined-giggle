@@ -1,5 +1,8 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
