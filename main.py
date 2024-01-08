@@ -1,6 +1,12 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
