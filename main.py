@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
