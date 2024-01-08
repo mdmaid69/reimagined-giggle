@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def count_elements(lst):
+        return len(lst)
+import random
+print(random.randint(0, 100))
