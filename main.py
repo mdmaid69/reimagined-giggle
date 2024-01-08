@@ -1,6 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def set_array_item(array, i, item):
+        array[i] = item
