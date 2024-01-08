@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import collections
+def create_priority_queue():
+        return collections.deque()
