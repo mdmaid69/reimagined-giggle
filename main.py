@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_pressure(force, area):
+        return force / area
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
