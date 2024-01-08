@@ -1,6 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
