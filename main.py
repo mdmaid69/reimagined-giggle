@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
