@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import time
+def get_time_since_epoch():
+        return time.time()
