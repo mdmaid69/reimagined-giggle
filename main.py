@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def append_to_array(array, item):
+        array.append(item)
