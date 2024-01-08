@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def add_numbers(x, y):
-        return x + y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
