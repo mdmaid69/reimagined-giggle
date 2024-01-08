@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
