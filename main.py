@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def clear_array(array):
+        array *= 0
