@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
