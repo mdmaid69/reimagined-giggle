@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
