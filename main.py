@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
