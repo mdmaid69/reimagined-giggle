@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import sys
-def exit_program():
-        sys.exit()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import collections
+def create_counter():
+        return collections.Counter()
