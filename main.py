@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
