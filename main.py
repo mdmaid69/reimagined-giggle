@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Characters:", len(text))
