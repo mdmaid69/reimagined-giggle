@@ -1,8 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
