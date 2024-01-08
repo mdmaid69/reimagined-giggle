@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
