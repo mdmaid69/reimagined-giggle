@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
