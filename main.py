@@ -1,5 +1,6 @@
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_area_rectangle(l, w):
-        return l * w
+def create_user_list():
+        return collections.UserList()
