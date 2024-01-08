@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-x = 10
-y = 20
-print("Sum:", x + y)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_density(mass, volume):
+        return mass / volume
