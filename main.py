@@ -1,6 +1,13 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
