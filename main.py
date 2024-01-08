@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
