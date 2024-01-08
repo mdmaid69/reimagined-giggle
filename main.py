@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
