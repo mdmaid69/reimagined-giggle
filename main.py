@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def convert_to_binary(n):
-        return bin(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
