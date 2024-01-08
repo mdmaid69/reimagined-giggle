@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
