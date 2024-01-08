@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def convert_to_hex(n):
-        return hex(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
