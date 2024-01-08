@@ -1,5 +1,9 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
