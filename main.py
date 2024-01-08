@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
