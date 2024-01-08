@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def add_numbers(a, b):
+        return a + b
