@@ -1,5 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def add_numbers(x, y):
+        return x + y
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
