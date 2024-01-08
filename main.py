@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
