@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
