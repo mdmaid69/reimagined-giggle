@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
