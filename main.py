@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import tensorflow as tf
+print(tf.__version__)
+import os
+def change_working_directory(path):
+        os.chdir(path)
