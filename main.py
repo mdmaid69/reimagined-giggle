@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_area_circle(r):
+        return 3.14 * r**2
