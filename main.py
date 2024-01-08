@@ -1,5 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
