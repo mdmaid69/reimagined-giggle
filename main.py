@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
