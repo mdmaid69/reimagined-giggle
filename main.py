@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
