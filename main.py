@@ -1,6 +1,8 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
