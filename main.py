@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
