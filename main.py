@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
