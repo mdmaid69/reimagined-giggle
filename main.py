@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
