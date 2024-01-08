@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
