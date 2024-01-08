@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_list(array):
+        return list(array)
