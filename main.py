@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
