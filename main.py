@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
