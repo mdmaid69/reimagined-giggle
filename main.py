@@ -1,5 +1,9 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
