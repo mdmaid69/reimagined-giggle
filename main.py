@@ -1,6 +1,10 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import datetime
+print(datetime.datetime.now())
