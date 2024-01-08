@@ -1,5 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
