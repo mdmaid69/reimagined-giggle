@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
