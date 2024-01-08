@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
