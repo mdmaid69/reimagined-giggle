@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
