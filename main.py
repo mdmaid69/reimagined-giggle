@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_work(force, distance):
+        return force * distance
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_itemsize(array):
+        return array.itemsize
