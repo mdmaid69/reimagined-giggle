@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def find_min(lst):
-        return min(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
