@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def square_number(x):
+        return x**2
