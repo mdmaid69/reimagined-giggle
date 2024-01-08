@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
