@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
