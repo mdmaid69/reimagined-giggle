@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
