@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_floor(x):
+        return math.floor(x)
