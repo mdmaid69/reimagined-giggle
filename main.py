@@ -1,5 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def is_even(n):
-        return n % 2 == 0
+def set_array_item(array, i, item):
+        array[i] = item
