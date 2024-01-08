@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
