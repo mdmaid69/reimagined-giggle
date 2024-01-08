@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_max(numbers):
+        return max(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
