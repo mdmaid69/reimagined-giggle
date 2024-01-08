@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
