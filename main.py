@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
