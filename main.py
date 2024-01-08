@@ -1,5 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_pressure(force, area):
-        return force / area
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
