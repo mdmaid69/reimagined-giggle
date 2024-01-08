@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
