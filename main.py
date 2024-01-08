@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def reverse_list(lst):
+        return lst[::-1]
