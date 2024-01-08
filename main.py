@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def clear_array(array):
+        array *= 0
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
