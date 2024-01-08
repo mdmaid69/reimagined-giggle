@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def find_unique_words(sentence):
+        return set(sentence.split())
