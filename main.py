@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def count_elements(lst):
+        return len(lst)
