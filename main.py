@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def find_max(lst):
-        return max(lst)
+  def sort_list(lst):
+        return sorted(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
