@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def is_odd(n):
-        return n % 2 != 0
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
