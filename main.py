@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
