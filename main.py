@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
