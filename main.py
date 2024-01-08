@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
