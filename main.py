@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import collections
+def create_stack():
+        return collections.deque()
