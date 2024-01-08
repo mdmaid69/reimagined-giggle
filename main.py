@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def square_number(x):
+        return x**2
+import sys
+def print_python_version():
+        return sys.version
