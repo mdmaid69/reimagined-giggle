@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import collections
+def create_queue():
+        return collections.deque()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
