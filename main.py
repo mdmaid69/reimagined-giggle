@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
