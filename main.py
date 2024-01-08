@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
