@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
