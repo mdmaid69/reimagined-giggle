@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
