@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import sys
+def print_python_version():
+        print(sys.version)
