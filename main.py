@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
