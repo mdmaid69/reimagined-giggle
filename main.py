@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
