@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
