@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
