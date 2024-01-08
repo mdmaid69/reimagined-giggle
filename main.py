@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
