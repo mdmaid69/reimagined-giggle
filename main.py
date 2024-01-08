@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def is_odd(n):
+        return n % 2 != 0
