@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
