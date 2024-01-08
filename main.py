@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def get_array_typecode(array):
+        return array.typecode
+def calculate_density(mass, volume):
+        return mass / volume
