@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import logging
-def log_message(message):
-        logging.info(message)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
