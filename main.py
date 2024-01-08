@@ -1,7 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def count_characters(sentence):
+        return len(sentence)
