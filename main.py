@@ -1,6 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def reverse_list(lst):
+        return lst[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
