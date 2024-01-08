@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
