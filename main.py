@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import logging
-def log_message(message):
-        logging.info(message)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
