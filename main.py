@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
