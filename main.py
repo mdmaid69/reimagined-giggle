@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_current_working_directory():
+        return os.getcwd()
