@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_permutations(n, k):
+        return math.perm(n, k)
