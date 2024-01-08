@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
