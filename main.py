@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
