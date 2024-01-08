@@ -1,5 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def reverse_list(lst):
-        return lst[::-1]
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
