@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_min(lst):
+        return min(lst)
