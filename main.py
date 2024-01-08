@@ -1,6 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
