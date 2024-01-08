@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def sort_list(lst):
+        return sorted(lst)
