@@ -1,8 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import logging
+def log_message(message):
+        logging.info(message)
