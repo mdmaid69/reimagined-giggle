@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
