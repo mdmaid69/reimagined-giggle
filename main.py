@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
