@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
