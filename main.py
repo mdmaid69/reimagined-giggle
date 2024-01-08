@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
