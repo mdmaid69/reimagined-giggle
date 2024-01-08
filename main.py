@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
