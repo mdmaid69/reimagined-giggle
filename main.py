@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
