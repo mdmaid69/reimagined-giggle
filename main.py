@@ -1,6 +1,8 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import sys
+  def get_python_version():
+        return sys.version
