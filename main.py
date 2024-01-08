@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
