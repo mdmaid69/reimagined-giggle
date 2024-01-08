@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+for i in range(10): print(i)
