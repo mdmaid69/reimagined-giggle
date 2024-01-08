@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
