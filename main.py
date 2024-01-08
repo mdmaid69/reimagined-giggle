@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
