@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
