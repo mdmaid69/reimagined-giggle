@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
