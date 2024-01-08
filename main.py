@@ -1,7 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_max(lst):
+        return max(lst)
+def cube_number(x):
+        return x**3
