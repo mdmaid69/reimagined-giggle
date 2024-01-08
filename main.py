@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def is_odd(n):
+        return n % 2 != 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
