@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
