@@ -1,6 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
