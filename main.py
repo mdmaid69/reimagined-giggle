@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
