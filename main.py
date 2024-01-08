@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
