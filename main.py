@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
