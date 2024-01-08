@@ -1,6 +1,11 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
