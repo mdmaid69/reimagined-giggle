@@ -1,8 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
