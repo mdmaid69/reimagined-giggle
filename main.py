@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def convert_to_octal(n):
+        return oct(n)
+import math
+print(math.pi)
