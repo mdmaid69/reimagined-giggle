@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def find_max(numbers):
+        return max(numbers)
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
