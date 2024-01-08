@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def convert_to_octal(n):
-        return oct(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
