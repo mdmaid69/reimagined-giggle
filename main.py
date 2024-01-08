@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_to_octal(n):
+        return oct(n)
+import sys
+def exit_program():
+        sys.exit()
