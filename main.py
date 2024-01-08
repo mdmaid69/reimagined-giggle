@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
