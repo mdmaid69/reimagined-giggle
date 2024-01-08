@@ -1,5 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
