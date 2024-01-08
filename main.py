@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def convert_to_binary(n):
+        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
