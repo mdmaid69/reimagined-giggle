@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-x = 10
-y = 20
-print("Sum:", x + y)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
