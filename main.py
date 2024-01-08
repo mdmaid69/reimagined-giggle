@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+print(math.pi)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
