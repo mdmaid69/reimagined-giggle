@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import sys
+def exit_program():
+        sys.exit()
