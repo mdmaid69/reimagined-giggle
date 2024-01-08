@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
