@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_sign(x):
+        return math.copysign(1, x)
