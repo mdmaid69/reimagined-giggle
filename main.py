@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
