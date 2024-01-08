@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def multiply_numbers(x, y):
-        return x * y
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
