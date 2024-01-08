@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import numpy as np
+print(np.array([1, 2, 3]))
