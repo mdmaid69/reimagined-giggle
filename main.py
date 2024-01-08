@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def get_current_time():
+        return time.ctime()
+import random
+print(random.randint(0, 100))
