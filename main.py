@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import time
+print(time.time())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
