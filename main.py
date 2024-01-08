@@ -1,6 +1,12 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
