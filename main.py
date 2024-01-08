@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_acceleration(speed, time):
-        return speed / time
+for i in range(5):
+        print(i)
+def convert_to_binary(n):
+        return bin(n)
