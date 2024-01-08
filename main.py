@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_current_directory():
+        return os.getcwd()
