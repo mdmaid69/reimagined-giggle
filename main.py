@@ -1,5 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def convert_to_octal(n):
+        return oct(n)
