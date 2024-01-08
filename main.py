@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def get_array_as_set(array):
-        return set(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
