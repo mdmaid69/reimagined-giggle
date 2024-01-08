@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
