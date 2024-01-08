@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import sys
+  def get_python_version():
+        return sys.version
