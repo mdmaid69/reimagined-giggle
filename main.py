@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def sort_numbers(numbers):
+        return sorted(numbers)
+import re
+print(re.match("h.*o", "hello world"))
