@@ -1,4 +1,7 @@
-import os
-print(os.getcwd())
-def divide_numbers(x, y):
-        return x / y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
