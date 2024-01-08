@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def count_elements(lst):
+        return len(lst)
+import time
+def get_current_time():
+        return time.ctime()
