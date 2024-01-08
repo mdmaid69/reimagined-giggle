@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def convert_to_hex(n):
+        return hex(n)
