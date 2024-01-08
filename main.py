@@ -1,6 +1,6 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
