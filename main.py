@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def add_numbers(x, y):
-        return x + y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
