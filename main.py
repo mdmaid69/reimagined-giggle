@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
