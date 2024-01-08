@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
