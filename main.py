@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
