@@ -1,12 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
