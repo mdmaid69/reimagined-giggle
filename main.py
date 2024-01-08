@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import sys
+def print_python_version():
+        print(sys.version)
