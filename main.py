@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
