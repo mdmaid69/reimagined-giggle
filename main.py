@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
