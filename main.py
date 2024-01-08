@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+for i in range(5):
+        print(i)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
