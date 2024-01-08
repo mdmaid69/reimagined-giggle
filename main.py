@@ -1,7 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
