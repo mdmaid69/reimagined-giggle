@@ -1,8 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
