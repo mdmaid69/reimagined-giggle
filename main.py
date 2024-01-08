@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
