@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
