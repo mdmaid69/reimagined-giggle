@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
