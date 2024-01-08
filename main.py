@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_as_str(array):
+        return str(array)
