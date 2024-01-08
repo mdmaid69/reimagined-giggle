@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
