@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
