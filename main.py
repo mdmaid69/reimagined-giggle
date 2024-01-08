@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
