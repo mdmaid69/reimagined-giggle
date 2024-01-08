@@ -1,6 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
