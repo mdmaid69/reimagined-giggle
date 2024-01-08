@@ -1,8 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def count_elements(lst):
+        return len(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
