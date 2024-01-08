@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
