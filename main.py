@@ -1,8 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_to_octal(n):
+        return oct(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
