@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def count_words(sentence):
-        return len(sentence.split())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
