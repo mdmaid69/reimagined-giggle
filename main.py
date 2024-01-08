@@ -1,8 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
