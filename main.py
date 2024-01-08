@@ -1,4 +1,9 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_volume(length, width, height):
-        return length * width * height
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
