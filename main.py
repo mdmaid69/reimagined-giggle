@@ -1,8 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
