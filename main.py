@@ -1,8 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import platform
+def get_python_version():
+        return platform.python_version()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
