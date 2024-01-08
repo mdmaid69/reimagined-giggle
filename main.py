@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_acceleration(speed, time):
+        return speed / time
