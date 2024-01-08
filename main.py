@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
