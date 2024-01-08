@@ -1,8 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def convert_to_hex(n):
+        return hex(n)
+text = "Hello, world!"
+print("Characters:", len(text))
