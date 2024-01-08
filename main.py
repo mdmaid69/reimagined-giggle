@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
