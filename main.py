@@ -1,6 +1,12 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
