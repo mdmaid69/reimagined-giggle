@@ -1,6 +1,8 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def clear_array(array):
-        array *= 0
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
