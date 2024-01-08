@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
