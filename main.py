@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
