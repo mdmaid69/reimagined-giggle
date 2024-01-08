@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
