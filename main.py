@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
