@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def reverse_array(array):
+        array.reverse()
