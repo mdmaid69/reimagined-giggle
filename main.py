@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+for i in range(5):
+        print(i)
