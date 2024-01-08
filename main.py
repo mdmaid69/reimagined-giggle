@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
