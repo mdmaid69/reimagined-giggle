@@ -1,7 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
