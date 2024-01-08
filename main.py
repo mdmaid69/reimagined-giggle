@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
