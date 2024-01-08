@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
