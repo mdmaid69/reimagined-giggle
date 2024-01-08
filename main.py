@@ -1,9 +1,8 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
         a.frombytes(bytes)
         return a
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
