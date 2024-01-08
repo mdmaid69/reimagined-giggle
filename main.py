@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
