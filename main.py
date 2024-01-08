@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
