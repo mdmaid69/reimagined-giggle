@@ -1,5 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
