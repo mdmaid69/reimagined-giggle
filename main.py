@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
