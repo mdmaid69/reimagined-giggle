@@ -1,5 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
