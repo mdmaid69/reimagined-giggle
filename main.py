@@ -1,9 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
