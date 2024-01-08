@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
