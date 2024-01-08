@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
