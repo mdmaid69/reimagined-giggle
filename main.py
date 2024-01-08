@@ -1,6 +1,8 @@
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
