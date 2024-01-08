@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def clear_array(array):
-        array *= 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
