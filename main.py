@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_area_rectangle(l, w):
+        return l * w
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
