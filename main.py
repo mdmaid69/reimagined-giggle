@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def cube_number(x):
+        return x**3
+def reverse_list(lst):
+        return lst[::-1]
