@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_current_directory():
+        return os.getcwd()
