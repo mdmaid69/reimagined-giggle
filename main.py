@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
