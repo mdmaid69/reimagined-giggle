@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+x = 10
+y = 20
+print("Sum:", x + y)
