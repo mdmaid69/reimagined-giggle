@@ -1,4 +1,9 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def reverse_string(s):
+        return s[::-1]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
