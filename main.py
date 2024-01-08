@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
