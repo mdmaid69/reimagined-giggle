@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
