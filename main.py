@@ -1,7 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def is_even(n):
+        return n % 2 == 0
