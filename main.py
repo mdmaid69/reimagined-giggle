@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
