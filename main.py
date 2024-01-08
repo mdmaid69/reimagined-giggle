@@ -1,5 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def remove_duplicates(lst):
-        return list(set(lst))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
