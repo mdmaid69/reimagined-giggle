@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-for i in range(5):
-        print(i)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
