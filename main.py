@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
