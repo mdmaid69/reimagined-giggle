@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
