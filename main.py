@@ -1,5 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def add_numbers(a, b):
-        return a + b
+  def count_elements(lst):
+        return len(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
