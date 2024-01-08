@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def multiply_numbers(x, y):
+        return x * y
