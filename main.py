@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import tensorflow as tf
-print(tf.__version__)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
