@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def get_time_since_epoch():
-        return time.time()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import sys
+def exit_program():
+        sys.exit()
