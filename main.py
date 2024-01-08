@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
