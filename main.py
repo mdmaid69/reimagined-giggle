@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
