@@ -1,5 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
