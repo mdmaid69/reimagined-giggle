@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def is_even(n):
+        return n % 2 == 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
