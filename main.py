@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
