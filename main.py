@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
