@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def convert_to_octal(n):
+        return oct(n)
