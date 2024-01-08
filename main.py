@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
