@@ -1,8 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import time
+def get_time_since_epoch():
+        return time.time()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
