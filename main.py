@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_list(array):
+        return list(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
