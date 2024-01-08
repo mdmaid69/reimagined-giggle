@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
