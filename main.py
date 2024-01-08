@@ -1,4 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-for i in range(10): print(i)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
