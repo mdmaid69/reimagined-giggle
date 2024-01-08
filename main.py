@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def add_numbers(x, y):
+        return x + y
