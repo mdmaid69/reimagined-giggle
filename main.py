@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
