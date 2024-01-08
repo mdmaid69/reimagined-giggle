@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
