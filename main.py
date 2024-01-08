@@ -1,7 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
