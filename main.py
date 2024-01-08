@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
