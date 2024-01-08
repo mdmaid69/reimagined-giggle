@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def square_number(x):
+        return x**2
