@@ -1,7 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
