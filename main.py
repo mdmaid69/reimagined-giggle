@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
