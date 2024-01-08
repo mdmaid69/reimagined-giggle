@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
