@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def is_odd(n):
-        return n % 2 != 0
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
