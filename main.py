@@ -1,5 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
