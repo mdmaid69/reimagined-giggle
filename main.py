@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
