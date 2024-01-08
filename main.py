@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def cube_number(x):
+        return x**3
