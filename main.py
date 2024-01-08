@@ -1,7 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def get_list_from_array(array):
+        return array.tolist()
+def find_max(numbers):
+        return max(numbers)
