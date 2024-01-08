@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-x = 10
-y = 20
-print("Sum:", x + y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
