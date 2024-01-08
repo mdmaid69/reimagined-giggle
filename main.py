@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
