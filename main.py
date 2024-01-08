@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def reverse_string(s):
+        return s[::-1]
