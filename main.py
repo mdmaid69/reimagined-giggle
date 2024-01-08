@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import random
-print(random.randint(0, 100))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
