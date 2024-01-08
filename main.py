@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
