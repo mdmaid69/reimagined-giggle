@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+print(random.randint(0, 100))
