@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_work(force, distance):
-        return force * distance
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def create_user_string():
+        return collections.UserString()
