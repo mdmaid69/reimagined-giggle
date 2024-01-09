@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
