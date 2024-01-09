@@ -1,9 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def count_words(sentence):
-        return len(sentence.split())
+def square_number(x):
+        return x**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
