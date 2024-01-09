@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
 import random
-def roll_die():
-        return random.randint(1, 6)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+x = 10
+y = 20
+print("Sum:", x + y)
