@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_list(array):
+        return list(array)
