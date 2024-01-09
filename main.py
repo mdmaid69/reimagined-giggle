@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def multiply_numbers(x, y):
+        return x * y
