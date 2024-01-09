@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
