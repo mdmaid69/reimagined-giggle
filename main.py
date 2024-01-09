@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def cube_number(x):
-        return x**3
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_power(work, time):
+        return work / time
