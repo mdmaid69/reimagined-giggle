@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
