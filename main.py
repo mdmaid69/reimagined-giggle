@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
