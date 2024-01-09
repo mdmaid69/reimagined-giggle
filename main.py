@@ -1,5 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Characters:", len(text))
+def reverse_list(lst):
+        return lst[::-1]
+import time
+print(time.time())
