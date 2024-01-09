@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
