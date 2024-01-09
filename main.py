@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
   import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
