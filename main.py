@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
