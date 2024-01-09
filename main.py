@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from collections import Counter
+print(Counter("hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
