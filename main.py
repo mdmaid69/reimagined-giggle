@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def change_working_directory(path):
+        os.chdir(path)
