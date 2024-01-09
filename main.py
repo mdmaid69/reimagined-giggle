@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-import time
-print(time.time())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
