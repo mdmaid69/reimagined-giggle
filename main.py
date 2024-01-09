@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import collections
-def create_counter():
-        return collections.Counter()
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
