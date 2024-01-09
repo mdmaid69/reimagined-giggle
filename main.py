@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
