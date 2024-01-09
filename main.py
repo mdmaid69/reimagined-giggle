@@ -1,5 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
