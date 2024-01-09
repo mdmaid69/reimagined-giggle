@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
