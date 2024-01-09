@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
