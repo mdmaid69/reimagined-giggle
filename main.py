@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def count_characters(sentence):
-        return len(sentence)
+import time
+def get_time_since_epoch():
+        return time.time()
+def add_numbers(a, b):
+        return a + b
