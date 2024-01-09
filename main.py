@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
