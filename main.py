@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def count_elements(lst):
-        return len(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_work(force, distance):
+        return force * distance
