@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
