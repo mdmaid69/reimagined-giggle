@@ -1,8 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
