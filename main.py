@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_stack():
-        return collections.deque()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
