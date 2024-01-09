@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import collections
+def create_user_string():
+        return collections.UserString()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
