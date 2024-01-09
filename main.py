@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import datetime
-print(datetime.datetime.now())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
