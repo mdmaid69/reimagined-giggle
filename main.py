@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import datetime
+def get_today_date():
+        return datetime.date.today()
