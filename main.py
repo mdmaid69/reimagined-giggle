@@ -1,12 +1,6 @@
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import array
-def get_array_item(array, i):
-        return array[i]
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def get_array_item_count(array, item):
+        return array.count(item)
