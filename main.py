@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
