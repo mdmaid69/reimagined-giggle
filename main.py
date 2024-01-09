@@ -1,6 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
