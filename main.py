@@ -1,8 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
