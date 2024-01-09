@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_palindrome(s):
+        return s == s[::-1]
