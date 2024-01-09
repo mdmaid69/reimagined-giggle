@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import tensorflow as tf
+print(tf.__version__)
