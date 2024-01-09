@@ -1,5 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def remove_duplicates(lst):
-        return list(set(lst))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
