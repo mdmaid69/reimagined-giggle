@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def convert_to_hex(n):
+        return hex(n)
