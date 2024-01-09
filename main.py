@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
