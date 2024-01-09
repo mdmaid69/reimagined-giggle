@@ -1,6 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-x = 10
-y = 20
-print("Sum:", x + y)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
