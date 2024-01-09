@@ -1,7 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
