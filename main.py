@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
