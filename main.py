@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
