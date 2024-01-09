@@ -1,8 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
