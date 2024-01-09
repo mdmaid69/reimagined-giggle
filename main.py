@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import time
+def get_time_since_epoch():
+        return time.time()
+  def remove_duplicates(lst):
+        return list(set(lst))
