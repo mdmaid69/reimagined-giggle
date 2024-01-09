@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
