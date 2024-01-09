@@ -1,8 +1,8 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+text = "Hello, world!"
+print("Words:", len(text.split()))
