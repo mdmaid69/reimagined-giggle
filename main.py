@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
