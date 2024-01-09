@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+print(sum(range(10)))
