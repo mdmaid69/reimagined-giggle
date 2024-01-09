@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def split_path(path):
+        return os.path.split(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
