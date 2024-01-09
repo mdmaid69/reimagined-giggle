@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
