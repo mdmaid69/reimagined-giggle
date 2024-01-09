@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def is_odd(n):
+        return n % 2 != 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
