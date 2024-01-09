@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_speed(distance, time):
+        return distance / time
+  def multiply_numbers(x, y):
+        return x * y
