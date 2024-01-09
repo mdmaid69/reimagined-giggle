@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def find_max(lst):
+        return max(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
