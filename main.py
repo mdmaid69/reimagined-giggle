@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
