@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
