@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
