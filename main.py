@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-print(math.pi)
+def calculate_power(work, time):
+        return work / time
+import logging
+def log_message(message):
+        logging.info(message)
