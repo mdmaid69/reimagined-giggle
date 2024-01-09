@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
