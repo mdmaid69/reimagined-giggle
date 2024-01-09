@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def remove_duplicates(lst):
+        return list(set(lst))
