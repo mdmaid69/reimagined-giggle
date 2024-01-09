@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def multiply_numbers(x, y):
+        return x * y
