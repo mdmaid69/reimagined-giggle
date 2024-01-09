@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def add_numbers(a, b):
-        return a + b
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
