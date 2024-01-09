@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_floor(x):
+        return math.floor(x)
