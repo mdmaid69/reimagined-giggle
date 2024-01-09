@@ -1,3 +1,7 @@
-for i in range(10): print(i)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def convert_to_binary(n):
+        return bin(n)
