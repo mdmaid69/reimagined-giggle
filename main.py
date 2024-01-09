@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
