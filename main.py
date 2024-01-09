@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
