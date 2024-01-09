@@ -1,6 +1,6 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_item(array, i):
-        return array[i]
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
