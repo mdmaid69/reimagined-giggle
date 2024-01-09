@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
