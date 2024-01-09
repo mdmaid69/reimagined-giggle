@@ -1,8 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
