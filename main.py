@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
