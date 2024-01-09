@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
