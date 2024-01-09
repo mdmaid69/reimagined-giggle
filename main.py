@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def cube_number(x):
+        return x**3
