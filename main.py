@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def sort_numbers(numbers):
-        return sorted(numbers)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
