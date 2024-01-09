@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
