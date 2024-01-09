@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
