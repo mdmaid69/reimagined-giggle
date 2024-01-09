@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+import time
+def get_current_time():
+        return time.time()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_cosine(x):
+        return math.cos(x)
