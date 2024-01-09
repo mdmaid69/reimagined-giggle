@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
