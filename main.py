@@ -1,4 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-for i in range(10): print(i)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
