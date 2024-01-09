@@ -1,3 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-print("Hello, world!")
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
