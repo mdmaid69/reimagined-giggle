@@ -1,6 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
