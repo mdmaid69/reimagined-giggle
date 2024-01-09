@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
