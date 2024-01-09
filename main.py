@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def get_time_since_epoch():
+        return time.time()
