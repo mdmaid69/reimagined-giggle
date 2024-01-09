@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
