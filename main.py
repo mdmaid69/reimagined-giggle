@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def subtract_numbers(x, y):
+        return x - y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
