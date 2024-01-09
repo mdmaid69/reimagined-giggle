@@ -1,5 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import sys
-print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
