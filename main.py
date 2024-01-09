@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_as_list(array):
+        return list(array)
