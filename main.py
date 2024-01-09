@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
