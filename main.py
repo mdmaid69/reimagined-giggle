@@ -1,5 +1,7 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import datetime
-print(datetime.datetime.now())
+def get_array_as_repr(array):
+        return repr(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
