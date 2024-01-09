@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
