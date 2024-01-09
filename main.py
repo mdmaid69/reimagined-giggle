@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
