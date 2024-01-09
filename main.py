@@ -1,6 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_counter():
+        return collections.Counter()
