@@ -1,7 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def reverse_list(lst):
+        return lst[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
