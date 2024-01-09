@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_min(lst):
-        return min(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
