@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
