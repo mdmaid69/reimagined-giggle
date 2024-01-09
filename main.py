@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
