@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import json
+print(json.dumps({"name": "John", "age": 30}))
