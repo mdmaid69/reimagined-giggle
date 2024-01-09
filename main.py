@@ -1,5 +1,4 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
