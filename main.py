@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
