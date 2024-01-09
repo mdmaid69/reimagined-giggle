@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
