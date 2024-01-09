@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def add_numbers(x, y):
-        return x + y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_area_rectangle(l, w):
+        return l * w
