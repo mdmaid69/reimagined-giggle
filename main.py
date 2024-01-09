@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def square_number(x):
-        return x**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def find_min(lst):
+        return min(lst)
