@@ -1,5 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
