@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_stack():
+        return collections.deque()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
