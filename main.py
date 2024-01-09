@@ -1,5 +1,6 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import collections
+def create_queue():
+        return collections.deque()
