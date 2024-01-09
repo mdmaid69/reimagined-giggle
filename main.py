@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
