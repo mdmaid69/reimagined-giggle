@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
