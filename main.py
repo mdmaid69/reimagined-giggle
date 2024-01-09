@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
