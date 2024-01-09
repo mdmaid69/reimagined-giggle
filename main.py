@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import time
-def get_time_since_epoch():
-        return time.time()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_area(radius):
+        return 3.14 * radius * radius
