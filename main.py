@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
