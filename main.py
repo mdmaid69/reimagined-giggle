@@ -1,5 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
