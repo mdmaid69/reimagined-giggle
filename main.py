@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import re
+print(re.match("h.*o", "hello world"))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
