@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def convert_to_octal(n):
-        return oct(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
