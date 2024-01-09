@@ -1,5 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
