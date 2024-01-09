@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
