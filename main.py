@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
