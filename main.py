@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
