@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
