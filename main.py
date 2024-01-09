@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
