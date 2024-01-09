@@ -1,6 +1,6 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
