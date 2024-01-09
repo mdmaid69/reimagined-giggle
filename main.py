@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def count_elements(lst):
+        return len(lst)
