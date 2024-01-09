@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
