@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
