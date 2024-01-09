@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
