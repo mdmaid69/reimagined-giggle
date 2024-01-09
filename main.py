@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
