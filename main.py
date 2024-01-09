@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def convert_to_binary(n):
+        return bin(n)
