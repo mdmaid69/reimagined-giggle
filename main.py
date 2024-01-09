@@ -1,7 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def sort_list(lst):
+        return sorted(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
