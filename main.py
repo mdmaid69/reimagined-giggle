@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
