@@ -1,8 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
