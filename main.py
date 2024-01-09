@@ -1,5 +1,6 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
