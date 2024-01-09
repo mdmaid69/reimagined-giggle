@@ -1,5 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import platform
+def get_os_info():
+        return platform.uname()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
