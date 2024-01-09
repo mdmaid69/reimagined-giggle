@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
