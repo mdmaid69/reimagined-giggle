@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
