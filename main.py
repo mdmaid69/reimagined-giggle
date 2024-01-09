@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
