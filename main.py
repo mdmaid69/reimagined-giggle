@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-print(time.time())
+import datetime
+print(datetime.datetime.now())
+import sys
+def print_python_version():
+        return sys.version
