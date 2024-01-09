@@ -1,6 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_acceleration(speed, time):
-        return speed / time
+x = 10
+y = 20
+print("Sum:", x + y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
