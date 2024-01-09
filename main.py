@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
+import sys
+print(sys.version)
