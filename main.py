@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
