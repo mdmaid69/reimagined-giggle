@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
