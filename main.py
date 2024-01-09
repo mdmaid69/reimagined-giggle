@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
