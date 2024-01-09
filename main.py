@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
