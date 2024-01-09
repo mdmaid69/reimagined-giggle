@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
