@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def count_elements(lst):
+        return len(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
