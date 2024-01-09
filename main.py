@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
