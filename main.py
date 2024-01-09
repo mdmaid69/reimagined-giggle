@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
