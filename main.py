@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
