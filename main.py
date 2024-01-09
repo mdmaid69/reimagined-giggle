@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
