@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
