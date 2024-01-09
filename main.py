@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+x = 10
+y = 20
+print("Sum:", x + y)
+def is_odd(n):
+        return n % 2 != 0
