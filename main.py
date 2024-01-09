@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
