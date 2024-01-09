@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def cube_number(x):
-        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
