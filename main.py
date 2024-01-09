@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
