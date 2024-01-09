@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
