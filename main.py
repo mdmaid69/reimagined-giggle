@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def add_numbers(x, y):
+        return x + y
