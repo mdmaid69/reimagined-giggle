@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
