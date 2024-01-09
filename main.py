@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
