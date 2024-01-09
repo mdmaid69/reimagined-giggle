@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
