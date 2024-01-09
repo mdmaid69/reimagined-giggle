@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
