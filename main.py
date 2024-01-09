@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
