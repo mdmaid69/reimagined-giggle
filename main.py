@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
