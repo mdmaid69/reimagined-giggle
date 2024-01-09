@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
