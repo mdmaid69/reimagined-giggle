@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
