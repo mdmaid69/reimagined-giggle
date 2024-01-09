@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
