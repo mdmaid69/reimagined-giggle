@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def cube_number(x):
+        return x**3
+def subtract_numbers(x, y):
+        return x - y
