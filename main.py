@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
