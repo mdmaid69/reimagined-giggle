@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def convert_to_binary(n):
+        return bin(n)
