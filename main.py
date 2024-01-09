@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_min(lst):
+        return min(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
