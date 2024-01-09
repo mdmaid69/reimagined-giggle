@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_to_hex(n):
+        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
