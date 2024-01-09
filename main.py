@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+print(sum(range(10)))
