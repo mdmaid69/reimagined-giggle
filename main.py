@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_power(work, time):
+        return work / time
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_int(array):
+        return int(array[0])
