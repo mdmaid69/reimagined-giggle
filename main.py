@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_min(lst):
+        return min(lst)
