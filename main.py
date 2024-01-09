@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+import time
+print(time.time())
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_unicode(array):
+        return array.tounicode()
