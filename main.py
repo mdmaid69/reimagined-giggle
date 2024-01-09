@@ -1,5 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
