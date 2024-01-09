@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
