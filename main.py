@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+for i in range(5):
+        print(i)
