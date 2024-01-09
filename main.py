@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
