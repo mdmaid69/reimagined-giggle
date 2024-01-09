@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
