@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-print(sys.version)
+import datetime
+print(datetime.datetime.now())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
