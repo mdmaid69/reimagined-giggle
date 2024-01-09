@@ -1,7 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
