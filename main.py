@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
