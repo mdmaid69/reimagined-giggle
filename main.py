@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
