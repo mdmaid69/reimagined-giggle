@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
