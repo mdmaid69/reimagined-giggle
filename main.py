@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
