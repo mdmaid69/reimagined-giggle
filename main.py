@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
