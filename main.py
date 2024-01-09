@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
