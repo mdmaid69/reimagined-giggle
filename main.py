@@ -1,6 +1,5 @@
-for i in range(10): print(i)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def subtract_numbers(x, y):
+        return x - y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
