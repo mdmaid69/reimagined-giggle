@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
