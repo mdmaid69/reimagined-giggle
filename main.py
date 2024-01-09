@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def convert_to_octal(n):
-        return oct(n)
+def find_max(numbers):
+        return max(numbers)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
