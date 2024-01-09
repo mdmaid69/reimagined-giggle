@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
