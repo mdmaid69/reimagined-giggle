@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import logging
+def log_message(message):
+        logging.info(message)
