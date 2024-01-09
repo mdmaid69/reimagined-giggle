@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def add_numbers(a, b):
-        return a + b
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
