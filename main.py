@@ -1,4 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def square_number(x):
-        return x**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
