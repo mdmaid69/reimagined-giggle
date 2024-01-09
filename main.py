@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import platform
+def get_os_info():
+        return platform.uname()
