@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def get_array_as_bytes(array):
+        return bytes(array)
