@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
