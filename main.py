@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+print(os.getcwd())
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
