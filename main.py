@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
