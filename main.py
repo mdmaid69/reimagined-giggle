@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
