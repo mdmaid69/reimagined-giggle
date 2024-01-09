@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
