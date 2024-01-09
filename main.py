@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
