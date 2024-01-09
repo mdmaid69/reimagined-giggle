@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_current_directory():
+        return os.getcwd()
