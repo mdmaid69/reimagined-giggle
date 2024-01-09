@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_work(force, distance):
+        return force * distance
