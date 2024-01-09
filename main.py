@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_item(array, i):
+        return array[i]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
