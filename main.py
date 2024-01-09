@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
