@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_volume(length, width, height):
-        return length * width * height
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
