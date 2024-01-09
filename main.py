@@ -1,6 +1,8 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_user_string():
-        return collections.UserString()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_list_from_array(array):
+        return array.tolist()
