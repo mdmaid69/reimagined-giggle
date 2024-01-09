@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
