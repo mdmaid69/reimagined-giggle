@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+from collections import Counter
+print(Counter("hello world"))
