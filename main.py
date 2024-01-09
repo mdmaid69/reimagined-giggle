@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
