@@ -1,6 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_logarithm(base, x):
+        return math.log(x, base)
