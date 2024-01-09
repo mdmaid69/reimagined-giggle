@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_pressure(force, area):
+        return force / area
+import platform
+def get_python_version():
+        return platform.python_version()
