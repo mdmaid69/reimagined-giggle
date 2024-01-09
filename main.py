@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import datetime
+print(datetime.datetime.now())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
