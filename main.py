@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
