@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def exit_program():
+        sys.exit()
