@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
