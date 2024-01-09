@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
