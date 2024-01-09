@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def calculate_work(force, distance):
-        return force * distance
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_pressure(force, area):
+        return force / area
