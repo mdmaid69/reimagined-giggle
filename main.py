@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import logging
+def log_message(message):
+        logging.info(message)
+  def cube_number(x):
+        return x**3
