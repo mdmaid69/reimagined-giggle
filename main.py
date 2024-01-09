@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_power(work, time):
-        return work / time
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
