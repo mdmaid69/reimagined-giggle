@@ -1,5 +1,9 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
