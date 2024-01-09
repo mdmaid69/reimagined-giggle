@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
