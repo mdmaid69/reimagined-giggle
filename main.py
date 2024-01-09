@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
