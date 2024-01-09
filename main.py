@@ -1,7 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
