@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def reverse_string(s):
-        return s[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
