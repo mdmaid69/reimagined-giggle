@@ -1,6 +1,11 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
