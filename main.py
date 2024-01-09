@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
