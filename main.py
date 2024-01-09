@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
