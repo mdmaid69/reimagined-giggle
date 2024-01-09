@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+def exit_program():
+        sys.exit()
