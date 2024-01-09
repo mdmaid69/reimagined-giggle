@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-from collections import Counter
-print(Counter("hello world"))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_sine(x):
+        return math.sin(x)
