@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import re
+print(re.match("h.*o", "hello world"))
+import time
+print(time.time())
