@@ -1,7 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import sys
+def exit_program():
+        sys.exit()
