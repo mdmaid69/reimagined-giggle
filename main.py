@@ -1,7 +1,6 @@
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
