@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
