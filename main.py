@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def subtract_numbers(x, y):
+        return x - y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
