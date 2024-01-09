@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
