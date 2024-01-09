@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_str(array):
+        return str(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
