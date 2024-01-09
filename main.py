@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+name = "Python"
+print("Hello,", name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
