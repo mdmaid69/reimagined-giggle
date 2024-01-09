@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
