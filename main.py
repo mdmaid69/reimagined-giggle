@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
