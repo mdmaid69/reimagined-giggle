@@ -1,8 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def find_min(numbers):
+        return min(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
