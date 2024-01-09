@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
