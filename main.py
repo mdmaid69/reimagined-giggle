@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
