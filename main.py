@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cosine(x):
+        return math.cos(x)
+print([x**2 for x in range(10)])
