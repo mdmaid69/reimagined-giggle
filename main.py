@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
