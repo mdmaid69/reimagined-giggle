@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
