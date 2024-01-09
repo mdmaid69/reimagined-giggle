@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
