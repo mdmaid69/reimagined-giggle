@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
