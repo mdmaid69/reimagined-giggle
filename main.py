@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
