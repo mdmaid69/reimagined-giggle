@@ -1,6 +1,11 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
