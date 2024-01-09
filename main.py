@@ -1,5 +1,10 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
