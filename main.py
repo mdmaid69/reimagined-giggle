@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def multiply_numbers(x, y):
+        return x * y
