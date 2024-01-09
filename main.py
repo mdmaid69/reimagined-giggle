@@ -1,7 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
