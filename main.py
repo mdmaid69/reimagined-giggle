@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def divide_numbers(x, y):
+        return x / y
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
