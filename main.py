@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
