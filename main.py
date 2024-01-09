@@ -1,5 +1,9 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
