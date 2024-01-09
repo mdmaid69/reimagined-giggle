@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
