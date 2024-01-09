@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_max(lst):
+        return max(lst)
