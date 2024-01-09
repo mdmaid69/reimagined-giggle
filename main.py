@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+from collections import Counter
+print(Counter("hello world"))
