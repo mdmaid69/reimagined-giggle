@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def divide_numbers(x, y):
-        return x / y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
