@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_current_working_directory():
+        return os.getcwd()
