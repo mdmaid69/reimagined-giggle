@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
