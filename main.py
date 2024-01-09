@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_current_directory():
+        return os.getcwd()
