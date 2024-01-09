@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def clear_array(array):
+        array *= 0
