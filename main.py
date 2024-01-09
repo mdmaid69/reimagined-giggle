@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-from collections import Counter
-print(Counter("hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_power(work, time):
+        return work / time
