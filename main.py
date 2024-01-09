@@ -1,7 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
