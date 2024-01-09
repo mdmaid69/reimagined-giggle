@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
