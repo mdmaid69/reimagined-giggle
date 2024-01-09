@@ -1,4 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-name = "Python"
-print("Hello,", name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def remove_duplicates(lst):
+        return list(set(lst))
