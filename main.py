@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
