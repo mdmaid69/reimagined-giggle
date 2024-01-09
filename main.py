@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area_rectangle(l, w):
+        return l * w
