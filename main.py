@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_power(work, time):
-        return work / time
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
