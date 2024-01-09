@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
