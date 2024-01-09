@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
