@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_arc_tangent(x):
+        return math.atan(x)
