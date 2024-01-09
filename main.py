@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
