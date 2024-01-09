@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
