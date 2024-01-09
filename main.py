@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
