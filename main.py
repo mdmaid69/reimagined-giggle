@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import sys
-def print_python_version():
-        print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import platform
+def get_python_version():
+        return platform.python_version()
