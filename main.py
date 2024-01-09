@@ -1,6 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def square_number(x):
-        return x**2
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
