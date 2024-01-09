@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def remove_duplicates(lst):
+        return list(set(lst))
+import time
+def get_current_time():
+        return time.ctime()
