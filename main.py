@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
