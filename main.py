@@ -1,8 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
