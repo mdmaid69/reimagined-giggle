@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
