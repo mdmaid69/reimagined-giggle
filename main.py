@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
