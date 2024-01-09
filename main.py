@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
