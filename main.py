@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def is_palindrome(s):
+        return s == s[::-1]
