@@ -1,6 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
