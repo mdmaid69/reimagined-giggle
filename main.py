@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
