@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
