@@ -1,7 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
