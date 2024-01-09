@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-for i in range(5):
-        print(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def clear_array(array):
+        array *= 0
