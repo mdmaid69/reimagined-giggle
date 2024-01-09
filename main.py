@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
