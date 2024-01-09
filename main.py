@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
