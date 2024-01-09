@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
