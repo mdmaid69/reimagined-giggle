@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def is_odd(n):
+        return n % 2 != 0
