@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
