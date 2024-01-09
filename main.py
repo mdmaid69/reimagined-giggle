@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import sys
-  def get_python_version():
-        return sys.version
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
