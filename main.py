@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
