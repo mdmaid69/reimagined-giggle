@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
