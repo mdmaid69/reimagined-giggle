@@ -1,6 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
