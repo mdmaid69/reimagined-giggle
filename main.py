@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
