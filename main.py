@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
