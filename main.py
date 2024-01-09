@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-from collections import Counter
-print(Counter("hello world"))
+  def cube_number(x):
+        return x**3
+def is_palindrome(s):
+        return s == s[::-1]
