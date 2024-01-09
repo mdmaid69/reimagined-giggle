@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
