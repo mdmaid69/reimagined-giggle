@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def convert_to_hex(n):
-        return hex(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
