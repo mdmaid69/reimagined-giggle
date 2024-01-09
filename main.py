@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def cube_number(x):
+        return x**3
