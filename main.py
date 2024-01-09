@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
