@@ -1,7 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def multiply_numbers(x, y):
+        return x * y
+def find_max(numbers):
+        return max(numbers)
