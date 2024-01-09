@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
