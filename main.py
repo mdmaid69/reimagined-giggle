@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def add_numbers(a, b):
+        return a + b
