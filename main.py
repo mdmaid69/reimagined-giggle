@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_list(array):
+        return list(array)
