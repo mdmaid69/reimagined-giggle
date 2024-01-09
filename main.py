@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
