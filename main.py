@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import re
-print(re.match("h.*o", "hello world"))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
