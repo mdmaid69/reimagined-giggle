@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
