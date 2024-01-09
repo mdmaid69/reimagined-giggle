@@ -1,7 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def find_max(numbers):
+        return max(numbers)
