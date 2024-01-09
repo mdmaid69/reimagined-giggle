@@ -1,8 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def divide_numbers(x, y):
-        return x / y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import json
+def convert_to_json(data):
+        return json.dumps(data)
