@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import logging
+def log_message(message):
+        logging.info(message)
