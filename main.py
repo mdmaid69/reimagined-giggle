@@ -1,6 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
