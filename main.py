@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def reverse_string(s):
-        return s[::-1]
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
