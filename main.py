@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
