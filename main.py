@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
