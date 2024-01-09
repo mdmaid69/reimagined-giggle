@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
