@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_counter():
-        return collections.Counter()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
