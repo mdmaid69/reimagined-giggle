@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
