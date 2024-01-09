@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
