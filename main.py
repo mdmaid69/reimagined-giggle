@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
