@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
