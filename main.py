@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
