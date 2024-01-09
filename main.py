@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
