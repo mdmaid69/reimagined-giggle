@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  def convert_to_octal(n):
-        return oct(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
