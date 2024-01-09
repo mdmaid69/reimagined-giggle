@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
