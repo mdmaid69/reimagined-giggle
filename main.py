@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_min(numbers):
+        return min(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
