@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
