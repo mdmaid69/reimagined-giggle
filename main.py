@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import time
-print(time.time())
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
