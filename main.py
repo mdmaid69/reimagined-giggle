@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
