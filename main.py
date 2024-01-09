@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
