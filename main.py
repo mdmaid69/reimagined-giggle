@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
