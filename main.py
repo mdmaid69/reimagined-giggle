@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def divide_numbers(x, y):
+        return x / y
