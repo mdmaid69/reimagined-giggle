@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import collections
-def create_counter():
-        return collections.Counter()
+def convert_to_octal(n):
+        return oct(n)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
