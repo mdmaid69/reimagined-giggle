@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_max(numbers):
+        return max(numbers)
