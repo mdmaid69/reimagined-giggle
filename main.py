@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
