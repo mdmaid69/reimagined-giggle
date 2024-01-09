@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def get_array_as_list(array):
-        return list(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
