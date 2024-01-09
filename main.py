@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
