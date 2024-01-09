@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
