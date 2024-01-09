@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
