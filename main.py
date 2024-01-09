@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
