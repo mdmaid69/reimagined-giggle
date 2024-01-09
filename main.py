@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
