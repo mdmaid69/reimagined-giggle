@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
