@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
