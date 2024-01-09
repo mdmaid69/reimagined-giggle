@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
