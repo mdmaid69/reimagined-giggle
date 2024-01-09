@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
