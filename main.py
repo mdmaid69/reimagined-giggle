@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
