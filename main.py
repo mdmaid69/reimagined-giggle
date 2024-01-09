@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
