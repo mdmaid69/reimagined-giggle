@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
