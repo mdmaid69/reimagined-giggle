@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
