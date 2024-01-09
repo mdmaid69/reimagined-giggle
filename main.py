@@ -1,7 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
