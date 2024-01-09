@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
