@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def find_min(lst):
+        return min(lst)
