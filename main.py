@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def remove_duplicates(lst):
+        return list(set(lst))
