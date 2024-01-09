@@ -1,6 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
