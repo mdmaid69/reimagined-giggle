@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def convert_to_octal(n):
-        return oct(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
