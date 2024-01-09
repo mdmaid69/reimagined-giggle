@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
