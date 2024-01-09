@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
