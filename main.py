@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
