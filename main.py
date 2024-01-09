@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
