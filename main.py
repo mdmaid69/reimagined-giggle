@@ -1,5 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def square_number(x):
-        return x**2
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+from collections import Counter
+print(Counter("hello world"))
