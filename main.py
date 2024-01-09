@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_min(numbers):
+        return min(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
