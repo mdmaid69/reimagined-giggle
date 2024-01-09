@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
