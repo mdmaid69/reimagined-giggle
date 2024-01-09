@@ -1,5 +1,5 @@
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+print(random.randint(0, 100))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
