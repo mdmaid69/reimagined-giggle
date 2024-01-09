@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-print(math.pi)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
