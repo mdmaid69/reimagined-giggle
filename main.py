@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def convert_to_binary(n):
+        return bin(n)
