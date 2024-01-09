@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import os
+def change_working_directory(path):
+        os.chdir(path)
