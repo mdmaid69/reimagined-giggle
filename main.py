@@ -1,6 +1,10 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
