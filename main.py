@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_work(force, distance):
+        return force * distance
