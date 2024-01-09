@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import json
+print(json.dumps({"name": "John", "age": 30}))
