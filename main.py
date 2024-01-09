@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_list(array):
+        return list(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
