@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import collections
+def create_queue():
+        return collections.deque()
