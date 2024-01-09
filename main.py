@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
