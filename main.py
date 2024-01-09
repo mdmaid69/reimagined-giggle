@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def greet(name):
+        print(f"Hello, {name}!")
