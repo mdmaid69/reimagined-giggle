@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_min(numbers):
-        return min(numbers)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
