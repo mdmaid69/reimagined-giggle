@@ -1,8 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
