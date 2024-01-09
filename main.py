@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
