@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+name = "Python"
+print("Hello,", name)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
