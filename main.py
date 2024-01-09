@@ -1,6 +1,6 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
