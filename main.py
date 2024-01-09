@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
