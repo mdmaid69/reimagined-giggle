@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
