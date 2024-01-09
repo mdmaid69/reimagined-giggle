@@ -1,5 +1,6 @@
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_absolute_value(x):
+        return math.fabs(x)
