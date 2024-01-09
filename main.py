@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
