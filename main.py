@@ -1,6 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
