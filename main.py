@@ -1,5 +1,10 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
