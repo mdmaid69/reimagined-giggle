@@ -1,4 +1,5 @@
-print("Hello, world!")
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
