@@ -1,7 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_work(force, distance):
+        return force * distance
