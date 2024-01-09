@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def add_numbers(a, b):
+        return a + b
+def calculate_force(mass, acceleration):
+        return mass * acceleration
