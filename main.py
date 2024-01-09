@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
