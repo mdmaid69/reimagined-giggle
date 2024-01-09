@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
