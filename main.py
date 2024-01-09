@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+print(random.randint(0, 100))
