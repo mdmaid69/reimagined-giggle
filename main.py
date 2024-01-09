@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def cube_number(x):
-        return x**3
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
