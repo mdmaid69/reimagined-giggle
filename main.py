@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_work(force, distance):
+        return force * distance
