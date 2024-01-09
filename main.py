@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
