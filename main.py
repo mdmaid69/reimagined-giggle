@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def reverse_string(s):
+        return s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
