@@ -1,5 +1,9 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
