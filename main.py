@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
