@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
