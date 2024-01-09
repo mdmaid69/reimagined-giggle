@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def divide_numbers(x, y):
+        return x / y
