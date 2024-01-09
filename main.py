@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import tensorflow as tf
+print(tf.__version__)
+def square_number(x):
+        return x**2
