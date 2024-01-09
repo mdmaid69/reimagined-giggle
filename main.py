@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Characters:", len(text))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
