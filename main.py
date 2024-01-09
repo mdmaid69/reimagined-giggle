@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
