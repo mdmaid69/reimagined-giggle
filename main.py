@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_counter():
+        return collections.Counter()
