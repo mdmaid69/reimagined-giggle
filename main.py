@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
