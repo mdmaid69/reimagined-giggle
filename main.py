@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_floor(x):
+        return math.floor(x)
