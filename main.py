@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def convert_to_octal(n):
-        return oct(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
