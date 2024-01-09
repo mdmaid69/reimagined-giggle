@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+for i in range(5):
+        print(i)
