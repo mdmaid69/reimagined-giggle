@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
