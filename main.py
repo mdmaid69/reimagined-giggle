@@ -1,8 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
