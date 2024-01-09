@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
