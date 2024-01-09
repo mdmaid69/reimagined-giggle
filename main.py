@@ -1,5 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+print(math.pi)
