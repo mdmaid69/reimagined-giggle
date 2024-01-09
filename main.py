@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
