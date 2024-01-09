@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
