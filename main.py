@@ -1,8 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
