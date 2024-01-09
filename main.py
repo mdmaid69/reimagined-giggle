@@ -1,7 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import os
+print(os.getcwd())
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
