@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
