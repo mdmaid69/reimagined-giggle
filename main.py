@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
