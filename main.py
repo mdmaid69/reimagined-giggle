@@ -1,9 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
