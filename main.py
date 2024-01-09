@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def find_min(numbers):
+        return min(numbers)
