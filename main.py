@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def convert_to_octal(n):
-        return oct(n)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
