@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
