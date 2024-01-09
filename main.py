@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_pressure(force, area):
+        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
