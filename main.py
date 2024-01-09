@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
