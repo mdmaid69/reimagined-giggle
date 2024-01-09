@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
