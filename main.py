@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def find_max(lst):
+        return max(lst)
