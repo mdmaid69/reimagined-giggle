@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
