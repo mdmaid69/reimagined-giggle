@@ -1,6 +1,8 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
