@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_user_list():
-        return collections.UserList()
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
