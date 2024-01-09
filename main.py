@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
