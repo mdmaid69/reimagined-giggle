@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
