@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
