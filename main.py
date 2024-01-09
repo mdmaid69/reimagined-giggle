@@ -1,7 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
