@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
