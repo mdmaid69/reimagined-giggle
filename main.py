@@ -1,6 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_area_rectangle(l, w):
+        return l * w
