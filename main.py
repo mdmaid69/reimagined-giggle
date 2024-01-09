@@ -1,5 +1,10 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
