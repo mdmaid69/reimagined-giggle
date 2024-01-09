@@ -1,6 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
