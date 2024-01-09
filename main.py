@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
