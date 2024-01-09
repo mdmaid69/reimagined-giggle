@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def convert_to_hex(n):
+        return hex(n)
