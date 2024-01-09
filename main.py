@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def multiply_numbers(x, y):
-        return x * y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
