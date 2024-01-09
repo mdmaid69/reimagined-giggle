@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
