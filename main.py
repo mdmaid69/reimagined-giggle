@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
