@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
