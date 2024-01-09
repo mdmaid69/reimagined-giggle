@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
