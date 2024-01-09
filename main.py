@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_even(n):
-        return n % 2 == 0
+print(sum(range(10)))
+import array
+def get_array_as_repr(array):
+        return repr(array)
