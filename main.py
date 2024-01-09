@@ -1,6 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
