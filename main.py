@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
