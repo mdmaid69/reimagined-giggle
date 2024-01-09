@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_priority_queue():
+        return collections.deque()
