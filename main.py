@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
