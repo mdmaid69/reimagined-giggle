@@ -1,5 +1,6 @@
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def clear_array(array):
-        array *= 0
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_array_as_frozenset(array):
+        return frozenset(array)
