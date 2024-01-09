@@ -1,5 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
