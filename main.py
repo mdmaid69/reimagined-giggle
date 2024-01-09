@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
