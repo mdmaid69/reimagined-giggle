@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
