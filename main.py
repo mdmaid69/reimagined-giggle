@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
