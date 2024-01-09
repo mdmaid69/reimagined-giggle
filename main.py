@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_acceleration(speed, time):
+        return speed / time
