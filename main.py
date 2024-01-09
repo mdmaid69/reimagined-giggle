@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
