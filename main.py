@@ -1,5 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+print(os.getcwd())
