@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
