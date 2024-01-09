@@ -1,9 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
