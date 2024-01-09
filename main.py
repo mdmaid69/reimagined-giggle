@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
