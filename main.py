@@ -1,6 +1,7 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
