@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
