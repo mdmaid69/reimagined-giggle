@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def divide_numbers(x, y):
-        return x / y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def square_number(x):
+        return x**2
