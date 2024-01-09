@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
