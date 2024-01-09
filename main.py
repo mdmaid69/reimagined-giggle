@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
