@@ -1,7 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def is_even(n):
+        return n % 2 == 0
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
