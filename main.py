@@ -1,8 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
