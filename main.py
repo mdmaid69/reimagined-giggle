@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sys
+def exit_program():
+        sys.exit()
