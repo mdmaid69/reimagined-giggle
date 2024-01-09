@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_arc_cosine(x):
+        return math.acos(x)
