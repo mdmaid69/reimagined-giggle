@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
