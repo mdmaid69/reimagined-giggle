@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def convert_to_binary(n):
+        return bin(n)
