@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
