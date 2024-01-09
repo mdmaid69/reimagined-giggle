@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
