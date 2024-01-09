@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
