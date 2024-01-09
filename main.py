@@ -1,5 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_acceleration(speed, time):
+        return speed / time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
