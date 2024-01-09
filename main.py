@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def cube_number(x):
+        return x**3
