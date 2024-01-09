@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
