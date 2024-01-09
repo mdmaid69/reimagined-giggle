@@ -1,4 +1,8 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-print([x**2 for x in range(10)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
