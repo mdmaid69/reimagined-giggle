@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
