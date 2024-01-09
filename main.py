@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
