@@ -1,5 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def square_number(x):
-        return x**2
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
