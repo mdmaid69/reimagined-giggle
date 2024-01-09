@@ -1,6 +1,10 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-def exit_program():
-        sys.exit()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
