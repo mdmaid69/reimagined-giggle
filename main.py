@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
