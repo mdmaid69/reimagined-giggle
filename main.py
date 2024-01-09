@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_frozenset(array):
+        return frozenset(array)
