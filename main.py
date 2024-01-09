@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
