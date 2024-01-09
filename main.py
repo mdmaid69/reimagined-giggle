@@ -1,3 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-print("Hello, world!")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
