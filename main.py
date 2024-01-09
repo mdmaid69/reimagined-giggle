@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
