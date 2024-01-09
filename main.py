@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
