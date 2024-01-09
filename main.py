@@ -1,8 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
