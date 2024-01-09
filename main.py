@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
