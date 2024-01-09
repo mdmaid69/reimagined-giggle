@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
