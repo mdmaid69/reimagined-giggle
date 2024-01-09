@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
