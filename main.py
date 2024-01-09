@@ -1,4 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-print([x**2 for x in range(10)])
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_set(array):
+        return set(array)
