@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
