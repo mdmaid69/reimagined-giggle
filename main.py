@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
