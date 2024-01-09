@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
