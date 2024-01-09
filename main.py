@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
