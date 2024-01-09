@@ -1,7 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
