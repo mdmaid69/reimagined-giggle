@@ -1,7 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_typecode(array):
+        return array.typecode
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
