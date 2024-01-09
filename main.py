@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
