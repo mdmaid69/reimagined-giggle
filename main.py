@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
