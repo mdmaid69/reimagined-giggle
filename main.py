@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
