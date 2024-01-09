@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_time_since_epoch():
+        return time.time()
