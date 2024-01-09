@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
