@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def split_path(path):
+        return os.path.split(path)
