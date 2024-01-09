@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
