@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def convert_to_octal(n):
+        return oct(n)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
