@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def count_characters(sentence):
-        return len(sentence)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
