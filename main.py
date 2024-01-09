@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
