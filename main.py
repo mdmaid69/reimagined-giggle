@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sys
+def print_python_version():
+        return sys.version
