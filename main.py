@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
