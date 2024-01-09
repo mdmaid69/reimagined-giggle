@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
