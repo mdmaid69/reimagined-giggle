@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def add_numbers(a, b):
-        return a + b
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
