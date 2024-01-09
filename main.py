@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
