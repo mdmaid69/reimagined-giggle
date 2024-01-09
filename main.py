@@ -1,6 +1,3 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+print(sum(range(10)))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
