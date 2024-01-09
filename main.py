@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
