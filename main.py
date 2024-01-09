@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
