@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_power(work, time):
-        return work / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
