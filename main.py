@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_directory_name(path):
+        return os.path.dirname(path)
