@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_work(force, distance):
+        return force * distance
