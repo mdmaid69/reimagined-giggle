@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
