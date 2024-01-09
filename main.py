@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
