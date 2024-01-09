@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
