@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
