@@ -1,6 +1,6 @@
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
