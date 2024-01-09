@@ -1,5 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def count_elements(lst):
+        return len(lst)
