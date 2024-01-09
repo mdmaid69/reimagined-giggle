@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
