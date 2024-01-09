@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import time
-def get_time_since_epoch():
-        return time.time()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def multiply_numbers(x, y):
+        return x * y
