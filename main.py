@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
