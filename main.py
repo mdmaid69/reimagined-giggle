@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+print(sum(range(10)))
