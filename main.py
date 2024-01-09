@@ -1,7 +1,8 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
