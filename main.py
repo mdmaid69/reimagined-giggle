@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
