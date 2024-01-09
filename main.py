@@ -1,6 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-print([x**2 for x in range(10)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def convert_to_binary(n):
+        return bin(n)
