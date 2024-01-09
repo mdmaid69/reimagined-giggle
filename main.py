@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
