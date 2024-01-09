@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
