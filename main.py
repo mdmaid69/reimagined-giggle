@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def set_array_item(array, i, item):
+        array[i] = item
