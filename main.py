@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def sort_list(lst):
+        return sorted(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
