@@ -1,4 +1,10 @@
-def is_even(n):
-        return n % 2 == 0
-def cube_number(x):
-        return x**3
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
