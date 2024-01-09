@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
