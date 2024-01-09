@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
