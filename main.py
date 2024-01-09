@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
