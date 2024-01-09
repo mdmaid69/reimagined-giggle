@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_area_circle(r):
+        return 3.14 * r**2
