@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+def get_current_time():
+        return time.ctime()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
