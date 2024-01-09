@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def find_min(lst):
+        return min(lst)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
