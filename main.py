@@ -1,5 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
