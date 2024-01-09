@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
