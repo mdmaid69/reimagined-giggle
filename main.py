@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
