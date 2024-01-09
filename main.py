@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def append_to_array(array, item):
+        array.append(item)
