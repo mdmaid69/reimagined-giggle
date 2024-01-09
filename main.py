@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_queue():
+        return collections.deque()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
