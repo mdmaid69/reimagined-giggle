@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
