@@ -1,6 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
