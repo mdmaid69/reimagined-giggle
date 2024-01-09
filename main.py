@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
