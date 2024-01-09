@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
