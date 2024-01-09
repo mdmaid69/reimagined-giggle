@@ -1,6 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
