@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
