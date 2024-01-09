@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def reverse_array(array):
+        array.reverse()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
