@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
