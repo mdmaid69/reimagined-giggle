@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
