@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
