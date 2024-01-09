@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
