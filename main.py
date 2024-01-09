@@ -1,6 +1,9 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
