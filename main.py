@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
