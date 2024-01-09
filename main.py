@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def clear_array(array):
+        array *= 0
