@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   def find_min(lst):
         return min(lst) if len(lst) != 0 else "List is empty"
