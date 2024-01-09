@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
