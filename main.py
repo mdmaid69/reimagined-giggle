@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def count_elements(lst):
-        return len(lst)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
