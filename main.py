@@ -1,8 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_tangent(x):
+        return math.tan(x)
