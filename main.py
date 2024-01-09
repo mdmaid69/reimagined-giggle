@@ -1,10 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
