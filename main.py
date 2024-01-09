@@ -1,4 +1,10 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
