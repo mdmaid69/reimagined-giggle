@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
