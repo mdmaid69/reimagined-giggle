@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
