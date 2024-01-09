@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
