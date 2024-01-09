@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
