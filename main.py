@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
