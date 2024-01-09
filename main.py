@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
