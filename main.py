@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
