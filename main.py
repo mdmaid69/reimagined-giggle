@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
