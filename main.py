@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def count_words(sentence):
+        return len(sentence.split())
