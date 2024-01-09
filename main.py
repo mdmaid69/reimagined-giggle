@@ -1,6 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
