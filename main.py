@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
