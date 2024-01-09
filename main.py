@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
