@@ -1,6 +1,9 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
