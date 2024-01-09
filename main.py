@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
