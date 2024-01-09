@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
