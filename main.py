@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
