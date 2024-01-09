@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
