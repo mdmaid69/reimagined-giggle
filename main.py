@@ -1,6 +1,9 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
