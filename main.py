@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def find_min(lst):
+        return min(lst)
+def convert_to_octal(n):
+        return oct(n)
