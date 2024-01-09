@@ -1,6 +1,5 @@
 import math
 def calculate_ceiling(x):
         return math.ceil(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
