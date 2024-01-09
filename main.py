@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def find_max(lst):
+        return max(lst)
