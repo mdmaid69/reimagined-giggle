@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
