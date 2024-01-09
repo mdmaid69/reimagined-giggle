@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import time
-print(time.time())
+  def remove_duplicates(lst):
+        return list(set(lst))
+def count_words(sentence):
+        return len(sentence.split())
