@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
