@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def square_number(x):
-        return x**2
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def count_words(sentence):
+        return len(sentence.split())
