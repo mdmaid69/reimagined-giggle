@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def convert_to_octal(n):
+        return oct(n)
