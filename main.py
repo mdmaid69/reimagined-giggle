@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
