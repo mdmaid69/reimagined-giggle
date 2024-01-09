@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_set(array):
+        return set(array)
