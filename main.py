@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def square_number(x):
-        return x**2
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
