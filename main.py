@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def find_min(lst):
-        return min(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
