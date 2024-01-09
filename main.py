@@ -1,12 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
