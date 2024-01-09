@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
