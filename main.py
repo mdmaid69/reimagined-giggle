@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
