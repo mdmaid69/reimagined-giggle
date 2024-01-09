@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def find_min(numbers):
-        return min(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
