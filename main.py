@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
