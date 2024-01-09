@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
