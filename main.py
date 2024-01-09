@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
