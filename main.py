@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def reverse_string(s):
+        return s[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
