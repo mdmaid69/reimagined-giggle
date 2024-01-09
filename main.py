@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_user_string():
+        return collections.UserString()
