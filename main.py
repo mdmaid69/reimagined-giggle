@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import numpy as np
+print(np.array([1, 2, 3]))
+def is_palindrome(s):
+        return s == s[::-1]
