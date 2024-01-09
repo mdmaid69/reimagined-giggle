@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_current_directory():
+        return os.getcwd()
