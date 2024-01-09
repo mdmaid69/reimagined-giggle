@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def subtract_numbers(x, y):
-        return x - y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
