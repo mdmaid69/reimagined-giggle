@@ -1,8 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
