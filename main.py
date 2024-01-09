@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def multiply_numbers(x, y):
+        return x * y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
