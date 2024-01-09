@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
