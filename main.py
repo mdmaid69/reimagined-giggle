@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
