@@ -1,6 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
