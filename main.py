@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
