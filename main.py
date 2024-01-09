@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_power(work, time):
+        return work / time
+def calculate_speed(distance, time):
+        return distance / time
