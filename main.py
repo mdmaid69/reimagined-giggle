@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import tensorflow as tf
-print(tf.__version__)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_counter():
+        return collections.Counter()
