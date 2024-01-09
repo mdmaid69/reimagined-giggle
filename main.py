@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
