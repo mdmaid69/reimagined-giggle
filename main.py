@@ -1,9 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
