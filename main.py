@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def iterate_over_array(array):
+        for item in array:
+        print(item)
