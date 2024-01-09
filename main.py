@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import datetime
-print(datetime.datetime.now())
+  def reverse_list(lst):
+        return lst[::-1]
+def find_max(lst):
+        return max(lst)
