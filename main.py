@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
