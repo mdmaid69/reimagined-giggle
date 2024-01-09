@@ -1,6 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-for i in range(10): print(i)
+def get_array_length(array):
+        return len(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
