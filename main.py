@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
