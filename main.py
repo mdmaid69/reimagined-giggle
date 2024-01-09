@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
