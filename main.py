@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
