@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
