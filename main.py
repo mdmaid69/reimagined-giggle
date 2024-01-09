@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def convert_to_binary(n):
-        return bin(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
