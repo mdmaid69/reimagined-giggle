@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
