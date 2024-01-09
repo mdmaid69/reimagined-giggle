@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
