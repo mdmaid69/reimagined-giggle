@@ -1,4 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def convert_to_octal(n):
-        return oct(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
