@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_max(lst):
-        return max(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def reverse_array(array):
+        array.reverse()
