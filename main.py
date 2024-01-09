@@ -1,5 +1,3 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+for i in range(10): print(i)
