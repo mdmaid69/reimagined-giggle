@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
