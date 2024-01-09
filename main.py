@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+print(os.getcwd())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
