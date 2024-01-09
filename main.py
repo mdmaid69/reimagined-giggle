@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
