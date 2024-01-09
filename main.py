@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
