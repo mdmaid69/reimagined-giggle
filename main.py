@@ -1,8 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def is_even(n):
+        return n % 2 == 0
