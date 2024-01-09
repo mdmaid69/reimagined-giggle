@@ -1,6 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
