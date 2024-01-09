@@ -1,5 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import re
-print(re.match("h.*o", "hello world"))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
