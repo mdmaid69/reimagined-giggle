@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import random
-print(random.randint(0, 100))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
