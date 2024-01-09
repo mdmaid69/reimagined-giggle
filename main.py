@@ -1,4 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
