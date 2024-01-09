@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import tensorflow as tf
-print(tf.__version__)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
