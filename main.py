@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import time
-def get_time_since_epoch():
-        return time.time()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
