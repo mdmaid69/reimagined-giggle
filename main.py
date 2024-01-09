@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
