@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_user_string():
+        return collections.UserString()
