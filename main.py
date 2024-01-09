@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-print(random.randint(0, 100))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
