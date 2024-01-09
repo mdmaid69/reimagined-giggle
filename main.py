@@ -1,8 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
