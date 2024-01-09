@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
