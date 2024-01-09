@@ -1,5 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def convert_to_octal(n):
-        return oct(n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
