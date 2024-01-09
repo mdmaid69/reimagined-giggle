@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
