@@ -1,6 +1,9 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
