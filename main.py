@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import random
+def roll_die():
+        return random.randint(1, 6)
