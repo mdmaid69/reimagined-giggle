@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def convert_to_hex(n):
+        return hex(n)
