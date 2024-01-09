@@ -1,4 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
