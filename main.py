@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def convert_to_binary(n):
-        return bin(n)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
