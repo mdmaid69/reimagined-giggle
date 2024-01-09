@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def set_array_item(array, i, item):
+        array[i] = item
