@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
