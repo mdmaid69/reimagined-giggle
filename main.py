@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def cube_number(x):
+        return x**3
+import datetime
+def get_current_date():
+        return datetime.date.today()
