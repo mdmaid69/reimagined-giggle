@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
