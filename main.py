@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import tensorflow as tf
+print(tf.__version__)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
