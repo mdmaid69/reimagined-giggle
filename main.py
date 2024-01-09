@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def find_unique_words(sentence):
+        return set(sentence.split())
