@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
