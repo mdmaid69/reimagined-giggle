@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+print(sum(range(10)))
