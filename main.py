@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
