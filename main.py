@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
