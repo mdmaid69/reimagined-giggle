@@ -1,7 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
