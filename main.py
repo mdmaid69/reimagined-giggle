@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
