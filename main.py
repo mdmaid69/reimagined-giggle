@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def is_odd(n):
+        return n % 2 != 0
+  def square_number(x):
+        return x**2
