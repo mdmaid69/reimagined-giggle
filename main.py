@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
