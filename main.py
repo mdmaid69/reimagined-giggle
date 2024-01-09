@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
