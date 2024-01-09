@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
