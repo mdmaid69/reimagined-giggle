@@ -1,5 +1,3 @@
-for i in range(5):
-        print(i)
-import collections
-def create_queue():
-        return collections.deque()
+for i in range(10): print(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
