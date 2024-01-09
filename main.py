@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_max(lst):
+        return max(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
