@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import platform
-def get_python_version():
-        return platform.python_version()
+import random
+print(random.randint(0, 100))
+import getpass
+def get_username():
+        return getpass.getuser()
