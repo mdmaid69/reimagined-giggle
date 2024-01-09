@@ -1,9 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
