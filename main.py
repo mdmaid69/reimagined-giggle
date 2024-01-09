@@ -1,8 +1,7 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
