@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_length(array):
-        return len(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
