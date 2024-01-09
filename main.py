@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+print(os.getcwd())
