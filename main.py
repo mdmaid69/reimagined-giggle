@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def count_characters(sentence):
-        return len(sentence)
+def convert_to_octal(n):
+        return oct(n)
+  def add_numbers(x, y):
+        return x + y
