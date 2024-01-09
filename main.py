@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import re
+print(re.match("h.*o", "hello world"))
