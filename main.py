@@ -1,5 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def count_words(sentence):
-        return len(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
