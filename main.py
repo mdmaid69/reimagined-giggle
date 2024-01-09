@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import collections
+def create_counter():
+        return collections.Counter()
