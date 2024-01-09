@@ -1,4 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_speed(distance, time):
-        return distance / time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
