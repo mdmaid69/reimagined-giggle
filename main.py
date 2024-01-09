@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
