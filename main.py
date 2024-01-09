@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import collections
+def create_user_string():
+        return collections.UserString()
