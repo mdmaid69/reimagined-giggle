@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
