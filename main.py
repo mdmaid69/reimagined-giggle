@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def add_numbers(x, y):
+        return x + y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
