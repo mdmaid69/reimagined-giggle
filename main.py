@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
