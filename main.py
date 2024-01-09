@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
