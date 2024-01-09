@@ -1,5 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
