@@ -1,7 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def square_number(x):
+        return x**2
