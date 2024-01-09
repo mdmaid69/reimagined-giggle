@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
