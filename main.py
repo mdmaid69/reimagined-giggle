@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
