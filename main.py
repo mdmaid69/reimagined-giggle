@@ -1,5 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import time
-print(time.time())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+print("Hello, world!")
