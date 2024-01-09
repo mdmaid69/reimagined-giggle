@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
