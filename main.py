@@ -1,7 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
