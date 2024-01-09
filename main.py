@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
