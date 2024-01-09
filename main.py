@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_floor(x):
+        return math.floor(x)
