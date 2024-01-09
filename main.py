@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_area_rectangle(l, w):
+        return l * w
