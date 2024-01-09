@@ -1,7 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
