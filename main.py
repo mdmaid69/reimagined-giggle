@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-for i in range(5):
-        print(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def convert_to_octal(n):
+        return oct(n)
