@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
