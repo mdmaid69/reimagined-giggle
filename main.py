@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
