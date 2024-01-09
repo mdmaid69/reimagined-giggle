@@ -1,8 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
