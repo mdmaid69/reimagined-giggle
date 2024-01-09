@@ -1,8 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
