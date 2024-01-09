@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
