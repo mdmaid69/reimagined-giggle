@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_length(array):
-        return len(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
