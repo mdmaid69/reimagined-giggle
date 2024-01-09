@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
