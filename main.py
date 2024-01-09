@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
