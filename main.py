@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
