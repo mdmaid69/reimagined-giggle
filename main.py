@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def clear_array(array):
-        array *= 0
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
