@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
