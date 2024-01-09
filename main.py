@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_acceleration(speed, time):
+        return speed / time
