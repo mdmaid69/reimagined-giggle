@@ -1,7 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def cube_number(x):
+        return x**3
