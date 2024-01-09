@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
