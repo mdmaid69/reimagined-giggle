@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
