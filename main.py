@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_max(lst):
+        return max(lst)
