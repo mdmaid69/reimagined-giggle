@@ -1,5 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+print(sum(range(10)))
+def calculate_pressure(force, area):
+        return force / area
