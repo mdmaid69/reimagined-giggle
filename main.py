@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
