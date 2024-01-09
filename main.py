@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
