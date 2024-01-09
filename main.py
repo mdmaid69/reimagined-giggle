@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_area_rectangle(l, w):
+        return l * w
