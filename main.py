@@ -1,10 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
