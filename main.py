@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_speed(distance, time):
-        return distance / time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
