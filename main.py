@@ -1,7 +1,5 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def is_even(n):
-        return n % 2 == 0
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
