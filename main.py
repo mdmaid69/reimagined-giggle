@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_palindrome(s):
-        return s == s[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
