@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
