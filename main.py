@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
