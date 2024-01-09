@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-for i in range(5):
-        print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
