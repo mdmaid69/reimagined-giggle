@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_square_root(x):
+        return math.sqrt(x)
