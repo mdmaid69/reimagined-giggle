@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_user_list():
+        return collections.UserList()
