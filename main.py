@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
