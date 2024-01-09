@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def cube_number(x):
+        return x**3
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
