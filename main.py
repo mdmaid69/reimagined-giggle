@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
