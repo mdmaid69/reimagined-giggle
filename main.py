@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def remove_duplicates(lst):
+        return list(set(lst))
