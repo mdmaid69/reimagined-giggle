@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
