@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
