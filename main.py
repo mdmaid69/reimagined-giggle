@@ -1,6 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
