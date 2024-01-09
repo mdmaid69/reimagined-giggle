@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
