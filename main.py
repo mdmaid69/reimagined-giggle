@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_odd(n):
-        return n % 2 != 0
+def add_numbers(x, y):
+        return x + y
+import numpy as np
+print(np.array([1, 2, 3]))
