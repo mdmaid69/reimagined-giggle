@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
