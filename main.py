@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def reverse_list(lst):
+        return lst[::-1]
+import sys
+def print_python_version():
+        return sys.version
