@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
