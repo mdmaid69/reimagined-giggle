@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import platform
+def get_python_version():
+        return platform.python_version()
