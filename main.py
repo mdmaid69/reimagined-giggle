@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
