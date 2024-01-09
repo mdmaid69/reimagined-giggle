@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def convert_to_hex(n):
+        return hex(n)
