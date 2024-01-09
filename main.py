@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import tensorflow as tf
-print(tf.__version__)
+from collections import Counter
+print(Counter("hello world"))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
