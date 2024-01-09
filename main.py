@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def is_even(n):
+        return n % 2 == 0
