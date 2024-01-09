@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def find_min(numbers):
-        return min(numbers)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def remove_duplicates(lst):
+        return list(set(lst))
