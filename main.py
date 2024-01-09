@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def add_numbers(x, y):
-        return x + y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_item(array, i):
+        return array[i]
