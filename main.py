@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import platform
+def get_os_info():
+        return platform.uname()
