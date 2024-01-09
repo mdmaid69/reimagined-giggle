@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
