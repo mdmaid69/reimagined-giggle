@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
