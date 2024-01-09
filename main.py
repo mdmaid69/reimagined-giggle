@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
