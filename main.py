@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
