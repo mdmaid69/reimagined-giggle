@@ -1,7 +1,9 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
