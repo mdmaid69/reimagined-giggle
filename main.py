@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
