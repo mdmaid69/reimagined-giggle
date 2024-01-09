@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
