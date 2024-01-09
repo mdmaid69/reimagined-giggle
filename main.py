@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
