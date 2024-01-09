@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
