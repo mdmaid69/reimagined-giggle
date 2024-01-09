@@ -1,8 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def subtract_numbers(x, y):
+        return x - y
