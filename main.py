@@ -1,6 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
