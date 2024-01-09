@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
