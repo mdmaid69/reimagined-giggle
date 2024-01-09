@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def sort_list(lst):
+        return sorted(lst)
