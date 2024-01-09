@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def convert_to_octal(n):
+        return oct(n)
