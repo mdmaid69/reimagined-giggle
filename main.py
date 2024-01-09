@@ -1,6 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Characters:", len(text))
