@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import collections
-def create_stack():
-        return collections.deque()
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
