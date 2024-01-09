@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
