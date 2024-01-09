@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
