@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def reverse_string(s):
-        return s[::-1]
+import time
+print(time.time())
+import getpass
+def get_username():
+        return getpass.getuser()
