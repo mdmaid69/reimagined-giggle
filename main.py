@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
