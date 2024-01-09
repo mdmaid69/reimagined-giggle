@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def cube_number(x):
-        return x**3
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
