@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def count_words(sentence):
+        return len(sentence.split())
