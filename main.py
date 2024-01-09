@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
