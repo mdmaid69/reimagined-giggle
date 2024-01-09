@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_user_list():
-        return collections.UserList()
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
