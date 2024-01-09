@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
