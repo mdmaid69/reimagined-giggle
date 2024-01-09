@@ -1,6 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
