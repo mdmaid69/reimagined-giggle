@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
