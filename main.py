@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
