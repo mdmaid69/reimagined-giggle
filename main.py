@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def cube_number(x):
-        return x**3
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def square_number(x):
+        return x**2
