@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
