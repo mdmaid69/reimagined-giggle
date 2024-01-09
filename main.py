@@ -1,5 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
