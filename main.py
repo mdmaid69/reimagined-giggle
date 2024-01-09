@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
