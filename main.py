@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
