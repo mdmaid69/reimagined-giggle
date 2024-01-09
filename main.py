@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
