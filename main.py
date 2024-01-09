@@ -1,6 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
