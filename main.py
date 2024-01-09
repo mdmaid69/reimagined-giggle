@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
