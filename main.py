@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
