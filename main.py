@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def is_odd(n):
+        return n % 2 != 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
