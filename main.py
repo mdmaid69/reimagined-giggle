@@ -1,7 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
