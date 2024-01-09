@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+text = "Hello, world!"
+print("Characters:", len(text))
