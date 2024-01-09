@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
