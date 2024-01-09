@@ -1,5 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
