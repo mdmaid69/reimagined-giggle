@@ -1,5 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
