@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_current_date():
+        return datetime.date.today()
