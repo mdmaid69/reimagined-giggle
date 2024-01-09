@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
