@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
