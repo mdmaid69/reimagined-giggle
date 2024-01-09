@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_sine(x):
+        return math.sin(x)
