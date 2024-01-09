@@ -1,6 +1,7 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
