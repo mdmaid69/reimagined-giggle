@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
