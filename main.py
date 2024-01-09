@@ -1,6 +1,6 @@
+import array
+def get_array_as_float(array):
+        return float(array[0])
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
