@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_str(array):
+        return str(array)
