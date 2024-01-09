@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_list_from_array(array):
+        return array.tolist()
