@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import numpy as np
+print(np.array([1, 2, 3]))
