@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def find_unique_words(sentence):
+        return set(sentence.split())
