@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
