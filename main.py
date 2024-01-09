@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
