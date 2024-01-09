@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_user_list():
+        return collections.UserList()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
