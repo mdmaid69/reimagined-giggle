@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_area_circle(r):
+        return 3.14 * r**2
