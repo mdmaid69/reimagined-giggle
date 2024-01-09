@@ -1,5 +1,9 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
