@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
