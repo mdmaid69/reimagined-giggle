@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def cube_number(x):
+        return x**3
+  def subtract_numbers(x, y):
+        return x - y
