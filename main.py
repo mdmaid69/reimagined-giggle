@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
