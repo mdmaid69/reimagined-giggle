@@ -1,9 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
