@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def reverse_array(array):
-        array.reverse()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
