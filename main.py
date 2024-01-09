@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
