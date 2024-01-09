@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
