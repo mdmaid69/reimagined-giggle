@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-from collections import Counter
-print(Counter("hello world"))
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
