@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
