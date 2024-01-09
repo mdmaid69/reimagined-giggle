@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
