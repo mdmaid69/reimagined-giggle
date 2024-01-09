@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
