@@ -1,7 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
