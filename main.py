@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
