@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
