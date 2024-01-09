@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
