@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import tensorflow as tf
+print(tf.__version__)
