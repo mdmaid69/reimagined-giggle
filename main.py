@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import sys
-def exit_program():
-        sys.exit()
+def is_even(n):
+        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
