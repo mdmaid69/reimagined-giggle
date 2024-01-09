@@ -1,8 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
