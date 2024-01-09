@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
