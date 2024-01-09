@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
