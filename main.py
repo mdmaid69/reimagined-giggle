@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def is_even(n):
-        return n % 2 == 0
+import array
+def reverse_array(array):
+        array.reverse()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
