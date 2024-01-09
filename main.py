@@ -1,7 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
