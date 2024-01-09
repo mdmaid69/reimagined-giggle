@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import time
-def get_current_time():
-        return time.time()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def remove_directory(path):
+        os.rmdir(path)
