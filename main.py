@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def remove_directory(path):
+        os.rmdir(path)
