@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import random
+print(random.randint(0, 100))
