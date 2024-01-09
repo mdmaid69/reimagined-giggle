@@ -1,5 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def find_min(lst):
-        return min(lst)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
