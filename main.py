@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def find_min(numbers):
+        return min(numbers)
+  def add_numbers(x, y):
+        return x + y
