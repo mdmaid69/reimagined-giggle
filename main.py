@@ -1,6 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
