@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import sys
-print(sys.version)
+x = 10
+y = 20
+print("Sum:", x + y)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
