@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
