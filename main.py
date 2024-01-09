@@ -1,6 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
