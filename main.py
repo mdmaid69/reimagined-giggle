@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def is_odd(n):
+        return n % 2 != 0
