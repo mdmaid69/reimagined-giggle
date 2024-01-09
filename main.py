@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
