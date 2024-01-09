@@ -1,8 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
