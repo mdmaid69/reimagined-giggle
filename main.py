@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def find_min(lst):
+        return min(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
