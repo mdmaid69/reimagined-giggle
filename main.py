@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
