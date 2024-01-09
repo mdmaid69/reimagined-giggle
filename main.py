@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
