@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
