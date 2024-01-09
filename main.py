@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import time
+def get_time_since_epoch():
+        return time.time()
