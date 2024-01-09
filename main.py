@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
