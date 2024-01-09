@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
