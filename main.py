@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
