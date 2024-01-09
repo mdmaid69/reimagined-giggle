@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
