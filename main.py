@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
