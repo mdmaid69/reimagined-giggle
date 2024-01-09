@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
