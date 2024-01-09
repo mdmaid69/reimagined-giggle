@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def count_elements(lst):
+        return len(lst)
