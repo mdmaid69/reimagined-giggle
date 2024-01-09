@@ -1,7 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_max(numbers):
-        return max(numbers)
+def get_array_as_tuple(array):
+        return tuple(array)
+import time
+def get_time_since_epoch():
+        return time.time()
