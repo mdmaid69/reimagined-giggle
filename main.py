@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
