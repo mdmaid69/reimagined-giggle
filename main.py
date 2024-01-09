@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_user_list():
+        return collections.UserList()
