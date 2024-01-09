@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_item(array, i):
+        return array[i]
+  def convert_to_octal(n):
+        return oct(n)
