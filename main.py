@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def clear_array(array):
+        array *= 0
