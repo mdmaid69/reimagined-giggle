@@ -1,5 +1,11 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
