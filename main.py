@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import sys
-def print_python_version():
-        print(sys.version)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def cube_number(x):
+        return x**3
