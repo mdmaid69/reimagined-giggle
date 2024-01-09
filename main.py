@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def is_palindrome(s):
+        return s == s[::-1]
