@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_max(numbers):
-        return max(numbers)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
