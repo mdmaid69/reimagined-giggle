@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
