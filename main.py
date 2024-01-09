@@ -1,6 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
