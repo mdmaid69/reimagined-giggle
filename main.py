@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
