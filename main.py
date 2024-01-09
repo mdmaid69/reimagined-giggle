@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
