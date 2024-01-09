@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
