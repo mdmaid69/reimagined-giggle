@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_acceleration(speed, time):
+        return speed / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
