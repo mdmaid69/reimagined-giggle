@@ -1,6 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import time
-def get_current_time():
-        return time.time()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
