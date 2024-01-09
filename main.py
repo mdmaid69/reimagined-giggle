@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
