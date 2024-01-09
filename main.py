@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def get_time_since_epoch():
+        return time.time()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
