@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import platform
+def get_python_version():
+        return platform.python_version()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
