@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
