@@ -1,5 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
