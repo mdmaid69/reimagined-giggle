@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
