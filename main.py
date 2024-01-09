@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_bool(array):
+        return bool(array)
