@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def count_words(sentence):
-        return len(sentence.split())
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
