@@ -1,6 +1,10 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
