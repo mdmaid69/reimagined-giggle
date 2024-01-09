@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
