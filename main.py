@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def print_python_version():
+        return sys.version
