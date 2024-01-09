@@ -1,5 +1,6 @@
-import math
-print(math.pi)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
