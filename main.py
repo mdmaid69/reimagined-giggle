@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import sys
+def print_python_version():
+        print(sys.version)
+import platform
+def get_os_info():
+        return platform.uname()
