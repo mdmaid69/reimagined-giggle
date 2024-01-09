@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
