@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
