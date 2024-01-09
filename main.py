@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
