@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+x = 10
+y = 20
+print("Sum:", x + y)
