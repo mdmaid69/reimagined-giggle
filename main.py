@@ -1,5 +1,9 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-print(math.pi)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
