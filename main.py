@@ -1,5 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
