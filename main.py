@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
