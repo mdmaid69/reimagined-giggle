@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
