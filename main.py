@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def remove_directory(path):
+        os.rmdir(path)
