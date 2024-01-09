@@ -1,5 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
