@@ -1,6 +1,7 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
