@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
