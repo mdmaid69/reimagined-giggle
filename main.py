@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
