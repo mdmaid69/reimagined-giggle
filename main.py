@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
