@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
