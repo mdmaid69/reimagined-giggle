@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
