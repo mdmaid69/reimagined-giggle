@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
