@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+print(random.randint(0, 100))
