@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
