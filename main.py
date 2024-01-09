@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def greet(name):
+        print(f"Hello, {name}!")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
