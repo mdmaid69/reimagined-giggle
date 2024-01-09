@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
