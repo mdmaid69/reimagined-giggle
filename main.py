@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def is_even(n):
+        return n % 2 == 0
