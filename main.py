@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def sort_list(lst):
+        return sorted(lst)
