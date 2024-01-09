@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
