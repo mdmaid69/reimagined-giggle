@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
