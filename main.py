@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def remove_duplicates(lst):
-        return list(set(lst))
+import time
+def get_current_time():
+        return time.ctime()
+x = 10
+y = 20
+print("Sum:", x + y)
