@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def find_unique_words(sentence):
+        return set(sentence.split())
