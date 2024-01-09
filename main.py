@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
