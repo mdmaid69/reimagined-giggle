@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_queue():
+        return collections.deque()
