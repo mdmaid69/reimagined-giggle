@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
