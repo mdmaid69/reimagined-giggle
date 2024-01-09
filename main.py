@@ -1,5 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_min(lst):
-        return min(lst)
+def set_array_item(array, i, item):
+        array[i] = item
+import sys
+def exit_program():
+        sys.exit()
