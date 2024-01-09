@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
