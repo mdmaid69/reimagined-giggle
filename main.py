@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_max(lst):
+        return max(lst)
+def subtract_numbers(x, y):
+        return x - y
