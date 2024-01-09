@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
