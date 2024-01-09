@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+def count_words(sentence):
+        return len(sentence.split())
+import random
+print(random.randint(0, 100))
