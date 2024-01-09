@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_counter():
+        return collections.Counter()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
