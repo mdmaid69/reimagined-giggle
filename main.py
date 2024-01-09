@@ -1,6 +1,8 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_index(array, item):
+        return array.index(item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
