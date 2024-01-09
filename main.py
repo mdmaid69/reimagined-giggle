@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_int(array):
+        return int(array[0])
