@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
