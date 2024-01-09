@@ -1,6 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
