@@ -1,4 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
