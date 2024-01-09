@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_work(force, distance):
+        return force * distance
+def convert_to_octal(n):
+        return oct(n)
