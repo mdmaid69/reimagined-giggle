@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
