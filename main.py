@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def remove_from_array(array, item):
+        array.remove(item)
