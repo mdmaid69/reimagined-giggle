@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
