@@ -1,5 +1,5 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 def calculate_perpetuity(payment, rate):
         return payment / rate
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
