@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
