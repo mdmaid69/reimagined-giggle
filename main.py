@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
