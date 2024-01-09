@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
