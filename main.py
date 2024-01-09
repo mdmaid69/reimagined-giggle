@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
