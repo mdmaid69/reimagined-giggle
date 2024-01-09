@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
