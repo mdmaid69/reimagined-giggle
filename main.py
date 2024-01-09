@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+name = "Python"
+print("Hello,", name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
