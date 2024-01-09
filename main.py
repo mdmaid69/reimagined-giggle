@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
+  def get_file_block_size(file_name):
         return os.stat(file_name).st_blksize
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
