@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
