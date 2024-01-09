@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def multiply_numbers(x, y):
+        return x * y
