@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_density(mass, volume):
+        return mass / volume
