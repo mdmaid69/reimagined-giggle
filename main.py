@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
