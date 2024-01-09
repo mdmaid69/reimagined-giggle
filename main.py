@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
