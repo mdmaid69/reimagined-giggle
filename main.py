@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
