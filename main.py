@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
