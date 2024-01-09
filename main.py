@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
