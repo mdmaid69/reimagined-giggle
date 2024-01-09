@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def convert_to_hex(n):
+        return hex(n)
