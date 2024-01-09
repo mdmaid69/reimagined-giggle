@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import logging
+def log_message(message):
+        logging.info(message)
