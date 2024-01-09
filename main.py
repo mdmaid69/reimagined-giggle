@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def clear_array(array):
+        array *= 0
