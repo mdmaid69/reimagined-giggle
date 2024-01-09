@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_counter():
+        return collections.Counter()
