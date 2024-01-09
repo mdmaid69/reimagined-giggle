@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
