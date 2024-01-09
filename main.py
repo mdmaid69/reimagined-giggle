@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_density(mass, volume):
-        return mass / volume
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
