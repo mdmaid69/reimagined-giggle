@@ -1,6 +1,6 @@
+import random
+print(random.randint(0, 100))
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
