@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_list_from_array(array):
+        return array.tolist()
