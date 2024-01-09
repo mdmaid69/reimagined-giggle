@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import time
+def get_time_since_epoch():
+        return time.time()
+import datetime
+def get_current_date():
+        return datetime.date.today()
