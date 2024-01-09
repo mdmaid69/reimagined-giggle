@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
