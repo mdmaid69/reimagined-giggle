@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
