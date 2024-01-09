@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
