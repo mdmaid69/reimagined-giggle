@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
