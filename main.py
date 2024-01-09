@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_volume(length, width, height):
+        return length * width * height
