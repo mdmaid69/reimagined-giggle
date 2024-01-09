@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
