@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
