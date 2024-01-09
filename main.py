@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def add_numbers(a, b):
+        return a + b
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
