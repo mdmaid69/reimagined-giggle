@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
