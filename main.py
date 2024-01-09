@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
