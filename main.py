@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
