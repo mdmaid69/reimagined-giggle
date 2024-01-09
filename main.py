@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import re
-print(re.match("h.*o", "hello world"))
+import time
+def get_current_time():
+        return time.ctime()
+def is_even(n):
+        return n % 2 == 0
