@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
