@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
