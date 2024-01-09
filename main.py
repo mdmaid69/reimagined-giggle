@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_ceiling(x):
+        return math.ceil(x)
