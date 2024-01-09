@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import json
+print(json.dumps({"name": "John", "age": 30}))
