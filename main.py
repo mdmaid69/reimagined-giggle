@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_str(array):
+        return str(array)
