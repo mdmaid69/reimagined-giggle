@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import time
+def get_current_time():
+        return time.ctime()
+  def subtract_numbers(x, y):
+        return x - y
