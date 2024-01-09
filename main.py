@@ -1,7 +1,6 @@
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import array
-def get_array_as_str(array):
-        return str(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def get_bytes_from_array(array):
+        return array.tobytes()
