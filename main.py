@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def is_odd(n):
-        return n % 2 != 0
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
