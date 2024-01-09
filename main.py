@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def append_to_array(array, item):
+        array.append(item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
