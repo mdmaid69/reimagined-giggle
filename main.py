@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
