@@ -1,8 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
