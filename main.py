@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+print([x**2 for x in range(10)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
