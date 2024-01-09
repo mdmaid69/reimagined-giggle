@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
