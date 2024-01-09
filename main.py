@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import numpy as np
+print(np.array([1, 2, 3]))
+def cube_number(x):
+        return x**3
