@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
