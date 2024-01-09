@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
