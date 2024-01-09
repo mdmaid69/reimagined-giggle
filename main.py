@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
