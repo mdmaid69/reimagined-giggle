@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_counter():
+        return collections.Counter()
