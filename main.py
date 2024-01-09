@@ -1,5 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_even(n):
+        return n % 2 == 0
