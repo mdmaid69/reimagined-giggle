@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
