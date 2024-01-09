@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_area(radius):
+        return 3.14 * radius * radius
