@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_itemsize(array):
+        return array.itemsize
