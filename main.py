@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
