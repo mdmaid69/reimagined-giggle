@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
