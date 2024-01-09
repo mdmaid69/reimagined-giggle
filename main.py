@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
