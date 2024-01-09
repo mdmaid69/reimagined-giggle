@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
