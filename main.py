@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
