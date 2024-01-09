@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import sys
+def exit_program():
+        sys.exit()
+def convert_to_hex(n):
+        return hex(n)
