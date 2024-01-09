@@ -1,7 +1,8 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-for i in range(5):
-        print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
