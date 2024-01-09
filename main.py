@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
