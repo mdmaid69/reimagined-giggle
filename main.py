@@ -1,5 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def subtract_numbers(x, y):
-        return x - y
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
