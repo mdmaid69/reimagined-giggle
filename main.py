@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_length(array):
+        return len(array)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
