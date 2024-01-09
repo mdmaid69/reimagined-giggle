@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_str(array):
-        return str(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
