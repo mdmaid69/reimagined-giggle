@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
