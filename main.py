@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_power(work, time):
+        return work / time
+  def is_odd(n):
+        return n % 2 != 0
