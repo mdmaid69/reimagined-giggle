@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
