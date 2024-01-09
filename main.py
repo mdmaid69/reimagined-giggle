@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
