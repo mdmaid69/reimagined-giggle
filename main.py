@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
