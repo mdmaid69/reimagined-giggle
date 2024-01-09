@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def is_odd(n):
+        return n % 2 != 0
