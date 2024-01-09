@@ -1,4 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
