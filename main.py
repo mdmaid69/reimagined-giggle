@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def get_current_working_directory():
+        return os.getcwd()
