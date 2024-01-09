@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
