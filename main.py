@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
