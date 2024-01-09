@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
