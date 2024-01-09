@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
