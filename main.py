@@ -1,7 +1,8 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
