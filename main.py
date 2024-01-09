@@ -1,7 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def count_characters(sentence):
-        return len(sentence)
+def reverse_list(lst):
+        return lst[::-1]
+for i in range(5):
+        print(i)
