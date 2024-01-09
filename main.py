@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
