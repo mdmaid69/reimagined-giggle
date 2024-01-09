@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
