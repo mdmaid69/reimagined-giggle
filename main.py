@@ -1,5 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_pressure(force, area):
-        return force / area
+def get_bytes_from_array(array):
+        return array.tobytes()
