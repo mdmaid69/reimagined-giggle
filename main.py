@@ -1,7 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+for i in range(10): print(i)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
