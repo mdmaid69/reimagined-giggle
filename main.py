@@ -1,8 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
