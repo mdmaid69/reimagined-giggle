@@ -1,9 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
