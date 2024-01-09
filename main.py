@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
