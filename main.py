@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
