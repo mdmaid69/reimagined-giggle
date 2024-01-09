@@ -1,6 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
