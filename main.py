@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
