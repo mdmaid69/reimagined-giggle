@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-name = "Python"
-print("Hello,", name)
+  def subtract_numbers(x, y):
+        return x - y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
