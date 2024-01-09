@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
