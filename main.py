@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def clear_array(array):
+        array *= 0
+def sort_list(lst):
+        return sorted(lst)
