@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
