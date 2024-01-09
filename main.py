@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def add_numbers(x, y):
-        return x + y
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
