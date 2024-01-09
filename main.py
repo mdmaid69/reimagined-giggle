@@ -1,5 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def convert_to_hex(n):
-        return hex(n)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
