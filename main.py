@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import time
+print(time.time())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
