@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+from collections import Counter
+print(Counter("hello world"))
