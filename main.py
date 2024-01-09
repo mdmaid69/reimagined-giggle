@@ -1,5 +1,9 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def cube_number(x):
-        return x**3
+import array
+def append_to_array(array, item):
+        array.append(item)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
