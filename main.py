@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_min(numbers):
+        return min(numbers)
