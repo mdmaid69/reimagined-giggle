@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
