@@ -1,6 +1,3 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_work(force, distance):
+        return force * distance
+print([x**2 for x in range(10)])
