@@ -1,5 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_length(array):
+        return len(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
