@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
