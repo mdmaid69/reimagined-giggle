@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
