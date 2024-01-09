@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_acceleration(speed, time):
+        return speed / time
