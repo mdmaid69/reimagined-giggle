@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
