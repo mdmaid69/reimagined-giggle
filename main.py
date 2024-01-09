@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
