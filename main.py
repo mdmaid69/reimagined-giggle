@@ -1,5 +1,11 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+for i in range(5):
+        print(i)
