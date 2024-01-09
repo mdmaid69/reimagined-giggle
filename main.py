@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
