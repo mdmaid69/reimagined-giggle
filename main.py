@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
