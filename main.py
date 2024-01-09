@@ -1,7 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
