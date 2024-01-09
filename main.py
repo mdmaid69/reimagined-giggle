@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
