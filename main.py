@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
