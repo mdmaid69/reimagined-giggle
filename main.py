@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
