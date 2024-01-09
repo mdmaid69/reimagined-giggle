@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
