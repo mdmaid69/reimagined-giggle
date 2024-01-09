@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def find_max(numbers):
+        return max(numbers)
