@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import platform
-def get_python_version():
-        return platform.python_version()
+import numpy as np
+print(np.array([1, 2, 3]))
+from collections import Counter
+print(Counter("hello world"))
