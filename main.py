@@ -1,5 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_volume(length, width, height):
+        return length * width * height
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
