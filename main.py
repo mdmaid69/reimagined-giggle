@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_acceleration(speed, time):
+        return speed / time
