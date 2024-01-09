@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
