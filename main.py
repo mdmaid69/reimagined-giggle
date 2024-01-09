@@ -1,5 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def subtract_numbers(x, y):
-        return x - y
+def get_list_from_array(array):
+        return array.tolist()
+  def multiply_numbers(x, y):
+        return x * y
