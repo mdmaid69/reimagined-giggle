@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
