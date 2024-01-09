@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
