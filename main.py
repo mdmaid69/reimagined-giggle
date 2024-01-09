@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def is_even(n):
+        return n % 2 == 0
