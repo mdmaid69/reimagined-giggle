@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
