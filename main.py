@@ -1,5 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
