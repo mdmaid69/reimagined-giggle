@@ -1,6 +1,8 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
