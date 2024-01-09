@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
