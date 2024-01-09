@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_work(force, distance):
-        return force * distance
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
