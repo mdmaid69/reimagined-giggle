@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
