@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
