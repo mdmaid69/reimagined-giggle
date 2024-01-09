@@ -1,6 +1,12 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
