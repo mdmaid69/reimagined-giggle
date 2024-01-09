@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_item(array, i):
+        return array[i]
