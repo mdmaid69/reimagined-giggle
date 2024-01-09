@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
