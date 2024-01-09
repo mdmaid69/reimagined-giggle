@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def convert_to_binary(n):
+        return bin(n)
+import time
+def get_current_time():
+        return time.ctime()
