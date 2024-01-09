@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
