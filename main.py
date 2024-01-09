@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
