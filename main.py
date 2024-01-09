@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
