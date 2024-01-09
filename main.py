@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
