@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_as_set(array):
+        return set(array)
