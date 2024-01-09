@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import datetime
+print(datetime.datetime.now())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
