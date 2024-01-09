@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def convert_to_octal(n):
+        return oct(n)
