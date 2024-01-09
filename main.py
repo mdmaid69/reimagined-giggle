@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import datetime
+def get_current_date():
+        return datetime.date.today()
