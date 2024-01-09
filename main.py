@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def count_elements(lst):
-        return len(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_index(array, item):
+        return array.index(item)
