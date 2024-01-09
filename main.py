@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
