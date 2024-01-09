@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-name = "Python"
-print("Hello,", name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
