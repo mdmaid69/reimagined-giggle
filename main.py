@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def split_path(path):
+        return os.path.split(path)
