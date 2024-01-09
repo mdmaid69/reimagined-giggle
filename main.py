@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
