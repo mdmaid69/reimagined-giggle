@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
