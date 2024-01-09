@@ -1,4 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def remove_duplicates(lst):
-        return list(set(lst))
+def reverse_list(lst):
+        return lst[::-1]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
