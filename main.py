@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
