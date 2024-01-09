@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def get_current_time():
-        return time.ctime()
+def sort_list(lst):
+        return sorted(lst)
+def calculate_work(force, distance):
+        return force * distance
