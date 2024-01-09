@@ -1,5 +1,12 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
