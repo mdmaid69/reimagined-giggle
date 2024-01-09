@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+from collections import Counter
+print(Counter("hello world"))
