@@ -1,6 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
