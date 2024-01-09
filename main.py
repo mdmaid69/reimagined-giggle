@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
