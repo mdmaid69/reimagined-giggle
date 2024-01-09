@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+print(sum(range(10)))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
