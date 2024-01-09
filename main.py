@@ -1,6 +1,8 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
