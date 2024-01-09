@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import numpy as np
+print(np.array([1, 2, 3]))
