@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Characters:", len(text))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
