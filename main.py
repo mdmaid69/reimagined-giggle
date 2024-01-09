@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
