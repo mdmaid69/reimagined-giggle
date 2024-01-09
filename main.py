@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
