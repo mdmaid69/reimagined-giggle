@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def divide_numbers(x, y):
+        return x / y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
