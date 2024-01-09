@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_repr(array):
+        return repr(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
