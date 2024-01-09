@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
