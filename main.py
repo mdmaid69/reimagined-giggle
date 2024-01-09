@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
