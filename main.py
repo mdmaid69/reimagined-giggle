@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def is_even(n):
-        return n % 2 == 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
