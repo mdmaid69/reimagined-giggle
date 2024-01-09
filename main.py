@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
