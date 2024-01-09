@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
