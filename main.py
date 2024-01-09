@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
