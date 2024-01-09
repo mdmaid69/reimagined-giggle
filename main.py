@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_max(numbers):
-        return max(numbers)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
