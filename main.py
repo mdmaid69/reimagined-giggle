@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import time
+def get_current_time():
+        return time.time()
