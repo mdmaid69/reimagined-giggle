@@ -1,9 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
