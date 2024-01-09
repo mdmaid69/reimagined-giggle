@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
