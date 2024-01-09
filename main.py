@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
