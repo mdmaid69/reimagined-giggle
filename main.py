@@ -1,6 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
