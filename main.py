@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_speed(distance, time):
+        return distance / time
