@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-print(math.pi)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
