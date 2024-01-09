@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
