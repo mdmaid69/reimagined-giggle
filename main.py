@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
