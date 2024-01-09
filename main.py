@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
