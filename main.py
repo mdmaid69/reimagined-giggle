@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_acceleration(speed, time):
+        return speed / time
