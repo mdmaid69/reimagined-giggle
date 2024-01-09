@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
