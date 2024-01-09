@@ -1,6 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
