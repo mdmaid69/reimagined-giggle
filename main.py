@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
