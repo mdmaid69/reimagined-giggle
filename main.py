@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def reverse_list(lst):
-        return lst[::-1]
+def is_odd(n):
+        return n % 2 != 0
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
