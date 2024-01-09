@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
