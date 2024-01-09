@@ -1,7 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
