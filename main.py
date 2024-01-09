@@ -1,7 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
