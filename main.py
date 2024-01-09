@@ -1,3 +1,7 @@
-for i in range(10): print(i)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
