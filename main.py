@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def sort_list(lst):
-        return sorted(lst)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import os
+def remove_directory(path):
+        os.rmdir(path)
