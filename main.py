@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import time
+def get_time_since_epoch():
+        return time.time()
