@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import platform
+def get_os_info():
+        return platform.uname()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
