@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
