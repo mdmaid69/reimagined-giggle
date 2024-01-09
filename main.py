@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
