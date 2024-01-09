@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
