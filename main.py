@@ -1,12 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def is_even(n):
+        return n % 2 == 0
