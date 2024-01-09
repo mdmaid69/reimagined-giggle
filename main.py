@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
