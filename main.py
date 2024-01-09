@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def count_elements(lst):
+        return len(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
