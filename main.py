@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
