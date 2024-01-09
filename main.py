@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
