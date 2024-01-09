@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
