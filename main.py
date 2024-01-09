@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
