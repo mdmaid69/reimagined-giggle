@@ -1,7 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
