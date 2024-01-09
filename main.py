@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-def log_message(message):
-        logging.info(message)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
