@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
