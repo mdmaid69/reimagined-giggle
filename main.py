@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
