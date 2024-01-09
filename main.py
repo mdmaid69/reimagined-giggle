@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def reverse_string(s):
+        return s[::-1]
