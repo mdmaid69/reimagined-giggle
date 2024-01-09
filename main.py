@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import time
-print(time.time())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
