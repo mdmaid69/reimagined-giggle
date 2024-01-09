@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import re
+print(re.match("h.*o", "hello world"))
