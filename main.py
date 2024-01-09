@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
