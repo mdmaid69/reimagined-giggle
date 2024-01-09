@@ -1,6 +1,7 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
