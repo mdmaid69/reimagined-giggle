@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import os
-print(os.getcwd())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_list(array):
+        return list(array)
