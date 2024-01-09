@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
