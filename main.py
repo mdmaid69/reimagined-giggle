@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
