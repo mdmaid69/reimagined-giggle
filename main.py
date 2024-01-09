@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
