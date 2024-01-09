@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
