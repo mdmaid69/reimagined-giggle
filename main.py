@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
