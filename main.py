@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
