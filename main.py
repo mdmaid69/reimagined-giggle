@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
