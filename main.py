@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_max(lst):
-        return max(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
