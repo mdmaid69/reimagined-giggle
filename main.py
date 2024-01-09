@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
