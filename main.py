@@ -1,5 +1,7 @@
-import os
-print(os.getcwd())
-  import sys
-  def get_python_version():
-        return sys.version
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
