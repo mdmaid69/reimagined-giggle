@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
