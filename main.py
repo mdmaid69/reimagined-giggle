@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
