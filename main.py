@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def add_numbers(x, y):
+        return x + y
