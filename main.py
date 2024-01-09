@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
