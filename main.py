@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import platform
+def get_python_version():
+        return platform.python_version()
