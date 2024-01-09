@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
