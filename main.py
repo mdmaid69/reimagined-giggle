@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+for i in range(10): print(i)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
