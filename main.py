@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-from collections import Counter
-print(Counter("hello world"))
+def calculate_density(mass, volume):
+        return mass / volume
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
