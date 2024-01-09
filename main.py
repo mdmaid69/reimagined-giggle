@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_min(numbers):
-        return min(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
