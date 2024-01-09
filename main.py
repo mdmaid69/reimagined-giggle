@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
