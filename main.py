@@ -1,8 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
