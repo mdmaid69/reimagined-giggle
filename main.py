@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
