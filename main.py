@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
