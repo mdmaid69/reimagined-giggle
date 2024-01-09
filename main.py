@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
