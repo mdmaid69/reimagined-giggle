@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_user_string():
+        return collections.UserString()
+def greet(name):
+        print(f"Hello, {name}!")
