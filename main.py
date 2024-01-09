@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
