@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
