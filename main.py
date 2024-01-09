@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  def square_number(x):
+        return x**2
