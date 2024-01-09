@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
