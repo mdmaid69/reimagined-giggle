@@ -1,6 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def sort_list(lst):
+        return sorted(lst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
