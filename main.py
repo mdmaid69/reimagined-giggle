@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+  def cube_number(x):
+        return x**3
+def find_min(numbers):
+        return min(numbers)
