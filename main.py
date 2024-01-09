@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-x = 10
-y = 20
-print("Sum:", x + y)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
