@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
