@@ -1,5 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
