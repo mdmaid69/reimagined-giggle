@@ -1,7 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import csv
-def read_csv_file(filename):
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+        return json.load(f)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
