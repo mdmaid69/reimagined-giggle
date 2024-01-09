@@ -1,6 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def square_number(x):
+        return x**2
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
