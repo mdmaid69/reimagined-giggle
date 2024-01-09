@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
