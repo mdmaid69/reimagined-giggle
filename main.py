@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+x = 10
+y = 20
+print("Sum:", x + y)
