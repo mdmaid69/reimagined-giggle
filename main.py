@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
