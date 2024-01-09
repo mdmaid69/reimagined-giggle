@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
