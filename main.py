@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
