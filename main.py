@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def split_path(path):
+        return os.path.split(path)
