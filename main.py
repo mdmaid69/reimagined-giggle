@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
