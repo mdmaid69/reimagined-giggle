@@ -1,9 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def get_string_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
