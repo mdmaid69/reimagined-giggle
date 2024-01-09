@@ -1,6 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def square_number(x):
+        return x**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
