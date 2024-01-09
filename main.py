@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
