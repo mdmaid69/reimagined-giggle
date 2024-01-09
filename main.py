@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
