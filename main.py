@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
