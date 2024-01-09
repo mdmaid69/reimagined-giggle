@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
