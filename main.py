@@ -1,6 +1,3 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import getpass
-def get_username():
-        return getpass.getuser()
+print([x**2 for x in range(10)])
+def calculate_acceleration(speed, time):
+        return speed / time
