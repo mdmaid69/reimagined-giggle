@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
