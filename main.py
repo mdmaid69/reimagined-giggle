@@ -1,5 +1,7 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
