@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
