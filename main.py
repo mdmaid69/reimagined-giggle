@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def square_number(x):
-        return x**2
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
