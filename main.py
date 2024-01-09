@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
