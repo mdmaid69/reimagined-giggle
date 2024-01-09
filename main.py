@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
