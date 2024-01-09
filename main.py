@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_area_rectangle(l, w):
+        return l * w
