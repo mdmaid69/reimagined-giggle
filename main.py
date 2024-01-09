@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def add_numbers(x, y):
+        return x + y
