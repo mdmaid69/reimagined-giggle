@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
