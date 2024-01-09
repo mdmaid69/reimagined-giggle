@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
