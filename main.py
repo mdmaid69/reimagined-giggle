@@ -1,5 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
