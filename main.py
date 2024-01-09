@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
