@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
