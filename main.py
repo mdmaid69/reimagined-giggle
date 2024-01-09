@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
