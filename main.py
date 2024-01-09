@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def convert_to_hex(n):
+        return hex(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
