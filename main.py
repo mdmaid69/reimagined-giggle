@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
