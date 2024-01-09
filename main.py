@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def divide_numbers(x, y):
-        return x / y
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_priority_queue():
+        return collections.deque()
