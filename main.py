@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_speed(distance, time):
+        return distance / time
