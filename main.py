@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
