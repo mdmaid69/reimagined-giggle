@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def convert_to_binary(n):
+        return bin(n)
