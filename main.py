@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def cube_number(x):
-        return x**3
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def reverse_array(array):
+        array.reverse()
