@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import logging
+def log_message(message):
+        logging.info(message)
