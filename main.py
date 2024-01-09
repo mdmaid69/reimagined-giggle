@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
