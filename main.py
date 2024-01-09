@@ -1,5 +1,9 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def add_numbers(x, y):
-        return x + y
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
