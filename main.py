@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
