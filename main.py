@@ -1,3 +1,6 @@
-print(sum(range(10)))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
