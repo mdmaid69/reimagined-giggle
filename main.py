@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
