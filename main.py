@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
