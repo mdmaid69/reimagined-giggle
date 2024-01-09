@@ -1,6 +1,4 @@
-for i in range(5):
-        print(i)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
