@@ -1,6 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
