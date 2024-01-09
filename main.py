@@ -1,7 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area_circle(r):
+        return 3.14 * r**2
