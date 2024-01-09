@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_as_list(array):
+        return list(array)
+def find_min(numbers):
+        return min(numbers)
