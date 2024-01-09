@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_typecode(array):
-        return array.typecode
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
