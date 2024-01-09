@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
