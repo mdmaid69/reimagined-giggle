@@ -1,6 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
