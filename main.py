@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def sort_list(lst):
-        return sorted(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
