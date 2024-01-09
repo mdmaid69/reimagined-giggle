@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
