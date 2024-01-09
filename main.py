@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
