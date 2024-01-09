@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
