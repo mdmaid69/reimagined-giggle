@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def is_odd(n):
+        return n % 2 != 0
