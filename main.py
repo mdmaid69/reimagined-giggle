@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import time
-print(time.time())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_current_time():
+        return time.ctime()
