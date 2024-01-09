@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
