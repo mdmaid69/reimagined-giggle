@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+print(re.match("h.*o", "hello world"))
+import random
+print(random.randint(0, 100))
