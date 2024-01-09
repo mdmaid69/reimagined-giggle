@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def cube_number(x):
-        return x**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
