@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
