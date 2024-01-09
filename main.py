@@ -1,7 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
