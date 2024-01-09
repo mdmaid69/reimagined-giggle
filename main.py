@@ -1,5 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def convert_array_to_list(array):
+        return array.tolist()
