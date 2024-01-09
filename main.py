@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def is_even(n):
+        return n % 2 == 0
