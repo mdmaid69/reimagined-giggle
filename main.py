@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_area_circle(r):
+        return 3.14 * r**2
