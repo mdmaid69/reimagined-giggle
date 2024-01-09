@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def sort_list(lst):
+        return sorted(lst)
+for i in range(5):
+        print(i)
