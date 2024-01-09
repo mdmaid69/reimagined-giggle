@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
