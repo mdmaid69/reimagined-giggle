@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import sys
+def print_python_version():
+        print(sys.version)
