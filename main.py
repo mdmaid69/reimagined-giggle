@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
