@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
