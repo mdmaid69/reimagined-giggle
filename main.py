@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
