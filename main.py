@@ -1,6 +1,8 @@
-import random
-print(random.randint(0, 100))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
