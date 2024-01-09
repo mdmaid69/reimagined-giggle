@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
