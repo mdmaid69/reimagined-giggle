@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import collections
-def create_counter():
-        return collections.Counter()
+def create_stack():
+        return collections.deque()
+import time
+def get_current_time():
+        return time.ctime()
