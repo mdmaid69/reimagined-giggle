@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
