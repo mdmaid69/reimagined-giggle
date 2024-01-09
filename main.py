@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def remove_duplicates(lst):
+        return list(set(lst))
