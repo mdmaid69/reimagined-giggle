@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
