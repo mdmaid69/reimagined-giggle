@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
