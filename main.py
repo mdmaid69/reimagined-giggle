@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-print(random.randint(0, 100))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
