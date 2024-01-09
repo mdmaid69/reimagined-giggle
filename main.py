@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
