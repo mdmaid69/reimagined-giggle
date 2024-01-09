@@ -1,8 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
