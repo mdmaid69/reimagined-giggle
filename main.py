@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
