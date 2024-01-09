@@ -1,3 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-print(sum(range(10)))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
