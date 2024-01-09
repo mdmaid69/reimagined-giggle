@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+print(random.randint(0, 100))
+  def cube_number(x):
+        return x**3
