@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def create_queue():
+        return collections.deque()
