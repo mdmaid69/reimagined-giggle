@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
