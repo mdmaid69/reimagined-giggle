@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Characters:", len(text))
