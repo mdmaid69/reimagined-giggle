@@ -1,6 +1,7 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
