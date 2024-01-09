@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_tuple(array):
+        return tuple(array)
