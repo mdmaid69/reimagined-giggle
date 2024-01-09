@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
