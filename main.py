@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import csv
   def read_csv_file(file_name):
         with open(file_name, "r") as file:
