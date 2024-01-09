@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def greet(name):
+        print(f"Hello, {name}!")
