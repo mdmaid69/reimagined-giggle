@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_stack():
-        return collections.deque()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
