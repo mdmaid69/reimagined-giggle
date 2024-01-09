@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
