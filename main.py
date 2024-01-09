@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
