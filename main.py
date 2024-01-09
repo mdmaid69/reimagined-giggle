@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def exit_program():
+        sys.exit()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
