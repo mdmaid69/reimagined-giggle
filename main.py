@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
