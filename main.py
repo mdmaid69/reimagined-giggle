@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sys
-def exit_program():
-        sys.exit()
+  def convert_to_octal(n):
+        return oct(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
