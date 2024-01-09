@@ -1,7 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_density(mass, volume):
+        return mass / volume
