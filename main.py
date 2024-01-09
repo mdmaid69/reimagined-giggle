@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_item(array, i):
+        return array[i]
