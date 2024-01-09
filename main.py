@@ -1,4 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-for i in range(10): print(i)
+def calculate_factorial(n):
+        return math.factorial(n)
