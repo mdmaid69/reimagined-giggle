@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
