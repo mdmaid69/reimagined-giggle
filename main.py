@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-print(time.time())
+  def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
