@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import collections
+def create_counter():
+        return collections.Counter()
