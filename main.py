@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
