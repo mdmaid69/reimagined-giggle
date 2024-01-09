@@ -1,10 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
