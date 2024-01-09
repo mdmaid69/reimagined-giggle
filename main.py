@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import datetime
-print(datetime.datetime.now())
+import os
+print(os.getcwd())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
