@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
