@@ -1,8 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
