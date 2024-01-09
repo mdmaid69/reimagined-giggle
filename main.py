@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
