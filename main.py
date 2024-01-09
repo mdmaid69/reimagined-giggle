@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import time
+def get_current_time():
+        return time.time()
+import collections
+def create_user_dict():
+        return collections.UserDict()
