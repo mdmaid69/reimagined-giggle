@@ -1,8 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
