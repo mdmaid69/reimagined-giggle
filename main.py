@@ -1,5 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_length(array):
+        return len(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
