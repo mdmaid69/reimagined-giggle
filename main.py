@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def cube_number(x):
+        return x**3
