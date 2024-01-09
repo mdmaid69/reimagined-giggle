@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
