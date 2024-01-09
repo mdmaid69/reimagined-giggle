@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
