@@ -1,6 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def append_to_array(array, item):
-        array.append(item)
-import time
-def get_time_since_epoch():
-        return time.time()
+def get_array_as_bool(array):
+        return bool(array)
