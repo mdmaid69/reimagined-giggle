@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_pressure(force, area):
+        return force / area
