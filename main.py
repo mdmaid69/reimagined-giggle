@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
