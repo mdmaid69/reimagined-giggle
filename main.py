@@ -1,5 +1,8 @@
-def find_min(lst):
-        return min(lst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
