@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
