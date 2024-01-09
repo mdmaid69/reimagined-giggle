@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
