@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
