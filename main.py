@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
