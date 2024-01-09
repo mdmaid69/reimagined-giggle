@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
