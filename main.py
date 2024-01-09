@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import sys
-def exit_program():
-        sys.exit()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
