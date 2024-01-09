@@ -1,5 +1,9 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
