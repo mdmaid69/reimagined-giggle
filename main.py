@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
