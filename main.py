@@ -1,6 +1,5 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def print_python_version():
+        print(sys.version)
+for i in range(5):
+        print(i)
