@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def convert_to_octal(n):
-        return oct(n)
+def find_max(numbers):
+        return max(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
