@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def square_number(x):
-        return x**2
+def calculate_cosine(x):
+        return math.cos(x)
+def reverse_list(lst):
+        return lst[::-1]
