@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
