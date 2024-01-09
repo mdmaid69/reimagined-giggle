@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+print(random.randint(0, 100))
