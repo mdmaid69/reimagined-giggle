@@ -1,7 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
