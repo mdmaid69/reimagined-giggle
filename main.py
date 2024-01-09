@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
