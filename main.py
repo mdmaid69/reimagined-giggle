@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def print_python_version():
+        print(sys.version)
