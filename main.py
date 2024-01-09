@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def count_characters(sentence):
+        return len(sentence)
