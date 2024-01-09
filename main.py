@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
