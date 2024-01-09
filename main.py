@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def count_words(sentence):
-        return len(sentence.split())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def add_numbers(x, y):
+        return x + y
