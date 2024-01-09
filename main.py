@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
