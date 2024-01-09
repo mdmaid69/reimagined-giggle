@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
