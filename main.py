@@ -1,7 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_area_circle(r):
+        return 3.14 * r**2
