@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def convert_to_octal(n):
-        return oct(n)
+  def cube_number(x):
+        return x**3
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
