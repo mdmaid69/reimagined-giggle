@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
