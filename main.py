@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
