@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def reverse_list(lst):
-        return lst[::-1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def remove_duplicates(lst):
+        return list(set(lst))
