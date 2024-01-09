@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
