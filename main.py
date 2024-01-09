@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
