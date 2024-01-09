@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def add_numbers(x, y):
+        return x + y
