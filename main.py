@@ -1,6 +1,9 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
