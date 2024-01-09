@@ -1,6 +1,5 @@
 import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+print(time.time())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
