@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import time
+print(time.time())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
