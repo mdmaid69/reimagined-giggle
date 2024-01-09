@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
