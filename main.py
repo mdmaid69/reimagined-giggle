@@ -1,4 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def add_numbers(x, y):
-        return x + y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
