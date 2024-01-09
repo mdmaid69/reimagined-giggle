@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
