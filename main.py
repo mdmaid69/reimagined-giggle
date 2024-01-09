@@ -1,7 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
