@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
