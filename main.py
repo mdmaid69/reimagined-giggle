@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import sys
+def print_python_version():
+        return sys.version
