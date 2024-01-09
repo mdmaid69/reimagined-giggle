@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def sort_list(lst):
+        return sorted(lst)
