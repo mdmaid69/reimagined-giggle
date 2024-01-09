@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
