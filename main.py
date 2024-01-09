@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_int(array):
+        return int(array[0])
