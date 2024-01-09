@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
