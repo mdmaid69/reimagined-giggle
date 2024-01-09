@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def add_numbers(a, b):
+        return a + b
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_array_to_list(array):
+        return array.tolist()
