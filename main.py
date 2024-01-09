@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def greet(name):
-        print(f"Hello, {name}!")
+print(sum(range(10)))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
