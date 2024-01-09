@@ -1,9 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
