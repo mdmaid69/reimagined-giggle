@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
