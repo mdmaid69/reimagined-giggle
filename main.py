@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def cube_number(x):
+        return x**3
+def cube_number(x):
+        return x**3
