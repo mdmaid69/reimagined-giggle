@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_max(lst):
-        return max(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_priority_queue():
+        return collections.deque()
