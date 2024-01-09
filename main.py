@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
