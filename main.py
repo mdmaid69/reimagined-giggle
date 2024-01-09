@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
