@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
