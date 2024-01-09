@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
