@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
