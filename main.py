@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import datetime
+def get_current_date():
+        return datetime.date.today()
