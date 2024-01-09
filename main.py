@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def count_characters(sentence):
-        return len(sentence)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
