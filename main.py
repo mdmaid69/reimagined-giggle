@@ -1,5 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-def find_max(lst):
-        return max(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
