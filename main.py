@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-print(os.getcwd())
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
