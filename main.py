@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
