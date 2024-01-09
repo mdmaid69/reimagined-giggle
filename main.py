@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def square_number(x):
-        return x**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
