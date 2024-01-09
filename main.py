@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def square_number(x):
-        return x**2
+def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_priority_queue():
+        return collections.deque()
