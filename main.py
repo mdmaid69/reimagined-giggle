@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_density(mass, volume):
-        return mass / volume
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
