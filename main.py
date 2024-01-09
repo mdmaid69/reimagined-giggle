@@ -1,5 +1,9 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def add_numbers(x, y):
-        return x + y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
