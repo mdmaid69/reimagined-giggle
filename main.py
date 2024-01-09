@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
