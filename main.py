@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
