@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
