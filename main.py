@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
