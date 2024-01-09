@@ -1,4 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import collections
+def create_counter():
+        return collections.Counter()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
