@@ -1,6 +1,9 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
