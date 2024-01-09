@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
