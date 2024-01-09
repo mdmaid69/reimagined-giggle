@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+print([x**2 for x in range(10)])
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
