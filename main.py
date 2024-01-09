@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def append_to_array(array, item):
+        array.append(item)
