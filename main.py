@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_user_dict():
+        return collections.UserDict()
