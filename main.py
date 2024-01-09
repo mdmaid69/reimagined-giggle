@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_queue():
+        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
