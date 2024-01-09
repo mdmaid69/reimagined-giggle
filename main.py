@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def convert_to_hex(n):
+        return hex(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
