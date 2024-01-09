@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
