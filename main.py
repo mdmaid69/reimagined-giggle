@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
