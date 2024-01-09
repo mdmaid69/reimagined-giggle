@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def find_min(lst):
+        return min(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
