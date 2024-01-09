@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
