@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+print("Hello, world!")
