@@ -1,4 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-print("Hello, world!")
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_pressure(force, area):
+        return force / area
