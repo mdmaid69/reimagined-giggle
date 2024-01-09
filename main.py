@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
