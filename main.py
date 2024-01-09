@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
