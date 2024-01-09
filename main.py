@@ -1,7 +1,7 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
