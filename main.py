@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def add_numbers(a, b):
+        return a + b
