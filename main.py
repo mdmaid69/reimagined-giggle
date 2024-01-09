@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def convert_to_binary(n):
+        return bin(n)
