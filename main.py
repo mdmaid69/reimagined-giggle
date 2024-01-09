@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
