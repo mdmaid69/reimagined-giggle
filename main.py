@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def is_odd(n):
+        return n % 2 != 0
