@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
