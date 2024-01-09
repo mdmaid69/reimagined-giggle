@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import sys
+print(sys.version)
