@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
