@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
