@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
