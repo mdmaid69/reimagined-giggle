@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
