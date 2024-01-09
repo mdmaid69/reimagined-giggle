@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
