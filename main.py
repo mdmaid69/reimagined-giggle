@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
