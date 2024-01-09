@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_area(radius):
+        return 3.14 * radius * radius
