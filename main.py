@@ -1,5 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_density(mass, volume):
-        return mass / volume
+import numpy as np
+print(np.array([1, 2, 3]))
+  def subtract_numbers(x, y):
+        return x - y
