@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_length(array):
+        return len(array)
