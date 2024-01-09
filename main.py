@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import time
-print(time.time())
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
