@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def convert_to_octal(n):
-        return oct(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
