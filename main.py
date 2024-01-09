@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
