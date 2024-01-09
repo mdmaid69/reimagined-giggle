@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
