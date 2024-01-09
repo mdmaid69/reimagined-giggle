@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
