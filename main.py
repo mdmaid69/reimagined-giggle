@@ -1,4 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
