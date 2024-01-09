@@ -1,6 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def create_counter():
-        return collections.Counter()
+def cube_number(x):
+        return x**3
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
