@@ -1,8 +1,7 @@
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_pressure(force, area):
+        return force / area
