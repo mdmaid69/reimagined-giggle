@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
