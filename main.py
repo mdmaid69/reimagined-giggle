@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
