@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
