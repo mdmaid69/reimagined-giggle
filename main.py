@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
