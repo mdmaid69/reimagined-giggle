@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
