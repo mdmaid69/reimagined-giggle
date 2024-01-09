@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
