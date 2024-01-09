@@ -1,7 +1,8 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
