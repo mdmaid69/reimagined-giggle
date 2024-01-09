@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
