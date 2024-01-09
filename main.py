@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
