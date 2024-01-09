@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_density(mass, volume):
+        return mass / volume
