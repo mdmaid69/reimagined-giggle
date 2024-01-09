@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
