@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
