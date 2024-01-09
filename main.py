@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
