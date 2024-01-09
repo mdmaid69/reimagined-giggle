@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_repr(array):
+        return repr(array)
