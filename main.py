@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
