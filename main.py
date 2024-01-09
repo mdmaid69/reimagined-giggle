@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+for i in range(10): print(i)
