@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
