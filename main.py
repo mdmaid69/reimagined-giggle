@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def find_min(lst):
-        return min(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
