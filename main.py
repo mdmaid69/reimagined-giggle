@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
