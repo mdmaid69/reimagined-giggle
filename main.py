@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def count_words(sentence):
-        return len(sentence.split())
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
