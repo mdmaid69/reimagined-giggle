@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
