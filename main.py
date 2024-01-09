@@ -1,6 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def get_current_directory():
-        return os.getcwd()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
