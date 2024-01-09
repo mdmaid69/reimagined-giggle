@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
