@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def add_numbers(x, y):
+        return x + y
