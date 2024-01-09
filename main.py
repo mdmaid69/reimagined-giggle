@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
