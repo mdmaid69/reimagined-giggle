@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_unique_words(sentence):
+        return set(sentence.split())
