@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import platform
+def get_python_version():
+        return platform.python_version()
