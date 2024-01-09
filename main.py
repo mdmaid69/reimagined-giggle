@@ -1,6 +1,12 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
