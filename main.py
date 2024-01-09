@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
