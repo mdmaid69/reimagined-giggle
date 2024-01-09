@@ -1,5 +1,9 @@
-import time
-print(time.time())
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
