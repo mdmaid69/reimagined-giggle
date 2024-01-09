@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
