@@ -1,6 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def count_elements(lst):
+        return len(lst)
