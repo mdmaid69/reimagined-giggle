@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
