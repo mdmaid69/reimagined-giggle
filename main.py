@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
