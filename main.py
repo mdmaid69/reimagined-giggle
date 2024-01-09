@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def subtract_numbers(x, y):
+        return x - y
