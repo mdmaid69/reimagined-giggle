@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_length(array):
+        return len(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
