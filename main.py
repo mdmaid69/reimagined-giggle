@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
