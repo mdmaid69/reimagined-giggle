@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
