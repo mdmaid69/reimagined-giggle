@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
