@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_density(mass, volume):
-        return mass / volume
+def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def change_working_directory(path):
+        os.chdir(path)
