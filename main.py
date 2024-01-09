@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+print([x**2 for x in range(10)])
