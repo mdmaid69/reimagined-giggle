@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+print(os.getcwd())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
