@@ -1,8 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
