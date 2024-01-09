@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
