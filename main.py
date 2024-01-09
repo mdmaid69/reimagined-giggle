@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
