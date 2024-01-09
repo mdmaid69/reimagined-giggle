@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
