@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
