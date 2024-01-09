@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import time
-print(time.time())
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
