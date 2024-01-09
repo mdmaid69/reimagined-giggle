@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
