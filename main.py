@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
