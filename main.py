@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
