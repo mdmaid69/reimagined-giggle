@@ -1,4 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-for i in range(10): print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
