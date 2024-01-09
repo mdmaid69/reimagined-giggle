@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-print(math.pi)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
