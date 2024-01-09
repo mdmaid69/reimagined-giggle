@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def greet(name):
+        print(f"Hello, {name}!")
