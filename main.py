@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
