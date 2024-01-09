@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import datetime
+def get_today_date():
+        return datetime.date.today()
