@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def subtract_numbers(x, y):
+        return x - y
