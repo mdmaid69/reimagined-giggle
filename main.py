@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def convert_to_binary(n):
+        return bin(n)
