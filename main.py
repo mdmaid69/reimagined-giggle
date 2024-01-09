@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
