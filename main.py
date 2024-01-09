@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
