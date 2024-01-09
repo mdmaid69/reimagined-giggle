@@ -1,5 +1,8 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
