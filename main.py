@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
