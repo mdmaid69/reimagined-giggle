@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
