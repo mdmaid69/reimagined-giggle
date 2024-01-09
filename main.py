@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
