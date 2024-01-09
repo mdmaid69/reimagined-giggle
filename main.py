@@ -1,6 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
