@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_area_rectangle(l, w):
+        return l * w
