@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
