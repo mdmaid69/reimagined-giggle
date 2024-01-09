@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def square_number(x):
-        return x**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
