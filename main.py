@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
