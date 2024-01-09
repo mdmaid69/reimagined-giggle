@@ -1,5 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
