@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
