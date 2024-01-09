@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
