@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import getpass
-def get_username():
-        return getpass.getuser()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
