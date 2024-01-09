@@ -1,8 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
