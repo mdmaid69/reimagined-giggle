@@ -1,8 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
