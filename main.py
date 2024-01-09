@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
