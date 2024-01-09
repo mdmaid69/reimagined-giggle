@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def greet(name):
-        print(f"Hello, {name}!")
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def convert_to_octal(n):
+        return oct(n)
