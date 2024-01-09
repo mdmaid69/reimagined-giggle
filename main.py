@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
