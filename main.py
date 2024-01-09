@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_rectangle(l, w):
-        return l * w
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
