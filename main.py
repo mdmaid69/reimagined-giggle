@@ -1,6 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
