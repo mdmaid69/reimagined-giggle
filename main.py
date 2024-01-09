@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
