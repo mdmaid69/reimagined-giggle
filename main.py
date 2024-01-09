@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_work(force, distance):
+        return force * distance
