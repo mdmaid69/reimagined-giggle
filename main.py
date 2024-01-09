@@ -1,6 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
