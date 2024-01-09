@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
