@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
