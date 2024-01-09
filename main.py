@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def square_number(x):
-        return x**2
+  def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
