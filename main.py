@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
