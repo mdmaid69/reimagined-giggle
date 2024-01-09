@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_factorial(n):
+        return math.factorial(n)
