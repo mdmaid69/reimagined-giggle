@@ -1,5 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_work(force, distance):
-        return force * distance
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
