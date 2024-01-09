@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-print(math.pi)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
