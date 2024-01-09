@@ -1,6 +1,12 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
