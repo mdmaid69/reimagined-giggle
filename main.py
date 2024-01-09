@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_int(array):
+        return int(array[0])
