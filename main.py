@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
