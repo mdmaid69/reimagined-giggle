@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_power(work, time):
+        return work / time
