@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
