@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
