@@ -1,6 +1,9 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
