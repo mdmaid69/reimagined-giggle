@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_area_rectangle(l, w):
+        return l * w
