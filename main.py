@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_index(array, item):
+        return array.index(item)
