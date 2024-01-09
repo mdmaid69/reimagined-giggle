@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_index(array, item):
+        return array.index(item)
