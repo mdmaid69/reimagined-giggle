@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import getpass
-def get_username():
-        return getpass.getuser()
+  def calculate_area_rectangle(l, w):
+        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
