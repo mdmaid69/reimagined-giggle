@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
