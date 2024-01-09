@@ -1,5 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_itemsize(array):
+        return array.itemsize
