@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
