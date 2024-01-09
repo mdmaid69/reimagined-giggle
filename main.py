@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
