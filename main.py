@@ -1,11 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
