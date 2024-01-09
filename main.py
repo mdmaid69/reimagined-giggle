@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
