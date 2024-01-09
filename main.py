@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
