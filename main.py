@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
