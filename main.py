@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import sys
-def print_python_version():
-        print(sys.version)
+def reverse_string(s):
+        return s[::-1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
