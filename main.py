@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
