@@ -1,8 +1,5 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def get_array_as_set(array):
+        return set(array)
+  def convert_to_octal(n):
+        return oct(n)
