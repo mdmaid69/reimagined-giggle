@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
