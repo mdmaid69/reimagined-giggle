@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+print(math.pi)
