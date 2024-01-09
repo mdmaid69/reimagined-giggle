@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def multiply_numbers(x, y):
-        return x * y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
