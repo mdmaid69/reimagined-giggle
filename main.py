@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
