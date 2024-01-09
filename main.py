@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_area_rectangle(l, w):
-        return l * w
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import time
+def get_time_since_epoch():
+        return time.time()
