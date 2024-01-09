@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def add_numbers(x, y):
-        return x + y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
