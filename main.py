@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
