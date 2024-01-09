@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
