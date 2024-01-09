@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
