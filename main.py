@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
