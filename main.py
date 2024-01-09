@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
