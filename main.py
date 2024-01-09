@@ -1,6 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
