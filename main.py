@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
