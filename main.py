@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+name = "Python"
+print("Hello,", name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
