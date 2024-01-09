@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def is_even(n):
+        return n % 2 == 0
+import sys
+print(sys.version)
