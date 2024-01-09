@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
