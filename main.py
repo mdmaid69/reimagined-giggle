@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
