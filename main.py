@@ -1,8 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
