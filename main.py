@@ -1,5 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
