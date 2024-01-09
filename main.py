@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_as_repr(array):
+        return repr(array)
