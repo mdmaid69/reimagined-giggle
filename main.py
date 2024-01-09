@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
