@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
