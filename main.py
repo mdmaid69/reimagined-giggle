@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import time
+def get_current_time():
+        return time.ctime()
