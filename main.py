@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
