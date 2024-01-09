@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def is_even(n):
+        return n % 2 == 0
