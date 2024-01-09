@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
