@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_today_date():
+        return datetime.date.today()
