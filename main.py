@@ -1,5 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
