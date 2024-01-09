@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
