@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
