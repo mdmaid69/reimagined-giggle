@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-from collections import Counter
-print(Counter("hello world"))
+import math
+print(math.pi)
+  def count_elements(lst):
+        return len(lst)
