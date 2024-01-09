@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
