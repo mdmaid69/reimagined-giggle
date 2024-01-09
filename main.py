@@ -1,7 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
