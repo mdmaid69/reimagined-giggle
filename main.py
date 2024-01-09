@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
