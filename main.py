@@ -1,8 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
