@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
