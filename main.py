@@ -1,6 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_circle_area(radius):
+        return math.pi * radius**2
