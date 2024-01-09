@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def get_array_item_count(array, item):
+        return array.count(item)
