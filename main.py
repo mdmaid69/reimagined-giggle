@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_length(array):
-        return len(array)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
