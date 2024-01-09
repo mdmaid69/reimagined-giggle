@@ -1,6 +1,7 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
