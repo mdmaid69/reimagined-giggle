@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
