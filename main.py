@@ -1,9 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
