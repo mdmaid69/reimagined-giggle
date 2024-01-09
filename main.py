@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
