@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
