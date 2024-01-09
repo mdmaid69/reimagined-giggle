@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
