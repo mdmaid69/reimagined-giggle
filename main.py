@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def add_numbers(x, y):
+        return x + y
