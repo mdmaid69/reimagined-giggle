@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def reverse_array(array):
+        array.reverse()
