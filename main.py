@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
