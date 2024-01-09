@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_index(array, item):
+        return array.index(item)
