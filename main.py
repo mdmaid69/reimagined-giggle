@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
