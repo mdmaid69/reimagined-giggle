@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
