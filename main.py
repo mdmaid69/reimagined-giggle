@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
