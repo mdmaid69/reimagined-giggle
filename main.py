@@ -1,6 +1,10 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
