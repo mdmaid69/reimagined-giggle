@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def square_number(x):
+        return x**2
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
