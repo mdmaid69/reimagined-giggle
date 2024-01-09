@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-import time
-def get_current_time():
-        return time.time()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
