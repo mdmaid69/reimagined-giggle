@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import platform
+def get_python_version():
+        return platform.python_version()
