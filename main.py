@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_priority_queue():
+        return collections.deque()
+def count_words(sentence):
+        return len(sentence.split())
