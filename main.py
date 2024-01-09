@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
