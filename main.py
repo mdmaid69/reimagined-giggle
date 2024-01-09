@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def generate_random_number(start, end):
+        return random.randint(start, end)
