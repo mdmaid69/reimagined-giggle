@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
