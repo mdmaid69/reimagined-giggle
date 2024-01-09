@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
