@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-def print_python_version():
-        print(sys.version)
+def is_odd(n):
+        return n % 2 != 0
+def find_unique_words(sentence):
+        return set(sentence.split())
