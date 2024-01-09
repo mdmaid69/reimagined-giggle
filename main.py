@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import datetime
-print(datetime.datetime.now())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
