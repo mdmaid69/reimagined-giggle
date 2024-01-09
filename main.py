@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
