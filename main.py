@@ -1,7 +1,5 @@
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def convert_to_json(data):
+        return json.dumps(data)
+  def is_even(n):
+        return n % 2 == 0
