@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
