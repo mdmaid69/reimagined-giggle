@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
