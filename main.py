@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def is_even(n):
+        return n % 2 == 0
