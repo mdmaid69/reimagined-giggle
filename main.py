@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
