@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
