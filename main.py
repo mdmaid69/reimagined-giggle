@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
