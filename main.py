@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
