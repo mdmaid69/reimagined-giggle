@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
