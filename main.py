@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+print(sum(range(10)))
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
