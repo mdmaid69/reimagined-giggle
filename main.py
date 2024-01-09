@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
