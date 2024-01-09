@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
