@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_typecode(array):
+        return array.typecode
