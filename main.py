@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-for i in range(5):
-        print(i)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
