@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+for i in range(5):
+        print(i)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
