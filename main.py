@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
