@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
