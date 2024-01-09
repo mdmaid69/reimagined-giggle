@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
