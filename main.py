@@ -1,5 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def cube_number(x):
-        return x**3
+def calculate_area_rectangle(l, w):
+        return l * w
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
