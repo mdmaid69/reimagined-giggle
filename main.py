@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
