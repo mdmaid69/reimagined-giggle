@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def multiply_numbers(x, y):
-        return x * y
+def get_array_item(array, i):
+        return array[i]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
