@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
