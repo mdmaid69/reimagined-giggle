@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def create_user_string():
+        return collections.UserString()
