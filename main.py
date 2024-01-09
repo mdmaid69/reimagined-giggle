@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def is_even(n):
-        return n % 2 == 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
