@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def convert_to_binary(n):
+        return bin(n)
