@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
