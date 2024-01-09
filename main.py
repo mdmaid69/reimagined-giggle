@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
