@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import platform
-def get_os_info():
-        return platform.uname()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
