@@ -1,3 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-print("Hello, world!")
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
