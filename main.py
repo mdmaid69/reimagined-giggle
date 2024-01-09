@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_counter():
+        return collections.Counter()
