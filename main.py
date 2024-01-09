@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def is_even(n):
+        return n % 2 == 0
+for i in range(5):
+        print(i)
