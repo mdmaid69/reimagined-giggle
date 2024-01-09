@@ -1,6 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import array
-def clear_array(array):
-        array *= 0
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def get_array_as_str(array):
+        return str(array)
