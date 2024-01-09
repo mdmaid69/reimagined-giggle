@@ -1,6 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-name = "Python"
-print("Hello,", name)
+def get_string_from_array(array):
+        return array.tobytes()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
