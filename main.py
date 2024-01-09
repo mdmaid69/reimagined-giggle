@@ -1,7 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
