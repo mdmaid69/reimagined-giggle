@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def find_min(numbers):
-        return min(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+from collections import Counter
+print(Counter("hello world"))
