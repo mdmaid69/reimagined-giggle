@@ -1,7 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
