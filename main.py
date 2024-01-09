@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
