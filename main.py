@@ -1,5 +1,10 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def print_python_version():
+        print(sys.version)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
