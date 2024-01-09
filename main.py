@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
