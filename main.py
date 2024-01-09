@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
