@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
