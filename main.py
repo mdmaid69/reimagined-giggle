@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_stack():
-        return collections.deque()
+import sys
+def exit_program():
+        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
