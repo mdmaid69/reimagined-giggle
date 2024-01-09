@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
