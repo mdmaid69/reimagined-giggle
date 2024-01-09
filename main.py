@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
