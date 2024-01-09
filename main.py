@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_stack():
+        return collections.deque()
