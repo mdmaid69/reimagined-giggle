@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def reverse_list(lst):
+        return lst[::-1]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
