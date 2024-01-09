@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def multiply_numbers(x, y):
-        return x * y
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
