@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import logging
+def log_message(message):
+        logging.info(message)
