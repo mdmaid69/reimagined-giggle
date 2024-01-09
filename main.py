@@ -1,5 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def add_numbers(a, b):
-        return a + b
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
