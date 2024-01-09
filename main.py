@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def remove_duplicates(lst):
+        return list(set(lst))
