@@ -1,6 +1,9 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
