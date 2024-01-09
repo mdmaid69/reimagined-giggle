@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
