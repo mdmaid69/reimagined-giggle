@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
