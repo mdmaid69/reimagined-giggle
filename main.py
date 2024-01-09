@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-print(random.randint(0, 100))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
