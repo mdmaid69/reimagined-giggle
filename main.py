@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
