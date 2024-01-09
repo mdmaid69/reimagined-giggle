@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
