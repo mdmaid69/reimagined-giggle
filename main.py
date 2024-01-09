@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
