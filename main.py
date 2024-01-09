@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
