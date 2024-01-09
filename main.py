@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
