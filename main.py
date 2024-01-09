@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
