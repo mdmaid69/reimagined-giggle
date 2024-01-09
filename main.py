@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
