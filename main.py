@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
