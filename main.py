@@ -1,7 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
