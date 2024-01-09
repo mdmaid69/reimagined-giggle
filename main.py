@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
