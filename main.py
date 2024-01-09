@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
