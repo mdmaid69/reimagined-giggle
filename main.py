@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
