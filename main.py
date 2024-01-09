@@ -1,6 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
