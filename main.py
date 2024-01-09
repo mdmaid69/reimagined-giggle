@@ -1,8 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def is_odd(n):
-        return n % 2 != 0
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
