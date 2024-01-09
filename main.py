@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
