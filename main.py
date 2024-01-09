@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def reverse_list(lst):
+        return lst[::-1]
