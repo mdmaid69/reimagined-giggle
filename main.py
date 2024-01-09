@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
