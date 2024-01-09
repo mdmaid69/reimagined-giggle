@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
