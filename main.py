@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_acceleration(speed, time):
+        return speed / time
