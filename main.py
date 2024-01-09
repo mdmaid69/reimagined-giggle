@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def multiply_numbers(x, y):
+        return x * y
