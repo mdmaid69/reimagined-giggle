@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
