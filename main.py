@@ -1,7 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+x = 10
+y = 20
+print("Sum:", x + y)
