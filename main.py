@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
