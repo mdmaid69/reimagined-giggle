@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_to_binary(n):
+        return bin(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
