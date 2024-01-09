@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
