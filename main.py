@@ -1,5 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
