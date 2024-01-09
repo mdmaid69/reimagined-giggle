@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_odd(n):
-        return n % 2 != 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
