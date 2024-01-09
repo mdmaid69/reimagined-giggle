@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def sort_list(lst):
-        return sorted(lst)
+  import sys
+  def get_python_version():
+        return sys.version
+def count_words(sentence):
+        return len(sentence.split())
