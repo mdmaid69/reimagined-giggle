@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
