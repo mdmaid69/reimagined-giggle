@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
