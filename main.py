@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import tensorflow as tf
-print(tf.__version__)
+  def convert_to_hex(n):
+        return hex(n)
+  def sort_list(lst):
+        return sorted(lst)
