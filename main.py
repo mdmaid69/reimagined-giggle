@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
