@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
