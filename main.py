@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
