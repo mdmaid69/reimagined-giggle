@@ -1,6 +1,8 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
