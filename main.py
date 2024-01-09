@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def cube_number(x):
-        return x**3
+import array
+def get_array_typecode(array):
+        return array.typecode
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
