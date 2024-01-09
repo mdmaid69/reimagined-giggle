@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
