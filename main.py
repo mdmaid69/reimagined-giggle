@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def sort_list(lst):
+        return sorted(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
