@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_stack():
+        return collections.deque()
