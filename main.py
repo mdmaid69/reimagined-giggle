@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_volume(length, width, height):
-        return length * width * height
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
