@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_current_date():
+        return datetime.date.today()
