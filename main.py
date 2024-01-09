@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
