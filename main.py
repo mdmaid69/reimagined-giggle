@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_str(array):
-        return str(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_queue():
+        return collections.deque()
