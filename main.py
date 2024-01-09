@@ -1,6 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_factorial(n):
+        return math.factorial(n)
