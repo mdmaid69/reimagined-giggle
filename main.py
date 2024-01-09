@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
