@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_area_rectangle(l, w):
+        return l * w
