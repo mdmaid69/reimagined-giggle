@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def add_numbers(x, y):
+        return x + y
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
