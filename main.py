@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
