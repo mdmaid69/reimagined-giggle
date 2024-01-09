@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
