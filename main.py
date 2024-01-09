@@ -1,8 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
