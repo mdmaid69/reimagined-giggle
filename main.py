@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
