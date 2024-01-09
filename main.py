@@ -1,6 +1,4 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+print([x**2 for x in range(10)])
