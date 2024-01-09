@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
