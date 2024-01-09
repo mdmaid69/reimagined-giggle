@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
