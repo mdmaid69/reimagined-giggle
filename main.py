@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
