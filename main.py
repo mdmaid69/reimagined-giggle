@@ -1,6 +1,3 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+for i in range(10): print(i)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
