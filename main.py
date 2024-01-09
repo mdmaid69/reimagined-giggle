@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def is_odd(n):
-        return n % 2 != 0
+def add_numbers(x, y):
+        return x + y
+def divide_numbers(x, y):
+        return x / y
