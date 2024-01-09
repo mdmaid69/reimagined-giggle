@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
