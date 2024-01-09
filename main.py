@@ -1,6 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
