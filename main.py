@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
