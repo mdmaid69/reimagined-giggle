@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
