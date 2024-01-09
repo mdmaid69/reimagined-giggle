@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
