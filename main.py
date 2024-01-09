@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
