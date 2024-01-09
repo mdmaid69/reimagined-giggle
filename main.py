@@ -1,8 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
