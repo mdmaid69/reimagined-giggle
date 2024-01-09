@@ -1,4 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import numpy as np
-print(np.array([1, 2, 3]))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
