@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def sort_list(lst):
+        return sorted(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
