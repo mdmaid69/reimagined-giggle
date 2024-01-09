@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
