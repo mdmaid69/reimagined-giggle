@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
