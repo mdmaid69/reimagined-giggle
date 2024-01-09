@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
