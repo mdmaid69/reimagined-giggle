@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
