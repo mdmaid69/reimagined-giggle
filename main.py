@@ -1,4 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  def square_number(x):
-        return x**2
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
