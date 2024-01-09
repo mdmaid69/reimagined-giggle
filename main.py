@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
