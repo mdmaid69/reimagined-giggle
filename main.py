@@ -1,5 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
