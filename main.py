@@ -1,4 +1,9 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
