@@ -1,8 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def exit_program():
+        sys.exit()
+x = 10
+y = 20
+print("Sum:", x + y)
