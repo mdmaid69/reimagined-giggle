@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
