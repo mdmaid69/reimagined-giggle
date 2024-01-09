@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
