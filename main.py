@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
