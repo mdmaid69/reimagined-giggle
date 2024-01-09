@@ -1,9 +1,12 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-from flask import Flask
-app = Flask(__name__)
+import queue
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
