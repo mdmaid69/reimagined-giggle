@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
