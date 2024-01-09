@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
