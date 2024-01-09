@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
