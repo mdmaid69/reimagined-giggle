@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
