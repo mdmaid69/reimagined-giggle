@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
