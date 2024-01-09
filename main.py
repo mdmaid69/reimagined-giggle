@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def add_numbers(a, b):
+        return a + b
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
