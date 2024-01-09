@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
