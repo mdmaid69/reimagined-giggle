@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+print(sum(range(10)))
