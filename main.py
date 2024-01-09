@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_acceleration(speed, time):
+        return speed / time
