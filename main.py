@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def convert_to_octal(n):
+        return oct(n)
