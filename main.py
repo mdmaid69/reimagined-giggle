@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def add_numbers(x, y):
+        return x + y
