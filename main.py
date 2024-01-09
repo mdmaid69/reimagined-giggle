@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_int(array):
+        return int(array[0])
