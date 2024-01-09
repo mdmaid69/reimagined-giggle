@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
