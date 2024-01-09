@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_circle(r):
+        return 3.14 * r**2
