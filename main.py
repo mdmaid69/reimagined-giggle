@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
