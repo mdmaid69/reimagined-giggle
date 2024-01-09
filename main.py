@@ -1,6 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_array_slice(array, i, j):
+        return array[i:j]
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
