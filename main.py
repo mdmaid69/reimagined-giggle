@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
