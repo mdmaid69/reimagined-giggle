@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
