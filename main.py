@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import array
-def append_to_array(array, item):
-        array.append(item)
+import re
+print(re.match("h.*o", "hello world"))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
