@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
