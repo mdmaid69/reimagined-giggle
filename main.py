@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
