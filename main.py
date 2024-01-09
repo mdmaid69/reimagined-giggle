@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+print(random.randint(0, 100))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
