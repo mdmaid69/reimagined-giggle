@@ -1,4 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-print("Hello, world!")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def square_number(x):
+        return x**2
