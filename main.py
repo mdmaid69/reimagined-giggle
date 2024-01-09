@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
