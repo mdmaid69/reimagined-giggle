@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
