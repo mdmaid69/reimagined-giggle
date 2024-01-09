@@ -1,5 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
