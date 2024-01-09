@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
