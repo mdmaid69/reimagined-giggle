@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
