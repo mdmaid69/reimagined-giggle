@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
