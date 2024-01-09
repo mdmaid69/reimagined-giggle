@@ -1,6 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
