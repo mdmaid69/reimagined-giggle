@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
