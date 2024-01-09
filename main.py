@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
