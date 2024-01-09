@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
