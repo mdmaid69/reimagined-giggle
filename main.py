@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
