@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
