@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
