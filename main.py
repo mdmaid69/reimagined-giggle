@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
