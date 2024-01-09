@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def calculate_area_rectangle(l, w):
+        return l * w
