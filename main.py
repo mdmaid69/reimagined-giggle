@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def is_even(n):
+        return n % 2 == 0
