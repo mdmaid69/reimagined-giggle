@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_counter():
-        return collections.Counter()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_int(array):
+        return int(array[0])
