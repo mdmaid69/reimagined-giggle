@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
