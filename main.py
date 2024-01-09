@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import sys
-print(sys.version)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
