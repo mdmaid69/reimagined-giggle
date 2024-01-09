@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
