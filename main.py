@@ -1,9 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
