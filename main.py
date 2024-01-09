@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
