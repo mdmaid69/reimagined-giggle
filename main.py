@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_circumference_circle(r):
         return 2 * 3.14 * r
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
