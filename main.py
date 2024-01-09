@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
