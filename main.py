@@ -1,5 +1,8 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import collections
+def create_user_list():
+        return collections.UserList()
