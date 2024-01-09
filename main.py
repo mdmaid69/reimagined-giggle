@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_max(lst):
+        return max(lst)
