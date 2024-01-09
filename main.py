@@ -1,6 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_user_list():
-        return collections.UserList()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_area_circle(r):
+        return 3.14 * r**2
