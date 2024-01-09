@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
