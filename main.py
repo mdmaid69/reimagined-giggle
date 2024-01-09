@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
