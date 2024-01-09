@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
