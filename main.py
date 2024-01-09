@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def convert_to_binary(n):
+        return bin(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
