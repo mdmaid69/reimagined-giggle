@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
