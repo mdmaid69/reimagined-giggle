@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import platform
-def get_os_info():
-        return platform.uname()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
