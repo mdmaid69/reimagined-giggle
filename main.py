@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
