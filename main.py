@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def is_even(n):
+        return n % 2 == 0
