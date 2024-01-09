@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_max(lst):
+        return max(lst)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
