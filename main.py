@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
