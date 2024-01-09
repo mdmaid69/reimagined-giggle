@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_words(sentence):
-        return len(sentence.split())
+import logging
+def log_message(message):
+        logging.info(message)
+import datetime
+print(datetime.datetime.now())
