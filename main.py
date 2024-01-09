@@ -1,8 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
