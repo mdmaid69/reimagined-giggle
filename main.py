@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import logging
+def log_message(message):
+        logging.info(message)
