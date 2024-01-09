@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
