@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
