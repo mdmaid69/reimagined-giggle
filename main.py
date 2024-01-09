@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
