@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
