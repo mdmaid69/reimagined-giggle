@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_power(work, time):
-        return work / time
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
