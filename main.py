@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
