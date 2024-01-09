@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import time
+def get_time_since_epoch():
+        return time.time()
+  def convert_to_hex(n):
+        return hex(n)
