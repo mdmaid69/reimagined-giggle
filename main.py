@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
