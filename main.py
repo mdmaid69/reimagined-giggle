@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
