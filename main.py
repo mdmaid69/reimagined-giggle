@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def set_array_item(array, i, item):
+        array[i] = item
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
