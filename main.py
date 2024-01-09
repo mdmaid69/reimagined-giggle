@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
