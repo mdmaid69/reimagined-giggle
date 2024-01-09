@@ -1,4 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-for i in range(5):
-        print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
