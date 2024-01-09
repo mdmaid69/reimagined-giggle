@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
