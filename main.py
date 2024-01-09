@@ -1,4 +1,7 @@
-print("Hello, world!")
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def find_min(lst):
+        return min(lst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
