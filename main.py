@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
