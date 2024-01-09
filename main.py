@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
