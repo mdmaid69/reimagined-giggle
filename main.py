@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_density(mass, volume):
+        return mass / volume
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
