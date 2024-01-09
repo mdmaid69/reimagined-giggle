@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
