@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def cube_number(x):
+        return x**3
+def count_words(sentence):
+        return len(sentence.split())
