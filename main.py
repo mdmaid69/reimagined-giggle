@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
