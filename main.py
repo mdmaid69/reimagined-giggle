@@ -1,6 +1,9 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
