@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
