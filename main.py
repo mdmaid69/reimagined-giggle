@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
