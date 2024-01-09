@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import sys
+def print_python_version():
+        print(sys.version)
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
