@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def clear_array(array):
+        array *= 0
+import array
+def set_array_item(array, i, item):
+        array[i] = item
