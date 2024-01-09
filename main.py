@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_max(lst):
+        return max(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
