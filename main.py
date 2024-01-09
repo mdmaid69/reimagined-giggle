@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
