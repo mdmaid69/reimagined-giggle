@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
