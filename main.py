@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def multiply_numbers(x, y):
-        return x * y
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
