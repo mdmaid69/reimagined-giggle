@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
