@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def multiply_numbers(x, y):
+        return x * y
+def divide_numbers(x, y):
+        return x / y
