@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
