@@ -1,6 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def is_odd(n):
+        return n % 2 != 0
+  def convert_to_binary(n):
+        return bin(n)
