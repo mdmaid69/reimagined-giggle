@@ -1,5 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
