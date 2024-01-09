@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
