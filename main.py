@@ -1,4 +1,10 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
