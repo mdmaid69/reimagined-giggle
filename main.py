@@ -1,7 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+print([x**2 for x in range(10)])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
