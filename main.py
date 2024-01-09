@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
