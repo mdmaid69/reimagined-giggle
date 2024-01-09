@@ -1,6 +1,3 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+print("Hello, world!")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
