@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+for i in range(5):
+        print(i)
