@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_user_list():
+        return collections.UserList()
+import datetime
+def get_current_date():
+        return datetime.date.today()
