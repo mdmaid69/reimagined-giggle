@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
