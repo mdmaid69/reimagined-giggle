@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
