@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+def exit_program():
+        sys.exit()
