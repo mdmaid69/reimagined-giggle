@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-for i in range(5):
-        print(i)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
