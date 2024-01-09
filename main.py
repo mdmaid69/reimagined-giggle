@@ -1,7 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
