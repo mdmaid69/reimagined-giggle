@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_itemsize(array):
+        return array.itemsize
