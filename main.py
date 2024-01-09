@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
