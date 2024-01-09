@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
