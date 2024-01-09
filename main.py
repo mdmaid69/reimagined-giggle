@@ -1,6 +1,7 @@
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_exponential(x):
+        return math.exp(x)
