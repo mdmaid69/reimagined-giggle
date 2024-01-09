@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import sys
+def print_python_version():
+        print(sys.version)
