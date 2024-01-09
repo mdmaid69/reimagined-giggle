@@ -1,5 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
