@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def is_palindrome(s):
+        return s == s[::-1]
