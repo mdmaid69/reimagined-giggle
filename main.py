@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
