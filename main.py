@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
