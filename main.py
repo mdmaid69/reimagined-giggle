@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+print(math.pi)
+def calculate_density(mass, volume):
+        return mass / volume
