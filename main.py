@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def cube_number(x):
-        return x**3
+import logging
+def log_message(message):
+        logging.info(message)
+for i in range(10): print(i)
