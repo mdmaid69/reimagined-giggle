@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_density(mass, volume):
+        return mass / volume
