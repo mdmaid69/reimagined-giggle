@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
