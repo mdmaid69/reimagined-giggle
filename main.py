@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
