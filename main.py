@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
