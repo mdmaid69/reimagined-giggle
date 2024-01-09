@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
