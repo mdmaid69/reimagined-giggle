@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
