@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+for i in range(10): print(i)
+  import os
+  def get_current_directory():
+        return os.getcwd()
