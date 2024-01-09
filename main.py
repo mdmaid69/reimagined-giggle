@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
