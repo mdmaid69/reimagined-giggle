@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
