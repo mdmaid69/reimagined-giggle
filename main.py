@@ -1,8 +1,3 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+for i in range(10): print(i)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
