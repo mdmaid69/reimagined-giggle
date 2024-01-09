@@ -1,7 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
