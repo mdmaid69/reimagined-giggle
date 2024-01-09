@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def set_array_item(array, i, item):
+        array[i] = item
+def convert_to_octal(n):
+        return oct(n)
