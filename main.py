@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def convert_to_binary(n):
+        return bin(n)
