@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def divide_numbers(x, y):
+        return x / y
