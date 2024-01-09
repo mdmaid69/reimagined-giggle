@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
