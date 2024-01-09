@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def convert_to_hex(n):
+        return hex(n)
