@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def reverse_string(s):
+        return s[::-1]
