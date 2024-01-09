@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
