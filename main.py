@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
