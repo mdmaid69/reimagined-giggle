@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def is_odd(n):
+        return n % 2 != 0
