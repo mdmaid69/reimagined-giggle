@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def sort_list(lst):
+        return sorted(lst)
+def multiply_numbers(x, y):
+        return x * y
