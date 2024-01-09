@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
