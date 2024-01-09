@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
