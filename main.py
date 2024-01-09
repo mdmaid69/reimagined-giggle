@@ -1,7 +1,7 @@
-import random
-print(random.randint(0, 100))
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
