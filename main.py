@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_item(array, i):
+        return array[i]
+  def sort_list(lst):
+        return sorted(lst)
