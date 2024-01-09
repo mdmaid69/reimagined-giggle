@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def multiply_numbers(x, y):
+        return x * y
