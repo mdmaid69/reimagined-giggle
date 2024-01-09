@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
