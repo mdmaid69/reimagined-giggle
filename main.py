@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
