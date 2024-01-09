@@ -1,5 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import re
-print(re.match("h.*o", "hello world"))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
