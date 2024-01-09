@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
