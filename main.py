@@ -1,10 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
