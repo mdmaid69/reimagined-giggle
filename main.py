@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
