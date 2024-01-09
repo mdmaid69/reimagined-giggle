@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
