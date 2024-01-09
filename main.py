@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_queue():
+        return collections.deque()
