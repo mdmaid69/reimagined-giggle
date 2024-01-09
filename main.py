@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
