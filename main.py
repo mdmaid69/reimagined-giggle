@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_area_circle(r):
+        return 3.14 * r**2
