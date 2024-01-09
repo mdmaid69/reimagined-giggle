@@ -1,6 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
 import sys
-def print_python_version():
-        return sys.version
+print(sys.version)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
