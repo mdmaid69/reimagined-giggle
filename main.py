@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
