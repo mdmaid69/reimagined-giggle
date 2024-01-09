@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
