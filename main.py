@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import numpy as np
+print(np.array([1, 2, 3]))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
