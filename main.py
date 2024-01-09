@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
