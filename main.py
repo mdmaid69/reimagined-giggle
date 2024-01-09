@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def remove_duplicates(lst):
+        return list(set(lst))
