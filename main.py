@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def exit_program():
+        sys.exit()
+  def add_numbers(x, y):
+        return x + y
