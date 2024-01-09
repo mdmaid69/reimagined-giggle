@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
