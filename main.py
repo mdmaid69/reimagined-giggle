@@ -1,6 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def get_array_as_tuple(array):
+        return tuple(array)
