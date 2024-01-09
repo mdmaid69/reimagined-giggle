@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
