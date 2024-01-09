@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
