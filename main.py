@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
