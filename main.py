@@ -1,6 +1,7 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
