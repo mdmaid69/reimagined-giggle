@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
