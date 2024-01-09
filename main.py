@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
