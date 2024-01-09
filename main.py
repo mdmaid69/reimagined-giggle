@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-for i in range(5):
-        print(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
