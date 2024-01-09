@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
