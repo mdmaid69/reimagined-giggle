@@ -1,7 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
