@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
