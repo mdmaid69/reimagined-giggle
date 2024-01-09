@@ -1,5 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_current_directory():
+        return os.getcwd()
+import random
+print(random.randint(0, 100))
