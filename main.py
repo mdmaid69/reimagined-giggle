@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_area(radius):
+        return 3.14 * radius * radius
