@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import time
+def get_time_since_epoch():
+        return time.time()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
