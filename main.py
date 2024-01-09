@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def convert_to_hex(n):
+        return hex(n)
