@@ -1,8 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
