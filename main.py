@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
