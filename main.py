@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import platform
+def get_os_info():
+        return platform.uname()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
