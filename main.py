@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import tensorflow as tf
+print(tf.__version__)
