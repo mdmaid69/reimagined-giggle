@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
