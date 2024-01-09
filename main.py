@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
