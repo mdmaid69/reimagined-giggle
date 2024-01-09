@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
