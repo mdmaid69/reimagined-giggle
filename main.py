@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
