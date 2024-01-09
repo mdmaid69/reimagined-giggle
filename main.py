@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
