@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def add_numbers(x, y):
+        return x + y
