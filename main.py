@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
