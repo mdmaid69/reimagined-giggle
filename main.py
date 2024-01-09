@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
