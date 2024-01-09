@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
