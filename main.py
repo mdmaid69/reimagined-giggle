@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def is_odd(n):
+        return n % 2 != 0
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
