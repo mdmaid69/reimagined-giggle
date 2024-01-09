@@ -1,5 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
