@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
