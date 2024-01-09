@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
