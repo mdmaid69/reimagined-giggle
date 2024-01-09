@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
