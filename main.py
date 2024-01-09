@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
