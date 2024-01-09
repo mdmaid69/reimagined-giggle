@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
