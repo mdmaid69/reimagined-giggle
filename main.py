@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
