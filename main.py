@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+print(os.getcwd())
