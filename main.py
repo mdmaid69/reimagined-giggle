@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
