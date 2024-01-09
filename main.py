@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
