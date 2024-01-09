@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def square_number(x):
-        return x**2
+import tensorflow as tf
+print(tf.__version__)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
