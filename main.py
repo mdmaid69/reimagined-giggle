@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
