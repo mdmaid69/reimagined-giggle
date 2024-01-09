@@ -1,9 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def convert_to_octal(n):
+        return oct(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
