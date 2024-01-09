@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
