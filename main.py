@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
