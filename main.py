@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+x = 10
+y = 20
+print("Sum:", x + y)
