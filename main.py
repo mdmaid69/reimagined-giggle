@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
