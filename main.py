@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
