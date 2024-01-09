@@ -1,8 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+print(os.getcwd())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
