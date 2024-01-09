@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import time
+def get_time_since_epoch():
+        return time.time()
