@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_stack():
-        return collections.deque()
+for i in range(5):
+        print(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
