@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import math
-print(math.pi)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_max(lst):
+        return max(lst)
