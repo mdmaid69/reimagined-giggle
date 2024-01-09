@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
