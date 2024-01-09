@@ -1,5 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
