@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
