@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
