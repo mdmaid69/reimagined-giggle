@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
