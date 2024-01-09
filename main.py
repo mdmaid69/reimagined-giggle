@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
