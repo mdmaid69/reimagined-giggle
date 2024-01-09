@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
