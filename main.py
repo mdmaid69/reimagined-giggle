@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def cube_number(x):
-        return x**3
+import platform
+def get_os_info():
+        return platform.uname()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
