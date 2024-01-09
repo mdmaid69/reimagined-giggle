@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
