@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
