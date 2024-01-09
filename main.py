@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-print(math.pi)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
