@@ -1,9 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
