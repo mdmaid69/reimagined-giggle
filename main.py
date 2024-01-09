@@ -1,5 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+def calculate_speed(distance, time):
+        return distance / time
