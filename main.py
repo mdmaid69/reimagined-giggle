@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
