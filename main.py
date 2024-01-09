@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import platform
-def get_os_info():
-        return platform.uname()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
