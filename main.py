@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
