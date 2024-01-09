@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
