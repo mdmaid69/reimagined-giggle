@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def reverse_string(s):
+        return s[::-1]
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
