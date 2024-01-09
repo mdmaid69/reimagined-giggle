@@ -1,5 +1,3 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print("Hello, world!")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
