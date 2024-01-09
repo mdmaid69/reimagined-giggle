@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
