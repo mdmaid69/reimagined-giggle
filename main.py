@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
