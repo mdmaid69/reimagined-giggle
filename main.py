@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_min(numbers):
+        return min(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
