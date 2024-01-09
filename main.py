@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
