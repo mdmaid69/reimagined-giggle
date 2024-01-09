@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
