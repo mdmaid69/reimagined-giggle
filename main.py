@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
