@@ -1,5 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import tensorflow as tf
-print(tf.__version__)
+  def multiply_numbers(x, y):
+        return x * y
+def count_elements(lst):
+        return len(lst)
