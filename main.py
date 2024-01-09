@@ -1,6 +1,9 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
