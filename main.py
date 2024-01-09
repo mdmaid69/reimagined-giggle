@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
