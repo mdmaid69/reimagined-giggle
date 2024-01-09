@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
