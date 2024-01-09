@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
