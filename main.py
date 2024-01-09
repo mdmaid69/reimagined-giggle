@@ -1,5 +1,11 @@
-def count_words(sentence):
-        return len(sentence.split())
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
