@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def find_min(lst):
-        return min(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
