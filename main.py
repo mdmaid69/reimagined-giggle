@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_stack():
+        return collections.deque()
