@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def greet(name):
-        print(f"Hello, {name}!")
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def reverse_list(lst):
+        return lst[::-1]
