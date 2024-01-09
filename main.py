@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_min(lst):
-        return min(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
