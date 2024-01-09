@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
