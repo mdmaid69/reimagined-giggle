@@ -1,6 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
