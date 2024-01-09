@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
