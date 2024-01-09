@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_density(mass, volume):
+        return mass / volume
