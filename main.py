@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
