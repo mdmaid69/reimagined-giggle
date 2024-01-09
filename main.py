@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
