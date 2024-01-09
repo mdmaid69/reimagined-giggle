@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
