@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_pressure(force, area):
+        return force / area
