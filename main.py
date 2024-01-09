@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
