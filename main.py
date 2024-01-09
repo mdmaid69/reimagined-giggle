@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_power(work, time):
+        return work / time
