@@ -1,7 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
