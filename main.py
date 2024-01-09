@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
