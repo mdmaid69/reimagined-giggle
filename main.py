@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
