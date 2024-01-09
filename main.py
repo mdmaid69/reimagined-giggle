@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
