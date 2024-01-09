@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
