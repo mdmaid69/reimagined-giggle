@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_string_from_array(array):
+        return array.tobytes()
