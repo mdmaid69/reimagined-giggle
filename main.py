@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
