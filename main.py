@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
