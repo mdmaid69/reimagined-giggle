@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def append_to_array(array, item):
+        array.append(item)
