@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def multiply_numbers(x, y):
+        return x * y
