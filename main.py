@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import array
-def get_array_as_set(array):
-        return set(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_as_frozenset(array):
+        return frozenset(array)
