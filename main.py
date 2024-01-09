@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
