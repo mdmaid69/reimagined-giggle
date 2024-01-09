@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
