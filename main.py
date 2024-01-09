@@ -1,5 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def count_characters(sentence):
-        return len(sentence)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
