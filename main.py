@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
