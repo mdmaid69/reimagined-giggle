@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
