@@ -1,6 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
