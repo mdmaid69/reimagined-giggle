@@ -1,6 +1,9 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
