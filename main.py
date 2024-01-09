@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_min(numbers):
-        return min(numbers)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
