@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
