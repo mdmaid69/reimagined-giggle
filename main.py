@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
