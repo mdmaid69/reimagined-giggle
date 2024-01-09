@@ -1,7 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
