@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
