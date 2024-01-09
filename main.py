@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
