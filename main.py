@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-  def cube_number(x):
-        return x**3
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
