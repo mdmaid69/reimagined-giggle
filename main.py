@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
