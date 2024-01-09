@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
