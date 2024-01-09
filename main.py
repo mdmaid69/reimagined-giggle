@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
