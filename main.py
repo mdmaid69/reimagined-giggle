@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
