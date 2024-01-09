@@ -1,6 +1,12 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import sys
+  def get_python_version():
+        return sys.version
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
