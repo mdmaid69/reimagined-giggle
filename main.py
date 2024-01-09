@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_array_to_string(array):
+        return array.tostring()
