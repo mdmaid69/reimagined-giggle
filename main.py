@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
