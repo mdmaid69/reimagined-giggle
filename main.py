@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
