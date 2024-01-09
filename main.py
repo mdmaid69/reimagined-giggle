@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-text = "Hello, world!"
-print("Characters:", len(text))
+import sys
+def exit_program():
+        sys.exit()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
