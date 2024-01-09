@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
