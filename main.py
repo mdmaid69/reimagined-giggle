@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
