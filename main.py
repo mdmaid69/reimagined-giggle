@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
