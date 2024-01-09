@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
