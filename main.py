@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
