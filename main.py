@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def count_words(sentence):
+        return len(sentence.split())
