@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
