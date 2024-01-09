@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def append_to_array(array, item):
+        array.append(item)
