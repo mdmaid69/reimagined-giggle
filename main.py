@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
