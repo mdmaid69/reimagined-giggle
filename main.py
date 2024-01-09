@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def subtract_numbers(x, y):
+        return x - y
