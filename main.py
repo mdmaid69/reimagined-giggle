@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
