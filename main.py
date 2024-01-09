@@ -1,4 +1,8 @@
-import time
-print(time.time())
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
