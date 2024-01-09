@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_repr(array):
+        return repr(array)
