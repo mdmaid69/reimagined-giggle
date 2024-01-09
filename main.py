@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
