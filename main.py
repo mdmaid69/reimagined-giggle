@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
