@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
