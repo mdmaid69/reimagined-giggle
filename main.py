@@ -1,4 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-print(sum(range(10)))
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
