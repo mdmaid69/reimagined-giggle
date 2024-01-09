@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
