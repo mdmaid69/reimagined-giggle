@@ -1,6 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
