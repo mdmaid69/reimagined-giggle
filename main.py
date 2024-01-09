@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
