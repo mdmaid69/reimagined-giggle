@@ -1,7 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
