@@ -1,5 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_directory_name(path):
+        return os.path.dirname(path)
