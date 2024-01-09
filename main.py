@@ -1,4 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-print("Hello, world!")
+import collections
+def create_user_dict():
+        return collections.UserDict()
+text = "Hello, world!"
+print("Words:", len(text.split()))
