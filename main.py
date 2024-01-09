@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
