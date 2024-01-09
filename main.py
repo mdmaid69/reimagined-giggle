@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
