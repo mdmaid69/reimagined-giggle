@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_priority_queue():
+        return collections.deque()
