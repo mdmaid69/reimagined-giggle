@@ -1,5 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-from collections import Counter
-print(Counter("hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def cube_number(x):
+        return x**3
