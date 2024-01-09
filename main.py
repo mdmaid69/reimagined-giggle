@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
