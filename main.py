@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
