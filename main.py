@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
