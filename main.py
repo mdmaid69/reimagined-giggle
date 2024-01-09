@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_arc_cosine(x):
+        return math.acos(x)
