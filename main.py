@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
