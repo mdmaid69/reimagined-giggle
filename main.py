@@ -1,12 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
