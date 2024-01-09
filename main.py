@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
