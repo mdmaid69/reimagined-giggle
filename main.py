@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_stack():
+        return collections.deque()
