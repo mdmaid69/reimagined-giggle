@@ -1,4 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-print(sum(range(10)))
+def calculate_sine(x):
+        return math.sin(x)
