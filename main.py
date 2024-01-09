@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
