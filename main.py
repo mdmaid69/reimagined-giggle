@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def count_characters(sentence):
+        return len(sentence)
