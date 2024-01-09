@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import random
-print(random.randint(0, 100))
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_as_str(array):
+        return str(array)
