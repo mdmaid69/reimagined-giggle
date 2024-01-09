@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import random
-print(random.randint(0, 100))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_min(numbers):
+        return min(numbers)
