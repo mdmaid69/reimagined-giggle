@@ -1,4 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-print([x**2 for x in range(10)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
