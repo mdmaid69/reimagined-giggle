@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_area_rectangle(l, w):
+        return l * w
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
