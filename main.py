@@ -1,5 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
