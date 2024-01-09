@@ -1,7 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
