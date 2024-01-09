@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_elements(lst):
+        return len(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
