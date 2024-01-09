@@ -1,5 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
