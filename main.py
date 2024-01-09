@@ -1,6 +1,7 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
