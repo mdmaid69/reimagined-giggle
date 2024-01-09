@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
