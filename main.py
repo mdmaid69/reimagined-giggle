@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import sys
+def print_python_version():
+        return sys.version
