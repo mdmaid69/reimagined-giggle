@@ -1,6 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_gamma_function(x):
+        return math.gamma(x)
