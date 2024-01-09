@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def multiply_numbers(x, y):
-        return x * y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
