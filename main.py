@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
