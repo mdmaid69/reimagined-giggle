@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
