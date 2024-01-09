@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_user_string():
+        return collections.UserString()
