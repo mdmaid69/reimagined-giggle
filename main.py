@@ -1,7 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
