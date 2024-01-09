@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def is_even(n):
+        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
