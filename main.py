@@ -1,5 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
