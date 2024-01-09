@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
