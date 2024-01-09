@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_density(mass, volume):
+        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
