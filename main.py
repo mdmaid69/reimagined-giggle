@@ -1,6 +1,5 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import json
+print(json.dumps({"name": "John", "age": 30}))
