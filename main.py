@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
