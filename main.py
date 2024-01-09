@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def convert_to_octal(n):
+        return oct(n)
+def find_min(lst):
+        return min(lst)
