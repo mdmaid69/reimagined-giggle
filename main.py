@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print(list(itertools.permutations([1, 2, 3])))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
