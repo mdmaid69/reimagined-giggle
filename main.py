@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
