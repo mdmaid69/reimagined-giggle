@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
