@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
