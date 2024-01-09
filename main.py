@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
