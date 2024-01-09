@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
