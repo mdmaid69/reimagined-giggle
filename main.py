@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import collections
+def create_priority_queue():
+        return collections.deque()
