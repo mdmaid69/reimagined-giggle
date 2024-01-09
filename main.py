@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
