@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
