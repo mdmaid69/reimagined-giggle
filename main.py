@@ -1,5 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
