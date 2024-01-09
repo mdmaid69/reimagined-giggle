@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
