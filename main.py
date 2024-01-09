@@ -1,7 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def get_array_as_int(array):
+        return int(array[0])
