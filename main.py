@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+from collections import Counter
+print(Counter("hello world"))
