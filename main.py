@@ -1,5 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-name = "Python"
-print("Hello,", name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
