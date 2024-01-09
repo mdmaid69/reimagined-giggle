@@ -1,7 +1,8 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
