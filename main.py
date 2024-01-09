@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
