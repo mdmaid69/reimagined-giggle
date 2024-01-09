@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
