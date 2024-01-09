@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_max(lst):
+        return max(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
