@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
