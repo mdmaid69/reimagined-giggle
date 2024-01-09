@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_length(array):
+        return len(array)
