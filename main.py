@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_acceleration(speed, time):
+        return speed / time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
