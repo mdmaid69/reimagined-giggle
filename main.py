@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
