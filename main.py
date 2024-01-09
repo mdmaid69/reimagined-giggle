@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
