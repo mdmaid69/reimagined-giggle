@@ -1,6 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_power(work, time):
-        return work / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
