@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_power(work, time):
+        return work / time
