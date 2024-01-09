@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
