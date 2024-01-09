@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
