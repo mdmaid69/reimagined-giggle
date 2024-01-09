@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def convert_to_octal(n):
+        return oct(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
