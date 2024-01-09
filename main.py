@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
