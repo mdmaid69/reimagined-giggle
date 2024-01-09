@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import re
+print(re.match("h.*o", "hello world"))
