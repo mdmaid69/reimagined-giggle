@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
