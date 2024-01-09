@@ -1,9 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
