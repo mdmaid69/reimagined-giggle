@@ -1,5 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
