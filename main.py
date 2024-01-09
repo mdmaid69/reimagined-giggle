@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import time
-def get_current_time():
-        return time.time()
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_bool(array):
+        return bool(array)
