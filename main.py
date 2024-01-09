@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
