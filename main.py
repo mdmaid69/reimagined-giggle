@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
