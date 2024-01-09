@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def convert_to_octal(n):
+        return oct(n)
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
