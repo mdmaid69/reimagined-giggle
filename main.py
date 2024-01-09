@@ -1,4 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-  def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
