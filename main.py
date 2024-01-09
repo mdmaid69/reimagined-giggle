@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
