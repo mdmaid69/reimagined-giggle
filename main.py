@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def divide_numbers(x, y):
+        return x / y
