@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
