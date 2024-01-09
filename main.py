@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
