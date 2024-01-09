@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
