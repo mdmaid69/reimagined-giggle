@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
