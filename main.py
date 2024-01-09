@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
