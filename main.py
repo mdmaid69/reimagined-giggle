@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
