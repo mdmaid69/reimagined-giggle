@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def reverse_list(lst):
+        return lst[::-1]
