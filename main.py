@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
