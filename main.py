@@ -1,6 +1,7 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_base_name(path):
+        return os.path.basename(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
