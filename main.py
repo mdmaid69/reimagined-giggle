@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
