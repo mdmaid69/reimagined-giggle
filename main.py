@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_power(work, time):
-        return work / time
+import time
+print(time.time())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
