@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import getpass
+def get_username():
+        return getpass.getuser()
