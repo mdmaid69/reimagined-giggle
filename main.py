@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import time
-def get_current_time():
-        return time.time()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
