@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def is_odd(n):
+        return n % 2 != 0
+import sys
+def print_python_version():
+        return sys.version
