@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_counter():
+        return collections.Counter()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
