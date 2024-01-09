@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
