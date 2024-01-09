@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
