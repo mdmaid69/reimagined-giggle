@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
