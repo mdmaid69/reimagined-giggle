@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_octal(n):
-        return oct(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
