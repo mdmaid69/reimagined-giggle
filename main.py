@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  def add_numbers(x, y):
-        return x + y
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
