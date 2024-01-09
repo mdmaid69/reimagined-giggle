@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def cube_number(x):
+        return x**3
