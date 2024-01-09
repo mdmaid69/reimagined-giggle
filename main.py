@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_pressure(force, area):
+        return force / area
+  def reverse_list(lst):
+        return lst[::-1]
