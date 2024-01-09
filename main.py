@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def clear_array(array):
+        array *= 0
