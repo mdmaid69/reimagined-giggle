@@ -1,6 +1,10 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
