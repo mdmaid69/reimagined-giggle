@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_array_to_unicode(array):
+        return array.tounicode()
