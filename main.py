@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
