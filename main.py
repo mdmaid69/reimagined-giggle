@@ -1,4 +1,10 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
