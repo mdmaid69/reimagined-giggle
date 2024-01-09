@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
