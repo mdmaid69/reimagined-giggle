@@ -1,7 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def convert_to_octal(n):
+        return oct(n)
