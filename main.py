@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
