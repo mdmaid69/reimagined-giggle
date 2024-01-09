@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def is_odd(n):
+        return n % 2 != 0
