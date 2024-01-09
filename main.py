@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_pressure(force, area):
-        return force / area
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def count_words(sentence):
+        return len(sentence.split())
