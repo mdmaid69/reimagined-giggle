@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
