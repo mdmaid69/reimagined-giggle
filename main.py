@@ -1,12 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
