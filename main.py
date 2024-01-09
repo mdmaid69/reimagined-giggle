@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def sort_list(lst):
+        return sorted(lst)
