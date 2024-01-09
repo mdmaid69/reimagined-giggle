@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
