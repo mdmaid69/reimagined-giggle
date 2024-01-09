@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_min(numbers):
+        return min(numbers)
+  def sort_list(lst):
+        return sorted(lst)
