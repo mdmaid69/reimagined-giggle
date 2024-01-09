@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
