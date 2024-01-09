@@ -1,6 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sys
+def print_python_version():
+        print(sys.version)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
