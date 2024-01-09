@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
