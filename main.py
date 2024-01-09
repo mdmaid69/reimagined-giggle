@@ -1,6 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def set_array_item(array, i, item):
+        array[i] = item
