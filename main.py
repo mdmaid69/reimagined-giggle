@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
