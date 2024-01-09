@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
