@@ -1,5 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def find_min(numbers):
-        return min(numbers)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_stack():
+        return collections.deque()
