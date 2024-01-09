@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def is_palindrome(s):
-        return s == s[::-1]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_pressure(force, area):
+        return force / area
