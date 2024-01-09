@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
