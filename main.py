@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
