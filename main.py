@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
