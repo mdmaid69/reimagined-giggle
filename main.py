@@ -1,7 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+print(os.getcwd())
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
