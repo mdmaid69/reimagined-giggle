@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
