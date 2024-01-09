@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
