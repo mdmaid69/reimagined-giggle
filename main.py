@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
