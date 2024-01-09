@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import os
+print(os.getcwd())
