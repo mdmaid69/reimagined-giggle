@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def reverse_string(s):
+        return s[::-1]
