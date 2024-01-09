@@ -1,5 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
