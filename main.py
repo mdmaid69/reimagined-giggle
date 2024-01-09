@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def sort_list(lst):
+        return sorted(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
