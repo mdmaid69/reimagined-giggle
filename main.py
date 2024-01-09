@@ -1,6 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
