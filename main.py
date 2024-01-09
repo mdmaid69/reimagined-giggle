@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def convert_to_octal(n):
-        return oct(n)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
