@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
