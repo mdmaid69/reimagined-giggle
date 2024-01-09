@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import sys
+def exit_program():
+        sys.exit()
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_current_working_directory():
+        return os.getcwd()
