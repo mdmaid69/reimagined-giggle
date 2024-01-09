@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
