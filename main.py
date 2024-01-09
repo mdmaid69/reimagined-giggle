@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def subtract_numbers(x, y):
+        return x - y
