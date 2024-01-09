@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
