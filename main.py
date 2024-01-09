@@ -1,6 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
