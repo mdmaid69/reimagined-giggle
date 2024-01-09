@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
