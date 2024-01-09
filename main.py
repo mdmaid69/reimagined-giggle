@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import sys
-def exit_program():
-        sys.exit()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
