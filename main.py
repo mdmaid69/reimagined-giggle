@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
