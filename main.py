@@ -1,7 +1,6 @@
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def multiply_numbers(x, y):
-        return x * y
+def get_array_as_int(array):
+        return int(array[0])
