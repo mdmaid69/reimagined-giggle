@@ -1,5 +1,8 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
