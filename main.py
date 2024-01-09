@@ -1,9 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
