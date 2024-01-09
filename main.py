@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def count_elements(lst):
+        return len(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
