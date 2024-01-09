@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def count_elements(lst):
+        return len(lst)
