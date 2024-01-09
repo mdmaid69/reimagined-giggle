@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def sort_numbers(numbers):
+        return sorted(numbers)
