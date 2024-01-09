@@ -1,6 +1,11 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
