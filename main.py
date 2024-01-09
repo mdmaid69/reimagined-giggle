@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
