@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
