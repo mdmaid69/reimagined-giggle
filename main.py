@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def convert_to_binary(n):
+        return bin(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
