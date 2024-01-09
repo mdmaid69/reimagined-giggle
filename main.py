@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
