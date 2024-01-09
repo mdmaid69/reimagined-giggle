@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
