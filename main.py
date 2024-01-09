@@ -1,7 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
