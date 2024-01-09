@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import logging
-def log_message(message):
-        logging.info(message)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
