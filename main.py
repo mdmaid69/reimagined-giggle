@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_speed(distance, time):
-        return distance / time
+def add_numbers(x, y):
+        return x + y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
