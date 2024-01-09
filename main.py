@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
