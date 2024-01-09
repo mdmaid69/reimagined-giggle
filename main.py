@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def is_even(n):
+        return n % 2 == 0
