@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
