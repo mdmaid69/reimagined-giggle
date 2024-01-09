@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_stack():
+        return collections.deque()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
