@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
