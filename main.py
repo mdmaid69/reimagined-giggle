@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
