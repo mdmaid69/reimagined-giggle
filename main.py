@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
