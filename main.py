@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
