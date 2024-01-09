@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
