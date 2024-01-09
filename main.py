@@ -1,5 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_power(work, time):
-        return work / time
+  def delete_file(file_name):
+        os.remove(file_name)
