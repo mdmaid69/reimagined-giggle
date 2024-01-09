@@ -1,7 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import tensorflow as tf
+print(tf.__version__)
