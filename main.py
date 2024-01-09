@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def is_palindrome(s):
+        return s == s[::-1]
+def find_min(numbers):
+        return min(numbers)
