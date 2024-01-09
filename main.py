@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
