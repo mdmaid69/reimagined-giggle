@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_user_list():
+        return collections.UserList()
