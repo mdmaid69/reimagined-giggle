@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
