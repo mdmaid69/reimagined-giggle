@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_set(array):
+        return set(array)
