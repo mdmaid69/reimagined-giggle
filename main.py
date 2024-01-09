@@ -1,8 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
