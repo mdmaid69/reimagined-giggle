@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
