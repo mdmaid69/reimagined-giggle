@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
