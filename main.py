@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
