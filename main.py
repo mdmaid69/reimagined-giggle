@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import sys
+  def get_python_version():
+        return sys.version
