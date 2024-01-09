@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_counter():
+        return collections.Counter()
