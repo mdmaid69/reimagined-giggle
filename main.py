@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
