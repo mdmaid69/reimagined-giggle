@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
