@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_power(work, time):
+        return work / time
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
