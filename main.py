@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_volume(length, width, height):
+        return length * width * height
