@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
