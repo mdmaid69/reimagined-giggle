@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
