@@ -1,5 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def get_array_length(array):
-        return len(array)
-  def add_numbers(x, y):
-        return x + y
+def reverse_array(array):
+        array.reverse()
