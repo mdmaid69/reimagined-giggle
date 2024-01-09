@@ -1,6 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
