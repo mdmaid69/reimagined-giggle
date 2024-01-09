@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
