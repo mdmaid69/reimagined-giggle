@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def is_odd(n):
-        return n % 2 != 0
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
