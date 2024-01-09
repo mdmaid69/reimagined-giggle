@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import platform
-def get_python_version():
-        return platform.python_version()
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
