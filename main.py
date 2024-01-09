@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
