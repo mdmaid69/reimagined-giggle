@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def convert_to_binary(n):
+        return bin(n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
