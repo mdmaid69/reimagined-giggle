@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
