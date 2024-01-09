@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
