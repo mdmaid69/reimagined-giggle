@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
