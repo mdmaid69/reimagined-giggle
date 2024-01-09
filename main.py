@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
