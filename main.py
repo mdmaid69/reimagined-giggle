@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def cube_number(x):
+        return x**3
