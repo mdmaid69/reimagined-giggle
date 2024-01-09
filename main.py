@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
