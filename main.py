@@ -1,8 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
