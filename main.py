@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import re
+print(re.match("h.*o", "hello world"))
