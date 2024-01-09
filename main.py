@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_current_working_directory():
+        return os.getcwd()
