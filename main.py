@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_item(array, i):
+        return array[i]
+def add_numbers(x, y):
+        return x + y
