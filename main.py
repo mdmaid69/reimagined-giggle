@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
