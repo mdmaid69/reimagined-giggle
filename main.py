@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cosine(x):
+        return math.cos(x)
