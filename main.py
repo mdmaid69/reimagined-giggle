@@ -1,5 +1,5 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def roll_die():
-        return random.randint(1, 6)
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
