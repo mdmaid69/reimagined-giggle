@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
