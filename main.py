@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
