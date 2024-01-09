@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
