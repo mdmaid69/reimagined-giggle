@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+print(math.pi)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
