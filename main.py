@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
