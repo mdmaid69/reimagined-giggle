@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
