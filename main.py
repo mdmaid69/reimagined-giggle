@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def square_number(x):
+        return x**2
+  import os
+  def get_current_directory():
+        return os.getcwd()
