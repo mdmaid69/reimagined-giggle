@@ -1,6 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
