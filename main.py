@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_power(work, time):
+        return work / time
