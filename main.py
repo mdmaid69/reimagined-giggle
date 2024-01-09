@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def find_max(numbers):
+        return max(numbers)
