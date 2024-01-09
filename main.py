@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import datetime
+print(datetime.datetime.now())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
