@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
