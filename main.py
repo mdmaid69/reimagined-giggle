@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
