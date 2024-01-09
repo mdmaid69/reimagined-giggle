@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_area(radius):
+        return 3.14 * radius * radius
