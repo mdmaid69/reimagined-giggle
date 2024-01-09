@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def cube_number(x):
-        return x**3
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
