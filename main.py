@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
