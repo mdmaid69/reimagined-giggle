@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
