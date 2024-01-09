@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
