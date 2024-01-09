@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_work(force, distance):
+        return force * distance
