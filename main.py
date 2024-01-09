@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
