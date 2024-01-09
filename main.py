@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
