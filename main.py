@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
