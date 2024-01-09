@@ -1,7 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
