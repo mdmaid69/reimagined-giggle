@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
