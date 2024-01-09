@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def count_characters(sentence):
+        return len(sentence)
