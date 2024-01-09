@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
