@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_area_rectangle(l, w):
+        return l * w
