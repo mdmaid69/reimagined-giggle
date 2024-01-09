@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
