@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
