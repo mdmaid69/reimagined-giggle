@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
