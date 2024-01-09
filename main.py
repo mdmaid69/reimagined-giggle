@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_as_bool(array):
+        return bool(array)
