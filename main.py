@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def reverse_list(lst):
+        return lst[::-1]
