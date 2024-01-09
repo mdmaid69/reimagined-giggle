@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import sys
+  def get_python_version():
+        return sys.version
