@@ -1,6 +1,4 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+for i in range(10): print(i)
