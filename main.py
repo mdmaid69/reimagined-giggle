@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
