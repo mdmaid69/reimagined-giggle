@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
