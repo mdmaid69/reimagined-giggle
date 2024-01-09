@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_area_rectangle(l, w):
+        return l * w
