@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
