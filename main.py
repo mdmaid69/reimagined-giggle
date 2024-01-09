@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def add_numbers(a, b):
-        return a + b
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
