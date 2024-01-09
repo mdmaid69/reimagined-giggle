@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def is_palindrome(s):
-        return s == s[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_set(array):
+        return set(array)
