@@ -1,4 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import math
-print(math.pi)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
