@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
