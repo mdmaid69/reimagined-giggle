@@ -1,8 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_sign(x):
+        return math.copysign(1, x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
