@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def get_array_as_bytes(array):
+        return bytes(array)
