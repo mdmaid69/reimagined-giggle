@@ -1,7 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+print([x**2 for x in range(10)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
