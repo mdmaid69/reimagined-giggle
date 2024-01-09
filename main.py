@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
