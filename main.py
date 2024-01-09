@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
