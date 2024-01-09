@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
