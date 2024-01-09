@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
