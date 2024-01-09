@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_work(force, distance):
+        return force * distance
