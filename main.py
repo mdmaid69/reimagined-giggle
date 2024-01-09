@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-for i in range(5):
-        print(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
