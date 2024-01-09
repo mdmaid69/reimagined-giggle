@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
