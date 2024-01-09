@@ -1,9 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
