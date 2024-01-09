@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+def exit_program():
+        sys.exit()
