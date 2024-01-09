@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def count_characters(sentence):
+        return len(sentence)
