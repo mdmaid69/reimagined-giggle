@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
