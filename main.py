@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_square_root(x):
+        return math.sqrt(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
