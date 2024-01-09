@@ -1,6 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def greet(name):
+        print(f"Hello, {name}!")
