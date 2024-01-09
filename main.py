@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
