@@ -1,5 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_typecode(array):
+        return array.typecode
