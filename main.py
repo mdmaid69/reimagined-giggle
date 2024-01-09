@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+name = "Python"
+print("Hello,", name)
