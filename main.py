@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
