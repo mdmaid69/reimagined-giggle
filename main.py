@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
