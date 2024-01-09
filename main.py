@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
