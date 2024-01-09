@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
