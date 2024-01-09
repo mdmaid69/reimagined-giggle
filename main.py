@@ -1,5 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
