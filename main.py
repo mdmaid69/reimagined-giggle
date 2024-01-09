@@ -1,7 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def convert_to_octal(n):
+        return oct(n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
