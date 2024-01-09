@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
