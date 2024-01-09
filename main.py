@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
