@@ -1,6 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
