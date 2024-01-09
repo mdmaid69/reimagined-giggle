@@ -1,9 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
