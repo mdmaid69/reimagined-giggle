@@ -1,5 +1,8 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import os
+def change_working_directory(path):
+        os.chdir(path)
