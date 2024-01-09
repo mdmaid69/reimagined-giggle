@@ -1,9 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def clear_array(array):
+        array *= 0
