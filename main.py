@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import time
-def get_current_time():
-        return time.time()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
