@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
