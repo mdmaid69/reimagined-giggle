@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
