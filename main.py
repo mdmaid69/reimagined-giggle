@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+def is_palindrome(s):
+        return s == s[::-1]
