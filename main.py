@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
