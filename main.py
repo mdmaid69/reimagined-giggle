@@ -1,6 +1,8 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
