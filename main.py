@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_user_string():
+        return collections.UserString()
