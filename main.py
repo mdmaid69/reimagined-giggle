@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import getpass
+def get_username():
+        return getpass.getuser()
