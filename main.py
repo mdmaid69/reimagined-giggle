@@ -1,5 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def multiply_numbers(x, y):
-        return x * y
+name = "Python"
+print("Hello,", name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
