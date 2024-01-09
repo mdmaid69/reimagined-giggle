@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
+  def calculate_perimeter_rectangle(l, w):
         return 2 * (l + w)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import logging
+def log_message(message):
+        logging.info(message)
