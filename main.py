@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
