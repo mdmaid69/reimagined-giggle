@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
