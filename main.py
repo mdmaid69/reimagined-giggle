@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
