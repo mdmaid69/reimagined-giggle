@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import logging
+def log_message(message):
+        logging.info(message)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
