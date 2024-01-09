@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def find_min(lst):
+        return min(lst)
