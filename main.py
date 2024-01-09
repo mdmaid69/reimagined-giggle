@@ -1,6 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
