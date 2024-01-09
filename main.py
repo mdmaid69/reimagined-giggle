@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
