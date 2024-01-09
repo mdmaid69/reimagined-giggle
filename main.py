@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
