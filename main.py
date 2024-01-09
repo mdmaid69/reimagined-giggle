@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
