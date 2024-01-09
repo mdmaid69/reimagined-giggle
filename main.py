@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
