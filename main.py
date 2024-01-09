@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
