@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import os
+print(os.getcwd())
