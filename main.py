@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
