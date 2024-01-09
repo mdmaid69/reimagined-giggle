@@ -1,8 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
