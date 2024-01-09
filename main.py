@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
