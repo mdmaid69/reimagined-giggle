@@ -1,4 +1,11 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
