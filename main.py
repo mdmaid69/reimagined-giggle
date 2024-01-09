@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
