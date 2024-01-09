@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def add_numbers(a, b):
-        return a + b
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
