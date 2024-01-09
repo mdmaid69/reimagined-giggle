@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
