@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
