@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
