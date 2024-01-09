@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import json
+def convert_to_json(data):
+        return json.dumps(data)
