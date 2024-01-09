@@ -1,6 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def add_numbers(x, y):
+        return x + y
