@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import datetime
+def get_current_date():
+        return datetime.date.today()
