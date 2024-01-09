@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
