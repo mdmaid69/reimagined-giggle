@@ -1,6 +1,8 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def get_array_as_str(array):
+        return str(array)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
