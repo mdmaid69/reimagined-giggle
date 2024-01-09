@@ -1,4 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-print(sum(range(10)))
+def calculate_power(work, time):
+        return work / time
+  def is_odd(n):
+        return n % 2 != 0
