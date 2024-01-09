@@ -1,8 +1,12 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
