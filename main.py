@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
