@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
