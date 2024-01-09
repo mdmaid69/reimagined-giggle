@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
