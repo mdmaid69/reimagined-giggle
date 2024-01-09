@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def sort_list(lst):
+        return sorted(lst)
