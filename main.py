@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
