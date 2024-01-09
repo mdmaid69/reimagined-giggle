@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def is_odd(n):
+        return n % 2 != 0
