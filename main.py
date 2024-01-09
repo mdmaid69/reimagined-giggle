@@ -1,7 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
