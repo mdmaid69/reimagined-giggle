@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+from collections import Counter
+print(Counter("hello world"))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
