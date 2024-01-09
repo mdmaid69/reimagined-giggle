@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
