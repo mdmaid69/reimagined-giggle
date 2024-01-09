@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_density(mass, volume):
+        return mass / volume
