@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def add_numbers(x, y):
+        return x + y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
