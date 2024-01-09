@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
