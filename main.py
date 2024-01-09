@@ -1,6 +1,7 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
