@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
