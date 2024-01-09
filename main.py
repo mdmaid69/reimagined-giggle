@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
