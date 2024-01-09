@@ -1,6 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
