@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def find_min(lst):
+        return min(lst)
