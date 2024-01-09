@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def square_number(x):
+        return x**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
