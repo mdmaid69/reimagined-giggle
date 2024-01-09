@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
