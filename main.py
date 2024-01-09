@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
