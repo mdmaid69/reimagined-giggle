@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
