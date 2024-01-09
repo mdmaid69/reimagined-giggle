@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
