@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
