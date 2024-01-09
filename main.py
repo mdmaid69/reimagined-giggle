@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
