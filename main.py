@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
