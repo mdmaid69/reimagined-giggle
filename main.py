@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
