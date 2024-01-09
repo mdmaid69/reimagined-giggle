@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def split_path(path):
+        return os.path.split(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
