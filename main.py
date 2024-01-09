@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_counter():
-        return collections.Counter()
+  def is_odd(n):
+        return n % 2 != 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
