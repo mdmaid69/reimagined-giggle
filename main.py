@@ -1,6 +1,8 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
