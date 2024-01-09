@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
