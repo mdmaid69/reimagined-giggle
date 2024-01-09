@@ -1,8 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
