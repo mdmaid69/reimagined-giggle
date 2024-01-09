@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
