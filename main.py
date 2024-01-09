@@ -1,8 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import os
-def get_current_working_directory():
-        return os.getcwd()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
