@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
