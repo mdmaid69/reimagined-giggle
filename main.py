@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_acceleration(speed, time):
+        return speed / time
