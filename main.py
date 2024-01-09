@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def exit_program():
+        sys.exit()
