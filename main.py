@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
