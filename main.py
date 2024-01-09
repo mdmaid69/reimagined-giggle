@@ -1,5 +1,7 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import sys
+def print_python_version():
+        print(sys.version)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
