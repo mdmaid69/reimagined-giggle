@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
