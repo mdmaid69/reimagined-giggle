@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
