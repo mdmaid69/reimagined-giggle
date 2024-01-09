@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
