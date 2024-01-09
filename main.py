@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_str(array):
-        return str(array)
+def add_numbers(x, y):
+        return x + y
+def count_elements(lst):
+        return len(lst)
