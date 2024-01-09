@@ -1,7 +1,9 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
