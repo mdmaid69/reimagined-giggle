@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+for i in range(10): print(i)
+import array
+def get_list_from_array(array):
+        return array.tolist()
