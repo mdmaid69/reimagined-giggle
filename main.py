@@ -1,4 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
