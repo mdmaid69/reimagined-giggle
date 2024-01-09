@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
