@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import datetime
-print(datetime.datetime.now())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_queue():
+        return collections.deque()
