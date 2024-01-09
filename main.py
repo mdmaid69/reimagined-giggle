@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
