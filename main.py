@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
