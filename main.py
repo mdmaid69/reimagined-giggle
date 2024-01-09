@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
