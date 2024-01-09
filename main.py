@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
