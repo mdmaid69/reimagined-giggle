@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
