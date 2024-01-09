@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
