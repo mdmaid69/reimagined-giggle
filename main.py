@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
