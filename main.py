@@ -1,6 +1,7 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
