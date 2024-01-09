@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_item(array, i):
+        return array[i]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
