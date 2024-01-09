@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_list_from_array(array):
+        return array.tolist()
