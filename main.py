@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
