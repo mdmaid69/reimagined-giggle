@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
