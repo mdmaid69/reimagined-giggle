@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
