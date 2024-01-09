@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import sys
+  def get_python_version():
+        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
