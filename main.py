@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
