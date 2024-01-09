@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sys
+def exit_program():
+        sys.exit()
