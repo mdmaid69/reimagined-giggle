@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
