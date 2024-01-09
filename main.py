@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
