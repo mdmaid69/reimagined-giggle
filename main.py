@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
