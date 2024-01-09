@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
