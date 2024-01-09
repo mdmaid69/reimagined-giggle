@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
