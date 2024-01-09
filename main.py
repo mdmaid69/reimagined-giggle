@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import sys
+def exit_program():
+        sys.exit()
