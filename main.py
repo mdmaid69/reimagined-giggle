@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
