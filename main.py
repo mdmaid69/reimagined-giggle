@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def count_characters(sentence):
-        return len(sentence)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
