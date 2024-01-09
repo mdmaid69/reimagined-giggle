@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
