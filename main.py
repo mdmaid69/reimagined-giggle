@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+from collections import Counter
+print(Counter("hello world"))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
