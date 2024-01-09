@@ -1,5 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
