@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_sign(x):
+        return math.copysign(1, x)
