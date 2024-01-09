@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_min(lst):
+        return min(lst)
