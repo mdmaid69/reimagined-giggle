@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_work(force, distance):
-        return force * distance
+from collections import Counter
+print(Counter("hello world"))
+import time
+print(time.time())
