@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def reverse_array(array):
-        array.reverse()
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
