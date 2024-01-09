@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
