@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
