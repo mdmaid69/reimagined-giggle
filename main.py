@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import random
+def roll_die():
+        return random.randint(1, 6)
