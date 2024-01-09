@@ -1,5 +1,5 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def remove_directory(path):
+        os.rmdir(path)
+import random
+print(random.randint(0, 100))
