@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def remove_duplicates(lst):
+        return list(set(lst))
