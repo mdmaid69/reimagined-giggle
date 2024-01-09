@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
