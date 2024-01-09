@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
