@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
