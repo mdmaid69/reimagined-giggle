@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
