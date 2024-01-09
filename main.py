@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
