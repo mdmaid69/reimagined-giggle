@@ -1,4 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-print(sum(range(10)))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
