@@ -1,5 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def subtract_numbers(x, y):
-        return x - y
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
