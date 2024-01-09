@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def find_max(numbers):
+        return max(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
