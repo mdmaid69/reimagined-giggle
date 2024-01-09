@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_work(force, distance):
-        return force * distance
+for i in range(10): print(i)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
