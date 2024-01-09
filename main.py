@@ -1,4 +1,9 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def cube_number(x):
-        return x**3
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
