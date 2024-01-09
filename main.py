@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def square_number(x):
+        return x**2
