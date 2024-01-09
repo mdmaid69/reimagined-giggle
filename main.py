@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
