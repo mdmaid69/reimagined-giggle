@@ -1,7 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
