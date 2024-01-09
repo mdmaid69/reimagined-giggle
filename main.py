@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_length(array):
+        return len(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
