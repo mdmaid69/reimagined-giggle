@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def add_numbers(a, b):
-        return a + b
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
