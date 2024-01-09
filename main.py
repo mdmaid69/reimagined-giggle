@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
