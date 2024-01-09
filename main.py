@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_buffer_info(array):
+        return array.buffer_info()
