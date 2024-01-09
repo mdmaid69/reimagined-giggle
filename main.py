@@ -1,4 +1,12 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
