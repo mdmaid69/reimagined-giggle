@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def divide_numbers(x, y):
+        return x / y
