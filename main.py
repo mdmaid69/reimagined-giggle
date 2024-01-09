@@ -1,6 +1,4 @@
+print(sum(range(10)))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
