@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
