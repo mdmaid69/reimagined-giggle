@@ -1,5 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def get_current_directory():
-        return os.getcwd()
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
