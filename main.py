@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
