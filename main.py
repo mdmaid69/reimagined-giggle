@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
