@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
