@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-print(math.pi)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
