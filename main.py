@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
