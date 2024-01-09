@@ -1,7 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
