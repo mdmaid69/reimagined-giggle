@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
