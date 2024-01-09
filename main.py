@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
