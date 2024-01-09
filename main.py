@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_union(list1, list2):
+        return set(list1) | set(list2)
