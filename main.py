@@ -1,6 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
