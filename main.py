@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def add_numbers(x, y):
+        return x + y
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_frozenset(array):
+        return frozenset(array)
