@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def is_palindrome(s):
+        return s == s[::-1]
