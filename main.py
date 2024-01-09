@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+def print_python_version():
+        print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
