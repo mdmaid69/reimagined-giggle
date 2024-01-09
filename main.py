@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
