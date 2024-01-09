@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
