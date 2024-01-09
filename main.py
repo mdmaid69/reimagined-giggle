@@ -1,5 +1,7 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def reverse_string(s):
-        return s[::-1]
+def reverse_array(array):
+        array.reverse()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
