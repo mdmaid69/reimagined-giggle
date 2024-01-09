@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
