@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
