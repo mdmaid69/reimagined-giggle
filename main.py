@@ -1,5 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
