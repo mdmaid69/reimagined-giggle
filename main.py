@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def square_number(x):
+        return x**2
