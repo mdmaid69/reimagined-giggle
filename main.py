@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
