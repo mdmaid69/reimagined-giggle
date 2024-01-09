@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import re
-print(re.match("h.*o", "hello world"))
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
