@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
