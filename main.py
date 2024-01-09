@@ -1,6 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
