@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_item(array, i):
+        return array[i]
