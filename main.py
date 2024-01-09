@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def sort_list(lst):
+        return sorted(lst)
+def multiply_numbers(x, y):
+        return x * y
