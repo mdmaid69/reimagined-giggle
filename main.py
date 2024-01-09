@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_min(lst):
-        return min(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_acceleration(speed, time):
+        return speed / time
