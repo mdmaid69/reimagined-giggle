@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
