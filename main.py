@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
