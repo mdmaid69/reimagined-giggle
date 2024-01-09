@@ -1,4 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
