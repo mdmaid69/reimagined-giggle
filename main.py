@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def remove_duplicates(lst):
+        return list(set(lst))
