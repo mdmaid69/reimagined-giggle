@@ -1,6 +1,8 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
