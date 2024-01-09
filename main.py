@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
