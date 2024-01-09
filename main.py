@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+print(os.getcwd())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
