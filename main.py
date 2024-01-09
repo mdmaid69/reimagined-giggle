@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
