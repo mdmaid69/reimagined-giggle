@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def create_counter():
+        return collections.Counter()
