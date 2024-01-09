@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
