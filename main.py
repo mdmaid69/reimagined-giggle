@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
