@@ -1,6 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
