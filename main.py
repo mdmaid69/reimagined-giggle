@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+import os
+def change_working_directory(path):
+        os.chdir(path)
