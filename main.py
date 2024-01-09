@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
