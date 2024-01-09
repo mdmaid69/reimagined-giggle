@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
