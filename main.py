@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def multiply_numbers(x, y):
+        return x * y
