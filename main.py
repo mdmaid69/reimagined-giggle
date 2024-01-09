@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
