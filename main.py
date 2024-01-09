@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
