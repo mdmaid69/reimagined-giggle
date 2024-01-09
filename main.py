@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import sys
-def print_python_version():
-        return sys.version
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_area_circle(r):
+        return 3.14 * r**2
