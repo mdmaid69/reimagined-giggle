@@ -1,7 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
