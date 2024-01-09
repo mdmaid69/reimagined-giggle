@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_string_from_array(array):
+        return array.tobytes()
