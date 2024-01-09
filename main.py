@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
