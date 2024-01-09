@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def create_user_list():
-        return collections.UserList()
+for i in range(10): print(i)
+import sys
+def print_python_version():
+        print(sys.version)
