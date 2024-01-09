@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def is_odd(n):
-        return n % 2 != 0
+def find_max(lst):
+        return max(lst)
+def reverse_list(lst):
+        return lst[::-1]
