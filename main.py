@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def cube_number(x):
-        return x**3
+import sys
+def exit_program():
+        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
