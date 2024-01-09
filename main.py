@@ -1,8 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
