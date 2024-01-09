@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
