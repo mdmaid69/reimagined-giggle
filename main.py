@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
