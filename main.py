@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
