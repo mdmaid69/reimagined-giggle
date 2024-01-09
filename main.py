@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_max(lst):
+        return max(lst)
