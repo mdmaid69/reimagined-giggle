@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
