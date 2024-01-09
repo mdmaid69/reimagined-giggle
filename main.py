@@ -1,6 +1,3 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+print([x**2 for x in range(10)])
+name = "Python"
+print("Hello,", name)
