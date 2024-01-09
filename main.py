@@ -1,6 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
