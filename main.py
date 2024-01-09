@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def split_path(path):
+        return os.path.split(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
