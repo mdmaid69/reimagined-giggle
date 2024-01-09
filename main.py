@@ -1,5 +1,7 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
