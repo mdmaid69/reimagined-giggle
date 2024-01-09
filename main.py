@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def is_even(n):
+        return n % 2 == 0
