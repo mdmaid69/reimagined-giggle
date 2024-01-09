@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def multiply_numbers(x, y):
+        return x * y
