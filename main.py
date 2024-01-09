@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import random
-print(random.randint(0, 100))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
