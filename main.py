@@ -1,5 +1,11 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def square_number(x):
-        return x**2
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
