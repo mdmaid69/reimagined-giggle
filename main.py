@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
