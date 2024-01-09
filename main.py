@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_user_list():
+        return collections.UserList()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
