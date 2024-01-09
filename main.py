@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def find_max(lst):
-        return max(lst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
