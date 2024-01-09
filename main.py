@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-from collections import Counter
-print(Counter("hello world"))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def is_odd(n):
+        return n % 2 != 0
