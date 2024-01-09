@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+print(random.randint(0, 100))
