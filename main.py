@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def sort_list(lst):
+        return sorted(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
