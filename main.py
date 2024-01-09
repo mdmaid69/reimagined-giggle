@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_as_str(array):
+        return str(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
