@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+text = "Hello, world!"
+print("Characters:", len(text))
+x = 10
+y = 20
+print("Sum:", x + y)
