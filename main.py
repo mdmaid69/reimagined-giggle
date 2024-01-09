@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
