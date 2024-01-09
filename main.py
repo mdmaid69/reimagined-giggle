@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def count_elements(lst):
+        return len(lst)
