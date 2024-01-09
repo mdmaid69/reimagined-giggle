@@ -1,6 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
