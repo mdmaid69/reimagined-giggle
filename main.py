@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
