@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def subtract_numbers(x, y):
-        return x - y
+import platform
+def get_os_info():
+        return platform.uname()
+import logging
+def log_message(message):
+        logging.info(message)
