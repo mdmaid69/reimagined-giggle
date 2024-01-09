@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
