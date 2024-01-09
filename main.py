@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def count_words(sentence):
+        return len(sentence.split())
