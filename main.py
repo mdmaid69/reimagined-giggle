@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
