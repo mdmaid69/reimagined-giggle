@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def convert_to_hex(n):
-        return hex(n)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
