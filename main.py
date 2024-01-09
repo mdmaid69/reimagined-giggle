@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
