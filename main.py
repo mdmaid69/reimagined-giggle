@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_list_from_array(array):
+        return array.tolist()
