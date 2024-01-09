@@ -1,9 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
