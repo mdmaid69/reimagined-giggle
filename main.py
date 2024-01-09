@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
