@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
