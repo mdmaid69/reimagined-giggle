@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import collections
-def create_user_string():
-        return collections.UserString()
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
