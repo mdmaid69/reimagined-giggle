@@ -1,7 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
