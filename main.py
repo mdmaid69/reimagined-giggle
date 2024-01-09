@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
