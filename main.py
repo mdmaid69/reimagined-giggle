@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
