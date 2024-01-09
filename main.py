@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
