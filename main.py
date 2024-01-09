@@ -1,6 +1,11 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
