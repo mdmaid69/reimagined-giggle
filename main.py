@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
