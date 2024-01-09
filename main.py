@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import random
-print(random.randint(0, 100))
+  def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
