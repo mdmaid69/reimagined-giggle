@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def exit_program():
-        sys.exit()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
