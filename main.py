@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
