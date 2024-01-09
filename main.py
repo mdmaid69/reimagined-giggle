@@ -1,5 +1,4 @@
-print([x**2 for x in range(10)])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def square_number(x):
+        return x**2
+def count_characters(sentence):
+        return len(sentence)
