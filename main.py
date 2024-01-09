@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def cube_number(x):
-        return x**3
+def calculate_power(work, time):
+        return work / time
+def convert_to_octal(n):
+        return oct(n)
