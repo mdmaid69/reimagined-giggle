@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def convert_to_octal(n):
+        return oct(n)
