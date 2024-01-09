@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
