@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
