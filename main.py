@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def get_array_index(array, item):
+        return array.index(item)
