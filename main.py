@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def reverse_list(lst):
+        return lst[::-1]
