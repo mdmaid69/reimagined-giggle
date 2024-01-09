@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
