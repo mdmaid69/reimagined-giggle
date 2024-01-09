@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def cube_number(x):
+        return x**3
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
