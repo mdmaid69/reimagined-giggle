@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
