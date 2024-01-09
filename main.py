@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def count_characters(sentence):
+        return len(sentence)
