@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
