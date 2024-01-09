@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
