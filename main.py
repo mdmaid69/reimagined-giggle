@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def multiply_numbers(x, y):
+        return x * y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
