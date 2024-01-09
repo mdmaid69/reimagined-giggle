@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
