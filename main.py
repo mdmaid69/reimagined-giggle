@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def cube_number(x):
-        return x**3
+def calculate_power(work, time):
+        return work / time
+  def is_odd(n):
+        return n % 2 != 0
