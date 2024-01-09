@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
