@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_work(force, distance):
-        return force * distance
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
