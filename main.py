@@ -1,5 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_index(array, item):
+        return array.index(item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
