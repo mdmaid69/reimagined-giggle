@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
