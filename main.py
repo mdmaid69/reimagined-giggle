@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import time
+def get_current_time():
+        return time.time()
+def sort_numbers(numbers):
+        return sorted(numbers)
