@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import time
+def get_time_since_epoch():
+        return time.time()
