@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
