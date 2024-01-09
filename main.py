@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
