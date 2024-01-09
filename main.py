@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+name = "Python"
+print("Hello,", name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
