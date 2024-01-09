@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_speed(distance, time):
+        return distance / time
