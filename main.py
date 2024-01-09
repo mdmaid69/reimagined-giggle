@@ -1,7 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
