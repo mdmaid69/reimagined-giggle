@@ -1,6 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
