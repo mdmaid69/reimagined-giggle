@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
