@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
