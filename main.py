@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
