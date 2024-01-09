@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
