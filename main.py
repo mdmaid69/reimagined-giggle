@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_item(array, i):
+        return array[i]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
