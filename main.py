@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
