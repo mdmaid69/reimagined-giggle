@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
