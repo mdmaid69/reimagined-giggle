@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def divide_numbers(x, y):
+        return x / y
