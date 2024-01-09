@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
