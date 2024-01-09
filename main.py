@@ -1,5 +1,8 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
