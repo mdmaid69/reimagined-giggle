@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def add_numbers(a, b):
-        return a + b
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
