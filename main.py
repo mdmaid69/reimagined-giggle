@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def divide_numbers(x, y):
-        return x / y
+def calculate_power(work, time):
+        return work / time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
