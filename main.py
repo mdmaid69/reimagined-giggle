@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
