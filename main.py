@@ -1,3 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-print(sum(range(10)))
+def calculate_power(work, time):
+        return work / time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
