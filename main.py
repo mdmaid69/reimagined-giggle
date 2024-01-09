@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import array
-def append_to_array(array, item):
-        array.append(item)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
