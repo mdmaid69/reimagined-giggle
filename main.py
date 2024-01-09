@@ -1,4 +1,8 @@
-def multiply_numbers(x, y):
-        return x * y
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
