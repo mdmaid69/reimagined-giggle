@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_queue():
+        return collections.deque()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
