@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
