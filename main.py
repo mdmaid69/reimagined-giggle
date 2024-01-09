@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import numpy as np
+print(np.array([1, 2, 3]))
