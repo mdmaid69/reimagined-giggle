@@ -1,8 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
