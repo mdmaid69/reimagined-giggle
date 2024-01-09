@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
