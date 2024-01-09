@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-from collections import Counter
-print(Counter("hello world"))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
