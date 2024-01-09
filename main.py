@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
