@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
