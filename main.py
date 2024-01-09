@@ -1,5 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_pressure(force, area):
+        return force / area
