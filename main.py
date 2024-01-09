@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def divide_numbers(x, y):
-        return x / y
+  def convert_to_hex(n):
+        return hex(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
