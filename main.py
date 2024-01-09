@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Characters:", len(text))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
