@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_sine(x):
+        return math.sin(x)
