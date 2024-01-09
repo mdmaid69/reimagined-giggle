@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
