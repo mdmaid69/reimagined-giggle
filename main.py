@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
