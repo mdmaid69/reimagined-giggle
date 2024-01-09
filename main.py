@@ -1,5 +1,9 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
