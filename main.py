@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def add_numbers(a, b):
-        return a + b
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
