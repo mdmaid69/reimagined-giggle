@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
