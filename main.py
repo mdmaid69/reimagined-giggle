@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
