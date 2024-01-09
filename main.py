@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
