@@ -1,7 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
