@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
