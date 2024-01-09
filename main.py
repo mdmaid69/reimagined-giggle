@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
