@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_array_to_string(array):
+        return array.tostring()
+  def cube_number(x):
+        return x**3
