@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def cube_number(x):
-        return x**3
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
