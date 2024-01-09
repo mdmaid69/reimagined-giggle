@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
