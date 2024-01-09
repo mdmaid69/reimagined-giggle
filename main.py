@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_current_directory():
+        return os.getcwd()
