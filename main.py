@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
