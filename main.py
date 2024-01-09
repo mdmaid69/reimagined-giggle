@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
