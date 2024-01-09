@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import platform
+def get_python_version():
+        return platform.python_version()
