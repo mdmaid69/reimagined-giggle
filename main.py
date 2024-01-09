@@ -1,8 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
