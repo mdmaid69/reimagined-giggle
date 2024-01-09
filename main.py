@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
