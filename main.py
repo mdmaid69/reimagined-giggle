@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
