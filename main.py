@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
