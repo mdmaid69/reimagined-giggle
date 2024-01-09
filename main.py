@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def is_even(n):
+        return n % 2 == 0
