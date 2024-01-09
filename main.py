@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def square_number(x):
+        return x**2
+text = "Hello, world!"
+print("Characters:", len(text))
