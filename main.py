@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def add_numbers(x, y):
+        return x + y
+import array
+def append_to_array(array, item):
+        array.append(item)
