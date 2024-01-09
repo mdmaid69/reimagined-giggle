@@ -1,7 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
