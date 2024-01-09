@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
