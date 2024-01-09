@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
