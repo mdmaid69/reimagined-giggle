@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
