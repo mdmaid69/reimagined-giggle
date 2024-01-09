@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
