@@ -1,6 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
