@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def count_elements(lst):
+        return len(lst)
+def is_odd(n):
+        return n % 2 != 0
