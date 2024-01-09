@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_queue():
-        return collections.deque()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
