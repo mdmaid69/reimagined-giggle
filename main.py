@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
