@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def square_number(x):
-        return x**2
+import array
+def get_array_item(array, i):
+        return array[i]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
