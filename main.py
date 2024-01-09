@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
