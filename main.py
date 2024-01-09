@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
