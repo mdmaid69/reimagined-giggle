@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def remove_duplicates(lst):
+        return list(set(lst))
