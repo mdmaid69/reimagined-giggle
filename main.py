@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
