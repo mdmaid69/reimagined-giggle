@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def pop_from_array(array, i=-1):
+        return array.pop(i)
