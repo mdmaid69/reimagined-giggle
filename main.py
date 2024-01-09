@@ -1,8 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
