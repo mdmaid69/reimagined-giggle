@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def append_to_array(array, item):
-        array.append(item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def get_array_buffer_info(array):
+        return array.buffer_info()
