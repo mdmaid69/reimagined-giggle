@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def clear_array(array):
-        array *= 0
+name = "Python"
+print("Hello,", name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
