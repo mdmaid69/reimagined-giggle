@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_speed(distance, time):
+        return distance / time
+import numpy as np
+print(np.array([1, 2, 3]))
