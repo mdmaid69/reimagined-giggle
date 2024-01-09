@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_power(work, time):
+        return work / time
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
