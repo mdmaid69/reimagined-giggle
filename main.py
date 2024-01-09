@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
