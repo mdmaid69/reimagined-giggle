@@ -1,6 +1,7 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_square_root(x):
+        return math.sqrt(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
