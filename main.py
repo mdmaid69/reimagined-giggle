@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
