@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_max(numbers):
-        return max(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
