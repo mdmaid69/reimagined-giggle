@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
