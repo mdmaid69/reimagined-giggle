@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
