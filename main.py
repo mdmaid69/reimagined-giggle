@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def convert_to_octal(n):
+        return oct(n)
 import os
-print(os.getcwd())
+def remove_directory(path):
+        os.rmdir(path)
