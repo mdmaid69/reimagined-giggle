@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_string():
+        return collections.UserString()
