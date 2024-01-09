@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_area_circle(r):
+        return 3.14 * r**2
