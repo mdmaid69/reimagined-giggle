@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
