@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
