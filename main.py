@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def reverse_string(s):
+        return s[::-1]
