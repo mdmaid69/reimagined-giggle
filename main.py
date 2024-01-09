@@ -1,7 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
