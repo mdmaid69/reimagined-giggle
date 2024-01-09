@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_density(mass, volume):
+        return mass / volume
