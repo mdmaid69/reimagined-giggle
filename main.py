@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_max(lst):
+        return max(lst)
