@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
