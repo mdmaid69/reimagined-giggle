@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import time
+def get_current_time():
+        return time.ctime()
+  def remove_duplicates(lst):
+        return list(set(lst))
