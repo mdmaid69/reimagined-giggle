@@ -1,6 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
