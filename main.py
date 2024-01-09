@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_index(array, item):
+        return array.index(item)
