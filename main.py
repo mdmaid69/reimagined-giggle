@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
