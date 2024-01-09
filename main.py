@@ -1,7 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
