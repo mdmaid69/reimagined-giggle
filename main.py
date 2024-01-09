@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
