@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def find_min(lst):
-        return min(lst)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
