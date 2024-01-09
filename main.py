@@ -1,5 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-print([x**2 for x in range(10)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
