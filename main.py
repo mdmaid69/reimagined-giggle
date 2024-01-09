@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+for i in range(5):
+        print(i)
+import collections
+def create_queue():
+        return collections.deque()
