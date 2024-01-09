@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
