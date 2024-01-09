@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
