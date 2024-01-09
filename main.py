@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
