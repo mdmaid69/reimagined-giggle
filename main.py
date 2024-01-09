@@ -1,6 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
