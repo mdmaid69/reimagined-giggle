@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
