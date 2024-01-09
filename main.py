@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
