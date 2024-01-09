@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import sys
+  def get_python_version():
+        return sys.version
