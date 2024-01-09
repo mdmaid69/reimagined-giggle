@@ -1,11 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
