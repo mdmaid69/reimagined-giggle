@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def cube_number(x):
+        return x**3
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
