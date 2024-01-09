@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
