@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def find_union(list1, list2):
+        return set(list1) | set(list2)
