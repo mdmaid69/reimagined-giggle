@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_density(mass, volume):
+        return mass / volume
