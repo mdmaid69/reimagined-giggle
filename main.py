@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
