@@ -1,4 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
