@@ -1,5 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_typecode(array):
+        return array.typecode
