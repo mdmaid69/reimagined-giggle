@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
