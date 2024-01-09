@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def count_characters(sentence):
-        return len(sentence)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
