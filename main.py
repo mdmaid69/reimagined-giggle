@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
