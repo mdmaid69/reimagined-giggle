@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+print([x**2 for x in range(10)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
