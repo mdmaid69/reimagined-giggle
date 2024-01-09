@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+text = "Hello, world!"
+print("Characters:", len(text))
