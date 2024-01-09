@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
