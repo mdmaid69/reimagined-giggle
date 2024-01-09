@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import platform
-def get_os_info():
-        return platform.uname()
+def get_python_version():
+        return platform.python_version()
+def is_even(n):
+        return n % 2 == 0
