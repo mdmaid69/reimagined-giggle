@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
