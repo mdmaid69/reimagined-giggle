@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
