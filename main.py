@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_counter():
+        return collections.Counter()
