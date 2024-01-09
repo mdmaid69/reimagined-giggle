@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def is_even(n):
-        return n % 2 == 0
+import re
+print(re.match("h.*o", "hello world"))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
