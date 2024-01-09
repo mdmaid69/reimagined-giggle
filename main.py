@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
