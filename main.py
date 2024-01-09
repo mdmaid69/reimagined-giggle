@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
