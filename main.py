@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
