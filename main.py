@@ -1,7 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
