@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_area_circle(r):
+        return 3.14 * r**2
