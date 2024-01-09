@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
