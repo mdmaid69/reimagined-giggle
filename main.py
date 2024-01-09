@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
