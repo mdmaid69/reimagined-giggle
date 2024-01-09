@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
