@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-print(random.randint(0, 100))
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
