@@ -1,8 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
