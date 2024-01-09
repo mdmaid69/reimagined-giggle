@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import tensorflow as tf
-print(tf.__version__)
+def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Characters:", len(text))
