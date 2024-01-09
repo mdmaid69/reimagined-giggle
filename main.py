@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_bytes_from_array(array):
+        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
