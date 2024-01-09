@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_bytes(array):
+        return bytes(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
