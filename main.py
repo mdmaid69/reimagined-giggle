@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
