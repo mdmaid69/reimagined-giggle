@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def square_number(x):
+        return x**2
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
