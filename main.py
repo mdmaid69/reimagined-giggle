@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
