@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
