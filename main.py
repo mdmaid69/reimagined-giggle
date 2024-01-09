@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
