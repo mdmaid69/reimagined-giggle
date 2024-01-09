@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
