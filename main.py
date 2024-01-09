@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import time
+def get_current_time():
+        return time.time()
