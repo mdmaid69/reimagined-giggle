@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
