@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
