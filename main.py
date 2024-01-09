@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def multiply_numbers(x, y):
+        return x * y
