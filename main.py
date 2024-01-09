@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
