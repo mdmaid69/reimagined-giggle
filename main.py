@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_speed(distance, time):
+        return distance / time
