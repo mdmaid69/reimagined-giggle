@@ -1,8 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
