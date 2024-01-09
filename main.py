@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import array
+def get_array_itemsize(array):
+        return array.itemsize
