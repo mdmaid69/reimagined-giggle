@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
