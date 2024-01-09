@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_speed(distance, time):
-        return distance / time
+  def square_number(x):
+        return x**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
