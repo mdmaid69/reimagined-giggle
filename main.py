@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import time
-def get_current_time():
-        return time.time()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
