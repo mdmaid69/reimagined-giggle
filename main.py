@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import platform
+def get_os_info():
+        return platform.uname()
