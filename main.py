@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
