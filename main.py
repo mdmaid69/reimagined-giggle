@@ -1,6 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
