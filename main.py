@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
