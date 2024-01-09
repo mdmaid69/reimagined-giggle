@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sys
+def print_python_version():
+        print(sys.version)
