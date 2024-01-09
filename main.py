@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
