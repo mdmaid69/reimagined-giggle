@@ -1,8 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
