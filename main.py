@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
