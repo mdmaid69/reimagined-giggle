@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def get_current_time():
-        return time.time()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def greet(name):
+        print(f"Hello, {name}!")
