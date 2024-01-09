@@ -1,6 +1,3 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+print([x**2 for x in range(10)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
