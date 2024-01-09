@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+print(os.getcwd())
