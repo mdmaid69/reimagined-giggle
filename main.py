@@ -1,7 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_volume(length, width, height):
+        return length * width * height
