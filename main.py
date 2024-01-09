@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
