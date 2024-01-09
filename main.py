@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def is_odd(n):
+        return n % 2 != 0
