@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_area_rectangle(l, w):
+        return l * w
