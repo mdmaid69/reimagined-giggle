@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
