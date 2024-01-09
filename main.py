@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def reverse_string(s):
+        return s[::-1]
+import time
+def get_current_time():
+        return time.time()
