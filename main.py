@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
