@@ -1,4 +1,9 @@
-  def cube_number(x):
-        return x**3
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
