@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
