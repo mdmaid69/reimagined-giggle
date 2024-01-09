@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def reverse_array(array):
+        array.reverse()
+  def convert_to_binary(n):
+        return bin(n)
