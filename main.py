@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
