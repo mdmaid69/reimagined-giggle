@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_work(force, distance):
+        return force * distance
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
