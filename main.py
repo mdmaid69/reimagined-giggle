@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def multiply_numbers(x, y):
+        return x * y
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
