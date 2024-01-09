@@ -1,5 +1,12 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_speed(distance, time):
-        return distance / time
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
