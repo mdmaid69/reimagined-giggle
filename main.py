@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
