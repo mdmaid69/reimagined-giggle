@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
