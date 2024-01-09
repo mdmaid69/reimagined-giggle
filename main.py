@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
