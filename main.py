@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def find_min(numbers):
+        return min(numbers)
