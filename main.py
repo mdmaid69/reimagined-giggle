@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def reverse_string(s):
-        return s[::-1]
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_int(array):
+        return int(array[0])
