@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
