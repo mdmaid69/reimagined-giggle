@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
