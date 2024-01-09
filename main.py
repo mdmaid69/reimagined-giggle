@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+x = 10
+y = 20
+print("Sum:", x + y)
+print([x**2 for x in range(10)])
