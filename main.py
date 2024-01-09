@@ -1,9 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
