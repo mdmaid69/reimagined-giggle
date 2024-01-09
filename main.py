@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
