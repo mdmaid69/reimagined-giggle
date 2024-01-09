@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
