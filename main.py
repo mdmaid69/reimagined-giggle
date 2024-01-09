@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
