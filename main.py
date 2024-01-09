@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
