@@ -1,7 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import numpy as np
+print(np.array([1, 2, 3]))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
