@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def count_elements(lst):
+        return len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
