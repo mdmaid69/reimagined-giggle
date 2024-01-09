@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
