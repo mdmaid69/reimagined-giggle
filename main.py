@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
