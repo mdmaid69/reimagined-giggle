@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
