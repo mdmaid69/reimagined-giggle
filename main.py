@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
