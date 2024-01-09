@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
