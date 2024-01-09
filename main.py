@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_as_int(array):
+        return int(array[0])
