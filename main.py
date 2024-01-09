@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
