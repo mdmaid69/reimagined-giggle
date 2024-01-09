@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def add_numbers(a, b):
+        return a + b
