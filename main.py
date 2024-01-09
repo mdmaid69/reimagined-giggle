@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
