@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_inverse_hyperbolic_cosine(x):
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_hyperbolic_arc_cosine(x):
         return math.acosh(x)
