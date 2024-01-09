@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_max(lst):
+        return max(lst)
