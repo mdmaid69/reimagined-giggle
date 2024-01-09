@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+text = "Hello, world!"
+print("Reversed:", text[::-1])
