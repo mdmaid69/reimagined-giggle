@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def sort_list(lst):
-        return sorted(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import sys
+def print_python_version():
+        print(sys.version)
