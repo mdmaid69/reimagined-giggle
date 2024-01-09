@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
