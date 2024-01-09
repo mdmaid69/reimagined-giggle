@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
 def calculate_factorial(n):
-        return math.factorial(n)
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def greet(name):
+        print(f"Hello, {name}!")
