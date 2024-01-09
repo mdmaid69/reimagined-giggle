@@ -1,5 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def count_elements(lst):
-        return len(lst)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
