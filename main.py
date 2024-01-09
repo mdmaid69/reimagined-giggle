@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
