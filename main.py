@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_max(lst):
+        return max(lst)
+import sys
+def exit_program():
+        sys.exit()
