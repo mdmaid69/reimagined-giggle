@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
