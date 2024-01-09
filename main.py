@@ -1,6 +1,3 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+for i in range(10): print(i)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
