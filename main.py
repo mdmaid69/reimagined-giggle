@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
