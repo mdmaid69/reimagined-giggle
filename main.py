@@ -1,5 +1,11 @@
-def add_numbers(x, y):
-        return x + y
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
