@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def append_to_array(array, item):
+        array.append(item)
