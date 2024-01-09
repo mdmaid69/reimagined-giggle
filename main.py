@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_as_bool(array):
+        return bool(array)
