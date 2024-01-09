@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
