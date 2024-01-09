@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
