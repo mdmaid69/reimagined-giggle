@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
