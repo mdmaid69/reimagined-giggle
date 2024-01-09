@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def add_numbers(x, y):
+        return x + y
