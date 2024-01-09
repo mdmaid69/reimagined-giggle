@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import random
+print(random.randint(0, 100))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
