@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def divide_numbers(x, y):
+        return x / y
