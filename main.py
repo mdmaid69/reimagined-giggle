@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
