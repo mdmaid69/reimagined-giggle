@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
