@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
