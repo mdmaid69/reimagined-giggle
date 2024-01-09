@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def append_to_array(array, item):
+        array.append(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
