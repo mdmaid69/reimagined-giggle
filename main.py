@@ -1,6 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
