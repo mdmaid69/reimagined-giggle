@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
