@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def convert_to_binary(n):
-        return bin(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def count_elements(lst):
+        return len(lst)
