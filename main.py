@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
