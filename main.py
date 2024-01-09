@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
