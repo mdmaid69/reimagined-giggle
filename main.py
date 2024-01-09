@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
