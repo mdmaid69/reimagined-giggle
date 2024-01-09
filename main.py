@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
