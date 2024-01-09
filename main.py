@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
