@@ -1,11 +1,8 @@
-import threading
+def is_even(n):
+        return n % 2 == 0
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+@app.route("/")
+def hello():
+        return "Hello, World!"
