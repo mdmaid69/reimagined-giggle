@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
