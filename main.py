@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_bytes(array):
+        return bytes(array)
+import sys
+def exit_program():
+        sys.exit()
