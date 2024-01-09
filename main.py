@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
