@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
