@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
