@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_speed(distance, time):
+        return distance / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
