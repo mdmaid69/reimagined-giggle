@@ -1,4 +1,11 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def multiply_numbers(x, y):
-        return x * y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_queue():
+        return collections.deque()
