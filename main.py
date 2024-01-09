@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
