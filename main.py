@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import logging
-def log_message(message):
-        logging.info(message)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
