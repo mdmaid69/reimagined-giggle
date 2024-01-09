@@ -1,6 +1,5 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_average(lst):
+        return sum(lst) / len(lst)
