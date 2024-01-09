@@ -1,5 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
