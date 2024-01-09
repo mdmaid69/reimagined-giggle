@@ -1,4 +1,10 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
