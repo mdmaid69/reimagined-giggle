@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import datetime
+print(datetime.datetime.now())
