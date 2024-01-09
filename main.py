@@ -1,6 +1,9 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import logging
-def log_message(message):
-        logging.info(message)
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
