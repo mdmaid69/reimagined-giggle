@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def add_numbers(a, b):
-        return a + b
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
