@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
