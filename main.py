@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
