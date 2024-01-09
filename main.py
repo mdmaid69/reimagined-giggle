@@ -1,7 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
