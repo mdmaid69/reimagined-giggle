@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
