@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
