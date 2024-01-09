@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def is_odd(n):
+        return n % 2 != 0
