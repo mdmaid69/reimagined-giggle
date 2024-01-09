@@ -1,10 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
