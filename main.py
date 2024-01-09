@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_power(work, time):
-        return work / time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
