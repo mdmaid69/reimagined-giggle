@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import os
-print(os.getcwd())
+def get_file_size(filename):
+        return os.path.getsize(filename)
+print([x**2 for x in range(10)])
