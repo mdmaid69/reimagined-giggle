@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
