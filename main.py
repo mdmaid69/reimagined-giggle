@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
