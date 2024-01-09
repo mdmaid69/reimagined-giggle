@@ -1,5 +1,10 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
