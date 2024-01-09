@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
