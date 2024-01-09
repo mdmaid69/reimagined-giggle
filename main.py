@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_stack():
+        return collections.deque()
