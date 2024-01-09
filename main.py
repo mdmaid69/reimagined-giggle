@@ -1,6 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
