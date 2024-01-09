@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
