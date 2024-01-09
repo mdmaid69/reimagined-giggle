@@ -1,5 +1,9 @@
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
