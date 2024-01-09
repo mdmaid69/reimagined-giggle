@@ -1,5 +1,7 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
