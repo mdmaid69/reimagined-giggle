@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
