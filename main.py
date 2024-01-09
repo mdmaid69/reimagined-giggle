@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
