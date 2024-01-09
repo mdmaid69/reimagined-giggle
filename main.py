@@ -1,4 +1,9 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
