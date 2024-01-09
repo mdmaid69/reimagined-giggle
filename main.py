@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
