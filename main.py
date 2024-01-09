@@ -1,5 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import datetime
-print(datetime.datetime.now())
+  def get_base_name(path):
+        return os.path.basename(path)
