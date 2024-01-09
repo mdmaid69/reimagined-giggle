@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
