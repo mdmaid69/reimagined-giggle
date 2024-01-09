@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
