@@ -1,8 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
