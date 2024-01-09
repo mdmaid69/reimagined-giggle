@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
