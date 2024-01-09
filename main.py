@@ -1,8 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
