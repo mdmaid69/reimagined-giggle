@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
