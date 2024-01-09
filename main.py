@@ -1,4 +1,10 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
