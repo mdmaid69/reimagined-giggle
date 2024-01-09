@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_counter():
-        return collections.Counter()
+  def is_odd(n):
+        return n % 2 != 0
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
