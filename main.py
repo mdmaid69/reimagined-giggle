@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-def print_python_version():
-        print(sys.version)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
