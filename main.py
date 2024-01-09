@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
