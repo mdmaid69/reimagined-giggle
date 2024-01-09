@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
