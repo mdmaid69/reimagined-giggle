@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def multiply_numbers(x, y):
-        return x * y
+for i in range(5):
+        print(i)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
