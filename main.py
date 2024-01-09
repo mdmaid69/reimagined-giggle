@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
