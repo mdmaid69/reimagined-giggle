@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-for i in range(5):
-        print(i)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
