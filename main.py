@@ -1,4 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-for i in range(10): print(i)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
