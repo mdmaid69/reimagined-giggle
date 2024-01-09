@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_repr(array):
+        return repr(array)
