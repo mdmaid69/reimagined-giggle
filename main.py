@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def is_even(n):
-        return n % 2 == 0
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
