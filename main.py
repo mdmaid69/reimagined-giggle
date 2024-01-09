@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
