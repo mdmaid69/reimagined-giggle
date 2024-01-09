@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_max(numbers):
+        return max(numbers)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
