@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
