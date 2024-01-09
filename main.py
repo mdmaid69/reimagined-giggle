@@ -1,7 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
