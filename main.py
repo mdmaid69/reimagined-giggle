@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
