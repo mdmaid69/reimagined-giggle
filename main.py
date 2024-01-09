@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
