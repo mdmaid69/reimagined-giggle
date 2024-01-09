@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_list(array):
+        return list(array)
