@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
