@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
