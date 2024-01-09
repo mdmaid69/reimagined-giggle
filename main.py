@@ -1,8 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
