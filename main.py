@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def count_elements(lst):
+        return len(lst)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
