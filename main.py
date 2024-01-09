@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
