@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
