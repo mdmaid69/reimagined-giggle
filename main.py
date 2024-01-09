@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
