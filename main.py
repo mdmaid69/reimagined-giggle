@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_str(array):
+        return str(array)
