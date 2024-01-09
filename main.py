@@ -1,5 +1,12 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
