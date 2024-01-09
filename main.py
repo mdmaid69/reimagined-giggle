@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import sys
+print(sys.version)
