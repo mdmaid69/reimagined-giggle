@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_density(mass, volume):
+        return mass / volume
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
