@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
