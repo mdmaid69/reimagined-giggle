@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def subtract_numbers(x, y):
+        return x - y
+def convert_to_binary(n):
+        return bin(n)
