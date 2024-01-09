@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
