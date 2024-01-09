@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+print(sys.version)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
