@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def find_max(numbers):
+        return max(numbers)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
