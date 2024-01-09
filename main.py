@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
