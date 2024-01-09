@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
