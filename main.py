@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
