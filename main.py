@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  def is_odd(n):
-        return n % 2 != 0
+def find_max(numbers):
+        return max(numbers)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
