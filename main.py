@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def count_elements(lst):
-        return len(lst)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
