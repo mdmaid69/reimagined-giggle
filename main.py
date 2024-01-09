@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-for i in range(5):
-        print(i)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
