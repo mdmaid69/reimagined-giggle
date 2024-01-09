@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
