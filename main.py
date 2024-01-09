@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
