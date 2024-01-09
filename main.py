@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
