@@ -1,3 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import bisect
 def binary_search(sorted_list, item):
         i = bisect.bisect_left(sorted_list, item)
@@ -5,6 +8,3 @@ def binary_search(sorted_list, item):
         return i
         else:
         return -1
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
