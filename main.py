@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import getpass
-def get_username():
-        return getpass.getuser()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
