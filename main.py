@@ -1,5 +1,6 @@
 import time
-def get_current_time():
-        return time.ctime()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
