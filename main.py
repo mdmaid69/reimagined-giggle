@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
