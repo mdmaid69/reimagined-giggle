@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
