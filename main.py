@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def cube_number(x):
-        return x**3
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def reverse_string(s):
+        return s[::-1]
