@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Characters:", len(text))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
