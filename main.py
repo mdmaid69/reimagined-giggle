@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
