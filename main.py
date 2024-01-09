@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
