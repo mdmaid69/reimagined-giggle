@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
