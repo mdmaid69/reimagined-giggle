@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_set(array):
+        return set(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
