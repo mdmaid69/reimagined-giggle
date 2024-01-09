@@ -1,5 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
