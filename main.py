@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_pressure(force, area):
-        return force / area
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
