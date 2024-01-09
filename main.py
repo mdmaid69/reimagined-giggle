@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def change_working_directory(path):
+        os.chdir(path)
