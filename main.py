@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
