@@ -1,5 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
