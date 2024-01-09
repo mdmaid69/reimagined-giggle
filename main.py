@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
