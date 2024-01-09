@@ -1,6 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_density(mass, volume):
+        return mass / volume
