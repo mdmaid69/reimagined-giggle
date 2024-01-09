@@ -1,3 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-print([x**2 for x in range(10)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+x = 10
+y = 20
+print("Sum:", x + y)
