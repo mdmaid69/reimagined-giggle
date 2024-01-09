@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def remove_duplicates(lst):
+        return list(set(lst))
