@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
