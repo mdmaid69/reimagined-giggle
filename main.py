@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+x = 10
+y = 20
+print("Sum:", x + y)
