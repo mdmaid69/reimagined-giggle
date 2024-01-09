@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
