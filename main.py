@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
