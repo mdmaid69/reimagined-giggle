@@ -1,3 +1,5 @@
-print(sum(range(10)))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
