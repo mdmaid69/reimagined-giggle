@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
