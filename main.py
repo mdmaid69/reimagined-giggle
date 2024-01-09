@@ -1,6 +1,8 @@
+import collections
+def create_stack():
+        return collections.deque()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
