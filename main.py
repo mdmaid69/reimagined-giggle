@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
