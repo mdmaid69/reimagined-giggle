@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
