@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def add_numbers(x, y):
-        return x + y
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
