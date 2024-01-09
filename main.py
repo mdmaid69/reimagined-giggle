@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_sine(x):
+        return math.sin(x)
