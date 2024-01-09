@@ -1,5 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def subtract_numbers(x, y):
-        return x - y
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
