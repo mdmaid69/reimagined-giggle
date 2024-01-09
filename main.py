@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import re
-print(re.match("h.*o", "hello world"))
+  def is_even(n):
+        return n % 2 == 0
+def subtract_numbers(x, y):
+        return x - y
