@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
