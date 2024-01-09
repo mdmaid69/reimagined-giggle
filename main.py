@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_density(mass, volume):
-        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
