@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def remove_duplicates(lst):
-        return list(set(lst))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
