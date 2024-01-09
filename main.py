@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def subtract_numbers(x, y):
+        return x - y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
