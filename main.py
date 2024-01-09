@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_cosine(x):
+        return math.cos(x)
