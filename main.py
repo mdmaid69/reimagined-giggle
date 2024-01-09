@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
