@@ -1,7 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def remove_from_array(array, item):
+        array.remove(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
