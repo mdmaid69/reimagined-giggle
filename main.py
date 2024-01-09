@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import re
+print(re.match("h.*o", "hello world"))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
