@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import time
+def get_current_time():
+        return time.ctime()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
