@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
