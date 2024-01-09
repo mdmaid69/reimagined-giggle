@@ -1,7 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import time
+print(time.time())
