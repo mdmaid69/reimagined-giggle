@@ -1,6 +1,4 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_square_root(x):
+        return math.sqrt(x)
+for i in range(10): print(i)
