@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import sys
+def print_python_version():
+        print(sys.version)
