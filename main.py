@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
