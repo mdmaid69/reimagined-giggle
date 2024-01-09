@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def cube_number(x):
+        return x**3
