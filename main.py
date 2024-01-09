@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
