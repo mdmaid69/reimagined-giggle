@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
