@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import random
+print(random.randint(0, 100))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
