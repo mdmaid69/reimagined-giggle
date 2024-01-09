@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def generate_random_number(start, end):
+        return random.randint(start, end)
