@@ -1,5 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
