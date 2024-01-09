@@ -1,6 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
