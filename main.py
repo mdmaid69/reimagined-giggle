@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
