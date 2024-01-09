@@ -1,6 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
