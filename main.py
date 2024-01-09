@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def split_path(path):
+        return os.path.split(path)
