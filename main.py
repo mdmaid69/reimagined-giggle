@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import os
+def change_working_directory(path):
+        os.chdir(path)
