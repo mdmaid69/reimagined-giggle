@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
