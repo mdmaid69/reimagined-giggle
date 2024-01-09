@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
