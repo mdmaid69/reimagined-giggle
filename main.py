@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def multiply_numbers(x, y):
-        return x * y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_as_float(array):
+        return float(array[0])
