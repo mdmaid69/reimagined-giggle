@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
