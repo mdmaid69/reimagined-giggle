@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
