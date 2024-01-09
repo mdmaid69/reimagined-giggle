@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
