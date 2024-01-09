@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
