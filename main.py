@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def count_elements(lst):
+        return len(lst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
