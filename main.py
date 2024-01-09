@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def square_number(x):
-        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
