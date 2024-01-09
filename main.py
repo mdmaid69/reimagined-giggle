@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def add_numbers(a, b):
+        return a + b
+def multiply_numbers(x, y):
+        return x * y
