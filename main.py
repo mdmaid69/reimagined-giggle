@@ -1,5 +1,11 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_index(array, item):
+        return array.index(item)
