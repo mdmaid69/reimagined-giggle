@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
