@@ -1,8 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
