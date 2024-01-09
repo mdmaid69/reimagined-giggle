@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
