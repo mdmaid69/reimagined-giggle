@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_pressure(force, area):
-        return force / area
+def cube_number(x):
+        return x**3
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
