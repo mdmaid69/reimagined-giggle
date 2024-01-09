@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-print(time.time())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
