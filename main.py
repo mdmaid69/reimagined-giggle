@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
