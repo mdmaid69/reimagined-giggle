@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
