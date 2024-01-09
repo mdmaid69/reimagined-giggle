@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-text = "Hello, world!"
-print("Characters:", len(text))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_current_directory():
+        return os.getcwd()
