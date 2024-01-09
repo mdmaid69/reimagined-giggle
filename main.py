@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
