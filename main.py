@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
