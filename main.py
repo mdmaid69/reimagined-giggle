@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
