@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
