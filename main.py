@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
