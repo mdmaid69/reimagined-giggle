@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_work(force, distance):
+        return force * distance
