@@ -1,6 +1,5 @@
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+print("Unique words:", len(set(sentence.split())))
