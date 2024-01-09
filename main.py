@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
