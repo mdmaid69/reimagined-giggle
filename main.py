@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
