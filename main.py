@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
