@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
