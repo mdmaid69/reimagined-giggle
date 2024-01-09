@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
