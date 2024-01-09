@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_as_str(array):
-        return str(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def subtract_numbers(x, y):
+        return x - y
