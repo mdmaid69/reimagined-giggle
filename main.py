@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
