@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
