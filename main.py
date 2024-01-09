@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
