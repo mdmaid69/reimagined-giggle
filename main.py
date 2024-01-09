@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def square_number(x):
+        return x**2
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
