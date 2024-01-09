@@ -1,3 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-print(sum(range(10)))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
