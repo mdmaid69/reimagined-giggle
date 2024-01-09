@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
