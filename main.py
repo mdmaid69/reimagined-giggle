@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
