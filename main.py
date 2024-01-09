@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
