@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
