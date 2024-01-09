@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def reverse_list(lst):
+        return lst[::-1]
