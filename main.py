@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
