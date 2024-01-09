@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
