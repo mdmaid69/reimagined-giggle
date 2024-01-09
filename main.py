@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
