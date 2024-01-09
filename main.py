@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
