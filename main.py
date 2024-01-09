@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
