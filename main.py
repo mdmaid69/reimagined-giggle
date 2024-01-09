@@ -1,5 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
