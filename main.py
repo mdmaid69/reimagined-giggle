@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
