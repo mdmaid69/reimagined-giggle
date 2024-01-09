@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def count_words(sentence):
-        return len(sentence.split())
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
