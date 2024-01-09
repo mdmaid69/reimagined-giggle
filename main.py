@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def is_odd(n):
+        return n % 2 != 0
+import sys
+def print_python_version():
+        print(sys.version)
