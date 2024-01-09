@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_density(mass, volume):
+        return mass / volume
