@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
