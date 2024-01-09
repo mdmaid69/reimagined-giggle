@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
