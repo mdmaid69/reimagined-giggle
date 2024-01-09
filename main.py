@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
