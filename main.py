@@ -1,11 +1,7 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
