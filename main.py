@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
