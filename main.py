@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
