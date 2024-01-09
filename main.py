@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def calculate_area_rectangle(l, w):
-        return l * w
+for i in range(5):
+        print(i)
+import time
+def get_time_since_epoch():
+        return time.time()
