@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import tensorflow as tf
-print(tf.__version__)
+for i in range(5):
+        print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
