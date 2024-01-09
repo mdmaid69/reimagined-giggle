@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
