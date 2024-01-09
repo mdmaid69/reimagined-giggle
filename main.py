@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
