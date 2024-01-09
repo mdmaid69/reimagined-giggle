@@ -1,9 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def multiply_numbers(x, y):
+        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
