@@ -1,4 +1,7 @@
-print(sum(range(10)))
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def count_words(sentence):
+        return len(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
