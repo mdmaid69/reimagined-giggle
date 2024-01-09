@@ -1,5 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_item_count(array, item):
+        return array.count(item)
