@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def count_elements(lst):
+        return len(lst)
