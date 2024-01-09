@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
