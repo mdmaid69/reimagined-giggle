@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
