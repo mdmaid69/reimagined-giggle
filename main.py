@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+print(math.pi)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
