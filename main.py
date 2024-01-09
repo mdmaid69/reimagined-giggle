@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
