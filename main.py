@@ -1,6 +1,9 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
