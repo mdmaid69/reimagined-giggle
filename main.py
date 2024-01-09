@@ -1,10 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+x = 10
+y = 20
+print("Sum:", x + y)
