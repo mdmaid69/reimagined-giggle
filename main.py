@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
