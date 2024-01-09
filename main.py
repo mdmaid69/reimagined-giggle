@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
