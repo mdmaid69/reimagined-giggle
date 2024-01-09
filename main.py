@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
