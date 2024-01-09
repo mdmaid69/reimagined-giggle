@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
