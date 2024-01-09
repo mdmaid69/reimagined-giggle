@@ -1,4 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-for i in range(10): print(i)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
