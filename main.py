@@ -1,11 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
