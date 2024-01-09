@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def convert_to_hex(n):
-        return hex(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+for i in range(5):
+        print(i)
