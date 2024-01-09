@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
