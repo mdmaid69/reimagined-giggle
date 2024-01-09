@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
