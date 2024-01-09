@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def find_min(numbers):
-        return min(numbers)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_queue():
+        return collections.deque()
