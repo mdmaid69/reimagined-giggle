@@ -1,7 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def convert_to_octal(n):
+        return oct(n)
