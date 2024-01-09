@@ -1,5 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
