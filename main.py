@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+text = "Hello, world!"
+print("Uppercase:", text.upper())
