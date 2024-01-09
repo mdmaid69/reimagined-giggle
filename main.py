@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_time_since_epoch():
-        return time.time()
+def convert_array_to_bytes(array):
+        return array.tobytes()
