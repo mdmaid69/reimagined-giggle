@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def add_numbers(x, y):
-        return x + y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import os
+def change_working_directory(path):
+        os.chdir(path)
