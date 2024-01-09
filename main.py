@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import sys
+def exit_program():
+        sys.exit()
+import os
+def change_working_directory(path):
+        os.chdir(path)
