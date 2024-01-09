@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
