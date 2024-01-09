@@ -1,7 +1,11 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
