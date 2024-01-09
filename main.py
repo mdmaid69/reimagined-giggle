@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
