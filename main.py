@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
