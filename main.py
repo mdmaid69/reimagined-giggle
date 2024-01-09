@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
