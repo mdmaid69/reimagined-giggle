@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
