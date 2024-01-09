@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_error_function(x):
+        return math.erf(x)
