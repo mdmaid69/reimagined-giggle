@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
