@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
