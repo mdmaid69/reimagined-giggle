@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_speed(distance, time):
+        return distance / time
