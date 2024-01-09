@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+def is_even(n):
+        return n % 2 == 0
