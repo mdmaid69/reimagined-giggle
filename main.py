@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_as_float(array):
+        return float(array[0])
