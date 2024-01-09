@@ -1,7 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
