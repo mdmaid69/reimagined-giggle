@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
