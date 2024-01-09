@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_work(force, distance):
-        return force * distance
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_power(work, time):
+        return work / time
