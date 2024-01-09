@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
