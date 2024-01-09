@@ -1,7 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
