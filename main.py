@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import sys
-def exit_program():
-        sys.exit()
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
