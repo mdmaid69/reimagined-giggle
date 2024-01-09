@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
