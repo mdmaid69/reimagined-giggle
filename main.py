@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import numpy as np
+print(np.array([1, 2, 3]))
