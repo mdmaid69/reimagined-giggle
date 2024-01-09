@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_pressure(force, area):
+        return force / area
