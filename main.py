@@ -1,7 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def is_palindrome(s):
+        return s == s[::-1]
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
