@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
