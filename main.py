@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
