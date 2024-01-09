@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import platform
-def get_os_info():
-        return platform.uname()
+  def subtract_numbers(x, y):
+        return x - y
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
