@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
