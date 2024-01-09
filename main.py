@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def square_number(x):
+        return x**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
