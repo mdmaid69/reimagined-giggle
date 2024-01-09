@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
