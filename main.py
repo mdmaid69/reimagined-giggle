@@ -1,6 +1,8 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
