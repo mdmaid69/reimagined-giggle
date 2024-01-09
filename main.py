@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
