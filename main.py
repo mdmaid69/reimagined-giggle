@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def cube_number(x):
+        return x**3
+i = 0
+while i < 5:
+        print(i)
+        i += 1
