@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
