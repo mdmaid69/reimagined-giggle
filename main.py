@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
