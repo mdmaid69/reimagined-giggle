@@ -1,7 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
