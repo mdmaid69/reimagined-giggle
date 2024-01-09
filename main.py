@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
