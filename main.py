@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
