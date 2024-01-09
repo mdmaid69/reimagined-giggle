@@ -1,5 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
