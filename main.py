@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_stack():
+        return collections.deque()
