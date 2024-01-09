@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
