@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
