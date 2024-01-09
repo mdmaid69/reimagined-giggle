@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
