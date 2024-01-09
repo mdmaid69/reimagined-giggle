@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def convert_to_binary(n):
+        return bin(n)
