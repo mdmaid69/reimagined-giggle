@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
