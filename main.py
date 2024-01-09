@@ -1,5 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import logging
+def log_message(message):
+        logging.info(message)
