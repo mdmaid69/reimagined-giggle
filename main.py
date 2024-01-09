@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
