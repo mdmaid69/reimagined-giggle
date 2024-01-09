@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import platform
+def get_python_version():
+        return platform.python_version()
