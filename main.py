@@ -1,5 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
   import os
-  def split_path(path):
-        return os.path.split(path)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
