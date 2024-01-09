@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def add_numbers(x, y):
-        return x + y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_acceleration(speed, time):
+        return speed / time
