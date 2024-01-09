@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
