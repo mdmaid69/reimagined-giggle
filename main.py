@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
