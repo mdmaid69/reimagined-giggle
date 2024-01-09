@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_power(work, time):
+        return work / time
