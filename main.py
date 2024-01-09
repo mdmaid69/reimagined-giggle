@@ -1,9 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+x = 10
+y = 20
+print("Sum:", x + y)
