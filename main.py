@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_power(work, time):
+        return work / time
