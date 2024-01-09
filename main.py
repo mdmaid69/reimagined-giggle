@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
