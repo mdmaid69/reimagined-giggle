@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_as_str(array):
+        return str(array)
+  def reverse_list(lst):
+        return lst[::-1]
