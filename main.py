@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def reverse_string(s):
+        return s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
