@@ -1,6 +1,9 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def clear_array(array):
+        array *= 0
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
