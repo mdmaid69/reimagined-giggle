@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
