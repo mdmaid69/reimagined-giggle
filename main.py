@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_typecode(array):
+        return array.typecode
