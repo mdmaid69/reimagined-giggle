@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def reverse_array(array):
-        array.reverse()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
