@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
