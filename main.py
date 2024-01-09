@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
