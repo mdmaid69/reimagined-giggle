@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
