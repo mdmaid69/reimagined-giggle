@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
