@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
