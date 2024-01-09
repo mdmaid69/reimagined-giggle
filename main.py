@@ -1,6 +1,3 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+print([x**2 for x in range(10)])
