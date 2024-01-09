@@ -1,4 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-print(sum(range(10)))
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
