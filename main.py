@@ -1,5 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
