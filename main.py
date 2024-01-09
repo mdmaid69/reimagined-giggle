@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
+def calculate_acceleration(speed, time):
+        return speed / time
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Cube numbers:", [x**3 for x in range(n)])
