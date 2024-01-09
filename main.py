@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_work(force, distance):
-        return force * distance
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
