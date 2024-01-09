@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def subtract_numbers(x, y):
+        return x - y
+  def convert_to_binary(n):
+        return bin(n)
