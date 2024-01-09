@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
