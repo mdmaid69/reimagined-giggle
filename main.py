@@ -1,6 +1,11 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
