@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
