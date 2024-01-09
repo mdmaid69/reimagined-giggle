@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
