@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
