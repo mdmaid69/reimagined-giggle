@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
