@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import platform
-def get_os_info():
-        return platform.uname()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
