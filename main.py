@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
