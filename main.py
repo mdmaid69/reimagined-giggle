@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import time
+def get_time_since_epoch():
+        return time.time()
