@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_speed(distance, time):
+        return distance / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
