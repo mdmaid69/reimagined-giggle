@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def is_odd(n):
-        return n % 2 != 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
