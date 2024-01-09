@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def reverse_array(array):
+        array.reverse()
