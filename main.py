@@ -1,6 +1,3 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import re
+print(re.match("h.*o", "hello world"))
+for i in range(10): print(i)
