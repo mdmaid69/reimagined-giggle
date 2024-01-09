@@ -1,12 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
