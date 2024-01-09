@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def add_numbers(a, b):
+        return a + b
