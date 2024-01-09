@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
