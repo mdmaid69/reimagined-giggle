@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
