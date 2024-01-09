@@ -1,5 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
