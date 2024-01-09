@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_queue():
+        return collections.deque()
