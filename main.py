@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
