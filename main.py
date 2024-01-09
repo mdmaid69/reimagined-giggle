@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def is_even(n):
+        return n % 2 == 0
