@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
