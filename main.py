@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def greet(name):
+        print(f"Hello, {name}!")
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
