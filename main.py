@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def is_even(n):
+        return n % 2 == 0
