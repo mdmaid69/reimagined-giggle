@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
