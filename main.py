@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
