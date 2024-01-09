@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def create_counter():
+        return collections.Counter()
+import datetime
+def get_current_date():
+        return datetime.date.today()
