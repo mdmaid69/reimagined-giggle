@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
