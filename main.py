@@ -1,6 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
