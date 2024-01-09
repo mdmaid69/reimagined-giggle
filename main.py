@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def reverse_array(array):
+        array.reverse()
