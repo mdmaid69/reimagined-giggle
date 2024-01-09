@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_area_rectangle(l, w):
+        return l * w
