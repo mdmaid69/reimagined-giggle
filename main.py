@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
