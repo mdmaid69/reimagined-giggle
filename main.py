@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_power(work, time):
+        return work / time
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
