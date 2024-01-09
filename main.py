@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def clear_array(array):
+        array *= 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
