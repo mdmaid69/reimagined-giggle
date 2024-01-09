@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
