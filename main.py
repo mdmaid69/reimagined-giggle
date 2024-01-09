@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
