@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import time
+def get_current_time():
+        return time.ctime()
