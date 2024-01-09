@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
