@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
