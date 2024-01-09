@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
