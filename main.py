@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_float(array):
+        return float(array[0])
