@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
