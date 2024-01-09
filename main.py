@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_exponential(x):
+        return math.exp(x)
