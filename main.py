@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
