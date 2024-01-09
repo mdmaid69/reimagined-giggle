@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def get_array_as_list(array):
+        return list(array)
+  def convert_to_octal(n):
+        return oct(n)
