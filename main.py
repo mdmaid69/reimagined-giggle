@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def get_current_working_directory():
+        return os.getcwd()
