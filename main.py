@@ -1,5 +1,7 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
