@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
