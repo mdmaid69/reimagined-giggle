@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_power(work, time):
+        return work / time
