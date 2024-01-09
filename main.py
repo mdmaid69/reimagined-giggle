@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import time
+print(time.time())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
