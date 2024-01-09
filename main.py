@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
