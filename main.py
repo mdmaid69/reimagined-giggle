@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
