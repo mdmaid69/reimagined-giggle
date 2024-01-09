@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import time
+def get_current_time():
+        return time.time()
