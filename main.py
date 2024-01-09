@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
