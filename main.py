@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
