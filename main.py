@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
