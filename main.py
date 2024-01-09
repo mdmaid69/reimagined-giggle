@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
