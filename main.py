@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+print(re.match("h.*o", "hello world"))
