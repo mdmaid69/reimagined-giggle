@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def convert_to_octal(n):
+        return oct(n)
