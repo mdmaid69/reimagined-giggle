@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
