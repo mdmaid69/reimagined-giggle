@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
