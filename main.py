@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
