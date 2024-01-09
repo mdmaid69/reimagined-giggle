@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
