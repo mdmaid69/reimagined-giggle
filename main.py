@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import random
+print(random.randint(0, 100))
