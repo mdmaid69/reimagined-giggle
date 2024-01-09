@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
