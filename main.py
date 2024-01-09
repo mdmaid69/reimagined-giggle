@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
