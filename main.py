@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
