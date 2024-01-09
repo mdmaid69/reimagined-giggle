@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  def cube_number(x):
-        return x**3
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
