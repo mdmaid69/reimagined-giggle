@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def find_max(numbers):
+        return max(numbers)
