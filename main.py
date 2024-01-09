@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def convert_to_hex(n):
+        return hex(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
