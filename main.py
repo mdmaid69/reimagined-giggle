@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_power(work, time):
+        return work / time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
