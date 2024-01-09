@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
