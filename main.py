@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_length(array):
+        return len(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
