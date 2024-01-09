@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
