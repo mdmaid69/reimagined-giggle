@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
