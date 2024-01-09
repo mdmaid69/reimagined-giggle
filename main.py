@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def remove_duplicates(lst):
-        return list(set(lst))
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
