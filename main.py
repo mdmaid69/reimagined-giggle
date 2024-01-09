@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
