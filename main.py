@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
