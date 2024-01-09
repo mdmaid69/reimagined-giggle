@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_volume(length, width, height):
+        return length * width * height
+def remove_duplicates(lst):
+        return list(set(lst))
