@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+i = 0
+while i < 5:
+        print(i)
+        i += 1
