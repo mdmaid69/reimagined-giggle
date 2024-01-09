@@ -1,5 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def create_priority_queue():
+        return collections.deque()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
