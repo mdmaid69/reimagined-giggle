@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
