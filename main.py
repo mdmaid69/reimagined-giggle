@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
