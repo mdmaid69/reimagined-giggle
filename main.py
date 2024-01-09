@@ -1,4 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-print([x**2 for x in range(10)])
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
