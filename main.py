@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def is_odd(n):
-        return n % 2 != 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
