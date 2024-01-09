@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
