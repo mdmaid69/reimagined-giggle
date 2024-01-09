@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
