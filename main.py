@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def cube_number(x):
+        return x**3
+import sys
+print(sys.version)
