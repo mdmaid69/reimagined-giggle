@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import sys
+def print_python_version():
+        return sys.version
+import datetime
+def get_today_date():
+        return datetime.date.today()
