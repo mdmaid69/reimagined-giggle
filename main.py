@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
