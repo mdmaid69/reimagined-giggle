@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
