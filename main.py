@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+text = "Hello, world!"
+print("Characters:", len(text))
+import logging
+def log_message(message):
+        logging.info(message)
