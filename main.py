@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
