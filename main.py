@@ -1,5 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import os
-print(os.getcwd())
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
