@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
