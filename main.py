@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def set_array_item(array, i, item):
+        array[i] = item
