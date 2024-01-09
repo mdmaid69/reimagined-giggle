@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
