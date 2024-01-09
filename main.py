@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_as_set(array):
+        return set(array)
