@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
