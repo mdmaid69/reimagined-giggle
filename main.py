@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import time
+print(time.time())
