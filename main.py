@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_length(array):
+        return len(array)
