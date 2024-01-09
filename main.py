@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def count_characters(sentence):
-        return len(sentence)
+def divide_numbers(x, y):
+        return x / y
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
