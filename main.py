@@ -1,6 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
