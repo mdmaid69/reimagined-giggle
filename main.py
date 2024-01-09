@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
