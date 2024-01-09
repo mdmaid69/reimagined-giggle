@@ -1,4 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-print([x**2 for x in range(10)])
+def multiply_numbers(x, y):
+        return x * y
+import random
+def roll_die():
+        return random.randint(1, 6)
