@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_power(work, time):
+        return work / time
