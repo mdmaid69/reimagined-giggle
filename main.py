@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_power(work, time):
+        return work / time
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
