@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
