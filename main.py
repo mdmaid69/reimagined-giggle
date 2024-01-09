@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
