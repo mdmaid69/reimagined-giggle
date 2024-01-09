@@ -1,7 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
