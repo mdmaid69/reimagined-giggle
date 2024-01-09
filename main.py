@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import random
+def roll_die():
+        return random.randint(1, 6)
