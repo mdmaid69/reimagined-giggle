@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
