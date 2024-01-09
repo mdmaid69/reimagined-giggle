@@ -1,5 +1,3 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_typecode(array):
-        return array.typecode
+for i in range(10): print(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
