@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_density(mass, volume):
+        return mass / volume
