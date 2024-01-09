@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def find_unique_words(sentence):
+        return set(sentence.split())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
