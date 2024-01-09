@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_binary(n):
-        return bin(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
