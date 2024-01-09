@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
