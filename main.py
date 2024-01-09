@@ -1,6 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
