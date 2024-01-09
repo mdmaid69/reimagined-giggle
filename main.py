@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
