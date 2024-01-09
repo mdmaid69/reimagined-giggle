@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
