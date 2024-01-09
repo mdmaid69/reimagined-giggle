@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
