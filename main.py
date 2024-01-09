@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_speed(distance, time):
+        return distance / time
