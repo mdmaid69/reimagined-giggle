@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+print(os.getcwd())
+import array
+def get_array_as_set(array):
+        return set(array)
