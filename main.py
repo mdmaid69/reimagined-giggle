@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
