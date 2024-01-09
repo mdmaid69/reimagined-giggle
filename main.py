@@ -1,5 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def cube_number(x):
-        return x**3
+  def remove_duplicates(lst):
+        return list(set(lst))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
