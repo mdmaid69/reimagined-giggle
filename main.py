@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
