@@ -1,4 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
