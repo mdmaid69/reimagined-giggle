@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
