@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
