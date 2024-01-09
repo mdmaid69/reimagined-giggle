@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
