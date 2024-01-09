@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def reverse_list(lst):
+        return lst[::-1]
