@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_pressure(force, area):
+        return force / area
