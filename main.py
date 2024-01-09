@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
