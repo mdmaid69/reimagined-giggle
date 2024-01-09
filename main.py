@@ -1,9 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
