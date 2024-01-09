@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
