@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def cube_number(x):
-        return x**3
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
