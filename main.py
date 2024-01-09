@@ -1,6 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_power(work, time):
+        return work / time
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
