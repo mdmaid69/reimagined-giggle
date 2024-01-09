@@ -1,4 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
