@@ -1,8 +1,5 @@
-def cube_number(x):
-        return x**3
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_density(mass, volume):
+        return mass / volume
