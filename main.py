@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
