@@ -1,3 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-for i in range(10): print(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
