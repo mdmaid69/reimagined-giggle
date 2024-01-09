@@ -1,6 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
