@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
