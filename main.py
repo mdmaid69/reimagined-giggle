@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import sys
+def exit_program():
+        sys.exit()
