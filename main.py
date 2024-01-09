@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def reverse_array(array):
+        array.reverse()
