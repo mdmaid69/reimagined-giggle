@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def reverse_list(lst):
+        return lst[::-1]
