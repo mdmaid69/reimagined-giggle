@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
