@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
