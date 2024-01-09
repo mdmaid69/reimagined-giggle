@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def square_number(x):
+        return x**2
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
