@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
