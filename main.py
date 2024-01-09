@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
