@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def add_numbers(x, y):
-        return x + y
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
