@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
