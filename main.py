@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
