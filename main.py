@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
