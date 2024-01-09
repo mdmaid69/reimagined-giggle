@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
