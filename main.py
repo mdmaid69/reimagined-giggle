@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
