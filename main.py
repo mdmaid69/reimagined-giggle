@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_floor(x):
+        return math.floor(x)
