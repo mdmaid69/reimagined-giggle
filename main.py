@@ -1,6 +1,7 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
