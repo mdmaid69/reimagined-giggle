@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import logging
+def log_message(message):
+        logging.info(message)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
