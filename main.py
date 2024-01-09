@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
