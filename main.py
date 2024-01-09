@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-name = "Python"
-print("Hello,", name)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
