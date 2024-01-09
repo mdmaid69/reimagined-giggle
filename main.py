@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_set(array):
+        return set(array)
