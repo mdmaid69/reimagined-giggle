@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
