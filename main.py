@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
