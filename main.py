@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
