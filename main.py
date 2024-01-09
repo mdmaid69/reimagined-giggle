@@ -1,6 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
