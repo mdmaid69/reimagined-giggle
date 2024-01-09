@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
