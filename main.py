@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
