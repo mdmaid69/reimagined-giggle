@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
