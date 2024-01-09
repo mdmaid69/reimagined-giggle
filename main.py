@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
