@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import sys
+print(sys.version)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
