@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def multiply_numbers(x, y):
+        return x * y
