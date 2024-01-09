@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_item(array, i):
+        return array[i]
+import time
+print(time.time())
