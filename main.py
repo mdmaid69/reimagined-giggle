@@ -1,9 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
