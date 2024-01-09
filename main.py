@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
