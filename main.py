@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def convert_to_octal(n):
+        return oct(n)
+import getpass
+def get_username():
+        return getpass.getuser()
