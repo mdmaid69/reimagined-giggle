@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
