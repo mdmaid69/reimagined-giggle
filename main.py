@@ -1,11 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
