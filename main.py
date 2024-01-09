@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_to_octal(n):
+        return oct(n)
+  def count_elements(lst):
+        return len(lst)
