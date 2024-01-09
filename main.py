@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def add_numbers(x, y):
+        return x + y
