@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
