@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
