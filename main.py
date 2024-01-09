@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
