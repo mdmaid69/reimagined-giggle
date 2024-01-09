@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
