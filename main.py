@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
