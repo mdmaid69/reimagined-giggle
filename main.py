@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import tensorflow as tf
+print(tf.__version__)
