@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
