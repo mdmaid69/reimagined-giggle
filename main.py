@@ -1,5 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
