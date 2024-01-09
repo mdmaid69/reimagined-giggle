@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def convert_to_octal(n):
-        return oct(n)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
