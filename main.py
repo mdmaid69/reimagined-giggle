@@ -1,6 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+print(sum(range(10)))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
