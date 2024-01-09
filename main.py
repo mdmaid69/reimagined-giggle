@@ -1,5 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
