@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_speed(distance, time):
+        return distance / time
