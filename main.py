@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
