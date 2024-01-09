@@ -1,5 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
