@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
