@@ -1,4 +1,10 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  import os
+  def split_path(path):
+        return os.path.split(path)
