@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def is_odd(n):
-        return n % 2 != 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_list_from_array(array):
+        return array.tolist()
