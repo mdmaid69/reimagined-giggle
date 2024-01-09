@@ -1,5 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import getpass
-def get_username():
-        return getpass.getuser()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
