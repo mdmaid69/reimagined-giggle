@@ -1,8 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
