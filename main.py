@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
