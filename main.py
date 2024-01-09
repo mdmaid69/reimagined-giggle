@@ -1,5 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Characters:", len(text))
+  def add_numbers(x, y):
+        return x + y
