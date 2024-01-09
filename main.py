@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+import time
+print(time.time())
