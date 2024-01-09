@@ -1,5 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_speed(distance, time):
+        return distance / time
