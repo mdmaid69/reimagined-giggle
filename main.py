@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import tensorflow as tf
-print(tf.__version__)
+import math
+print(math.pi)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
