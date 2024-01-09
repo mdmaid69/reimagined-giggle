@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
