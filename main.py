@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
