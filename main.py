@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
