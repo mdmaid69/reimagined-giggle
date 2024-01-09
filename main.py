@@ -1,5 +1,11 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
