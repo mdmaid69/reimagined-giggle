@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
