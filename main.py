@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
