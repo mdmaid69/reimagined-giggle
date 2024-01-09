@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import json
+print(json.dumps({"name": "John", "age": 30}))
