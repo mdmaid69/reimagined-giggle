@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
