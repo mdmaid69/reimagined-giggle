@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import collections
+def create_counter():
+        return collections.Counter()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
