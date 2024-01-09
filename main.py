@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
