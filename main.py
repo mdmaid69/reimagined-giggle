@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
