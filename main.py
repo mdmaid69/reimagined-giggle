@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import collections
+def create_queue():
+        return collections.deque()
