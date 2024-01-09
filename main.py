@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
