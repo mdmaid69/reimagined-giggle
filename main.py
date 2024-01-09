@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_username():
+        return getpass.getuser()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
