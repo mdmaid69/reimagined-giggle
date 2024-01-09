@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
