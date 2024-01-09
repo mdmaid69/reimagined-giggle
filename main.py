@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
