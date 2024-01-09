@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_current_directory():
+        return os.getcwd()
