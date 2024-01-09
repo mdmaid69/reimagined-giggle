@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
