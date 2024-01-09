@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
