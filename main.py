@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
