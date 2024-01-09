@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
