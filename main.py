@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
