@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def cube_number(x):
+        return x**3
