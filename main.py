@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def multiply_numbers(x, y):
+        return x * y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
