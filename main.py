@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def sort_list(lst):
+        return sorted(lst)
