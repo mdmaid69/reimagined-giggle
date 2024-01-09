@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
