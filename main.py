@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
