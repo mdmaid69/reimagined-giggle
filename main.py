@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
