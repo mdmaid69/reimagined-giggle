@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import random
-print(random.randint(0, 100))
+def convert_to_octal(n):
+        return oct(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
