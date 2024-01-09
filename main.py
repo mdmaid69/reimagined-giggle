@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import collections
-def create_queue():
-        return collections.deque()
+def create_user_dict():
+        return collections.UserDict()
+def add_numbers(x, y):
+        return x + y
