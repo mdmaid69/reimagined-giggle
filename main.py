@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def find_max(lst):
-        return max(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
