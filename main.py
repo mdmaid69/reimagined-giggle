@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
