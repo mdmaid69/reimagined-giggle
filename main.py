@@ -1,4 +1,5 @@
-for i in range(10): print(i)
+text = "Hello, world!"
+print("Characters:", len(text))
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
