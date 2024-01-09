@@ -1,5 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def reverse_array(array):
+        array.reverse()
