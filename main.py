@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def sort_list(lst):
+        return sorted(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
