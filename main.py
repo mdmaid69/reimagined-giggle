@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
