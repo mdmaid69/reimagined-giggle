@@ -1,8 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+name = "Python"
+print("Hello,", name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
