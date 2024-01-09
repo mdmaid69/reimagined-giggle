@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
