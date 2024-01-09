@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def sort_list(lst):
+        return sorted(lst)
