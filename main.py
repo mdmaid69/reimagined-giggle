@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_float(array):
+        return float(array[0])
