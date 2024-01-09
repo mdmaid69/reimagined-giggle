@@ -1,6 +1,4 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+print("Hello, world!")
