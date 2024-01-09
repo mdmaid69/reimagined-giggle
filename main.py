@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
