@@ -1,5 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
