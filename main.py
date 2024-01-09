@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
