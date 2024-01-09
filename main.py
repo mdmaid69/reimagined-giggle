@@ -1,12 +1,7 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import queue
+  def get_current_directory():
+        return os.getcwd()
+import socket
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
