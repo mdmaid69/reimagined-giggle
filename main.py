@@ -1,8 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_area_rectangle(l, w):
+        return l * w
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
