@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
