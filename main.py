@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
