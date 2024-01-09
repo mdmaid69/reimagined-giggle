@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
