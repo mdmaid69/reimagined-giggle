@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_speed(distance, time):
+        return distance / time
