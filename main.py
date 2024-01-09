@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
