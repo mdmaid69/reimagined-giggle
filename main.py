@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def exit_program():
-        sys.exit()
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
