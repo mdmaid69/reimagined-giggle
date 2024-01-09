@@ -1,6 +1,9 @@
-for i in range(10): print(i)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
