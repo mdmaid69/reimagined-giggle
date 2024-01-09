@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
