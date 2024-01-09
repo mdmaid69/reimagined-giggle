@@ -1,4 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-print([x**2 for x in range(10)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
