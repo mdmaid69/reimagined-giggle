@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
