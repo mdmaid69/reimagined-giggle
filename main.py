@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
