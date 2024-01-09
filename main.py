@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
