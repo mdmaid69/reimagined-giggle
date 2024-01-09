@@ -1,5 +1,8 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-def count_words(sentence):
-        return len(sentence.split())
+def create_user_list():
+        return collections.UserList()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
