@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_max(numbers):
+        return max(numbers)
