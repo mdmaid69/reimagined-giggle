@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def reverse_string(s):
+        return s[::-1]
