@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_item(array, i):
+        return array[i]
