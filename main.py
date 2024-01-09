@@ -1,4 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-print([x**2 for x in range(10)])
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
