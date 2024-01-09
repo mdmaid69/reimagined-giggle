@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
