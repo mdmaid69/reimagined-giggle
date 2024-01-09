@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_bytes_from_array(array):
+        return array.tobytes()
