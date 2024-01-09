@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
