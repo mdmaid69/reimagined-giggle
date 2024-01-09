@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_list_from_array(array):
+        return array.tolist()
