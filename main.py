@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
