@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
