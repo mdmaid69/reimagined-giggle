@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
