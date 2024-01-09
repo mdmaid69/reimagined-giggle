@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import collections
+def create_user_dict():
+        return collections.UserDict()
