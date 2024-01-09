@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_bool(array):
+        return bool(array)
