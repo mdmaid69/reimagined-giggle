@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
