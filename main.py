@@ -1,6 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
