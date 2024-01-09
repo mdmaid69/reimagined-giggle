@@ -1,5 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import platform
+def get_python_version():
+        return platform.python_version()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
