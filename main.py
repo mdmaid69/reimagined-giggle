@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
