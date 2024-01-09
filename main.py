@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import sys
+def exit_program():
+        sys.exit()
