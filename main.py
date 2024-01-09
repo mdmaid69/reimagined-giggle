@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def square_number(x):
-        return x**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
