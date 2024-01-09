@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
