@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
