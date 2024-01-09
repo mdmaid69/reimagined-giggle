@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
