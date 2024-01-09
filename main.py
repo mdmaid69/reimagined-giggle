@@ -1,7 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
