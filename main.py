@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
