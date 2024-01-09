@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
