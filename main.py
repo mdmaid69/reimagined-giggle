@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
