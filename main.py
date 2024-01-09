@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def find_max(numbers):
-        return max(numbers)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
