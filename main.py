@@ -1,7 +1,9 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
