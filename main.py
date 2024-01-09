@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
