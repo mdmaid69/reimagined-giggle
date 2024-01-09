@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_user_list():
+        return collections.UserList()
