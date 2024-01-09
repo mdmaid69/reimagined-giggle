@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def subtract_numbers(x, y):
+        return x - y
