@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
