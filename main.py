@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import getpass
-def get_username():
-        return getpass.getuser()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
