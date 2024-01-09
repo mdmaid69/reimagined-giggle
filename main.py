@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
