@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_current_directory():
+        return os.getcwd()
