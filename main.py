@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def find_min(lst):
-        return min(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
