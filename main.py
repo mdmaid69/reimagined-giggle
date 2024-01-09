@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_stack():
+        return collections.deque()
