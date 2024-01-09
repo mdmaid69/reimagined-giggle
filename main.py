@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
