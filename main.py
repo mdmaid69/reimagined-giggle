@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
