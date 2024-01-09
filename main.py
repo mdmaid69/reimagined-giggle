@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
