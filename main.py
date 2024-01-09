@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
