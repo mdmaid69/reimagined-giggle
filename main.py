@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
