@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
