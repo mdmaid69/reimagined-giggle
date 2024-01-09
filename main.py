@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
+def divide_numbers(x, y):
+        return x / y
