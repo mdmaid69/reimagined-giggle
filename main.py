@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
