@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
