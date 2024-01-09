@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
