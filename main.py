@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+x = 10
+y = 20
+print("Sum:", x + y)
