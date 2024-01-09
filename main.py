@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
