@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
