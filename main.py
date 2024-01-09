@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
