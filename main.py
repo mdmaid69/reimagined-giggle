@@ -1,7 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import os
+def remove_directory(path):
+        os.rmdir(path)
