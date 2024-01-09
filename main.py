@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_typecode(array):
+        return array.typecode
