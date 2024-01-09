@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
