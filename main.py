@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def sort_list(lst):
-        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
