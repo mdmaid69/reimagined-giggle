@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
