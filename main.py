@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
