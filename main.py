@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
