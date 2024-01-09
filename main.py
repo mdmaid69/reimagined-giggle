@@ -1,4 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
