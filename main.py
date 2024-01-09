@@ -1,12 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
