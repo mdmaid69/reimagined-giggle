@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
