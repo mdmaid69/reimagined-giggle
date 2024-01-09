@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
