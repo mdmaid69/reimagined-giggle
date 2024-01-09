@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
