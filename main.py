@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def add_numbers(a, b):
-        return a + b
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
