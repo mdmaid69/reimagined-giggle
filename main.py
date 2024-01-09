@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def is_odd(n):
+        return n % 2 != 0
