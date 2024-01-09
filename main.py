@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
