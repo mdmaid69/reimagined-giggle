@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_pressure(force, area):
+        return force / area
