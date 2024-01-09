@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
