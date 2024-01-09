@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
