@@ -1,9 +1,8 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def get_array_from_file(filename, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
