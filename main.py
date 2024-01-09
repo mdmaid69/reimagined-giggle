@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
