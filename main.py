@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
