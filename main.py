@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+print(sys.version)
