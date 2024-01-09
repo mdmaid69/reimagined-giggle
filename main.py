@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_stack():
+        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
