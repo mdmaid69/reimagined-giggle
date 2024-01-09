@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
