@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
