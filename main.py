@@ -1,4 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
