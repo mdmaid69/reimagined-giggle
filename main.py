@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_list(array):
+        return list(array)
