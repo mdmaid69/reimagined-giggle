@@ -1,4 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print([x**2 for x in range(10)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
