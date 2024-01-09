@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
