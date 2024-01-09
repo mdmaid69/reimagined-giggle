@@ -1,6 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def clear_array(array):
-        array *= 0
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
