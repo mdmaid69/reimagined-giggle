@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def find_max(lst):
-        return max(lst)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
