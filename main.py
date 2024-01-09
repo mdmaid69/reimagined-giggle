@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+for i in range(10): print(i)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
