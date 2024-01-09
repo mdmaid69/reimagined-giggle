@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
