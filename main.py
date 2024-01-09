@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def divide_numbers(x, y):
+        return x / y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
