@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_queue():
+        return collections.deque()
+def greet(name):
+        print(f"Hello, {name}!")
