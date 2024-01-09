@@ -1,6 +1,6 @@
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_memoryview(array):
+        return memoryview(array)
