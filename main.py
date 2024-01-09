@@ -1,5 +1,7 @@
-import time
-print(time.time())
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def is_palindrome(s):
+        return s == s[::-1]
