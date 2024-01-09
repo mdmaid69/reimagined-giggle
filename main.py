@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import re
-print(re.match("h.*o", "hello world"))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_user_dict():
+        return collections.UserDict()
