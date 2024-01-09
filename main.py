@@ -1,5 +1,3 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+for i in range(10): print(i)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
