@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
