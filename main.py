@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def is_even(n):
-        return n % 2 == 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_item(array, i):
+        return array[i]
