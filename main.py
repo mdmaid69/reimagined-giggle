@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
