@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
