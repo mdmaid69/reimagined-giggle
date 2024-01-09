@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
