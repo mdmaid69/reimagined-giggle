@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
