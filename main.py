@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
