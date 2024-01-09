@@ -1,8 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def get_array_buffer_info(array):
+        return array.buffer_info()
