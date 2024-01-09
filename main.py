@@ -1,6 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_as_bool(array):
+        return bool(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
