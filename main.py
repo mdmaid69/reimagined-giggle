@@ -1,6 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
