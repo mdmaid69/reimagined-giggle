@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
