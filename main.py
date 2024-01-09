@@ -1,9 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import datetime
+print(datetime.datetime.now())
+import getpass
+def get_username():
+        return getpass.getuser()
