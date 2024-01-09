@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import time
-print(time.time())
+def calculate_density(mass, volume):
+        return mass / volume
+def multiply_numbers(x, y):
+        return x * y
