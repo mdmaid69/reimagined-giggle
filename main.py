@@ -1,4 +1,9 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def count_characters(sentence):
+        return len(sentence)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
