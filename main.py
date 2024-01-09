@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
