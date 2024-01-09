@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import sys
-def print_python_version():
-        return sys.version
+import tensorflow as tf
+print(tf.__version__)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
