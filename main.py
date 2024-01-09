@@ -1,6 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def count_elements(lst):
+        return len(lst)
