@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import time
+def get_time_since_epoch():
+        return time.time()
