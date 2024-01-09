@@ -1,4 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
