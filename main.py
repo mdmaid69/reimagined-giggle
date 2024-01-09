@@ -1,5 +1,5 @@
-import time
-print(time.time())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
