@@ -1,5 +1,7 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
