@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
