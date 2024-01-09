@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def convert_to_octal(n):
+        return oct(n)
