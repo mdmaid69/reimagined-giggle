@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
