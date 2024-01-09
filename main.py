@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import sys
+def exit_program():
+        sys.exit()
+import numpy as np
+print(np.array([1, 2, 3]))
