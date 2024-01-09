@@ -1,9 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
