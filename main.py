@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
