@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
