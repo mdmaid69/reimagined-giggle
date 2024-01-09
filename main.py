@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
