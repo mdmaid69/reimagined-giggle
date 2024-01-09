@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
