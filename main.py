@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import time
-def get_current_time():
-        return time.time()
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
