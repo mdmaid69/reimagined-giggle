@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
