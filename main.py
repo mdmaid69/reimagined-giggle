@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
