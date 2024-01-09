@@ -1,4 +1,11 @@
-  def multiply_numbers(x, y):
-        return x * y
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
