@@ -1,6 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
