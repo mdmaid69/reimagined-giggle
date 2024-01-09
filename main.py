@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+print(math.pi)
