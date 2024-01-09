@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
