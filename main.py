@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
