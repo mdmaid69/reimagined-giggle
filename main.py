@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
