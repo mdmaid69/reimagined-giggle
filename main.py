@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
