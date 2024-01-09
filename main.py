@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def is_even(n):
+        return n % 2 == 0
