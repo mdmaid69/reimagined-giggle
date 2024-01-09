@@ -1,6 +1,12 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
