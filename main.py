@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
