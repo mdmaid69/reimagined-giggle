@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
