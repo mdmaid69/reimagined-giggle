@@ -1,8 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_list_from_array(array):
+        return array.tolist()
