@@ -1,6 +1,12 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
