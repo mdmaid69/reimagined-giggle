@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
