@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
