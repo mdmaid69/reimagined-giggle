@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
