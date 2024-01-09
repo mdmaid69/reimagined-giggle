@@ -1,8 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_power(work, time):
+        return work / time
