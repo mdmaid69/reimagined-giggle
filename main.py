@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
