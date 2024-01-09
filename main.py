@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
