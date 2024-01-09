@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
