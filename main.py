@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
