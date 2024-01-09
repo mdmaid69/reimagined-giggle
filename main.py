@@ -1,6 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
