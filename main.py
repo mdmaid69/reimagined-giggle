@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
