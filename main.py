@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
