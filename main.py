@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
