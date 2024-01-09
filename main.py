@@ -1,7 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
