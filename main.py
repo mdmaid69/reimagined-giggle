@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
