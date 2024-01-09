@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def count_elements(lst):
+        return len(lst)
