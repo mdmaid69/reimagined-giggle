@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
