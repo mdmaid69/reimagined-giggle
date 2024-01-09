@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+from collections import Counter
+print(Counter("hello world"))
