@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def remove_duplicates(lst):
+        return list(set(lst))
+import platform
+def get_os_info():
+        return platform.uname()
