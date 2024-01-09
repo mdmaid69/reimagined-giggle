@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
