@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def convert_to_hex(n):
-        return hex(n)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
