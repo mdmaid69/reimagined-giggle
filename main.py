@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-for i in range(5):
-        print(i)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
