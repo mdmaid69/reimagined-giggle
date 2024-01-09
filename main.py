@@ -1,6 +1,12 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
