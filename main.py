@@ -1,9 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_max(numbers):
+        return max(numbers)
