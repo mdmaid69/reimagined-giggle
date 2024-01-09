@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
