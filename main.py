@@ -1,8 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
