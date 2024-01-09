@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import collections
-def create_stack():
-        return collections.deque()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
