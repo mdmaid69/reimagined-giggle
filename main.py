@@ -1,4 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
