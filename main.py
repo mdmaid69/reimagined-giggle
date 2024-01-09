@@ -1,4 +1,9 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
