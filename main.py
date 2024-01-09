@@ -1,7 +1,5 @@
-import math
-print(math.pi)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
