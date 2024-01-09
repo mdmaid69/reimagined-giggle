@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import os
-print(os.getcwd())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
