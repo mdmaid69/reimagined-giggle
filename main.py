@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
