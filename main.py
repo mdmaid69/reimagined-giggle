@@ -1,6 +1,6 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
