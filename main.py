@@ -1,8 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
