@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import sys
-print(sys.version)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
