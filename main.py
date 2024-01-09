@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
