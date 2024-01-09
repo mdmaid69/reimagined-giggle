@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
