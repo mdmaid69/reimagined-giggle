@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
