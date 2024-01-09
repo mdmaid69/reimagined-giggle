@@ -1,6 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
