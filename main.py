@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
