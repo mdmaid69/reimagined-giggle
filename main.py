@@ -1,5 +1,12 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
