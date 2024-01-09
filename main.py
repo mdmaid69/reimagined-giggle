@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
