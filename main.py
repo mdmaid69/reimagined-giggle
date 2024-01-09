@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
