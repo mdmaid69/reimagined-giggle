@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
