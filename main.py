@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+text = "Hello, world!"
+print("Characters:", len(text))
