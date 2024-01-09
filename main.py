@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
