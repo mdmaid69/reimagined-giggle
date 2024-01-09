@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def find_max(numbers):
+        return max(numbers)
