@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
