@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def reverse_list(lst):
+        return lst[::-1]
