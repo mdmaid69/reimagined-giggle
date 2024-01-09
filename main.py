@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
