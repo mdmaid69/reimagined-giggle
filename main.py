@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_average(lst):
+        return sum(lst) / len(lst)
