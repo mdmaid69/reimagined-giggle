@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
