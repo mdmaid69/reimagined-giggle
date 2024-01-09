@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def clear_array(array):
+        array *= 0
