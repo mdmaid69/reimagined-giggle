@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+from collections import Counter
+print(Counter("hello world"))
