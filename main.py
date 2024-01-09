@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def convert_to_binary(n):
+        return bin(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
