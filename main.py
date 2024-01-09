@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
