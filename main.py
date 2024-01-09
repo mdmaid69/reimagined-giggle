@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def cube_number(x):
+        return x**3
