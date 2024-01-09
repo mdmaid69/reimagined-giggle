@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-def exit_program():
-        sys.exit()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_max(lst):
+        return max(lst)
