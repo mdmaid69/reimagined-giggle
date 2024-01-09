@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
