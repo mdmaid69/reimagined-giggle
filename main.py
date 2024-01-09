@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
