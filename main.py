@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
