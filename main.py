@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
