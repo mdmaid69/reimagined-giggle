@@ -1,6 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_typecode(array):
+        return array.typecode
