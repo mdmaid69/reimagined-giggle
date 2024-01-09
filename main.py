@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
