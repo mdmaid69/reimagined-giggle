@@ -1,6 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
