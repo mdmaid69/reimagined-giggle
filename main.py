@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def square_number(x):
-        return x**2
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_pressure(force, area):
+        return force / area
