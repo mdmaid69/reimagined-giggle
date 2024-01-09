@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
