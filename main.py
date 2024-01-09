@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
