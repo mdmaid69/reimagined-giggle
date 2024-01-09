@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
