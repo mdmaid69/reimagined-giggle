@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_work(force, distance):
+        return force * distance
