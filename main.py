@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_octal(n):
+        return oct(n)
