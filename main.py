@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def find_max(lst):
+        return max(lst)
