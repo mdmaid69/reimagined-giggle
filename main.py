@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def count_characters(sentence):
+        return len(sentence)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
