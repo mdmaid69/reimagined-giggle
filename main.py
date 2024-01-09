@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
 import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
