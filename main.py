@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
