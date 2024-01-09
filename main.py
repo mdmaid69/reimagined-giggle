@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
