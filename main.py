@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
