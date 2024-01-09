@@ -1,5 +1,10 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
