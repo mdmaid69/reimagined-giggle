@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
