@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
