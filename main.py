@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
