@@ -1,6 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
