@@ -1,5 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
