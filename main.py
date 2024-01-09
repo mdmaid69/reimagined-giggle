@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
