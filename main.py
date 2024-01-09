@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
