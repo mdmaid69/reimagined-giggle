@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
