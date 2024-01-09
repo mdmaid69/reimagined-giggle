@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
