@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
