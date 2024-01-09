@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_acceleration(speed, time):
+        return speed / time
