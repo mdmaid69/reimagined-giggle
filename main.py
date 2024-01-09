@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_list_from_array(array):
+        return array.tolist()
