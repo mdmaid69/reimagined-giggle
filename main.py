@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
