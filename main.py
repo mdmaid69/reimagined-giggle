@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def split_path(path):
+        return os.path.split(path)
