@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_environment_variable(var):
+        return os.getenv(var)
