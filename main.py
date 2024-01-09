@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
