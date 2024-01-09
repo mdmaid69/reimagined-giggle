@@ -1,7 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
