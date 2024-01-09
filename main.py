@@ -1,10 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def divide_numbers(x, y):
+        return x / y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
