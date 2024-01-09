@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import collections
+def create_user_list():
+        return collections.UserList()
