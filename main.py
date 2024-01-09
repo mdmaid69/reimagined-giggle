@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
