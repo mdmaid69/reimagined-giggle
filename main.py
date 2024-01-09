@@ -1,6 +1,5 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def convert_to_hex(n):
+        return hex(n)
