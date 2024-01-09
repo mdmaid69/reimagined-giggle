@@ -1,7 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
