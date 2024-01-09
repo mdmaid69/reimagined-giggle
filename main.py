@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_exponential(x):
+        return math.exp(x)
