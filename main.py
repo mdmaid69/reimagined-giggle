@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
