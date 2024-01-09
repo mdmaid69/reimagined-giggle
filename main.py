@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def cube_number(x):
+        return x**3
