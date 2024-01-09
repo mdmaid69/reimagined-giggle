@@ -1,7 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import time
+def get_time_since_epoch():
+        return time.time()
+import logging
+def log_message(message):
+        logging.info(message)
