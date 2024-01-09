@@ -1,6 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
