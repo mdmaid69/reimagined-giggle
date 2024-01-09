@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
