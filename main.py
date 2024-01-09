@@ -1,5 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
