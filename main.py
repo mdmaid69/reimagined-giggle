@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
