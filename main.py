@@ -1,5 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
