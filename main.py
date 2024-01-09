@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
