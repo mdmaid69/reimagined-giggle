@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import platform
+def get_os_info():
+        return platform.uname()
