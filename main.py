@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+print([x**2 for x in range(10)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
