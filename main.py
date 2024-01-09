@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
