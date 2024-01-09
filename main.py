@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_density(mass, volume):
-        return mass / volume
+def is_even(n):
+        return n % 2 == 0
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
