@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
