@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def print_python_version():
+        print(sys.version)
+  import sys
+  def get_python_version():
+        return sys.version
