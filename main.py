@@ -1,5 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def convert_to_hex(n):
-        return hex(n)
+def convert_array_to_string(array):
+        return array.tostring()
