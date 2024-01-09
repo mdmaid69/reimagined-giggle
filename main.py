@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
