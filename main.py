@@ -1,4 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-print("Hello, world!")
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
