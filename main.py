@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
