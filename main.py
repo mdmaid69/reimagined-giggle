@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
