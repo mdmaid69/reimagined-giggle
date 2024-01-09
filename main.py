@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
