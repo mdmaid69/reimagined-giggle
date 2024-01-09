@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_min(lst):
+        return min(lst)
+def find_min(numbers):
+        return min(numbers)
