@@ -1,7 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
