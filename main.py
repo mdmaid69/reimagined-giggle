@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
