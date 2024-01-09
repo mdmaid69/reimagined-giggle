@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
