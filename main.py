@@ -1,8 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def is_even(n):
+        return n % 2 == 0
+def remove_duplicates(lst):
+        return list(set(lst))
