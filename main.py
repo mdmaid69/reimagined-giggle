@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
