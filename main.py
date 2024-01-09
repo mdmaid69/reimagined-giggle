@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-print(sys.version)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def find_max(lst):
+        return max(lst)
