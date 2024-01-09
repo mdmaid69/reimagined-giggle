@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import getpass
+def get_username():
+        return getpass.getuser()
