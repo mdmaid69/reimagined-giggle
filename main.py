@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
