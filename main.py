@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_acceleration(speed, time):
+        return speed / time
