@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def convert_to_hex(n):
+        return hex(n)
