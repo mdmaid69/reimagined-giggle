@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
