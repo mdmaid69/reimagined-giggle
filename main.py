@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
