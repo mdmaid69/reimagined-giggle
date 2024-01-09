@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import sys
+def exit_program():
+        sys.exit()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
