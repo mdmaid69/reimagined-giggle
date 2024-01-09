@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
