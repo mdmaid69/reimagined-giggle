@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
