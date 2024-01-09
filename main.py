@@ -1,6 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
+  def convert_to_binary(n):
+        return bin(n)
