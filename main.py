@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
