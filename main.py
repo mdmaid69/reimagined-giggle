@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def convert_to_octal(n):
+        return oct(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
