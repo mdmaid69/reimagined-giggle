@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
