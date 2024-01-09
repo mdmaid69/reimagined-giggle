@@ -1,8 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
