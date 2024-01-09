@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def multiply_numbers(x, y):
-        return x * y
+print([x**2 for x in range(10)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
