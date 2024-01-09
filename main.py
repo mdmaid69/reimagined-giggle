@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
