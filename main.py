@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
