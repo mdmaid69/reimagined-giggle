@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def count_elements(lst):
-        return len(lst)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
