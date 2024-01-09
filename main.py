@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def add_numbers(a, b):
+        return a + b
