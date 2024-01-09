@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
