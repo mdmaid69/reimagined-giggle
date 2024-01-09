@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-print(math.pi)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
