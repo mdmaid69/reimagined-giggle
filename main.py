@@ -1,5 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
