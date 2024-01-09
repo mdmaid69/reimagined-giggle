@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
