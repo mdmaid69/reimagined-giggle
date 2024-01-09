@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_speed(distance, time):
+        return distance / time
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
