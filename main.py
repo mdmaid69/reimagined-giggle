@@ -1,7 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def convert_to_octal(n):
+        return oct(n)
