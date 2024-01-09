@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
