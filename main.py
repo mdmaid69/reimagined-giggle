@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
