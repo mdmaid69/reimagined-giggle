@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
