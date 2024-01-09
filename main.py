@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
