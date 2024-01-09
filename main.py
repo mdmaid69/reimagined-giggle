@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
