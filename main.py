@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def create_queue():
+        return collections.deque()
