@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
