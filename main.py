@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
