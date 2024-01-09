@@ -1,6 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def get_array_item(array, i):
-        return array[i]
-import sys
-def exit_program():
-        sys.exit()
+def get_array_typecode(array):
+        return array.typecode
