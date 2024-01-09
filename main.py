@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
