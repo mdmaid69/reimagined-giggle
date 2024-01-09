@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
