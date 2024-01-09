@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def is_odd(n):
-        return n % 2 != 0
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
