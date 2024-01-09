@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
