@@ -1,5 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
