@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_density(mass, volume):
+        return mass / volume
