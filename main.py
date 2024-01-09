@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def subtract_numbers(x, y):
+        return x - y
