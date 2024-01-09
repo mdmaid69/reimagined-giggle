@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
