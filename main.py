@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
