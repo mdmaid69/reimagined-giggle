@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
