@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def convert_to_octal(n):
+        return oct(n)
