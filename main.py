@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
