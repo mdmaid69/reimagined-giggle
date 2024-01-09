@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+print("Hello, world!")
