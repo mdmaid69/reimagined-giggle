@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def subtract_numbers(x, y):
-        return x - y
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Characters:", len(text))
