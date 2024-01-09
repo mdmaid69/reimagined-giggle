@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
