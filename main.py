@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
