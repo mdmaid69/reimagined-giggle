@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
