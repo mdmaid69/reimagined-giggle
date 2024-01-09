@@ -1,6 +1,11 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
