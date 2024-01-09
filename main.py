@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
