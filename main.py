@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def square_number(x):
-        return x**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def convert_to_binary(n):
+        return bin(n)
