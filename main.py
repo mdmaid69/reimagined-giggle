@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
