@@ -1,6 +1,4 @@
+for i in range(10): print(i)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
