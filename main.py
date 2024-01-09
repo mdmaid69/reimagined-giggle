@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def cube_number(x):
+        return x**3
