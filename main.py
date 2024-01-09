@@ -1,5 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_sign(x):
+        return math.copysign(1, x)
