@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
