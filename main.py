@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def remove_duplicates(lst):
+        return list(set(lst))
