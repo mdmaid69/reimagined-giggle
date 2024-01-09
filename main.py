@@ -1,6 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
