@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
