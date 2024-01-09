@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+print(sys.version)
