@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
