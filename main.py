@@ -1,3 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-print([x**2 for x in range(10)])
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_user_string():
+        return collections.UserString()
