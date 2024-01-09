@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_queue():
+        return collections.deque()
+name = "Python"
+print("Hello,", name)
