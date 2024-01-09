@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
