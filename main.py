@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-name = "Python"
-print("Hello,", name)
+import random
+print(random.randint(0, 100))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
