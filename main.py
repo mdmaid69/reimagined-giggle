@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def get_current_time():
+        return time.ctime()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
