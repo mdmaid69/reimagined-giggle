@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def convert_to_octal(n):
-        return oct(n)
+import array
+def reverse_array(array):
+        array.reverse()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
