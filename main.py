@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
