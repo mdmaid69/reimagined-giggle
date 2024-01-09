@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
