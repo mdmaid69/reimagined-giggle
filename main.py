@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
