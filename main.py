@@ -1,5 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_max(lst):
-        return max(lst)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
