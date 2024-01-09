@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
