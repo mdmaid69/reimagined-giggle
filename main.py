@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def exit_program():
-        sys.exit()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
