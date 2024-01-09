@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
