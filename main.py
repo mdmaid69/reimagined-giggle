@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
