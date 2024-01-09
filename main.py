@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
