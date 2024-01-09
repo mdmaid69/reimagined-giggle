@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+print(sum(range(10)))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
