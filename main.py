@@ -1,8 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
