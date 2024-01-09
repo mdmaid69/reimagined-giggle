@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-name = "Python"
-print("Hello,", name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
