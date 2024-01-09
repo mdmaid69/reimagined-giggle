@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
