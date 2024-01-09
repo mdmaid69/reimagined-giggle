@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
