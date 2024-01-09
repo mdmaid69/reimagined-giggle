@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def find_max(lst):
+        return max(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
