@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
