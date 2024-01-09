@@ -1,5 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
