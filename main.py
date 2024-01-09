@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
