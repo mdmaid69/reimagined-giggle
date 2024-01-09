@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_work(force, distance):
+        return force * distance
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
