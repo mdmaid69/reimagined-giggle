@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+def roll_die():
+        return random.randint(1, 6)
