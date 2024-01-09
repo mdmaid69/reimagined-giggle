@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_os_info():
-        return platform.uname()
+def count_words(sentence):
+        return len(sentence.split())
+def convert_to_octal(n):
+        return oct(n)
