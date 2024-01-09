@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
