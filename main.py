@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sys
+def print_python_version():
+        print(sys.version)
