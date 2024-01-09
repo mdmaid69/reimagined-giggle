@@ -1,11 +1,7 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import numpy as np
+print(np.array([1, 2, 3]))
