@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
