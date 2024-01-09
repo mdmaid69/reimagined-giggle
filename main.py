@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
