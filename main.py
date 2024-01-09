@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_as_str(array):
-        return str(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import sys
+def print_python_version():
+        print(sys.version)
