@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
