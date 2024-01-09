@@ -1,7 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
