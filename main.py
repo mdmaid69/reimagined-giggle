@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
