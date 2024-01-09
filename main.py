@@ -1,4 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-print("Hello, world!")
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_acceleration(speed, time):
+        return speed / time
