@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
