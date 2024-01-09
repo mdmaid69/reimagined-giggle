@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
