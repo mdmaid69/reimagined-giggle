@@ -1,6 +1,4 @@
+for i in range(10): print(i)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
