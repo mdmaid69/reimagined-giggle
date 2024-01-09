@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
