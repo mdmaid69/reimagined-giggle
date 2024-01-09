@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def count_elements(lst):
-        return len(lst)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def add_numbers(x, y):
+        return x + y
