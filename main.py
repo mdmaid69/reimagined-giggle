@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def reverse_string(s):
-        return s[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
