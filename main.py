@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
