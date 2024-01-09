@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
