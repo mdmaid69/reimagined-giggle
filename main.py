@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_max(lst):
+        return max(lst)
+def count_elements(lst):
+        return len(lst)
