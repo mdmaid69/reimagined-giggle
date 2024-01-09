@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
