@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+for i in range(10): print(i)
