@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
