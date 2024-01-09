@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
