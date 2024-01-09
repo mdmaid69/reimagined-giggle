@@ -1,4 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-def reverse_string(s):
-        return s[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
