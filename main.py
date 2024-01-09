@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
