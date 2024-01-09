@@ -1,5 +1,3 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+for i in range(10): print(i)
