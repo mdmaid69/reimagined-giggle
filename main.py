@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import datetime
+def get_today_date():
+        return datetime.date.today()
