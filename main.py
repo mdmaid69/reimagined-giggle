@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_floor(x):
+        return math.floor(x)
