@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
