@@ -1,6 +1,9 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
