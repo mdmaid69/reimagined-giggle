@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
