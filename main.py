@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
