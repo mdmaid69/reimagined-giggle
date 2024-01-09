@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
