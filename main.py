@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
