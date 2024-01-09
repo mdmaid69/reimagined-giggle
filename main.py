@@ -1,5 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def add_numbers(x, y):
-        return x + y
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
