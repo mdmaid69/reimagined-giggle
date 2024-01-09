@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
