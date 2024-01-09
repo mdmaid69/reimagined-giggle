@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
