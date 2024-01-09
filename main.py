@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_array_to_list(array):
+        return array.tolist()
