@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def count_elements(lst):
+        return len(lst)
