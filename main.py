@@ -1,5 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
