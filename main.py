@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_work(force, distance):
+        return force * distance
