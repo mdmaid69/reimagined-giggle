@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def convert_to_octal(n):
+        return oct(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
