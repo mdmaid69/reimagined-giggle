@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
