@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
