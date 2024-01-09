@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
