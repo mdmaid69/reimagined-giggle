@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def multiply_numbers(x, y):
+        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
