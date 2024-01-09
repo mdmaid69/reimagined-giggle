@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def add_numbers(a, b):
-        return a + b
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def remove_directory(path):
+        os.rmdir(path)
