@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_area_circle(r):
+        return 3.14 * r**2
