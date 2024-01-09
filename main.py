@@ -1,5 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
