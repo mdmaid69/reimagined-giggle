@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_speed(distance, time):
+        return distance / time
