@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_user_string():
+        return collections.UserString()
