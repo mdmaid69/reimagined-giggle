@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
