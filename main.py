@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
