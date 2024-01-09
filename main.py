@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
