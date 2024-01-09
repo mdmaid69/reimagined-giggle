@@ -1,6 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
