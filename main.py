@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_work(force, distance):
+        return force * distance
