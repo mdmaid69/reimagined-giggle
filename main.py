@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-print(math.pi)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
