@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
