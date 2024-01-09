@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_floor(x):
+        return math.floor(x)
