@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def greet(name):
+        print(f"Hello, {name}!")
