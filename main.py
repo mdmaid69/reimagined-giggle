@@ -1,6 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def reverse_array(array):
-        array.reverse()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
