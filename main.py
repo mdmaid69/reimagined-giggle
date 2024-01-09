@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_user_string():
+        return collections.UserString()
