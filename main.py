@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-for i in range(5):
-        print(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
