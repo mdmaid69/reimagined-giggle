@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def reverse_string(s):
+        return s[::-1]
