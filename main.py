@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
