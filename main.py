@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
