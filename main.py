@@ -1,8 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
