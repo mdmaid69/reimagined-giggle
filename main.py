@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_volume(length, width, height):
+        return length * width * height
