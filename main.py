@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
