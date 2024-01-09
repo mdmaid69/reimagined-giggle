@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def get_array_as_set(array):
-        return set(array)
+def append_to_array(array, item):
+        array.append(item)
