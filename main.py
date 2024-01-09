@@ -1,5 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def split_path(path):
+        return os.path.split(path)
