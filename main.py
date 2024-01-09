@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_typecode(array):
+        return array.typecode
