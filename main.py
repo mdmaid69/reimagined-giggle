@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def is_odd(n):
+        return n % 2 != 0
