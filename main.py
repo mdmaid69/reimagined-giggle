@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_speed(distance, time):
+        return distance / time
