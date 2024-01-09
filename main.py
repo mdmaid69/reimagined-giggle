@@ -1,6 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import time
-def get_time_since_epoch():
-        return time.time()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import sys
+  def get_python_version():
+        return sys.version
