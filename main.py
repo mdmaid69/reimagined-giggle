@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
