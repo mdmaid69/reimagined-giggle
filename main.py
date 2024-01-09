@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
