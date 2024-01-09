@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print("Average:", sum(numbers) / len(numbers))
