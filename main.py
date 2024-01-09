@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import tensorflow as tf
+print(tf.__version__)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
