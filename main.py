@@ -1,7 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def convert_to_hex(n):
+        return hex(n)
