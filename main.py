@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
