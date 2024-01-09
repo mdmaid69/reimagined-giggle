@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_current_working_directory():
+        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
