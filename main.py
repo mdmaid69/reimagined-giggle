@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
