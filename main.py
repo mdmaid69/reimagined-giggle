@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
