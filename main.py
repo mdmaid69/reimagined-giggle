@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
