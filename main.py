@@ -1,4 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import datetime
+print(datetime.datetime.now())
+import math
+print(math.pi)
