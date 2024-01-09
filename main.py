@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
