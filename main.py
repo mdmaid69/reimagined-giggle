@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
