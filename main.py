@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
