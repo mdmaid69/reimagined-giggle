@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
