@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
