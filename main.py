@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import sys
-def exit_program():
-        sys.exit()
+for i in range(5):
+        print(i)
+def is_odd(n):
+        return n % 2 != 0
