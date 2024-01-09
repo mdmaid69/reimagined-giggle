@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
