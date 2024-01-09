@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
