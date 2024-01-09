@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def find_min(lst):
-        return min(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
