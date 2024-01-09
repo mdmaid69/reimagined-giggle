@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
