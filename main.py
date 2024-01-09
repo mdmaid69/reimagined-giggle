@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
