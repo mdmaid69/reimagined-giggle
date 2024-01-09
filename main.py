@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
