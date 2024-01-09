@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
