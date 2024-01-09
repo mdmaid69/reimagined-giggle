@@ -1,4 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-print("Hello, world!")
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_queue():
+        return collections.deque()
