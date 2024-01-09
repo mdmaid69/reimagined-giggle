@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
