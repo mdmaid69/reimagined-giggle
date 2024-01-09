@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
