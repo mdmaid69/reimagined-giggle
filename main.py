@@ -1,7 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
