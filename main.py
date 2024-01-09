@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
