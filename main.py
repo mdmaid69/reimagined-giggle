@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+for i in range(5):
+        print(i)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
