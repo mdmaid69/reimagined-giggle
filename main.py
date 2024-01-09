@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_array_to_string(array):
+        return array.tostring()
+import sys
+def exit_program():
+        sys.exit()
