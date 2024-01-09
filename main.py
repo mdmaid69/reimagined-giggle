@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
