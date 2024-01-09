@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_union(list1, list2):
+        return set(list1) | set(list2)
