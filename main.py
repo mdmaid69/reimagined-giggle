@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
