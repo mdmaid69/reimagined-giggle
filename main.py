@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def cube_number(x):
+        return x**3
