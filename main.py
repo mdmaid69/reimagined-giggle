@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_typecode(array):
+        return array.typecode
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
