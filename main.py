@@ -1,5 +1,10 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_list(array):
-        return list(array)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import os
+def remove_directory(path):
+        os.rmdir(path)
