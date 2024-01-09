@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
