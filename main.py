@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
