@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import os
+print(os.getcwd())
