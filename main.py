@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
