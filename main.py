@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
