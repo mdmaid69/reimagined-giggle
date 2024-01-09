@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import random
+print(random.randint(0, 100))
+import time
+def get_current_time():
+        return time.time()
