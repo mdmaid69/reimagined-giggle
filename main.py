@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def clear_array(array):
-        array *= 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+print(sum(range(10)))
