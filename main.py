@@ -1,9 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
