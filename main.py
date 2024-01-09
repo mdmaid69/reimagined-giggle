@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
