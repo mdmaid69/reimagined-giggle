@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
