@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def divide_numbers(x, y):
+        return x / y
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
