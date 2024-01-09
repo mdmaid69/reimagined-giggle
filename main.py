@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def reverse_list(lst):
-        return lst[::-1]
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
