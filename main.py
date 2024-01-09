@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def count_words(sentence):
-        return len(sentence.split())
+  def square_number(x):
+        return x**2
+def find_min(lst):
+        return min(lst)
