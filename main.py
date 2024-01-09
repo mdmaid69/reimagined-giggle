@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def reverse_string(s):
-        return s[::-1]
+  def is_even(n):
+        return n % 2 == 0
+import os
+def get_current_working_directory():
+        return os.getcwd()
