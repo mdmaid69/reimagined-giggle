@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def subtract_numbers(x, y):
+        return x - y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
