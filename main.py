@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
