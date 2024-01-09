@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
