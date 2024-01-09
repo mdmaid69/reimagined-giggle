@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
