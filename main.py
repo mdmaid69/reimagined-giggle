@@ -1,12 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
