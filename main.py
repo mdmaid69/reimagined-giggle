@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
