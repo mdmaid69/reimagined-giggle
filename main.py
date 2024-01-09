@@ -1,6 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
