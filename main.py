@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def find_min(lst):
+        return min(lst)
