@@ -1,5 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
