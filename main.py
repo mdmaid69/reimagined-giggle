@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
