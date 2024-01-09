@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import platform
+def get_os_info():
+        return platform.uname()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
