@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
