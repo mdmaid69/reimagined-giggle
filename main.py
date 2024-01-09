@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
