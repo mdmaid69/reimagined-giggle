@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
