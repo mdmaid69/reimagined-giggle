@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import sys
-def exit_program():
-        sys.exit()
+def sort_list(lst):
+        return sorted(lst)
+def reverse_string(s):
+        return s[::-1]
