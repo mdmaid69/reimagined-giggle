@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
