@@ -1,5 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
