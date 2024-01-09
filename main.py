@@ -1,5 +1,8 @@
-import time
-print(time.time())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
